@@ -1,0 +1,22 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "UtnConsentDocumentReferenceVideosprechstunde",
+  "meta": {
+    "profile": [
+      "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"
+    ]
+  },
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "data": "VGVsZUFzc2Vzc19WaWRlb3NwcmVjaHN0dW5kZQ==",
+        "url": "https://redcap.ukw.de/surveys/index.php?pid=87&__passthru=DataEntry%2Ffile_download.php&type=attachment&field_name=video_download&hidden_edit=0&record=1&event_id=347&doc_id_hash=a84aec9c20c6dd2ee6bff1e9ecbbe4d1ee70bb3d&instance=1&id=1655&s=FEX9P8W7P37XAXXP"
+      }
+    }
+  ],
+  "status": "current",
+  "subject": {
+    "reference": "Patient/consent-management-patient"
+  }
+}

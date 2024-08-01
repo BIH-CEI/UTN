@@ -1,0 +1,22 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "UtnConsentDocumentReferenceForschungsvorhaben",
+  "meta": {
+    "profile": [
+      "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"
+    ]
+  },
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "data": "VGVsZUFzc2Vzc19QYXRpZW50ZW5pbmZvcm1hdGlvbg==",
+        "url": "https://redcap.ukw.de/surveys/?__file=BpfEHSgRSXzMTLVuD6XHro2rcE2Vue7RZGXFIEzJrkscLPotzTEcUf9RjEAkhhrM5mwpFIcCP5bpGtP8iG99XHm4LWGwu7JKycan"
+      }
+    }
+  ],
+  "status": "current",
+  "subject": {
+    "reference": "Patient/consent-management-patient"
+  }
+}

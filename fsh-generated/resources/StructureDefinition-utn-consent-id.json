@@ -1,0 +1,57 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "utn-consent-id",
+  "url": "http://utn/consentresource.com/StructureDefinition/utn-consent-id",
+  "name": "UTNConsent",
+  "title": "Consent: Forschungsvorhaben and Videosprechstunde",
+  "status": "draft",
+  "description": "Dies ist das Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Consent",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/modul-consent/StructureDefinition/mii-pr-consent-einwilligung",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Consent.category:loinc",
+        "path": "Consent.category",
+        "sliceName": "loinc"
+      },
+      {
+        "id": "Consent.category:loinc.coding.system",
+        "path": "Consent.category.coding.system",
+        "patternUri": "http://loinc.org"
+      },
+      {
+        "id": "Consent.category:loinc.coding.code",
+        "path": "Consent.category.coding.code",
+        "patternCode": "57016-8"
+      },
+      {
+        "id": "Consent.category:mii",
+        "path": "Consent.category",
+        "sliceName": "mii"
+      },
+      {
+        "id": "Consent.category:mii.coding.system",
+        "path": "Consent.category.coding.system",
+        "patternUri": "https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category"
+      },
+      {
+        "id": "Consent.category:mii.coding.code",
+        "path": "Consent.category.coding.code",
+        "patternCode": "2.16.840.1.113883.3.1937.777.24.2.184"
+      },
+      {
+        "id": "Consent.provision.provision.code",
+        "path": "Consent.provision.provision.code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category"
+        }
+      }
+    ]
+  }
+}

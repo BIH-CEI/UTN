@@ -1,0 +1,49 @@
+{
+  "resourceType": "Provenance",
+  "id": "ConsentManagementProvenanceVideosprechstunde",
+  "meta": {
+    "profile": [
+      "http://utn/consentresource.com/StructureDefinition/consent-management-provenance",
+      "http://fhir.de/ConsentManagement/StructureDefinition/Provenance"
+    ]
+  },
+  "target": [
+    {
+      "reference": "Consent/UtnConsentVideosprechstunde"
+    }
+  ],
+  "agent": [
+    {
+      "who": {
+        "display": "Klinikum Würzburg"
+      }
+    }
+  ],
+  "entity": [
+    {
+      "role": "source",
+      "what": {
+        "reference": "DocumentReference/UtnConsentDocumentReferenceVideosprechstunde"
+      }
+    }
+  ],
+  "signature": [
+    {
+      "type": [
+        {
+          "system": "http://hl7.org/fhir/ValueSet/signature-type",
+          "code": "1.2.840.10065.1.12.1.7",
+          "display": "Consent Signature"
+        }
+      ],
+      "when": "2024-07-24T09:00:00Z",
+      "who": {
+        "reference": "Patient/consent-management-patient"
+      }
+    }
+  ],
+  "recorded": "2024-07-24T09:00:00Z",
+  "location": {
+    "reference": "Location/UTNLocation"
+  }
+}

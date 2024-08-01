@@ -1,0 +1,106 @@
+[
+  {
+    "outputFile": "Consent-UtnConsentForschungsvorhaben.json",
+    "fshName": "UtnConsentForschungsvorhaben",
+    "fshType": "Instance",
+    "fshFile": "Profile-Consent.fsh",
+    "startLine": 76,
+    "endLine": 94
+  },
+  {
+    "outputFile": "Consent-UtnConsentVideosprechstunde.json",
+    "fshName": "UtnConsentVideosprechstunde",
+    "fshType": "Instance",
+    "fshFile": "Profile-Consent.fsh",
+    "startLine": 96,
+    "endLine": 115
+  },
+  {
+    "outputFile": "DocumentReference-UtnConsentDocumentReferenceForschungsvorhaben.json",
+    "fshName": "UtnConsentDocumentReferenceForschungsvorhaben",
+    "fshType": "Instance",
+    "fshFile": "Profile-DocumentReference.fsh",
+    "startLine": 18,
+    "endLine": 25
+  },
+  {
+    "outputFile": "DocumentReference-UtnConsentDocumentReferenceVideosprechstunde.json",
+    "fshName": "UtnConsentDocumentReferenceVideosprechstunde",
+    "fshType": "Instance",
+    "fshFile": "Profile-DocumentReference.fsh",
+    "startLine": 27,
+    "endLine": 34
+  },
+  {
+    "outputFile": "Location-UTNLocation.json",
+    "fshName": "UTNLocation",
+    "fshType": "Instance",
+    "fshFile": "Profile-Provenance.fsh",
+    "startLine": 64,
+    "endLine": 66
+  },
+  {
+    "outputFile": "Patient-consent-management-patient.json",
+    "fshName": "UTNPatient",
+    "fshType": "Instance",
+    "fshFile": "Profile-Patient.fsh",
+    "startLine": 17,
+    "endLine": 26
+  },
+  {
+    "outputFile": "Provenance-ConsentManagementProvenanceForschungsvorhaben.json",
+    "fshName": "ConsentManagementProvenanceForschungsvorhaben",
+    "fshType": "Instance",
+    "fshFile": "Profile-Provenance.fsh",
+    "startLine": 34,
+    "endLine": 47
+  },
+  {
+    "outputFile": "Provenance-ConsentManagementProvenanceVideosprechstunde.json",
+    "fshName": "ConsentManagementProvenanceVideosprechstunde",
+    "fshType": "Instance",
+    "fshFile": "Profile-Provenance.fsh",
+    "startLine": 49,
+    "endLine": 62
+  },
+  {
+    "outputFile": "StructureDefinition-consent-management-patient.json",
+    "fshName": "ConsentManagementPatient",
+    "fshType": "Profile",
+    "fshFile": "Profile-Patient.fsh",
+    "startLine": 3,
+    "endLine": 15
+  },
+  {
+    "outputFile": "StructureDefinition-consent-management-provenance.json",
+    "fshName": "ConsentManagementProvenance",
+    "fshType": "Profile",
+    "fshFile": "Profile-Provenance.fsh",
+    "startLine": 8,
+    "endLine": 30
+  },
+  {
+    "outputFile": "StructureDefinition-profile-consent-management-questionnaireresponse.json",
+    "fshName": "ConsentManagementQuestionnaireResponseUKW",
+    "fshType": "Profile",
+    "fshFile": "Profile-QuestionnaireResponse.fsh",
+    "startLine": 3,
+    "endLine": 50
+  },
+  {
+    "outputFile": "StructureDefinition-utn-consent-documentreference-id.json",
+    "fshName": "UTNDocumentReference",
+    "fshType": "Profile",
+    "fshFile": "Profile-DocumentReference.fsh",
+    "startLine": 3,
+    "endLine": 14
+  },
+  {
+    "outputFile": "StructureDefinition-utn-consent-id.json",
+    "fshName": "UTNConsent",
+    "fshType": "Profile",
+    "fshFile": "Profile-Consent.fsh",
+    "startLine": 11,
+    "endLine": 73
+  }
+]

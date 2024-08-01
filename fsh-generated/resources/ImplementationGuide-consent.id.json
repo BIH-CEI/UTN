@@ -1,0 +1,176 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "consent.id",
+  "url": "http://utn/consentresource.com/ImplementationGuide/consent.id",
+  "version": "0.1.0",
+  "name": "UTNConsentResource",
+  "status": "draft",
+  "publisher": "BIH-CEI",
+  "contact": [
+    {
+      "name": "BIH-CEI",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://utn/consentresource.com"
+        }
+      ]
+    }
+  ],
+  "packageId": "consent.id",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "hl7.fhir.us.core",
+      "version": "3.1.0",
+      "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
+      "id": "hl7_fhir_us_core"
+    },
+    {
+      "id": "mcode",
+      "packageId": "hl7.fhir.us.mcode",
+      "uri": "http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode",
+      "version": "1.0.0"
+    },
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.consent",
+      "uri": "de.medizininformatikinitiative.kerndatensatz.consent",
+      "version": "1.0.7",
+      "id": "de_medizininformatikinitiative_kerndatensatz_consent"
+    },
+    {
+      "packageId": "de.einwilligungsmanagementquestionnaire",
+      "uri": "de.einwilligungsmanagement",
+      "version": "1.0.1",
+      "id": "de_einwilligungsmanagementquestionnaire"
+    },
+    {
+      "packageId": "de.einwilligungsmanagement",
+      "uri": "de.einwilligungsmanagement",
+      "version": "1.0.2",
+      "id": "de_einwilligungsmanagement"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/consent-management-provenance"
+        },
+        "name": "Consent Management Provenance",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/profile-consent-management-questionnaireresponse"
+        },
+        "name": "Consent Management QuestionnaireResponse",
+        "description": "Der ausgefüllte Fragebogen zur Einwilligung.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/consent-management-patient"
+        },
+        "name": "Consent Management: Patient",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/utn-consent-documentreference-id"
+        },
+        "name": "Consent: Document Reference",
+        "description": "Dies ist das DocumentReference für Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/utn-consent-id"
+        },
+        "name": "Consent: Forschungsvorhaben and Videosprechstunde",
+        "description": "Dies ist das Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Provenance/ConsentManagementProvenanceForschungsvorhaben"
+        },
+        "name": "ConsentManagementProvenanceForschungsvorhaben",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/consent-management-provenance"
+      },
+      {
+        "reference": {
+          "reference": "Provenance/ConsentManagementProvenanceVideosprechstunde"
+        },
+        "name": "ConsentManagementProvenanceVideosprechstunde",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/consent-management-provenance"
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/UtnConsentDocumentReferenceForschungsvorhaben"
+        },
+        "name": "UtnConsentDocumentReferenceForschungsvorhaben",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/UtnConsentDocumentReferenceVideosprechstunde"
+        },
+        "name": "UtnConsentDocumentReferenceVideosprechstunde",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"
+      },
+      {
+        "reference": {
+          "reference": "Consent/UtnConsentForschungsvorhaben"
+        },
+        "name": "UtnConsentForschungsvorhaben",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-consent-id"
+      },
+      {
+        "reference": {
+          "reference": "Consent/UtnConsentVideosprechstunde"
+        },
+        "name": "UtnConsentVideosprechstunde",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-consent-id"
+      },
+      {
+        "reference": {
+          "reference": "Location/UTNLocation"
+        },
+        "name": "UTNLocation",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Patient/consent-management-patient"
+        },
+        "name": "UTNPatient",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/consent-management-patient"
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2024+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

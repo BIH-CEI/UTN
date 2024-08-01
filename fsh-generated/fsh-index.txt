@@ -1,0 +1,14 @@
+Output File                                                                Name                                           Type      FSH File                           Lines
+Consent-UtnConsentForschungsvorhaben.json                                  UtnConsentForschungsvorhaben                   Instance  Profile-Consent.fsh                76 - 94
+Consent-UtnConsentVideosprechstunde.json                                   UtnConsentVideosprechstunde                    Instance  Profile-Consent.fsh                96 - 115
+DocumentReference-UtnConsentDocumentReferenceForschungsvorhaben.json       UtnConsentDocumentReferenceForschungsvorhaben  Instance  Profile-DocumentReference.fsh      18 - 25
+DocumentReference-UtnConsentDocumentReferenceVideosprechstunde.json        UtnConsentDocumentReferenceVideosprechstunde   Instance  Profile-DocumentReference.fsh      27 - 34
+Location-UTNLocation.json                                                  UTNLocation                                    Instance  Profile-Provenance.fsh             64 - 66
+Patient-consent-management-patient.json                                    UTNPatient                                     Instance  Profile-Patient.fsh                17 - 26
+Provenance-ConsentManagementProvenanceForschungsvorhaben.json              ConsentManagementProvenanceForschungsvorhaben  Instance  Profile-Provenance.fsh             34 - 47
+Provenance-ConsentManagementProvenanceVideosprechstunde.json               ConsentManagementProvenanceVideosprechstunde   Instance  Profile-Provenance.fsh             49 - 62
+StructureDefinition-consent-management-patient.json                        ConsentManagementPatient                       Profile   Profile-Patient.fsh                3 - 15
+StructureDefinition-consent-management-provenance.json                     ConsentManagementProvenance                    Profile   Profile-Provenance.fsh             8 - 30
+StructureDefinition-profile-consent-management-questionnaireresponse.json  ConsentManagementQuestionnaireResponseUKW      Profile   Profile-QuestionnaireResponse.fsh  3 - 50
+StructureDefinition-utn-consent-documentreference-id.json                  UTNDocumentReference                           Profile   Profile-DocumentReference.fsh      3 - 14
+StructureDefinition-utn-consent-id.json                                    UTNConsent                                     Profile   Profile-Consent.fsh                11 - 73

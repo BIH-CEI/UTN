@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "profile-consent-management-questionnaireresponse",
+  "url": "http://fhir.de/ConsentManagement/StructureDefinition/QuestionnaireResponseUKW",
+  "version": "1.0.1",
+  "name": "ConsentManagementQuestionnaireResponseUKW",
+  "title": "Consent Management QuestionnaireResponse",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-07-20",
+  "publisher": "AG Einwilligungsmanagement des Interoperabilitätsforums",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://wiki.hl7.de/index.php?title=Einwilligungsmanagement_(Projekt)"
+        }
+      ]
+    }
+  ],
+  "description": "Der ausgefüllte Fragebogen zur Einwilligung.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "QuestionnaireResponse",
+  "baseDefinition": "http://fhir.de/ConsentManagement/StructureDefinition/QuestionnaireResponse",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "QuestionnaireResponse",
+        "path": "QuestionnaireResponse"
+      }
+    ]
+  }
+}

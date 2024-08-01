@@ -1,0 +1,31 @@
+{
+  "resourceType": "Patient",
+  "id": "consent-management-patient",
+  "meta": {
+    "profile": [
+      "http://utn/consentresource.com/StructureDefinition/consent-management-patient"
+    ]
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "https://example.com",
+            "code": "MR"
+          }
+        ]
+      },
+      "system": "https://example.com",
+      "value": "12345"
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "John"
+      ],
+      "family": "Doe"
+    }
+  ]
+}

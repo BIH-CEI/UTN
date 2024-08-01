@@ -1,0 +1,78 @@
+{
+  "resourceType": "Consent",
+  "id": "UtnConsentVideosprechstunde",
+  "meta": {
+    "profile": [
+      "http://utn/consentresource.com/StructureDefinition/utn-consent-id",
+      "https://www.medizininformatik-initiative.de/fhir/modul-consent/StructureDefinition/mii-pr-consent-einwilligung"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "57016-8"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "2.16.840.1.113883.3.1937.777.24.2.184",
+          "system": "https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category"
+        }
+      ]
+    }
+  ],
+  "organization": [
+    {
+      "display": "Klinikum Würzburg"
+    }
+  ],
+  "policy": [
+    {
+      "uri": "https://redcap.ukw.de/surveys/index.php?pid=87&__passthru=DataEntry%2Ffile_download.php&type=attachment&field_name=video_download&hidden_edit=0&record=1&event_id=347&doc_id_hash=a84aec9c20c6dd2ee6bff1e9ecbbe4d1ee70bb3d&instance=1&id=1655&s=FEX9P8W7P37XAXXP"
+    }
+  ],
+  "provision": {
+    "period": {
+      "start": "2024-07-24",
+      "end": "2074-07-24"
+    },
+    "provision": [
+      {
+        "period": {
+          "start": "2024-07-24",
+          "end": "2034-07-24"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "code": "2.16.840.1.113883.3.1937.777.24.5.3.2",
+                "system": "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+                "display": "IDAT_erheben"
+              }
+            ]
+          }
+        ],
+        "type": "permit"
+      }
+    ],
+    "type": "deny"
+  },
+  "scope": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+        "code": "research"
+      }
+    ]
+  },
+  "status": "active",
+  "patient": {
+    "reference": "Patient/consent-management-patient"
+  },
+  "dateTime": "2024-07-24"
+}

@@ -1,0 +1,13 @@
+[ConsentManagementProvenance]: StructureDefinition-consent-management-provenance.html
+[ConsentManagementQuestionnaireResponseUKW]: StructureDefinition-profile-consent-management-questionnaireresponse.html
+[ConsentManagementPatient]: StructureDefinition-consent-management-patient.html
+[UTNDocumentReference]: StructureDefinition-utn-consent-documentreference-id.html
+[UTNConsent]: StructureDefinition-utn-consent-id.html
+[ConsentManagementProvenanceForschungsvorhaben]: Provenance-ConsentManagementProvenanceForschungsvorhaben.html
+[ConsentManagementProvenanceVideosprechstunde]: Provenance-ConsentManagementProvenanceVideosprechstunde.html
+[UtnConsentDocumentReferenceForschungsvorhaben]: DocumentReference-UtnConsentDocumentReferenceForschungsvorhaben.html
+[UtnConsentDocumentReferenceVideosprechstunde]: DocumentReference-UtnConsentDocumentReferenceVideosprechstunde.html
+[UtnConsentForschungsvorhaben]: Consent-UtnConsentForschungsvorhaben.html
+[UtnConsentVideosprechstunde]: Consent-UtnConsentVideosprechstunde.html
+[UTNLocation]: Location-UTNLocation.html
+[consent-management-patient]: Patient-consent-management-patient.html
