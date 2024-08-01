@@ -1,5 +1,5 @@
 # UTN Consent Profile
-This repository consists of the UTN Consent Profile for Forschungsvorhaben and Videosprechstunde
+This repository consists of the UTN Consent Profile for Forschungsvorhaben and Videosprechstunde. The generated profiles can be found under the provenance.
 ## Package Dependencies
 ### FSH
 Add the following depepndencies within .sushi-config.yaml file. These packages add the MII Consent Modul 
