@@ -25,7 +25,7 @@ Description: "Profile for documenting respiratory rate in ICU settings"
 * code.coding[snomed].system = "http://snomed.info/sct"
 * code.coding[snomed].code = #86290005
 * subject 1..1 MS
-* encounter 0..1 MS
+* encounter only Reference($Encounter)
 * effective[x] only dateTime or Period
 * effective[x] MS
 * value[x] 1..1 MS 
@@ -46,7 +46,8 @@ Usage: #example
 * category = $observation-category#vital-signs#vital-signs
 * code.coding[0] = $snomed#86290005 "Respiratory rate (observable entity)"
 * code.coding[+] = $loinc#9279-1 "Respiratory Rate"
-* subject = Reference(UTNPatient)
+* subject = Reference(Example-UTN-Patient)
+* encounter = Reference(Example-UTN-ICU-Encounter)
 * effectivePeriod.start = "2024-08-05T09:30:10+01:00"
 * effectivePeriod.end = "2024-08-05T10:30:10+01:00"
 * valueQuantity = 15 '/min' "breaths per minute"

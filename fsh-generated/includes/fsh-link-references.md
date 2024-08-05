@@ -10,6 +10,9 @@
 [Example-UTN-Consent-Provenance-Videosprechstunde]: Provenance-Example-UTN-Consent-Provenance-Videosprechstunde.html
 [Example-UTN-Consent-Videosprechstunde]: Consent-Example-UTN-Consent-Videosprechstunde.html
 [Example-UTN-ICU-Atemfrequenz]: Observation-Example-UTN-ICU-Atemfrequenz.html
+[Example-UTN-ICU-Encounter]: Encounter-Example-UTN-ICU-Encounter.html
+[Example-UTN-ICU-Herzfrequenz]: Observation-Example-UTN-ICU-Herzfrequenz.html
 [consent-management-patient]: Patient-consent-management-patient.html
 [UTNAtemfrequenz]: StructureDefinition-sd-mii-icu-atemfrequenz.html
+[UTNHerzfrequenz]: StructureDefinition-sd-mii-icu-herzfrequenz.html
 [UTNLocation]: Location-UTNLocation.html

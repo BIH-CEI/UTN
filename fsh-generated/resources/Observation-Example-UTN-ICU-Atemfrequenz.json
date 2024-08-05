@@ -36,7 +36,10 @@
   },
   "status": "final",
   "subject": {
-    "reference": "UTNPatient"
+    "reference": "Patient/consent-management-patient"
+  },
+  "encounter": {
+    "reference": "Encounter/Example-UTN-ICU-Encounter"
   },
   "valueQuantity": {
     "value": 15,

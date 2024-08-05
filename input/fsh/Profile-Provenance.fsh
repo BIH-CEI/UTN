@@ -44,7 +44,7 @@ Usage: #example
 * signature.type.code = #1.2.840.10065.1.12.1.7
 * signature.type.display = "Consent Signature"
 * signature.when = "2024-07-24T09:00:00Z"
-* signature.who = Reference(UTNPatient)
+* signature.who = Reference(Example-UTN-Patient)
 
 Instance: Example-UTN-Consent-Provenance-Videosprechstunde
 InstanceOf: ConsentManagementProvenance
@@ -59,7 +59,7 @@ Usage: #example
 * signature.type.code = #1.2.840.10065.1.12.1.7
 * signature.type.display = "Consent Signature"
 * signature.when = "2024-07-24T09:00:00Z"
-* signature.who = Reference(UTNPatient)
+* signature.who = Reference(Example-UTN-Patient)
 
 Instance: UTNLocation
 InstanceOf: Location

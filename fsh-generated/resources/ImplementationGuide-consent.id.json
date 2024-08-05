@@ -150,6 +150,20 @@
       },
       {
         "reference": {
+          "reference": "Encounter/Example-UTN-ICU-Encounter"
+        },
+        "name": "Example-UTN-ICU-Encounter",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-UTN-ICU-Herzfrequenz"
+        },
+        "name": "Example-UTN-ICU-Herzfrequenz",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/sd-mii-icu-herzfrequenz"
+      },
+      {
+        "reference": {
           "reference": "Patient/consent-management-patient"
         },
         "name": "Example-UTN-Patient",
@@ -161,6 +175,14 @@
         },
         "name": "SD MII ICU Atemfrequenz",
         "description": "Profile for documenting respiratory rate in ICU settings",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/sd-mii-icu-herzfrequenz"
+        },
+        "name": "SD MII ICU Herzfrequenz",
+        "description": "Profile for documenting heart rate in ICU settings",
         "exampleBoolean": false
       },
       {

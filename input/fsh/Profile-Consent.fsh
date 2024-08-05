@@ -81,7 +81,7 @@ Usage: #example
 * scope = $consentscope#research
 * category[loinc] = $loinc#57016-8
 * category[mii] = $mii-vs-consent-consent_category#2.16.840.1.113883.3.1937.777.24.2.184
-* patient = Reference(UTNPatient)
+* patient = Reference(Example-UTN-Patient)
 * dateTime = "2024-07-24"
 * organization.display = "Klinikum Würzburg"
 * policy.uri = "https://redcap.ukw.de/surveys/?__file=BpfEHSgRSXzMTLVuD6XHro2rcE2Vue7RZGXFIEzJrkscLPotzTEcUf9RjEAkhhrM5mwpFIcCP5bpGtP8iG99XHm4LWGwu7JKycan"
@@ -102,7 +102,7 @@ Usage: #example
 * scope = $consentscope#research
 * category[loinc] = $loinc#57016-8
 * category[mii] = $mii-vs-consent-consent_category#2.16.840.1.113883.3.1937.777.24.2.184
-* patient = Reference(UTNPatient)
+* patient = Reference(Example-UTN-Patient)
 * dateTime = "2024-07-24"
 * organization.display = "Klinikum Würzburg"
 * policy.uri = "https://redcap.ukw.de/surveys/index.php?pid=87&__passthru=DataEntry%2Ffile_download.php&type=attachment&field_name=video_download&hidden_edit=0&record=1&event_id=347&doc_id_hash=a84aec9c20c6dd2ee6bff1e9ecbbe4d1ee70bb3d&instance=1&id=1655&s=FEX9P8W7P37XAXXP"

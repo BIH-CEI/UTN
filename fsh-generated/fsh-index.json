@@ -32,6 +32,14 @@
     "endLine": 34
   },
   {
+    "outputFile": "Encounter-Example-UTN-ICU-Encounter.json",
+    "fshName": "Example-UTN-ICU-Encounter",
+    "fshType": "Instance",
+    "fshFile": "Profile-ICU-Herzfrequenz.fsh",
+    "startLine": 71,
+    "endLine": 75
+  },
+  {
     "outputFile": "Location-UTNLocation.json",
     "fshName": "UTNLocation",
     "fshType": "Instance",
@@ -45,7 +53,15 @@
     "fshType": "Instance",
     "fshFile": "Profile-ICU-Atemfrequenz.fsh",
     "startLine": 41,
-    "endLine": 52
+    "endLine": 53
+  },
+  {
+    "outputFile": "Observation-Example-UTN-ICU-Herzfrequenz.json",
+    "fshName": "Example-UTN-ICU-Herzfrequenz",
+    "fshType": "Instance",
+    "fshFile": "Profile-ICU-Herzfrequenz.fsh",
+    "startLine": 56,
+    "endLine": 69
   },
   {
     "outputFile": "Patient-consent-management-patient.json",
@@ -93,7 +109,7 @@
     "fshType": "Profile",
     "fshFile": "Profile-QuestionnaireResponse.fsh",
     "startLine": 3,
-    "endLine": 50
+    "endLine": 24
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-atemfrequenz.json",
@@ -102,6 +118,14 @@
     "fshFile": "Profile-ICU-Atemfrequenz.fsh",
     "startLine": 7,
     "endLine": 38
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-herzfrequenz.json",
+    "fshName": "UTNHerzfrequenz",
+    "fshType": "Profile",
+    "fshFile": "Profile-ICU-Herzfrequenz.fsh",
+    "startLine": 8,
+    "endLine": 54
   },
   {
     "outputFile": "StructureDefinition-utn-consent-documentreference-id.json",
