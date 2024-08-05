@@ -73,7 +73,7 @@ Description: "Dies ist das Einwilligungsprofil für das Forschungsprojekt und di
 * provision.provision.provision ..0
 
 
-Instance: UtnConsentForschungsvorhaben
+Instance: Example-UTN-Consent-Forschungsvorhaben
 InstanceOf: UTNConsent
 Usage: #example
 * meta.profile = "https://www.medizininformatik-initiative.de/fhir/modul-consent/StructureDefinition/mii-pr-consent-einwilligung"
@@ -93,7 +93,7 @@ Usage: #example
 * provision.provision.period.end = "2034-07-24"
 * provision.provision.code = urn:oid:2.16.840.1.113883.3.1937.777.24.5.3#2.16.840.1.113883.3.1937.777.24.5.3.2 "IDAT_erheben"
 
-Instance: UtnConsentVideosprechstunde
+Instance: Example-UTN-Consent-Videosprechstunde
 InstanceOf: UTNConsent
 Usage: #example
 

@@ -1,6 +1,6 @@
 {
   "resourceType": "Consent",
-  "id": "UtnConsentForschungsvorhaben",
+  "id": "Example-UTN-Consent-Forschungsvorhaben",
   "meta": {
     "profile": [
       "http://utn/consentresource.com/StructureDefinition/utn-consent-id",
@@ -72,7 +72,7 @@
   },
   "status": "active",
   "patient": {
-    "reference": "Patient/consent-management-patient"
+    "reference": "UTNPatient"
   },
   "dateTime": "2024-07-24"
 }

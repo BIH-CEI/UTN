@@ -14,7 +14,7 @@ Title: "Consent Management: Patient"
 * identifier.system 1.. MS N
 * identifier.value 1.. MS N
 
-Instance: UTNPatient
+Instance: Example-UTN-Patient
 InstanceOf: ConsentManagementPatient
 Usage: #example
 * id = "consent-management-patient"

@@ -1,6 +1,6 @@
 {
   "resourceType": "DocumentReference",
-  "id": "UtnConsentDocumentReferenceForschungsvorhaben",
+  "id": "Example-UTN-Consent-DocumentReference-Forschungsvorhaben",
   "meta": {
     "profile": [
       "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"
@@ -17,6 +17,6 @@
   ],
   "status": "current",
   "subject": {
-    "reference": "Patient/consent-management-patient"
+    "reference": "UTNPatient"
   }
 }

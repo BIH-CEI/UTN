@@ -1,31 +1,31 @@
 [
   {
-    "outputFile": "Consent-UtnConsentForschungsvorhaben.json",
-    "fshName": "UtnConsentForschungsvorhaben",
+    "outputFile": "Consent-Example-UTN-Consent-Forschungsvorhaben.json",
+    "fshName": "Example-UTN-Consent-Forschungsvorhaben",
     "fshType": "Instance",
     "fshFile": "Profile-Consent.fsh",
     "startLine": 76,
     "endLine": 94
   },
   {
-    "outputFile": "Consent-UtnConsentVideosprechstunde.json",
-    "fshName": "UtnConsentVideosprechstunde",
+    "outputFile": "Consent-Example-UTN-Consent-Videosprechstunde.json",
+    "fshName": "Example-UTN-Consent-Videosprechstunde",
     "fshType": "Instance",
     "fshFile": "Profile-Consent.fsh",
     "startLine": 96,
     "endLine": 115
   },
   {
-    "outputFile": "DocumentReference-UtnConsentDocumentReferenceForschungsvorhaben.json",
-    "fshName": "UtnConsentDocumentReferenceForschungsvorhaben",
+    "outputFile": "DocumentReference-Example-UTN-Consent-DocumentReference-Forschungsvorhaben.json",
+    "fshName": "Example-UTN-Consent-DocumentReference-Forschungsvorhaben",
     "fshType": "Instance",
     "fshFile": "Profile-DocumentReference.fsh",
     "startLine": 18,
     "endLine": 25
   },
   {
-    "outputFile": "DocumentReference-UtnConsentDocumentReferenceVideosprechstunde.json",
-    "fshName": "UtnConsentDocumentReferenceVideosprechstunde",
+    "outputFile": "DocumentReference-Example-UTN-Consent-DocumentReference-Videosprechstunde.json",
+    "fshName": "Example-UTN-Consent-DocumentReference-Videosprechstunde",
     "fshType": "Instance",
     "fshFile": "Profile-DocumentReference.fsh",
     "startLine": 27,
@@ -40,24 +40,32 @@
     "endLine": 66
   },
   {
+    "outputFile": "Observation-Example-UTN-ICU-Atemfrequenz.json",
+    "fshName": "Example-UTN-ICU-Atemfrequenz",
+    "fshType": "Instance",
+    "fshFile": "Profile-ICU-Atemfrequenz.fsh",
+    "startLine": 41,
+    "endLine": 52
+  },
+  {
     "outputFile": "Patient-consent-management-patient.json",
-    "fshName": "UTNPatient",
+    "fshName": "Example-UTN-Patient",
     "fshType": "Instance",
     "fshFile": "Profile-Patient.fsh",
     "startLine": 17,
     "endLine": 26
   },
   {
-    "outputFile": "Provenance-ConsentManagementProvenanceForschungsvorhaben.json",
-    "fshName": "ConsentManagementProvenanceForschungsvorhaben",
+    "outputFile": "Provenance-Example-UTN-Consent-Provenance-Forschungsvorhaben.json",
+    "fshName": "Example-UTN-Consent-Provenance-Forschungsvorhaben",
     "fshType": "Instance",
     "fshFile": "Profile-Provenance.fsh",
     "startLine": 34,
     "endLine": 47
   },
   {
-    "outputFile": "Provenance-ConsentManagementProvenanceVideosprechstunde.json",
-    "fshName": "ConsentManagementProvenanceVideosprechstunde",
+    "outputFile": "Provenance-Example-UTN-Consent-Provenance-Videosprechstunde.json",
+    "fshName": "Example-UTN-Consent-Provenance-Videosprechstunde",
     "fshType": "Instance",
     "fshFile": "Profile-Provenance.fsh",
     "startLine": 49,
@@ -86,6 +94,14 @@
     "fshFile": "Profile-QuestionnaireResponse.fsh",
     "startLine": 3,
     "endLine": 50
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-atemfrequenz.json",
+    "fshName": "UTNAtemfrequenz",
+    "fshType": "Profile",
+    "fshFile": "Profile-ICU-Atemfrequenz.fsh",
+    "startLine": 7,
+    "endLine": 38
   },
   {
     "outputFile": "StructureDefinition-utn-consent-documentreference-id.json",

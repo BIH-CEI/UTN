@@ -31,7 +31,7 @@ Title: "Consent Management Provenance"
 
 
 
-Instance: ConsentManagementProvenanceForschungsvorhaben
+Instance: Example-UTN-Consent-Provenance-Forschungsvorhaben
 InstanceOf: ConsentManagementProvenance
 Usage: #example
 * meta.profile = "http://fhir.de/ConsentManagement/StructureDefinition/Provenance"
@@ -46,7 +46,7 @@ Usage: #example
 * signature.when = "2024-07-24T09:00:00Z"
 * signature.who = Reference(UTNPatient)
 
-Instance: ConsentManagementProvenanceVideosprechstunde
+Instance: Example-UTN-Consent-Provenance-Videosprechstunde
 InstanceOf: ConsentManagementProvenance
 Usage: #example
 * meta.profile = "http://fhir.de/ConsentManagement/StructureDefinition/Provenance"

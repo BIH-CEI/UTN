@@ -42,6 +42,11 @@ dependencies:
   de.einwilligungsmanagement:
     uri: de.einwilligungsmanagement
     version: 1.0.2
+
+  de.medizininformatikinitiative.kerndatensatz.icu:
+    uri: de.medizininformatikinitiative.kerndatensatz.icu
+    version: 1.0.0
+
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in

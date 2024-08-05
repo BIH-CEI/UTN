@@ -15,7 +15,7 @@ Description: "Dies ist das DocumentReference für Einwilligungsprofil für das F
 
 
 
-Instance: UtnConsentDocumentReferenceForschungsvorhaben
+Instance: Example-UTN-Consent-DocumentReference-Forschungsvorhaben
 InstanceOf: UTNDocumentReference
 Usage: #example
 * status = #current
@@ -24,7 +24,7 @@ Usage: #example
 * content.attachment.data = "VGVsZUFzc2Vzc19QYXRpZW50ZW5pbmZvcm1hdGlvbg=="
 * content.attachment.url = "https://redcap.ukw.de/surveys/?__file=BpfEHSgRSXzMTLVuD6XHro2rcE2Vue7RZGXFIEzJrkscLPotzTEcUf9RjEAkhhrM5mwpFIcCP5bpGtP8iG99XHm4LWGwu7JKycan"
 
-Instance: UtnConsentDocumentReferenceVideosprechstunde
+Instance: Example-UTN-Consent-DocumentReference-Videosprechstunde
 InstanceOf: UTNDocumentReference
 Usage: #example
 * status = #current

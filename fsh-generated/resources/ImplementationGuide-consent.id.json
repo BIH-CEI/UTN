@@ -51,6 +51,12 @@
       "uri": "de.einwilligungsmanagement",
       "version": "1.0.2",
       "id": "de_einwilligungsmanagement"
+    },
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.icu",
+      "uri": "de.medizininformatikinitiative.kerndatensatz.icu",
+      "version": "1.0.0",
+      "id": "de_medizininformatikinitiative_kerndatensatz_icu"
     }
   ],
   "definition": {
@@ -95,45 +101,67 @@
       },
       {
         "reference": {
-          "reference": "Provenance/ConsentManagementProvenanceForschungsvorhaben"
+          "reference": "DocumentReference/Example-UTN-Consent-DocumentReference-Forschungsvorhaben"
         },
-        "name": "ConsentManagementProvenanceForschungsvorhaben",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/consent-management-provenance"
-      },
-      {
-        "reference": {
-          "reference": "Provenance/ConsentManagementProvenanceVideosprechstunde"
-        },
-        "name": "ConsentManagementProvenanceVideosprechstunde",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/consent-management-provenance"
-      },
-      {
-        "reference": {
-          "reference": "DocumentReference/UtnConsentDocumentReferenceForschungsvorhaben"
-        },
-        "name": "UtnConsentDocumentReferenceForschungsvorhaben",
+        "name": "Example-UTN-Consent-DocumentReference-Forschungsvorhaben",
         "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"
       },
       {
         "reference": {
-          "reference": "DocumentReference/UtnConsentDocumentReferenceVideosprechstunde"
+          "reference": "DocumentReference/Example-UTN-Consent-DocumentReference-Videosprechstunde"
         },
-        "name": "UtnConsentDocumentReferenceVideosprechstunde",
+        "name": "Example-UTN-Consent-DocumentReference-Videosprechstunde",
         "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"
       },
       {
         "reference": {
-          "reference": "Consent/UtnConsentForschungsvorhaben"
+          "reference": "Consent/Example-UTN-Consent-Forschungsvorhaben"
         },
-        "name": "UtnConsentForschungsvorhaben",
+        "name": "Example-UTN-Consent-Forschungsvorhaben",
         "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-consent-id"
       },
       {
         "reference": {
-          "reference": "Consent/UtnConsentVideosprechstunde"
+          "reference": "Provenance/Example-UTN-Consent-Provenance-Forschungsvorhaben"
         },
-        "name": "UtnConsentVideosprechstunde",
+        "name": "Example-UTN-Consent-Provenance-Forschungsvorhaben",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/consent-management-provenance"
+      },
+      {
+        "reference": {
+          "reference": "Provenance/Example-UTN-Consent-Provenance-Videosprechstunde"
+        },
+        "name": "Example-UTN-Consent-Provenance-Videosprechstunde",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/consent-management-provenance"
+      },
+      {
+        "reference": {
+          "reference": "Consent/Example-UTN-Consent-Videosprechstunde"
+        },
+        "name": "Example-UTN-Consent-Videosprechstunde",
         "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-consent-id"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-UTN-ICU-Atemfrequenz"
+        },
+        "name": "Example-UTN-ICU-Atemfrequenz",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Patient/consent-management-patient"
+        },
+        "name": "Example-UTN-Patient",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/consent-management-patient"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/sd-mii-icu-atemfrequenz"
+        },
+        "name": "SD MII ICU Atemfrequenz",
+        "description": "Profile for documenting respiratory rate in ICU settings",
+        "exampleBoolean": false
       },
       {
         "reference": {
@@ -141,13 +169,6 @@
         },
         "name": "UTNLocation",
         "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Patient/consent-management-patient"
-        },
-        "name": "UTNPatient",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/consent-management-patient"
       }
     ],
     "page": {

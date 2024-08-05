@@ -1,6 +1,6 @@
 {
   "resourceType": "DocumentReference",
-  "id": "UtnConsentDocumentReferenceVideosprechstunde",
+  "id": "Example-UTN-Consent-DocumentReference-Videosprechstunde",
   "meta": {
     "profile": [
       "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"
@@ -17,6 +17,6 @@
   ],
   "status": "current",
   "subject": {
-    "reference": "Patient/consent-management-patient"
+    "reference": "UTNPatient"
   }
 }
