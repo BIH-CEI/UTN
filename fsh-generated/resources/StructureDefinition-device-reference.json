@@ -1,0 +1,67 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "device-reference",
+  "url": "http://utn/consentresource.com/StructureDefinition/device-reference",
+  "name": "DeviceReference",
+  "title": "Device Reference",
+  "status": "draft",
+  "description": "Extension to reference devices in a HealthcareService",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Element"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Device Reference",
+        "definition": "Extension to reference devices in a HealthcareService"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://utn/consentresource.com/StructureDefinition/device-reference"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.value[x]:valueReference",
+        "path": "Extension.value[x]",
+        "sliceName": "valueReference",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "id": "Extension.value[x]:valueReference.reference",
+        "path": "Extension.value[x].reference",
+        "patternString": "Device"
+      }
+    ]
+  }
+}

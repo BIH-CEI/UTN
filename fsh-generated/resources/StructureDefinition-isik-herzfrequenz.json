@@ -1,0 +1,21 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "isik-herzfrequenz",
+  "url": "http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz",
+  "name": "UTNHerzfrequenz",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/ISiKHerzfrequenz",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation"
+      }
+    ]
+  }
+}

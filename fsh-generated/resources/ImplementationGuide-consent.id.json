@@ -57,10 +57,30 @@
       "uri": "de.medizininformatikinitiative.kerndatensatz.icu",
       "version": "1.0.0",
       "id": "de_medizininformatikinitiative_kerndatensatz_icu"
+    },
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.laborbefund",
+      "uri": "de.medizininformatikinitiative.kerndatensatz.laborbefund",
+      "version": "2025.0.0",
+      "id": "de_medizininformatikinitiative_kerndatensatz_laborbefund"
+    },
+    {
+      "packageId": "de.gematik.isik-vitalparameter",
+      "uri": "de.gematik.isik-vitalparameter",
+      "version": "4.0.0",
+      "id": "de_gematik_isik_vitalparameter"
     }
   ],
   "definition": {
     "resource": [
+      {
+        "reference": {
+          "reference": "Device/camera-1"
+        },
+        "name": "Camera Device",
+        "description": "An HD camera used for teleconsultation",
+        "exampleBoolean": true
+      },
       {
         "reference": {
           "reference": "StructureDefinition/consent-management-provenance"
@@ -98,6 +118,21 @@
         "name": "Consent: Forschungsvorhaben and Videosprechstunde",
         "description": "Dies ist das Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/device-reference"
+        },
+        "name": "Device Reference",
+        "description": "Extension to reference devices in a HealthcareService",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ISiKKoerpertemperatur"
+        },
+        "name": "Example-ISiKKoerpertemperatur",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur"
       },
       {
         "reference": {
@@ -143,27 +178,6 @@
       },
       {
         "reference": {
-          "reference": "Observation/Example-UTN-ICU-Atemfrequenz"
-        },
-        "name": "Example-UTN-ICU-Atemfrequenz",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Encounter/Example-UTN-ICU-Encounter"
-        },
-        "name": "Example-UTN-ICU-Encounter",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Observation/Example-UTN-ICU-Herzfrequenz"
-        },
-        "name": "Example-UTN-ICU-Herzfrequenz",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/sd-mii-icu-herzfrequenz"
-      },
-      {
-        "reference": {
           "reference": "Patient/consent-management-patient"
         },
         "name": "Example-UTN-Patient",
@@ -171,18 +185,105 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/sd-mii-icu-atemfrequenz"
+          "reference": "Observation/Example-UTNKreatinin"
         },
-        "name": "SD MII ICU Atemfrequenz",
-        "description": "Profile for documenting respiratory rate in ICU settings",
+        "name": "Example-UTNKreatinin",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/mii-kreatinin"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/healthcare-service-with-devices"
+        },
+        "name": "Healthcare Service with Devices",
+        "description": "A profile for HealthcareService to include references to non-medical devices used in teleconsultation.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/sd-mii-icu-herzfrequenz"
+          "reference": "StructureDefinition/isik-koerpergewicht"
         },
-        "name": "SD MII ICU Herzfrequenz",
-        "description": "Profile for documenting heart rate in ICU settings",
+        "name": "ISiK Koerpergewicht",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-UTNAtemfrequenz"
+        },
+        "name": "ISiKAtemfrequenz Example",
+        "description": "An example Observation for respiratory rate using ISiKAtemfrequenz profile.",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/ISiKHerzfrequenzExample"
+        },
+        "name": "ISiKHerzfrequenzExample",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/ISiKKoerpergewichtExample"
+        },
+        "name": "ISiKKoerpergewichtExample",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht"
+      },
+      {
+        "reference": {
+          "reference": "Observation/ISiKSauerstoffsaettigungArteriellExample"
+        },
+        "name": "ISiKSauerstoffsaettigungArteriellExample",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-kreatinin"
+        },
+        "name": "MII PR Labor Laboruntersuchung-Kreatinin",
+        "description": "Dieses Profil beschreibt eine Laborergebnis in der Medizininformatik-Initiative.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Device/phone-1"
+        },
+        "name": "Phone Device",
+        "description": "A smartphone used for teleconsultation",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie"
+        },
+        "name": "SD MII ICU Sauerstoffsaettigung Im Arteriellen Blut Durch Pulsoxymetrie",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "HealthcareService/teleconsultation-service-1"
+        },
+        "name": "Teleconsultation Service",
+        "description": "A teleconsultation service provided by Example Hospital",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/healthcare-service-with-devices"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/utn-isik-atemfrequenz"
+        },
+        "name": "UTNAtemfrequenz",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/isik-herzfrequenz"
+        },
+        "name": "UTNHerzfrequenz",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/isik-koerpertemperatur"
+        },
+        "name": "UTNKoerperTemperatur",
         "exampleBoolean": false
       },
       {

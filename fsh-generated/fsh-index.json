@@ -16,6 +16,22 @@
     "endLine": 115
   },
   {
+    "outputFile": "Device-camera-1.json",
+    "fshName": "CameraDevice",
+    "fshType": "Instance",
+    "fshFile": "Profile-HealthcareService.fsh",
+    "startLine": 61,
+    "endLine": 82
+  },
+  {
+    "outputFile": "Device-phone-1.json",
+    "fshName": "PhoneDevice",
+    "fshType": "Instance",
+    "fshFile": "Profile-HealthcareService.fsh",
+    "startLine": 84,
+    "endLine": 98
+  },
+  {
     "outputFile": "DocumentReference-Example-UTN-Consent-DocumentReference-Forschungsvorhaben.json",
     "fshName": "Example-UTN-Consent-DocumentReference-Forschungsvorhaben",
     "fshType": "Instance",
@@ -32,12 +48,12 @@
     "endLine": 34
   },
   {
-    "outputFile": "Encounter-Example-UTN-ICU-Encounter.json",
-    "fshName": "Example-UTN-ICU-Encounter",
+    "outputFile": "HealthcareService-teleconsultation-service-1.json",
+    "fshName": "Example-UTN-HealthcareService",
     "fshType": "Instance",
-    "fshFile": "Profile-ICU-Herzfrequenz.fsh",
-    "startLine": 71,
-    "endLine": 75
+    "fshFile": "Profile-HealthcareService.fsh",
+    "startLine": 29,
+    "endLine": 59
   },
   {
     "outputFile": "Location-UTNLocation.json",
@@ -48,20 +64,52 @@
     "endLine": 66
   },
   {
-    "outputFile": "Observation-Example-UTN-ICU-Atemfrequenz.json",
-    "fshName": "Example-UTN-ICU-Atemfrequenz",
+    "outputFile": "Observation-Example-ISiKKoerpertemperatur.json",
+    "fshName": "Example-ISiKKoerpertemperatur",
     "fshType": "Instance",
-    "fshFile": "Profile-ICU-Atemfrequenz.fsh",
-    "startLine": 41,
-    "endLine": 53
+    "fshFile": "Profile-KoerperTemperatur.fsh",
+    "startLine": 29,
+    "endLine": 43
   },
   {
-    "outputFile": "Observation-Example-UTN-ICU-Herzfrequenz.json",
-    "fshName": "Example-UTN-ICU-Herzfrequenz",
+    "outputFile": "Observation-Example-UTNAtemfrequenz.json",
+    "fshName": "Example-UTNAtemfrequenz",
+    "fshType": "Instance",
+    "fshFile": "Profile-Isik-Atemfrequenz.fsh",
+    "startLine": 27,
+    "endLine": 59
+  },
+  {
+    "outputFile": "Observation-Example-UTNKreatinin.json",
+    "fshName": "Example-UTNKreatinin",
+    "fshType": "Instance",
+    "fshFile": "Profile-Kreatinin.fsh",
+    "startLine": 69,
+    "endLine": 100
+  },
+  {
+    "outputFile": "Observation-ISiKHerzfrequenzExample.json",
+    "fshName": "ISiKHerzfrequenzExample",
     "fshType": "Instance",
     "fshFile": "Profile-ICU-Herzfrequenz.fsh",
-    "startLine": 56,
-    "endLine": 69
+    "startLine": 30,
+    "endLine": 43
+  },
+  {
+    "outputFile": "Observation-ISiKKoerpergewichtExample.json",
+    "fshName": "ISiKKoerpergewichtExample",
+    "fshType": "Instance",
+    "fshFile": "Profile-ICU-Korpergewicht.fsh",
+    "startLine": 31,
+    "endLine": 47
+  },
+  {
+    "outputFile": "Observation-ISiKSauerstoffsaettigungArteriellExample.json",
+    "fshName": "ISiKSauerstoffsaettigungArteriellExample",
+    "fshType": "Instance",
+    "fshFile": "Profile-Systolisch-Diastolisch.fsh",
+    "startLine": 17,
+    "endLine": 39
   },
   {
     "outputFile": "Patient-consent-management-patient.json",
@@ -104,28 +152,68 @@
     "endLine": 30
   },
   {
+    "outputFile": "StructureDefinition-device-reference.json",
+    "fshName": "DeviceReference",
+    "fshType": "Extension",
+    "fshFile": "Profile-HealthcareService.fsh",
+    "startLine": 5,
+    "endLine": 10
+  },
+  {
+    "outputFile": "StructureDefinition-healthcare-service-with-devices.json",
+    "fshName": "HealthcareServiceWithDevices",
+    "fshType": "Profile",
+    "fshFile": "Profile-HealthcareService.fsh",
+    "startLine": 12,
+    "endLine": 27
+  },
+  {
+    "outputFile": "StructureDefinition-isik-herzfrequenz.json",
+    "fshName": "UTNHerzfrequenz",
+    "fshType": "Profile",
+    "fshFile": "Profile-ICU-Herzfrequenz.fsh",
+    "startLine": 7,
+    "endLine": 26
+  },
+  {
+    "outputFile": "StructureDefinition-isik-koerpergewicht.json",
+    "fshName": "UTNKoerpergewicht",
+    "fshType": "Profile",
+    "fshFile": "Profile-ICU-Korpergewicht.fsh",
+    "startLine": 10,
+    "endLine": 29
+  },
+  {
+    "outputFile": "StructureDefinition-isik-koerpertemperatur.json",
+    "fshName": "UTNKoerperTemperatur",
+    "fshType": "Profile",
+    "fshFile": "Profile-KoerperTemperatur.fsh",
+    "startLine": 4,
+    "endLine": 23
+  },
+  {
+    "outputFile": "StructureDefinition-mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie.json",
+    "fshName": "UTN-SauerstoffsaettigungArteriell",
+    "fshType": "Profile",
+    "fshFile": "Profile-Systolisch-Diastolisch.fsh",
+    "startLine": 6,
+    "endLine": 15
+  },
+  {
+    "outputFile": "StructureDefinition-mii-kreatinin.json",
+    "fshName": "UTNKreatinin",
+    "fshType": "Profile",
+    "fshFile": "Profile-Kreatinin.fsh",
+    "startLine": 14,
+    "endLine": 65
+  },
+  {
     "outputFile": "StructureDefinition-profile-consent-management-questionnaireresponse.json",
     "fshName": "ConsentManagementQuestionnaireResponseUKW",
     "fshType": "Profile",
     "fshFile": "Profile-QuestionnaireResponse.fsh",
     "startLine": 3,
     "endLine": 24
-  },
-  {
-    "outputFile": "StructureDefinition-sd-mii-icu-atemfrequenz.json",
-    "fshName": "UTNAtemfrequenz",
-    "fshType": "Profile",
-    "fshFile": "Profile-ICU-Atemfrequenz.fsh",
-    "startLine": 7,
-    "endLine": 38
-  },
-  {
-    "outputFile": "StructureDefinition-sd-mii-icu-herzfrequenz.json",
-    "fshName": "UTNHerzfrequenz",
-    "fshType": "Profile",
-    "fshFile": "Profile-ICU-Herzfrequenz.fsh",
-    "startLine": 8,
-    "endLine": 54
   },
   {
     "outputFile": "StructureDefinition-utn-consent-documentreference-id.json",
@@ -142,5 +230,13 @@
     "fshFile": "Profile-Consent.fsh",
     "startLine": 11,
     "endLine": 73
+  },
+  {
+    "outputFile": "StructureDefinition-utn-isik-atemfrequenz.json",
+    "fshName": "UTNAtemfrequenz",
+    "fshType": "Profile",
+    "fshFile": "Profile-Isik-Atemfrequenz.fsh",
+    "startLine": 6,
+    "endLine": 24
   }
 ]

@@ -1,0 +1,27 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-kreatinin",
+  "url": "http://utn/consentresource.com/StructureDefinition/mii-kreatinin",
+  "name": "UTNKreatinin",
+  "title": "MII PR Labor Laboruntersuchung-Kreatinin",
+  "status": "draft",
+  "description": "Dieses Profil beschreibt eine Laborergebnis in der Medizininformatik-Initiative.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/ObservationLab",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://hl7.org/fhir/uv/ips/ValueSet/results-laboratory-observations-uv-ips"
+        }
+      }
+    ]
+  }
+}

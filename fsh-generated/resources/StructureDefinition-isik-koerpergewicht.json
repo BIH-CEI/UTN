@@ -1,0 +1,22 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "isik-koerpergewicht",
+  "url": "http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht",
+  "name": "UTNKoerpergewicht",
+  "title": "ISiK Koerpergewicht",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpergewicht",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation"
+      }
+    ]
+  }
+}

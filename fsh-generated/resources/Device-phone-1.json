@@ -1,0 +1,28 @@
+{
+  "resourceType": "Device",
+  "id": "phone-1",
+  "identifier": [
+    {
+      "system": "http://example.org/devices",
+      "value": "phone-123"
+    }
+  ],
+  "deviceName": [
+    {
+      "name": "Smartphone",
+      "type": "user-friendly-name"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1187059002",
+        "display": "Smartphone"
+      }
+    ],
+    "text": "Smartphone"
+  },
+  "status": "active",
+  "manufacturer": "Example Phone Manufacturer"
+}

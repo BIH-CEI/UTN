@@ -1,0 +1,21 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "isik-koerpertemperatur",
+  "url": "http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur",
+  "name": "UTNKoerperTemperatur",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpertemperatur",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation"
+      }
+    ]
+  }
+}

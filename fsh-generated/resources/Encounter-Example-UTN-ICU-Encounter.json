@@ -1,9 +1,0 @@
-{
-  "resourceType": "Encounter",
-  "id": "Example-UTN-ICU-Encounter",
-  "class": {
-    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-    "code": "AMB"
-  },
-  "status": "in-progress"
-}

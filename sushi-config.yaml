@@ -47,6 +47,20 @@ dependencies:
     uri: de.medizininformatikinitiative.kerndatensatz.icu
     version: 1.0.0
 
+#  de.medizininformatikinitiative.kerndatensatz.icu:
+#    uri: de.medizininformatikinitiative.kerndatensatz.icu
+#    version: 2025.0.0-ballot
+
+  #de.medizininformatikinitiative.kerndatensatz.laborbefund:
+   # uri: de.medizininformatikinitiative.kerndatensatz.laborbefund
+    #version: 1.0.6
+  de.medizininformatikinitiative.kerndatensatz.laborbefund:
+    uri: de.medizininformatikinitiative.kerndatensatz.laborbefund
+    version: 2025.0.0
+  
+  de.gematik.isik-vitalparameter:
+    uri: de.gematik.isik-vitalparameter
+    version: 4.0.0
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in
