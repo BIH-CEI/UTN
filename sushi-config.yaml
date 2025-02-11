@@ -61,6 +61,10 @@ dependencies:
   de.gematik.isik-vitalparameter:
     uri: de.gematik.isik-vitalparameter
     version: 4.0.0
+
+  kbv.basis.with.expansion:
+    uri: kbv.basis.with.expansion
+    version: 1.7.0
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in
