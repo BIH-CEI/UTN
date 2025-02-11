@@ -18,7 +18,7 @@ Description: "A profile for HealthcareService to include references to non-medic
 * active 0..1
 * providedBy 0..1
 * providedBy only Reference(Organization)
-* category 0..
+* category 0.. //add specialist 27
 * type 0..
 * name 0..1
 * telecom 0..
@@ -39,9 +39,6 @@ Description: "A teleconsultation service provided by Example Hospital"
 * category.coding.system = "http://terminology.hl7.org/CodeSystem/service-category"
 * category.coding.code = $service-category#8
 * category.coding.display = "Counselling"
-* type.coding.system = "http://example.org/fhir/CodeSystem/service-types"
-* type.coding.code = $service-type#76
-* type.coding.display = "Health Counselling"
 * name = "Teleconsultation Service"
 * telecom[0].system = #phone
 * telecom[0].value = "123-456-7890"
