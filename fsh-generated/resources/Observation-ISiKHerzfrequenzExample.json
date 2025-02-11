@@ -46,5 +46,21 @@
       }
     ],
     "text": "Herzfrequenz"
-  }
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/1"
+    }
+  ],
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "code": "/min",
+    "value": 63,
+    "unit": "per minute"
+  },
+  "status": "final",
+  "subject": {
+    "reference": "Patient/PatientinMusterfrau"
+  },
+  "effectiveDateTime": "2020-10-11"
 }

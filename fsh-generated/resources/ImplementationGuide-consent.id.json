@@ -69,6 +69,12 @@
       "uri": "de.gematik.isik-vitalparameter",
       "version": "4.0.0",
       "id": "de_gematik_isik_vitalparameter"
+    },
+    {
+      "packageId": "kbv.basis.with.expansion",
+      "uri": "kbv.basis.with.expansion",
+      "version": "1.7.0",
+      "id": "kbv_basis_with_expansion"
     }
   ],
   "definition": {
@@ -192,6 +198,20 @@
       },
       {
         "reference": {
+          "reference": "Practitioner/Example-UTNPractitioner"
+        },
+        "name": "Example-UTNPractitioner",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/Example-UTNPractitionerRole"
+        },
+        "name": "Example-UTNPractitionerRole",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/healthcare-service-with-devices"
         },
         "name": "Healthcare Service with Devices",
@@ -292,6 +312,22 @@
         },
         "name": "UTNLocation",
         "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/KBV-PR-Base-Practitioner"
+        },
+        "name": "UTNPractitioner",
+        "description": "Dieses Profil bildet eine behandelnde Person ab.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/utn-PR-Base-PractitionerRole"
+        },
+        "name": "UTNPractitionerRole",
+        "description": "Dieses Profil bildet eine temporäre Rolle einer behandelnden Person in Bezug zu einer Einrichtung ab.",
+        "exampleBoolean": false
       }
     ],
     "page": {

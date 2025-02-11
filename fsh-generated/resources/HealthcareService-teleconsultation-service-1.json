@@ -27,17 +27,6 @@
       ]
     }
   ],
-  "type": [
-    {
-      "coding": [
-        {
-          "system": "http://example.org/fhir/CodeSystem/service-types",
-          "code": "76",
-          "display": "Health Counselling"
-        }
-      ]
-    }
-  ],
   "telecom": [
     {
       "system": "phone",

@@ -1,0 +1,26 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "KBV-PR-Base-Practitioner",
+  "url": "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner",
+  "name": "UTNPractitioner",
+  "status": "draft",
+  "description": "Dieses Profil bildet eine behandelnde Person ab.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Practitioner",
+  "baseDefinition": "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Practitioner.qualification.code",
+        "path": "Practitioner.qualification.code",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Practitioner_Speciality"
+        }
+      }
+    ]
+  }
+}

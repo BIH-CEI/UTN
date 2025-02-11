@@ -14,6 +14,8 @@
 [Example-UTN-Consent-Videosprechstunde]: Consent-Example-UTN-Consent-Videosprechstunde.html
 [consent-management-patient]: Patient-consent-management-patient.html
 [Example-UTNKreatinin]: Observation-Example-UTNKreatinin.html
+[Example-UTNPractitioner]: Practitioner-Example-UTNPractitioner.html
+[Example-UTNPractitionerRole]: PractitionerRole-Example-UTNPractitionerRole.html
 [HealthcareServiceWithDevices]: StructureDefinition-healthcare-service-with-devices.html
 [UTNKoerpergewicht]: StructureDefinition-isik-koerpergewicht.html
 [Example-UTNAtemfrequenz]: Observation-Example-UTNAtemfrequenz.html
@@ -28,3 +30,5 @@
 [UTNHerzfrequenz]: StructureDefinition-isik-herzfrequenz.html
 [UTNKoerperTemperatur]: StructureDefinition-isik-koerpertemperatur.html
 [UTNLocation]: Location-UTNLocation.html
+[UTNPractitioner]: StructureDefinition-KBV-PR-Base-Practitioner.html
+[UTNPractitionerRole]: StructureDefinition-utn-PR-Base-PractitionerRole.html

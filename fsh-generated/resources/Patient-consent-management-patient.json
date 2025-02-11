@@ -27,5 +27,18 @@
       ],
       "family": "Doe"
     }
-  ]
+  ],
+  "address": [
+    {
+      "line": [
+        "Teststraße 2"
+      ],
+      "type": "both",
+      "city": "Köln",
+      "postalCode": "50823",
+      "country": "DE"
+    }
+  ],
+  "birthDate": "1998-09-19",
+  "gender": "other"
 }
