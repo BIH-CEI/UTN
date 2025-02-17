@@ -72,6 +72,14 @@
     "endLine": 43
   },
   {
+    "outputFile": "Observation-Example-UTN-Observation-Arterieller-Blutdruck.json",
+    "fshName": "Example-UTN-Observation-Arterieller-Blutdruck",
+    "fshType": "Instance",
+    "fshFile": "Profile-Systolisch-Diastolisch.fsh",
+    "startLine": 99,
+    "endLine": 157
+  },
+  {
     "outputFile": "Observation-Example-UTNAtemfrequenz.json",
     "fshName": "Example-UTNAtemfrequenz",
     "fshType": "Instance",
@@ -102,14 +110,6 @@
     "fshFile": "Profile-ICU-Korpergewicht.fsh",
     "startLine": 31,
     "endLine": 47
-  },
-  {
-    "outputFile": "Observation-ISiKSauerstoffsaettigungArteriellExample.json",
-    "fshName": "ISiKSauerstoffsaettigungArteriellExample",
-    "fshType": "Instance",
-    "fshFile": "Profile-Systolisch-Diastolisch.fsh",
-    "startLine": 17,
-    "endLine": 39
   },
   {
     "outputFile": "Patient-consent-management-patient.json",
@@ -216,14 +216,6 @@
     "endLine": 23
   },
   {
-    "outputFile": "StructureDefinition-mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie.json",
-    "fshName": "UTN-SauerstoffsaettigungArteriell",
-    "fshType": "Profile",
-    "fshFile": "Profile-Systolisch-Diastolisch.fsh",
-    "startLine": 6,
-    "endLine": 15
-  },
-  {
     "outputFile": "StructureDefinition-mii-kreatinin.json",
     "fshName": "UTNKreatinin",
     "fshType": "Profile",
@@ -270,5 +262,13 @@
     "fshFile": "Profile-Isik-Atemfrequenz.fsh",
     "startLine": 6,
     "endLine": 24
+  },
+  {
+    "outputFile": "StructureDefinition-utn-observation-arterieller-blutdruck.json",
+    "fshName": "UTN_Observation_Arterieller_Blutdruck",
+    "fshType": "Profile",
+    "fshFile": "Profile-Systolisch-Diastolisch.fsh",
+    "startLine": 7,
+    "endLine": 97
   }
 ]

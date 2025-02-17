@@ -5,6 +5,7 @@
 [UTNDocumentReference]: StructureDefinition-utn-consent-documentreference-id.html
 [UTNConsent]: StructureDefinition-utn-consent-id.html
 [DeviceReference]: StructureDefinition-device-reference.html
+[Example-UTN-Observation-Arterieller-Blutdruck]: Observation-Example-UTN-Observation-Arterieller-Blutdruck.html
 [Example-ISiKKoerpertemperatur]: Observation-Example-ISiKKoerpertemperatur.html
 [Example-UTN-Consent-DocumentReference-Forschungsvorhaben]: DocumentReference-Example-UTN-Consent-DocumentReference-Forschungsvorhaben.html
 [Example-UTN-Consent-DocumentReference-Videosprechstunde]: DocumentReference-Example-UTN-Consent-DocumentReference-Videosprechstunde.html
@@ -21,10 +22,9 @@
 [Example-UTNAtemfrequenz]: Observation-Example-UTNAtemfrequenz.html
 [ISiKHerzfrequenzExample]: Observation-ISiKHerzfrequenzExample.html
 [ISiKKoerpergewichtExample]: Observation-ISiKKoerpergewichtExample.html
-[ISiKSauerstoffsaettigungArteriellExample]: Observation-ISiKSauerstoffsaettigungArteriellExample.html
 [UTNKreatinin]: StructureDefinition-mii-kreatinin.html
 [phone-1]: Device-phone-1.html
-[UTN-SauerstoffsaettigungArteriell]: StructureDefinition-mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie.html
+[UTN_Observation_Arterieller_Blutdruck]: StructureDefinition-utn-observation-arterieller-blutdruck.html
 [teleconsultation-service-1]: HealthcareService-teleconsultation-service-1.html
 [UTNAtemfrequenz]: StructureDefinition-utn-isik-atemfrequenz.html
 [UTNHerzfrequenz]: StructureDefinition-isik-herzfrequenz.html

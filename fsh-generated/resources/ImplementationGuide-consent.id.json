@@ -55,7 +55,7 @@
     {
       "packageId": "de.medizininformatikinitiative.kerndatensatz.icu",
       "uri": "de.medizininformatikinitiative.kerndatensatz.icu",
-      "version": "1.0.0",
+      "version": "2025.0.1",
       "id": "de_medizininformatikinitiative_kerndatensatz_icu"
     },
     {
@@ -132,6 +132,14 @@
         "name": "Device Reference",
         "description": "Extension to reference devices in a HealthcareService",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-UTN-Observation-Arterieller-Blutdruck"
+        },
+        "name": "Example T-CABS Arterieller Blutdruck Observation",
+        "description": "Example instance for documenting arterial blood pressure observations within T-CABS.",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck"
       },
       {
         "reference": {
@@ -249,13 +257,6 @@
       },
       {
         "reference": {
-          "reference": "Observation/ISiKSauerstoffsaettigungArteriellExample"
-        },
-        "name": "ISiKSauerstoffsaettigungArteriellExample",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie"
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/mii-kreatinin"
         },
         "name": "MII PR Labor Laboruntersuchung-Kreatinin",
@@ -272,9 +273,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie"
+          "reference": "StructureDefinition/utn-observation-arterieller-blutdruck"
         },
-        "name": "SD MII ICU Sauerstoffsaettigung Im Arteriellen Blut Durch Pulsoxymetrie",
+        "name": "T-CABS Observation Arterieller Blutdruck",
+        "description": "Profile for documenting arterial blood pressure observations within T-CABS.",
         "exampleBoolean": false
       },
       {
