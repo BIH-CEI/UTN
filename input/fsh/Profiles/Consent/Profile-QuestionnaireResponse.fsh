@@ -1,5 +1,3 @@
-Alias: $Patient = http://fhir.de/ConsentManagement/StructureDefinition/Patient
-
 Profile: ConsentManagementQuestionnaireResponseUKW
 Parent: http://fhir.de/ConsentManagement/StructureDefinition/QuestionnaireResponse
 Id: profile-consent-management-questionnaireresponse

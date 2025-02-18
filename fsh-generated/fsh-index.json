@@ -3,272 +3,272 @@
     "outputFile": "Consent-Example-UTN-Consent-Forschungsvorhaben.json",
     "fshName": "Example-UTN-Consent-Forschungsvorhaben",
     "fshType": "Instance",
-    "fshFile": "Profile-Consent.fsh",
-    "startLine": 76,
-    "endLine": 94
+    "fshFile": "Instances/Example-UTN-Consent-Forschungsvorhaben.fsh",
+    "startLine": 1,
+    "endLine": 19
   },
   {
     "outputFile": "Consent-Example-UTN-Consent-Videosprechstunde.json",
     "fshName": "Example-UTN-Consent-Videosprechstunde",
     "fshType": "Instance",
-    "fshFile": "Profile-Consent.fsh",
-    "startLine": 96,
-    "endLine": 115
+    "fshFile": "Instances/Example-UTN-Consent-Videosprechstunde.fsh",
+    "startLine": 1,
+    "endLine": 20
   },
   {
     "outputFile": "Device-camera-1.json",
     "fshName": "CameraDevice",
     "fshType": "Instance",
-    "fshFile": "Profile-HealthcareService.fsh",
-    "startLine": 58,
-    "endLine": 79
+    "fshFile": "Instances/Example-UTN-HealthcareService.fsh",
+    "startLine": 30,
+    "endLine": 51
   },
   {
     "outputFile": "Device-phone-1.json",
     "fshName": "PhoneDevice",
     "fshType": "Instance",
-    "fshFile": "Profile-HealthcareService.fsh",
-    "startLine": 81,
-    "endLine": 95
+    "fshFile": "Instances/Example-UTN-HealthcareService.fsh",
+    "startLine": 53,
+    "endLine": 67
   },
   {
     "outputFile": "DocumentReference-Example-UTN-Consent-DocumentReference-Forschungsvorhaben.json",
     "fshName": "Example-UTN-Consent-DocumentReference-Forschungsvorhaben",
     "fshType": "Instance",
-    "fshFile": "Profile-DocumentReference.fsh",
-    "startLine": 18,
-    "endLine": 25
+    "fshFile": "Instances/Example-UTN-Consent-Forschungsvorhaben.fsh",
+    "startLine": 21,
+    "endLine": 28
   },
   {
     "outputFile": "DocumentReference-Example-UTN-Consent-DocumentReference-Videosprechstunde.json",
     "fshName": "Example-UTN-Consent-DocumentReference-Videosprechstunde",
     "fshType": "Instance",
-    "fshFile": "Profile-DocumentReference.fsh",
-    "startLine": 27,
-    "endLine": 34
+    "fshFile": "Instances/Example-UTN-Consent-Videosprechstunde.fsh",
+    "startLine": 22,
+    "endLine": 29
   },
   {
     "outputFile": "HealthcareService-teleconsultation-service-1.json",
     "fshName": "Example-UTN-HealthcareService",
     "fshType": "Instance",
-    "fshFile": "Profile-HealthcareService.fsh",
-    "startLine": 29,
-    "endLine": 56
+    "fshFile": "Instances/Example-UTN-HealthcareService.fsh",
+    "startLine": 1,
+    "endLine": 28
   },
   {
     "outputFile": "Location-UTNLocation.json",
     "fshName": "UTNLocation",
     "fshType": "Instance",
-    "fshFile": "Profile-Provenance.fsh",
-    "startLine": 64,
-    "endLine": 66
+    "fshFile": "Instances/Example-UTN-Consent-Forschungsvorhaben.fsh",
+    "startLine": 47,
+    "endLine": 49
   },
   {
     "outputFile": "Observation-Example-ISiKKoerpertemperatur.json",
     "fshName": "Example-ISiKKoerpertemperatur",
     "fshType": "Instance",
-    "fshFile": "Profile-KoerperTemperatur.fsh",
-    "startLine": 29,
-    "endLine": 43
+    "fshFile": "Profiles/Parameters/Profile-KoerperTemperatur.fsh",
+    "startLine": 26,
+    "endLine": 40
   },
   {
     "outputFile": "Observation-Example-UTN-Observation-Arterieller-Blutdruck.json",
     "fshName": "Example-UTN-Observation-Arterieller-Blutdruck",
     "fshType": "Instance",
-    "fshFile": "Profile-Systolisch-Diastolisch.fsh",
-    "startLine": 99,
-    "endLine": 157
+    "fshFile": "Profiles/Parameters/Profile-Systolisch-Diastolisch.fsh",
+    "startLine": 93,
+    "endLine": 151
   },
   {
     "outputFile": "Observation-Example-UTNAtemfrequenz.json",
     "fshName": "Example-UTNAtemfrequenz",
     "fshType": "Instance",
-    "fshFile": "Profile-Isik-Atemfrequenz.fsh",
-    "startLine": 27,
-    "endLine": 59
+    "fshFile": "Profiles/Parameters/Profile-Isik-Atemfrequenz.fsh",
+    "startLine": 22,
+    "endLine": 54
   },
   {
     "outputFile": "Observation-Example-UTNKreatinin.json",
     "fshName": "Example-UTNKreatinin",
     "fshType": "Instance",
-    "fshFile": "Profile-Kreatinin.fsh",
-    "startLine": 69,
-    "endLine": 100
+    "fshFile": "Profiles/Parameters/Profile-Kreatinin.fsh",
+    "startLine": 56,
+    "endLine": 87
   },
   {
     "outputFile": "Observation-ISiKHerzfrequenzExample.json",
     "fshName": "ISiKHerzfrequenzExample",
     "fshType": "Instance",
-    "fshFile": "Profile-ICU-Herzfrequenz.fsh",
-    "startLine": 30,
-    "endLine": 47
+    "fshFile": "Profiles/Parameters/Profile-ICU-Herzfrequenz.fsh",
+    "startLine": 24,
+    "endLine": 41
   },
   {
     "outputFile": "Observation-ISiKKoerpergewichtExample.json",
     "fshName": "ISiKKoerpergewichtExample",
     "fshType": "Instance",
-    "fshFile": "Profile-ICU-Korpergewicht.fsh",
-    "startLine": 31,
-    "endLine": 47
+    "fshFile": "Profiles/Parameters/Profile-ICU-Korpergewicht.fsh",
+    "startLine": 22,
+    "endLine": 38
   },
   {
     "outputFile": "Patient-consent-management-patient.json",
     "fshName": "Example-UTN-Patient",
     "fshType": "Instance",
-    "fshFile": "Profile-Patient.fsh",
-    "startLine": 21,
-    "endLine": 37
+    "fshFile": "Instances/Example-UTN-Patient.fsh",
+    "startLine": 1,
+    "endLine": 17
   },
   {
     "outputFile": "Practitioner-Example-UTNPractitioner.json",
     "fshName": "Example-UTNPractitioner",
     "fshType": "Instance",
-    "fshFile": "Profile-Practitioner.fsh",
-    "startLine": 51,
-    "endLine": 100
+    "fshFile": "Profiles/Meta/Profile-Practitioner.fsh",
+    "startLine": 35,
+    "endLine": 84
   },
   {
     "outputFile": "PractitionerRole-Example-UTNPractitionerRole.json",
     "fshName": "Example-UTNPractitionerRole",
     "fshType": "Instance",
-    "fshFile": "Profile-PractitionerRole.fsh",
-    "startLine": 27,
-    "endLine": 43
+    "fshFile": "Profiles/Meta/Profile-PractitionerRole.fsh",
+    "startLine": 24,
+    "endLine": 40
   },
   {
     "outputFile": "Provenance-Example-UTN-Consent-Provenance-Forschungsvorhaben.json",
     "fshName": "Example-UTN-Consent-Provenance-Forschungsvorhaben",
     "fshType": "Instance",
-    "fshFile": "Profile-Provenance.fsh",
-    "startLine": 34,
-    "endLine": 47
+    "fshFile": "Instances/Example-UTN-Consent-Forschungsvorhaben.fsh",
+    "startLine": 31,
+    "endLine": 44
   },
   {
     "outputFile": "Provenance-Example-UTN-Consent-Provenance-Videosprechstunde.json",
     "fshName": "Example-UTN-Consent-Provenance-Videosprechstunde",
     "fshType": "Instance",
-    "fshFile": "Profile-Provenance.fsh",
-    "startLine": 49,
-    "endLine": 62
+    "fshFile": "Instances/Example-UTN-Consent-Videosprechstunde.fsh",
+    "startLine": 31,
+    "endLine": 44
   },
   {
     "outputFile": "StructureDefinition-KBV-PR-Base-Practitioner.json",
     "fshName": "UTNPractitioner",
     "fshType": "Profile",
-    "fshFile": "Profile-Practitioner.fsh",
-    "startLine": 14,
-    "endLine": 41
+    "fshFile": "Profiles/Meta/Profile-Practitioner.fsh",
+    "startLine": 1,
+    "endLine": 28
   },
   {
     "outputFile": "StructureDefinition-consent-management-patient.json",
     "fshName": "ConsentManagementPatient",
     "fshType": "Profile",
-    "fshFile": "Profile-Patient.fsh",
-    "startLine": 3,
-    "endLine": 18
+    "fshFile": "Profiles/Meta/Profile-Patient.fsh",
+    "startLine": 1,
+    "endLine": 16
   },
   {
     "outputFile": "StructureDefinition-consent-management-provenance.json",
     "fshName": "ConsentManagementProvenance",
     "fshType": "Profile",
-    "fshFile": "Profile-Provenance.fsh",
-    "startLine": 8,
-    "endLine": 30
+    "fshFile": "Profiles/Consent/Profile-Provenance.fsh",
+    "startLine": 1,
+    "endLine": 23
   },
   {
     "outputFile": "StructureDefinition-device-reference.json",
     "fshName": "DeviceReference",
     "fshType": "Extension",
-    "fshFile": "Profile-HealthcareService.fsh",
-    "startLine": 5,
-    "endLine": 10
+    "fshFile": "Profiles/Meta/Profile-HealthcareService.fsh",
+    "startLine": 1,
+    "endLine": 6
   },
   {
     "outputFile": "StructureDefinition-healthcare-service-with-devices.json",
     "fshName": "HealthcareServiceWithDevices",
     "fshType": "Profile",
-    "fshFile": "Profile-HealthcareService.fsh",
-    "startLine": 12,
-    "endLine": 27
+    "fshFile": "Profiles/Meta/Profile-HealthcareService.fsh",
+    "startLine": 8,
+    "endLine": 23
   },
   {
     "outputFile": "StructureDefinition-isik-herzfrequenz.json",
     "fshName": "UTNHerzfrequenz",
     "fshType": "Profile",
-    "fshFile": "Profile-ICU-Herzfrequenz.fsh",
-    "startLine": 7,
-    "endLine": 26
+    "fshFile": "Profiles/Parameters/Profile-ICU-Herzfrequenz.fsh",
+    "startLine": 1,
+    "endLine": 20
   },
   {
     "outputFile": "StructureDefinition-isik-koerpergewicht.json",
     "fshName": "UTNKoerpergewicht",
     "fshType": "Profile",
-    "fshFile": "Profile-ICU-Korpergewicht.fsh",
-    "startLine": 10,
-    "endLine": 29
+    "fshFile": "Profiles/Parameters/Profile-ICU-Korpergewicht.fsh",
+    "startLine": 1,
+    "endLine": 20
   },
   {
     "outputFile": "StructureDefinition-isik-koerpertemperatur.json",
     "fshName": "UTNKoerperTemperatur",
     "fshType": "Profile",
-    "fshFile": "Profile-KoerperTemperatur.fsh",
-    "startLine": 4,
-    "endLine": 23
+    "fshFile": "Profiles/Parameters/Profile-KoerperTemperatur.fsh",
+    "startLine": 1,
+    "endLine": 20
   },
   {
     "outputFile": "StructureDefinition-mii-kreatinin.json",
     "fshName": "UTNKreatinin",
     "fshType": "Profile",
-    "fshFile": "Profile-Kreatinin.fsh",
-    "startLine": 14,
-    "endLine": 65
+    "fshFile": "Profiles/Parameters/Profile-Kreatinin.fsh",
+    "startLine": 1,
+    "endLine": 52
   },
   {
     "outputFile": "StructureDefinition-profile-consent-management-questionnaireresponse.json",
     "fshName": "ConsentManagementQuestionnaireResponseUKW",
     "fshType": "Profile",
-    "fshFile": "Profile-QuestionnaireResponse.fsh",
-    "startLine": 3,
-    "endLine": 24
+    "fshFile": "Profiles/Consent/Profile-QuestionnaireResponse.fsh",
+    "startLine": 1,
+    "endLine": 22
   },
   {
     "outputFile": "StructureDefinition-utn-PR-Base-PractitionerRole.json",
     "fshName": "UTNPractitionerRole",
     "fshType": "Profile",
-    "fshFile": "Profile-PractitionerRole.fsh",
-    "startLine": 4,
-    "endLine": 24
+    "fshFile": "Profiles/Meta/Profile-PractitionerRole.fsh",
+    "startLine": 1,
+    "endLine": 21
   },
   {
     "outputFile": "StructureDefinition-utn-consent-documentreference-id.json",
     "fshName": "UTNDocumentReference",
     "fshType": "Profile",
-    "fshFile": "Profile-DocumentReference.fsh",
-    "startLine": 3,
-    "endLine": 14
+    "fshFile": "Profiles/Consent/Profile-DocumentReference.fsh",
+    "startLine": 1,
+    "endLine": 12
   },
   {
     "outputFile": "StructureDefinition-utn-consent-id.json",
     "fshName": "UTNConsent",
     "fshType": "Profile",
-    "fshFile": "Profile-Consent.fsh",
-    "startLine": 11,
-    "endLine": 73
+    "fshFile": "Profiles/Consent/Profile-Consent.fsh",
+    "startLine": 1,
+    "endLine": 63
   },
   {
     "outputFile": "StructureDefinition-utn-isik-atemfrequenz.json",
     "fshName": "UTNAtemfrequenz",
     "fshType": "Profile",
-    "fshFile": "Profile-Isik-Atemfrequenz.fsh",
-    "startLine": 6,
-    "endLine": 24
+    "fshFile": "Profiles/Parameters/Profile-Isik-Atemfrequenz.fsh",
+    "startLine": 1,
+    "endLine": 19
   },
   {
     "outputFile": "StructureDefinition-utn-observation-arterieller-blutdruck.json",
     "fshName": "UTN_Observation_Arterieller_Blutdruck",
     "fshType": "Profile",
-    "fshFile": "Profile-Systolisch-Diastolisch.fsh",
-    "startLine": 7,
-    "endLine": 97
+    "fshFile": "Profiles/Parameters/Profile-Systolisch-Diastolisch.fsh",
+    "startLine": 1,
+    "endLine": 91
   }
 ]
