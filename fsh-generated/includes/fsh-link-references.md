@@ -24,8 +24,8 @@
 [ISiKKoerpergewichtExample]: Observation-ISiKKoerpergewichtExample.html
 [UTNKreatinin]: StructureDefinition-mii-kreatinin.html
 [phone-1]: Device-phone-1.html
-[UTN_Observation_Arterieller_Blutdruck]: StructureDefinition-utn-observation-arterieller-blutdruck.html
 [teleconsultation-service-1]: HealthcareService-teleconsultation-service-1.html
+[UTN_Observation_Arterieller_Blutdruck]: StructureDefinition-utn-observation-arterieller-blutdruck.html
 [UTNAtemfrequenz]: StructureDefinition-utn-isik-atemfrequenz.html
 [UTNHerzfrequenz]: StructureDefinition-isik-herzfrequenz.html
 [UTNKoerperTemperatur]: StructureDefinition-isik-koerpertemperatur.html

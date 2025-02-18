@@ -137,8 +137,8 @@
         "reference": {
           "reference": "Observation/Example-UTN-Observation-Arterieller-Blutdruck"
         },
-        "name": "Example T-CABS Arterieller Blutdruck Observation",
-        "description": "Example instance for documenting arterial blood pressure observations within T-CABS.",
+        "name": "Example UTN Arterieller Blutdruck Observation",
+        "description": "Example instance for documenting arterial blood pressure observations within UTN.",
         "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck"
       },
       {
@@ -273,19 +273,19 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/utn-observation-arterieller-blutdruck"
-        },
-        "name": "T-CABS Observation Arterieller Blutdruck",
-        "description": "Profile for documenting arterial blood pressure observations within T-CABS.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "HealthcareService/teleconsultation-service-1"
         },
         "name": "Teleconsultation Service",
         "description": "A teleconsultation service provided by Example Hospital",
         "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/healthcare-service-with-devices"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/utn-observation-arterieller-blutdruck"
+        },
+        "name": "UTN Observation Arterieller Blutdruck",
+        "description": "Profile for documenting arterial blood pressure observations within UTN.",
+        "exampleBoolean": false
       },
       {
         "reference": {
