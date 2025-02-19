@@ -77,7 +77,7 @@
     "fshType": "Instance",
     "fshFile": "Instances/Parameters/Example-UTN-Systolisch-Diastolisch.fsh",
     "startLine": 1,
-    "endLine": 59
+    "endLine": 60
   },
   {
     "outputFile": "Observation-Example-UTNAtemfrequenz.json",

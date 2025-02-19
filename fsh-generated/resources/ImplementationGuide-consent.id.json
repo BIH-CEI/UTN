@@ -41,27 +41,21 @@
       "id": "de_medizininformatikinitiative_kerndatensatz_consent"
     },
     {
-      "packageId": "de.einwilligungsmanagementquestionnaire",
-      "uri": "de.einwilligungsmanagement",
-      "version": "1.0.1",
-      "id": "de_einwilligungsmanagementquestionnaire"
-    },
-    {
       "packageId": "de.einwilligungsmanagement",
       "uri": "de.einwilligungsmanagement",
-      "version": "1.0.2",
+      "version": "1.0.1",
       "id": "de_einwilligungsmanagement"
     },
     {
       "packageId": "de.medizininformatikinitiative.kerndatensatz.icu",
       "uri": "de.medizininformatikinitiative.kerndatensatz.icu",
-      "version": "2025.0.1",
+      "version": "2025.0.2",
       "id": "de_medizininformatikinitiative_kerndatensatz_icu"
     },
     {
       "packageId": "de.medizininformatikinitiative.kerndatensatz.laborbefund",
       "uri": "de.medizininformatikinitiative.kerndatensatz.laborbefund",
-      "version": "2025.0.0",
+      "version": "2025.0.2",
       "id": "de_medizininformatikinitiative_kerndatensatz_laborbefund"
     },
     {
@@ -71,10 +65,10 @@
       "id": "de_gematik_isik_vitalparameter"
     },
     {
-      "packageId": "kbv.basis.with.expansion",
-      "uri": "kbv.basis.with.expansion",
+      "packageId": "kbv.basis",
+      "uri": "kbv.basis",
       "version": "1.7.0",
-      "id": "kbv_basis_with_expansion"
+      "id": "kbv_basis"
     }
   ],
   "definition": {

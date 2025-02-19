@@ -1,5 +1,5 @@
 Profile: ConsentManagementQuestionnaireResponseUKW
-Parent: http://fhir.de/ConsentManagement/StructureDefinition/QuestionnaireResponse
+Parent: ConsentManagementQuestionnaireResponse
 Id: profile-consent-management-questionnaireresponse
 Title: "Consent Management QuestionnaireResponse"
 Description: "Der ausgefüllte Fragebogen zur Einwilligung."

@@ -35,35 +35,24 @@ dependencies:
     uri: de.medizininformatikinitiative.kerndatensatz.consent
     version: 1.0.7
 
-  de.einwilligungsmanagementquestionnaire:
+  de.einwilligungsmanagement:
     uri: de.einwilligungsmanagement
     version: 1.0.1
 
-  de.einwilligungsmanagement:
-    uri: de.einwilligungsmanagement
-    version: 1.0.2
-
   de.medizininformatikinitiative.kerndatensatz.icu:
     uri: de.medizininformatikinitiative.kerndatensatz.icu
-    version: 2025.0.1
+    version: 2025.0.2
 
-#  de.medizininformatikinitiative.kerndatensatz.icu:
-#    uri: de.medizininformatikinitiative.kerndatensatz.icu
-#    version: 2025.0.0-ballot
-
-  #de.medizininformatikinitiative.kerndatensatz.laborbefund:
-   # uri: de.medizininformatikinitiative.kerndatensatz.laborbefund
-    #version: 1.0.6
   de.medizininformatikinitiative.kerndatensatz.laborbefund:
     uri: de.medizininformatikinitiative.kerndatensatz.laborbefund
-    version: 2025.0.0
+    version: 2025.0.2
   
   de.gematik.isik-vitalparameter:
     uri: de.gematik.isik-vitalparameter
     version: 4.0.0
 
-  kbv.basis.with.expansion:
-    uri: kbv.basis.with.expansion
+  kbv.basis:
+    uri: kbv.basis
     version: 1.7.0
 #
 # The pages property corresponds to IG.definition.page. SUSHI can

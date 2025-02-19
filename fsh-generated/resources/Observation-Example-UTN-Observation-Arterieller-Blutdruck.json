@@ -32,6 +32,7 @@
         "display": "Blood pressure panel"
       },
       {
+        "version": "http://snomed.info/sct/900000000000207008/version/20241101",
         "code": "364090009",
         "system": "http://snomed.info/sct",
         "display": "Arterial blood pressure"

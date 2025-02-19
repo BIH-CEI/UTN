@@ -12,6 +12,7 @@ Usage: #example
 * code.coding[LOINC].code = #85354-9
 * code.coding[LOINC].display = "Blood pressure panel"
 * code.coding[SCT].system = "http://snomed.info/sct"
+* code.coding[SCT].version = "http://snomed.info/sct/900000000000207008/version/20241101"
 * code.coding[SCT].code = #364090009
 * code.coding[SCT].display = "Arterial blood pressure"
 
