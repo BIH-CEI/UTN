@@ -1,0 +1,23 @@
+name: Build IG after a push
+
+on: 
+  push:
+    branches: [dev , main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run updatePublisher
+        run: bash ./_updatePublisher.sh
+      - name: Run genonce
+        run: bash ./_genonce.sh
