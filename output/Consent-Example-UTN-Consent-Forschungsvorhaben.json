@@ -1,0 +1,62 @@
+{
+  "resourceType" : "Consent",
+  "id" : "Example-UTN-Consent-Forschungsvorhaben",
+  "meta" : {
+    "profile" : ["http://utn/consentresource.com/StructureDefinition/utn-consent-id",
+    "https://www.medizininformatik-initiative.de/fhir/modul-consent/StructureDefinition/mii-pr-consent-einwilligung"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Consent Example-UTN-Consent-Forschungsvorhaben</b></p><a name=\"Example-UTN-Consent-Forschungsvorhaben\"> </a><a name=\"hcExample-UTN-Consent-Forschungsvorhaben\"> </a><a name=\"Example-UTN-Consent-Forschungsvorhaben-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"StructureDefinition-utn-consent-id.html\">UTN Consent Forschungsvorhaben and Videosprechstunde</a>, <a href=\"https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.consent@1.0.7&amp;canonical=https://www.medizininformatik-initiative.de/fhir/modul-consent/StructureDefinition/mii-pr-consent-einwilligung\">Profile - MI-I - Consent - Einwilligung</a></p></div><p><b>status</b>: Active</p><p><b>scope</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/consentscope research}\">Research</span></p><p><b>category</b>: <span title=\"Codes:{http://loinc.org 57016-8}\">Privacy policy acknowledgment Document</span>, <span title=\"Codes:{https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category 2.16.840.1.113883.3.1937.777.24.2.184}\">2.16.840.1.113883.3.1937.777.24.2.184</span></p><p><b>patient</b>: <a href=\"Patient-consent-management-patient.html\">John Doe  Other, DoB: 1998-09-19 ( MR)</a></p><p><b>dateTime</b>: 2024-07-24</p><p><b>organization</b>: Klinikum Würzburg</p><h3>Policies</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Uri</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.consent@1.0.7&amp;canonical=https://redcap.ukw.de/surveys/?__file=BpfEHSgRSXzMTLVuD6XHro2rcE2Vue7RZGXFIEzJrkscLPotzTEcUf9RjEAkhhrM5mwpFIcCP5bpGtP8iG99XHm4LWGwu7JKycan\">https://redcap.ukw.de/surveys/?__file=BpfEHSgRSXzMTLVuD6XHro2rcE2Vue7RZGXFIEzJrkscLPotzTEcUf9RjEAkhhrM5mwpFIcCP5bpGtP8iG99XHm4LWGwu7JKycan</a></td></tr></table><blockquote><p><b>provision</b></p><p><b>type</b>: Opt Out</p><p><b>period</b>: 2024-07-24 --&gt; 2074-07-24</p><h3>Provisions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Period</b></td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>Opt In</td><td>2024-07-24 --&gt; 2034-07-24</td><td><span title=\"Codes:{urn:oid:2.16.840.1.113883.3.1937.777.24.5.3 2.16.840.1.113883.3.1937.777.24.5.3.2}\">IDAT_erheben</span></td></tr></table></blockquote></div>"
+  },
+  "status" : "active",
+  "scope" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/consentscope",
+      "code" : "research"
+    }]
+  },
+  "category" : [{
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "57016-8"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category",
+      "code" : "2.16.840.1.113883.3.1937.777.24.2.184"
+    }]
+  }],
+  "patient" : {
+    "reference" : "Patient/consent-management-patient"
+  },
+  "dateTime" : "2024-07-24",
+  "organization" : [{
+    "display" : "Klinikum Würzburg"
+  }],
+  "policy" : [{
+    "uri" : "https://redcap.ukw.de/surveys/?__file=BpfEHSgRSXzMTLVuD6XHro2rcE2Vue7RZGXFIEzJrkscLPotzTEcUf9RjEAkhhrM5mwpFIcCP5bpGtP8iG99XHm4LWGwu7JKycan"
+  }],
+  "provision" : {
+    "type" : "deny",
+    "period" : {
+      "start" : "2024-07-24",
+      "end" : "2074-07-24"
+    },
+    "provision" : [{
+      "type" : "permit",
+      "period" : {
+        "start" : "2024-07-24",
+        "end" : "2034-07-24"
+      },
+      "code" : [{
+        "coding" : [{
+          "system" : "urn:oid:2.16.840.1.113883.3.1937.777.24.5.3",
+          "code" : "2.16.840.1.113883.3.1937.777.24.5.3.2",
+          "display" : "IDAT_erheben"
+        }]
+      }]
+    }]
+  }
+}

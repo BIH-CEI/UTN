@@ -1,0 +1,26 @@
+{
+  "resourceType" : "Device",
+  "id" : "phone-1",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Device phone-1</b></p><a name=\"phone-1\"> </a><a name=\"hcphone-1\"> </a><a name=\"phone-1-en-US\"> </a><p><b>identifier</b>: <code>http://example.org/devices</code>/phone-123</p><p><b>status</b>: Active</p><p><b>manufacturer</b>: Example Phone Manufacturer</p><h3>DeviceNames</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style=\"display: none\">*</td><td>Smartphone</td><td>User Friendly name</td></tr></table><p><b>type</b>: <span title=\"Codes:{http://snomed.info/sct 1187059002}\">Smartphone</span></p></div>"
+  },
+  "identifier" : [{
+    "system" : "http://example.org/devices",
+    "value" : "phone-123"
+  }],
+  "status" : "active",
+  "manufacturer" : "Example Phone Manufacturer",
+  "deviceName" : [{
+    "name" : "Smartphone",
+    "type" : "user-friendly-name"
+  }],
+  "type" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "1187059002",
+      "display" : "Smartphone"
+    }],
+    "text" : "Smartphone"
+  }
+}

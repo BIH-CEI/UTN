@@ -1,0 +1,58 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://utn/consentresource.com/Provenance/Example-UTN-Consent-Provenance-Forschungsvorhaben> a fhir:Provenance ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Example-UTN-Consent-Provenance-Forschungsvorhaben"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://utn/consentresource.com/StructureDefinition/consent-management-provenance"^^xsd:anyURI ;
+       fhir:link <http://utn/consentresource.com/StructureDefinition/consent-management-provenance>
+     ] [
+       fhir:v "http://fhir.de/ConsentManagement/StructureDefinition/Provenance"^^xsd:anyURI ;
+       fhir:link <http://fhir.de/ConsentManagement/StructureDefinition/Provenance>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Provenance Example-UTN-Consent-Provenance-Forschungsvorhaben</b></p><a name=\"Example-UTN-Consent-Provenance-Forschungsvorhaben\"> </a><a name=\"hcExample-UTN-Consent-Provenance-Forschungsvorhaben\"> </a><a name=\"Example-UTN-Consent-Provenance-Forschungsvorhaben-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"StructureDefinition-consent-management-provenance.html\">UTN Consent Management Provenance</a>, <a href=\"https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.consent@1.0.7&amp;canonical=http://fhir.de/ConsentManagement/StructureDefinition/Provenance\">Consent Management Provenance</a></p></div><p>Provenance for <a href=\"https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.consent@1.0.7&amp;canonical=de.medizininformatikinitiative.kerndatensatz.consent/UtnConsentForschungsvorhaben\">UtnConsentForschungsvorhaben</a></p><p>Summary</p><table class=\"grid\"><tr><td>Recorded</td><td>2024-07-24 09:00:00+0000</td></tr><tr><td>Location</td><td><a href=\"Location-UTNLocation.html\">Location Berlin</a></td></tr></table><p><b>Agents</b></p><table class=\"grid\"><tr><td><b>who</b></td></tr><tr><td>Klinikum Würzburg</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:target ( [
+     fhir:reference [ fhir:v "UtnConsentForschungsvorhaben" ]
+  ] ) ; # 
+  fhir:recorded [ fhir:v "2024-07-24T09:00:00Z"^^xsd:dateTime] ; # 
+  fhir:location [
+     fhir:link <http://utn/consentresource.com/Location/UTNLocation> ;
+     fhir:reference [ fhir:v "Location/UTNLocation" ]
+  ] ; # 
+  fhir:agent ( [
+     fhir:who [
+       fhir:display [ fhir:v "Klinikum Würzburg" ]
+     ]
+  ] ) ; # 
+  fhir:entity ( [
+     fhir:role [ fhir:v "source" ] ;
+     fhir:what [
+       fhir:reference [ fhir:v "UtnConsentDocumentReferenceForschungsvorhaben" ]
+     ]
+  ] ) ; # 
+  fhir:signature ( [
+     fhir:type ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/ValueSet/signature-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1.2.840.10065.1.12.1.7" ] ;
+       fhir:display [ fhir:v "Consent Signature" ]
+     ] ) ;
+     fhir:when [ fhir:v "2024-07-24T09:00:00Z"^^xsd:dateTime ] ;
+     fhir:who [
+       fhir:link <http://utn/consentresource.com/Patient/consent-management-patient> ;
+       fhir:reference [ fhir:v "Patient/consent-management-patient" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
