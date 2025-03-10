@@ -3,7 +3,7 @@
   "id": "healthcare-service-with-devices",
   "url": "http://utn/consentresource.com/StructureDefinition/healthcare-service-with-devices",
   "name": "HealthcareServiceWithDevices",
-  "title": "Healthcare Service with Devices",
+  "title": "UTN Healthcare Service with Devices",
   "status": "draft",
   "description": "A profile for HealthcareService to include references to non-medical devices used in teleconsultation.",
   "fhirVersion": "4.0.1",

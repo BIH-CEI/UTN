@@ -3,6 +3,7 @@
   "id": "utn-PR-Base-PractitionerRole",
   "url": "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole",
   "name": "UTNPractitionerRole",
+  "title": "UTN Practitioner Role",
   "status": "draft",
   "description": "Dieses Profil bildet eine temporäre Rolle einer behandelnden Person in Bezug zu einer Einrichtung ab.",
   "fhirVersion": "4.0.1",

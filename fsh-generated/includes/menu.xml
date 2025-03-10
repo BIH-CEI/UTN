@@ -13,7 +13,33 @@
   <li>
     <a href="index.html">Home</a>
   </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Implementer Guidance
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="the_specification.html">Specification</a>
+      </li>
+    </ul>
+  </li>
   <li>
-    <a href="artifacts.html">Artifacts</a>
+    <a href="artifacts.html">FHIR Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Instances
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="meta_instances.html">Meta Instances</a>
+      </li>
+      <li>
+        <a href="consent_instances.html">Consent Instances</a>
+      </li>
+      <li>
+        <a href="observation_instances.html">Observation Instances</a>
+      </li>
+    </ul>
   </li>
 </ul>

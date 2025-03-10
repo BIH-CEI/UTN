@@ -4,6 +4,8 @@ Id: utn-observation-arterieller-blutdruck
 Title: "UTN Observation Arterieller Blutdruck"
 Description: "Profile for documenting arterial blood pressure observations within UTN."
 
+* performer MS
+/*
 // Category (Vital Signs)
 * category MS
 
@@ -90,3 +92,4 @@ Description: "Profile for documenting arterial blood pressure observations withi
 * component[meanBP].value[x].code = #"mm[Hg]"
 * component[meanBP].dataAbsentReason MS
 
+*/

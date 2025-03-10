@@ -1,6 +1,7 @@
 Profile: UTNHerzfrequenz
 Parent: ISiKHerzfrequenz
 Id: isik-herzfrequenz
+Title: "UTN Observation Herzfrequenz Profile"
 
 * status MS
 * category MS

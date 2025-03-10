@@ -3,6 +3,7 @@
   "id": "utn-isik-atemfrequenz",
   "url": "http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz",
   "name": "UTNAtemfrequenz",
+  "title": "UTN Observation Atemfrequenz Profile",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",

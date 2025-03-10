@@ -3,7 +3,7 @@
   "id": "isik-koerpergewicht",
   "url": "http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht",
   "name": "UTNKoerpergewicht",
-  "title": "ISiK Koerpergewicht",
+  "title": "UTN Observation Koerpergewicht Profile",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",

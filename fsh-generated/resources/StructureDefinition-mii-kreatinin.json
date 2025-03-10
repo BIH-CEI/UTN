@@ -3,7 +3,7 @@
   "id": "mii-kreatinin",
   "url": "http://utn/consentresource.com/StructureDefinition/mii-kreatinin",
   "name": "UTNKreatinin",
-  "title": "MII PR Labor Laboruntersuchung-Kreatinin",
+  "title": "UTN Laboruntersuchung-Kreatinin",
   "status": "draft",
   "description": "Dieses Profil beschreibt eine Laborergebnis in der Medizininformatik-Initiative.",
   "fhirVersion": "4.0.1",

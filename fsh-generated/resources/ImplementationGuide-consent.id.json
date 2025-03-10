@@ -4,6 +4,7 @@
   "url": "http://utn/consentresource.com/ImplementationGuide/consent.id",
   "version": "0.1.0",
   "name": "UTNConsentResource",
+  "title": "University Telemedicine Network (UTN) FHIR Implementation Guide",
   "status": "draft",
   "publisher": "BIH-CEI",
   "contact": [
@@ -80,44 +81,6 @@
         "name": "Camera Device",
         "description": "An HD camera used for teleconsultation",
         "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/consent-management-provenance"
-        },
-        "name": "Consent Management Provenance",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/profile-consent-management-questionnaireresponse"
-        },
-        "name": "Consent Management QuestionnaireResponse",
-        "description": "Der ausgefüllte Fragebogen zur Einwilligung.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/consent-management-patient"
-        },
-        "name": "Consent Management: Patient",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/utn-consent-documentreference-id"
-        },
-        "name": "Consent: Document Reference",
-        "description": "Dies ist das DocumentReference für Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/utn-consent-id"
-        },
-        "name": "Consent: Forschungsvorhaben and Videosprechstunde",
-        "description": "Dies ist das Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation",
-        "exampleBoolean": false
       },
       {
         "reference": {
@@ -214,21 +177,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/healthcare-service-with-devices"
-        },
-        "name": "Healthcare Service with Devices",
-        "description": "A profile for HealthcareService to include references to non-medical devices used in teleconsultation.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/isik-koerpergewicht"
-        },
-        "name": "ISiK Koerpergewicht",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "Observation/Example-UTNAtemfrequenz"
         },
         "name": "ISiKAtemfrequenz Example",
@@ -251,14 +199,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-kreatinin"
-        },
-        "name": "MII PR Labor Laboruntersuchung-Kreatinin",
-        "description": "Dieses Profil beschreibt eine Laborergebnis in der Medizininformatik-Initiative.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "Device/phone-1"
         },
         "name": "Phone Device",
@@ -275,6 +215,53 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/utn-consent-documentreference-id"
+        },
+        "name": "UTN Consent Document Reference",
+        "description": "Dies ist das DocumentReference für Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/utn-consent-id"
+        },
+        "name": "UTN Consent Forschungsvorhaben and Videosprechstunde",
+        "description": "Dies ist das Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/consent-management-provenance"
+        },
+        "name": "UTN Consent Management Provenance",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/profile-consent-management-questionnaireresponse"
+        },
+        "name": "UTN Consent Management QuestionnaireResponse",
+        "description": "Der ausgefüllte Fragebogen zur Einwilligung.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/healthcare-service-with-devices"
+        },
+        "name": "UTN Healthcare Service with Devices",
+        "description": "A profile for HealthcareService to include references to non-medical devices used in teleconsultation.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-kreatinin"
+        },
+        "name": "UTN Laboruntersuchung-Kreatinin",
+        "description": "Dieses Profil beschreibt eine Laborergebnis in der Medizininformatik-Initiative.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/utn-observation-arterieller-blutdruck"
         },
         "name": "UTN Observation Arterieller Blutdruck",
@@ -285,21 +272,51 @@
         "reference": {
           "reference": "StructureDefinition/utn-isik-atemfrequenz"
         },
-        "name": "UTNAtemfrequenz",
+        "name": "UTN Observation Atemfrequenz Profile",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/isik-herzfrequenz"
         },
-        "name": "UTNHerzfrequenz",
+        "name": "UTN Observation Herzfrequenz Profile",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/isik-koerpertemperatur"
         },
-        "name": "UTNKoerperTemperatur",
+        "name": "UTN Observation Koerper Temperatur Profile",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/isik-koerpergewicht"
+        },
+        "name": "UTN Observation Koerpergewicht Profile",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/consent-management-patient"
+        },
+        "name": "UTN Patient",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/KBV-PR-Base-Practitioner"
+        },
+        "name": "UTN Practitioner",
+        "description": "Dieses Profil bildet eine behandelnde Person ab.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/utn-PR-Base-PractitionerRole"
+        },
+        "name": "UTN Practitioner Role",
+        "description": "Dieses Profil bildet eine temporäre Rolle einer behandelnden Person in Bezug zu einer Einrichtung ab.",
         "exampleBoolean": false
       },
       {
@@ -308,22 +325,6 @@
         },
         "name": "UTNLocation",
         "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/KBV-PR-Base-Practitioner"
-        },
-        "name": "UTNPractitioner",
-        "description": "Dieses Profil bildet eine behandelnde Person ab.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/utn-PR-Base-PractitionerRole"
-        },
-        "name": "UTNPractitionerRole",
-        "description": "Dieses Profil bildet eine temporäre Rolle einer behandelnden Person in Bezug zu einer Einrichtung ab.",
-        "exampleBoolean": false
       }
     ],
     "page": {
@@ -334,6 +335,26 @@
         {
           "nameUrl": "index.html",
           "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "the_specification.html",
+          "title": "Specification",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "meta_instances.html",
+          "title": "Meta Instances",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "consent_instances.html",
+          "title": "Consent Instances",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "observation_instances.html",
+          "title": "Observation Instances",
           "generation": "markdown"
         }
       ]

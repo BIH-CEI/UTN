@@ -6,7 +6,7 @@
 id: consent.id
 canonical: "http://utn/consentresource.com"
 name: UTN Consent Resource
-# title: Example Title
+title: University Telemedicine Network (UTN) FHIR Implementation Guide
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
 version: 0.1.0
@@ -66,14 +66,19 @@ dependencies:
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 #
-# pages:
-#   index.md:
-#     title: Example Home
-#   implementation.xml:
-#   examples.xml:
-#     title: Examples Overview
-#     simpleExamples.xml:
-#     complexExamples.xml:
+pages:
+  index.md:
+    title: Home
+  the_specification.md:
+    title: Specification
+  meta_instances.md:
+    title: Meta Instances
+  consent_instances.md:
+    title: Consent Instances
+  observation_instances.md:
+    title: Observation Instances
+
+
 #
 #
 # The parameters property represents IG.definition.parameter. Rather
@@ -94,12 +99,19 @@ dependencies:
 # │ as a simple structure where the YAML key is the menu item name and the value is the URL.       │
 # │ The IG publisher currently only supports one level deep on sub-menus. To provide a             │
 # │ custom menu.xml file, do not include this property and include a `menu.xml` file in            │
-# │ input/includes. To use a provided input/includes/menu.xml file, delete the "menu"              │
+# │ input/includes. To use a provided input//menu.xml filincludese, delete the "menu"              │
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Artifacts: artifacts.html
+  Implementer Guidance: 
+    Specification: the_specification.html
+  FHIR Artifacts: artifacts.html
+  Instances:
+    Meta Instances: meta_instances.html
+    Consent Instances: consent_instances.html
+    Observation Instances: observation_instances.html
+  
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

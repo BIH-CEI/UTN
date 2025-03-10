@@ -3,10 +3,7 @@
   "id": "ISiKKoerpergewichtExample",
   "meta": {
     "profile": [
-      "http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht",
-      "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpergewicht",
-      "http://hl7.org/fhir/StructureDefinition/bodyweight",
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht"
+      "http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht"
     ]
   },
   "category": [
@@ -30,18 +27,8 @@
   "code": {
     "coding": [
       {
-        "system": "urn:iso:std:iso:11073:10101",
-        "code": "188736",
-        "display": "MDC_MASS_BODY_ACTUAL"
-      },
-      {
-        "code": "29463-7",
         "system": "http://loinc.org",
-        "display": "Body weight"
-      },
-      {
-        "code": "27113001",
-        "system": "http://snomed.info/sct",
+        "code": "29463-7",
         "display": "Body weight"
       }
     ],
@@ -49,7 +36,7 @@
   },
   "performer": [
     {
-      "reference": "Practitioner/1"
+      "reference": "Example-UTN-Practitioner"
     }
   ],
   "valueQuantity": {

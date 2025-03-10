@@ -1,7 +1,7 @@
 Profile: UTNConsent
 Parent: MII_PR_Consent_Einwilligung
 Id: utn-consent-id
-Title: "Consent: Forschungsvorhaben and Videosprechstunde"
+Title: "UTN Consent Forschungsvorhaben and Videosprechstunde"
 Description: "Dies ist das Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation"
 
 * id MS

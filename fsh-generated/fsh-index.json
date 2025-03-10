@@ -69,7 +69,7 @@
     "fshType": "Instance",
     "fshFile": "Instances/Parameters/Example-UTN-KoerperTemperatur.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 13
   },
   {
     "outputFile": "Observation-Example-UTN-Observation-Arterieller-Blutdruck.json",
@@ -101,7 +101,7 @@
     "fshType": "Instance",
     "fshFile": "Instances/Parameters/Example-UTN-Herzfrequenz.fsh",
     "startLine": 1,
-    "endLine": 18
+    "endLine": 16
   },
   {
     "outputFile": "Observation-ISiKKoerpergewichtExample.json",
@@ -109,7 +109,7 @@
     "fshType": "Instance",
     "fshFile": "Instances/Parameters/Example-UTN-KoerperGewicht.fsh",
     "startLine": 1,
-    "endLine": 17
+    "endLine": 15
   },
   {
     "outputFile": "Patient-consent-management-patient.json",
@@ -157,7 +157,7 @@
     "fshType": "Profile",
     "fshFile": "Profiles/Meta/Profile-Practitioner.fsh",
     "startLine": 1,
-    "endLine": 28
+    "endLine": 29
   },
   {
     "outputFile": "StructureDefinition-consent-management-patient.json",
@@ -189,7 +189,7 @@
     "fshType": "Profile",
     "fshFile": "Profiles/Meta/Profile-HealthcareService.fsh",
     "startLine": 8,
-    "endLine": 23
+    "endLine": 24
   },
   {
     "outputFile": "StructureDefinition-isik-herzfrequenz.json",
@@ -197,7 +197,7 @@
     "fshType": "Profile",
     "fshFile": "Profiles/Parameters/Profile-ICU-Herzfrequenz.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 21
   },
   {
     "outputFile": "StructureDefinition-isik-koerpergewicht.json",
@@ -213,7 +213,7 @@
     "fshType": "Profile",
     "fshFile": "Profiles/Parameters/Profile-KoerperTemperatur.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 21
   },
   {
     "outputFile": "StructureDefinition-mii-kreatinin.json",
@@ -237,7 +237,7 @@
     "fshType": "Profile",
     "fshFile": "Profiles/Meta/Profile-PractitionerRole.fsh",
     "startLine": 1,
-    "endLine": 21
+    "endLine": 22
   },
   {
     "outputFile": "StructureDefinition-utn-consent-documentreference-id.json",
@@ -245,7 +245,7 @@
     "fshType": "Profile",
     "fshFile": "Profiles/Consent/Profile-DocumentReference.fsh",
     "startLine": 1,
-    "endLine": 12
+    "endLine": 13
   },
   {
     "outputFile": "StructureDefinition-utn-consent-id.json",
@@ -261,7 +261,7 @@
     "fshType": "Profile",
     "fshFile": "Profiles/Parameters/Profile-Isik-Atemfrequenz.fsh",
     "startLine": 1,
-    "endLine": 19
+    "endLine": 20
   },
   {
     "outputFile": "StructureDefinition-utn-observation-arterieller-blutdruck.json",
@@ -269,6 +269,6 @@
     "fshType": "Profile",
     "fshFile": "Profiles/Parameters/Profile-Systolisch-Diastolisch.fsh",
     "startLine": 1,
-    "endLine": 91
+    "endLine": 7
   }
 ]

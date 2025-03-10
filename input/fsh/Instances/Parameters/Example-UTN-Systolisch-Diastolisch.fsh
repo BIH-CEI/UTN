@@ -8,13 +8,13 @@ Usage: #example
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs
 * status = #final
 // Code (LOINC & SNOMED)
-* code.coding[LOINC].system = "http://loinc.org"
-* code.coding[LOINC].code = #85354-9
-* code.coding[LOINC].display = "Blood pressure panel"
-* code.coding[SCT].system = "http://snomed.info/sct"
-* code.coding[SCT].version = "http://snomed.info/sct/900000000000207008/version/20241101"
-* code.coding[SCT].code = #364090009
-* code.coding[SCT].display = "Arterial blood pressure"
+* code.coding[loinc].system = "http://loinc.org"
+* code.coding[loinc].code = #85354-9
+* code.coding[loinc].display = "Blood pressure panel"
+* code.coding[sct].system = "http://snomed.info/sct"
+* code.coding[sct].version = "http://snomed.info/sct/900000000000207008/version/20241101"
+* code.coding[sct].code = #364090009
+* code.coding[sct].display = "Arterial blood pressure"
 
 // Subject and Metadata
 * subject = Reference(Patient/example)

@@ -3,7 +3,7 @@
   "id": "consent-management-patient",
   "url": "http://utn/consentresource.com/StructureDefinition/consent-management-patient",
   "name": "ConsentManagementPatient",
-  "title": "Consent Management: Patient",
+  "title": "UTN Patient",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",

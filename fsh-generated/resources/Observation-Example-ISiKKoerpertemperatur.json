@@ -3,10 +3,7 @@
   "id": "Example-ISiKKoerpertemperatur",
   "meta": {
     "profile": [
-      "http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur",
-      "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpertemperatur",
-      "http://hl7.org/fhir/StructureDefinition/bodytemp",
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur"
+      "http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur"
     ]
   },
   "category": [

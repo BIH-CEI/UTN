@@ -1,6 +1,7 @@
 Profile: UTNPractitionerRole
 Parent: KBV_PR_Base_PractitionerRole
 Id: utn-PR-Base-PractitionerRole
+Title: "UTN Practitioner Role"
 Description: "Dieses Profil bildet eine temporäre Rolle einer behandelnden Person in Bezug zu einer Einrichtung ab."
 
 * practitioner 1..1

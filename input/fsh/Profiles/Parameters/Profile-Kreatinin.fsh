@@ -1,7 +1,7 @@
 Profile: UTNKreatinin
 Parent: MII_PR_Labor_Laboruntersuchung
 Id: mii-kreatinin
-Title: "MII PR Labor Laboruntersuchung-Kreatinin"
+Title: "UTN Laboruntersuchung-Kreatinin"
 Description: "Dieses Profil beschreibt eine Laborergebnis in der Medizininformatik-Initiative."
 
 * id MS

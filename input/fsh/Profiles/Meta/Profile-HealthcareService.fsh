@@ -8,8 +8,9 @@ Description: "Extension to reference devices in a HealthcareService"
 Profile: HealthcareServiceWithDevices
 Parent: HealthcareService
 Id: healthcare-service-with-devices
-Title: "Healthcare Service with Devices"
+Title: "UTN Healthcare Service with Devices"
 Description: "A profile for HealthcareService to include references to non-medical devices used in teleconsultation."
+
 * id 0..1
 * active 0..1
 * providedBy 0..1

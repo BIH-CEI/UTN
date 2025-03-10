@@ -1,7 +1,7 @@
 Profile: ConsentManagementProvenance
 Parent: MII_PR_Consent_Provenance
 Id: consent-management-provenance
-Title: "Consent Management Provenance"
+Title: "UTN Consent Management Provenance"
 * target only Reference($QuestionnaireResponse or $Consent)
 * target MS
 * target.reference 1.. MS N

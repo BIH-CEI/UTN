@@ -3,7 +3,7 @@
   "id": "profile-consent-management-questionnaireresponse",
   "url": "http://utn/consentresource.com/StructureDefinition/profile-consent-management-questionnaireresponse",
   "name": "ConsentManagementQuestionnaireResponseUKW",
-  "title": "Consent Management QuestionnaireResponse",
+  "title": "UTN Consent Management QuestionnaireResponse",
   "status": "draft",
   "description": "Der ausgefüllte Fragebogen zur Einwilligung.",
   "fhirVersion": "4.0.1",

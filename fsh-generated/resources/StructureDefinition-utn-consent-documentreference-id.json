@@ -3,7 +3,7 @@
   "id": "utn-consent-documentreference-id",
   "url": "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id",
   "name": "UTNDocumentReference",
-  "title": "Consent: Document Reference",
+  "title": "UTN Consent Document Reference",
   "status": "draft",
   "description": "Dies ist das DocumentReference für Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation",
   "fhirVersion": "4.0.1",

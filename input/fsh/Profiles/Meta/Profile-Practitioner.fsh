@@ -1,6 +1,7 @@
 Profile: UTNPractitioner
 Parent: KBV_PR_Base_Practitioner
 Id: KBV-PR-Base-Practitioner
+Title: "UTN Practitioner"
 Description: "Dieses Profil bildet eine behandelnde Person ab."
 
 

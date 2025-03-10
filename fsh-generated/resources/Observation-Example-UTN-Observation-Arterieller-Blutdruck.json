@@ -33,17 +33,9 @@
       },
       {
         "version": "http://snomed.info/sct/900000000000207008/version/20241101",
+        "system": "http://snomed.info/sct",
         "code": "364090009",
-        "system": "http://snomed.info/sct",
         "display": "Arterial blood pressure"
-      },
-      {
-        "system": "http://loinc.org",
-        "code": "85354-9"
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "code": "364090009"
       }
     ]
   },
@@ -52,78 +44,78 @@
       "code": {
         "coding": [
           {
+            "system": "http://loinc.org",
             "code": "8480-6",
-            "system": "http://loinc.org",
             "display": "Systolic blood pressure"
           },
           {
+            "system": "http://snomed.info/sct",
             "code": "271649006",
-            "system": "http://snomed.info/sct",
             "display": "Systolic blood pressure"
           },
           {
-            "code": "150017",
-            "system": "urn:iso:std:iso:11073:10101"
+            "system": "urn:iso:std:iso:11073:10101",
+            "code": "150017"
           }
         ]
       },
       "valueQuantity": {
-        "unit": "mmHg",
         "system": "http://unitsofmeasure.org",
         "code": "mm[Hg]",
-        "value": 120
+        "value": 120,
+        "unit": "mmHg"
       }
     },
     {
       "code": {
         "coding": [
           {
+            "system": "http://loinc.org",
             "code": "8462-4",
-            "system": "http://loinc.org",
             "display": "Diastolic blood pressure"
           },
           {
-            "code": "271650006",
             "system": "http://snomed.info/sct",
+            "code": "271650006",
             "display": "Diastolic blood pressure"
           },
           {
-            "code": "150018",
-            "system": "urn:iso:std:iso:11073:10101"
+            "system": "urn:iso:std:iso:11073:10101",
+            "code": "150018"
           }
         ]
       },
       "valueQuantity": {
-        "unit": "mmHg",
         "system": "http://unitsofmeasure.org",
         "code": "mm[Hg]",
-        "value": 80
+        "value": 80,
+        "unit": "mmHg"
       }
     },
     {
       "code": {
         "coding": [
           {
-            "code": "8478-0",
             "system": "http://loinc.org",
+            "code": "8478-0",
             "display": "Mean blood pressure"
           },
           {
-            "code": "6797001",
             "system": "http://snomed.info/sct",
+            "code": "6797001",
             "display": "Mean blood pressure"
           },
           {
-            "code": "150019",
-            "system": "urn:iso:std:iso:11073:10101"
+            "system": "urn:iso:std:iso:11073:10101",
+            "code": "150019"
           }
         ]
       },
       "valueQuantity": {
-        "unit": "mmHg",
         "system": "http://unitsofmeasure.org",
         "code": "mm[Hg]",
-        "value": 93
+        "value": 93,
+        "unit": "mmHg"
       }
     }
   ],
