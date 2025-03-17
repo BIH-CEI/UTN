@@ -1,0 +1,167 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://utn/consentresource.com/Practitioner/Example-UTNPractitioner> a fhir:Practitioner ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Example-UTNPractitioner"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"^^xsd:anyURI ;
+       fhir:link <http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner>
+     ] [
+       fhir:v "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner"^^xsd:anyURI ;
+       fhir:link <https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner Example-UTNPractitioner</b></p><a name=\"Example-UTNPractitioner\"> </a><a name=\"hcExample-UTNPractitioner\"> </a><a name=\"Example-UTNPractitioner-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"StructureDefinition-KBV-PR-Base-Practitioner.html\">UTN Practitioner</a>, <a href=\"https://simplifier.net/resolve?scope=kbv.basis@1.7.0&amp;canonical=https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner\">KBV_PR_Base_Practitioner</a></p></div><p><b>identifier</b>: Lifelong physician number/123456789, Doctor number/123456789123456, Provider number/123456789</p><p><b>name</b>: Hans Topp-Glücklich(Official), Hans Glücklich(Name changed for Marriage)</p><p><b>telecom</b>: ph: 06151/1111111</p><p><b>address</b>: </p><ul><li>Musterstr. 1 Darmstadt 64283 D </li><li>124xx Berlin 15457 D </li></ul><p><b>gender</b>: Other</p><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 309343006}\">Physician (occupation)</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes:{http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern 011001}\">FA Allgemeinmedizin</span></p></blockquote></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:identifier ( [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LANR" ] ;
+         fhir:display [ fhir:v "Lifelong physician number" ]
+       ] )
+     ] ;
+     fhir:system [ fhir:v "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "123456789" ]
+  ] [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DN" ] ;
+         fhir:display [ fhir:v "Doctor number" ]
+       ] )
+     ] ;
+     fhir:system [ fhir:v "http://fhir.de/sid/bundesaerztekammer/efn"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "123456789123456" ]
+  ] [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "PRN" ] ;
+         fhir:display [ fhir:v "Provider number" ]
+       ] )
+     ] ;
+     fhir:system [ fhir:v "https://gematik.de/fhir/sid/telematik-id"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "123456789" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:text [ fhir:v "Hans Topp-Glücklich" ] ;
+     fhir:family [
+       fhir:v "Topp-Glücklich" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/humanname-own-name"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Topp-Glücklich"
+         ]
+       ] )
+     ] ;
+     fhir:given ( [ fhir:v "Hans" ] ) ;
+     fhir:prefix ( [
+       fhir:v "Dr. med." ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "AC"
+         ]
+       ] )
+     ] )
+  ] [
+     fhir:use [ fhir:v "maiden" ] ;
+     fhir:text [ fhir:v "Hans Glücklich" ] ;
+     fhir:family [
+       fhir:v "Glücklich" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/humanname-own-name"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Glücklich"
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "06151/1111111" ]
+  ] ) ; # 
+  fhir:address ( [
+     fhir:type [ fhir:v "both" ] ;
+     fhir:line ( [
+       fhir:v "Musterstr. 1" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "1"
+         ]
+       ] [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Musterstr."
+         ]
+       ] )
+     ] ) ;
+     fhir:city [ fhir:v "Darmstadt" ] ;
+     fhir:postalCode [ fhir:v "64283" ] ;
+     fhir:country [ fhir:v "D" ]
+  ] [
+     fhir:type [ fhir:v "postal" ] ;
+     fhir:line ( [
+       fhir:v "124xx" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "124xx"
+         ]
+       ] )
+     ] ) ;
+     fhir:city [ fhir:v "Berlin" ] ;
+     fhir:postalCode [ fhir:v "15457" ] ;
+     fhir:country [ fhir:v "D" ]
+  ] ) ; # 
+  fhir:gender [
+     fhir:v "other" ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://fhir.de/StructureDefinition/gender-amtlich-de"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "http://fhir.de/StructureDefinition/gender-amtlich-de"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "D" ]
+       ]
+     ] )
+  ] ; # 
+  fhir:qualification ( [
+     fhir:code [
+       fhir:coding ( [
+         a sct:309343006 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "309343006" ] ;
+         fhir:display [ fhir:v "Physician (occupation)" ]
+       ] )
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "011001" ] ;
+         fhir:display [ fhir:v "FA Allgemeinmedizin" ]
+       ] )
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

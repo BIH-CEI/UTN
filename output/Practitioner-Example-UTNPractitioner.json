@@ -1,0 +1,137 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "Example-UTNPractitioner",
+  "meta" : {
+    "profile" : ["http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner",
+    "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner Example-UTNPractitioner</b></p><a name=\"Example-UTNPractitioner\"> </a><a name=\"hcExample-UTNPractitioner\"> </a><a name=\"Example-UTNPractitioner-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"StructureDefinition-KBV-PR-Base-Practitioner.html\">UTN Practitioner</a>, <a href=\"https://simplifier.net/resolve?scope=kbv.basis@1.7.0&amp;canonical=https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner\">KBV_PR_Base_Practitioner</a></p></div><p><b>identifier</b>: Lifelong physician number/123456789, Doctor number/123456789123456, Provider number/123456789</p><p><b>name</b>: Hans Topp-Glücklich(Official), Hans Glücklich(Name changed for Marriage)</p><p><b>telecom</b>: ph: 06151/1111111</p><p><b>address</b>: </p><ul><li>Musterstr. 1 Darmstadt 64283 D </li><li>124xx Berlin 15457 D </li></ul><p><b>gender</b>: Other</p><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 309343006}\">Physician (occupation)</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: <span title=\"Codes:{http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern 011001}\">FA Allgemeinmedizin</span></p></blockquote></div>"
+  },
+  "identifier" : [{
+    "type" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "code" : "LANR",
+        "display" : "Lifelong physician number"
+      }]
+    },
+    "system" : "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR",
+    "value" : "123456789"
+  },
+  {
+    "type" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "code" : "DN",
+        "display" : "Doctor number"
+      }]
+    },
+    "system" : "http://fhir.de/sid/bundesaerztekammer/efn",
+    "value" : "123456789123456"
+  },
+  {
+    "type" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "code" : "PRN",
+        "display" : "Provider number"
+      }]
+    },
+    "system" : "https://gematik.de/fhir/sid/telematik-id",
+    "value" : "123456789"
+  }],
+  "name" : [{
+    "use" : "official",
+    "text" : "Hans Topp-Glücklich",
+    "family" : "Topp-Glücklich",
+    "_family" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+        "valueString" : "Topp-Glücklich"
+      }]
+    },
+    "given" : ["Hans"],
+    "prefix" : ["Dr. med."],
+    "_prefix" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+        "valueCode" : "AC"
+      }]
+    }]
+  },
+  {
+    "use" : "maiden",
+    "text" : "Hans Glücklich",
+    "family" : "Glücklich",
+    "_family" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+        "valueString" : "Glücklich"
+      }]
+    }
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "06151/1111111"
+  }],
+  "address" : [{
+    "type" : "both",
+    "line" : ["Musterstr. 1"],
+    "_line" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+        "valueString" : "1"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+        "valueString" : "Musterstr."
+      }]
+    }],
+    "city" : "Darmstadt",
+    "postalCode" : "64283",
+    "country" : "D"
+  },
+  {
+    "type" : "postal",
+    "line" : ["124xx"],
+    "_line" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox",
+        "valueString" : "124xx"
+      }]
+    }],
+    "city" : "Berlin",
+    "postalCode" : "15457",
+    "country" : "D"
+  }],
+  "gender" : "other",
+  "_gender" : {
+    "extension" : [{
+      "url" : "http://fhir.de/StructureDefinition/gender-amtlich-de",
+      "valueCoding" : {
+        "system" : "http://fhir.de/StructureDefinition/gender-amtlich-de",
+        "code" : "D"
+      }
+    }]
+  },
+  "qualification" : [{
+    "code" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "309343006",
+        "display" : "Physician (occupation)"
+      }]
+    }
+  },
+  {
+    "code" : {
+      "coding" : [{
+        "system" : "http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern",
+        "code" : "011001",
+        "display" : "FA Allgemeinmedizin"
+      }]
+    }
+  }]
+}

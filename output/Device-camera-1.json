@@ -1,0 +1,41 @@
+{
+  "resourceType" : "Device",
+  "id" : "camera-1",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Device camera-1</b></p><a name=\"camera-1\"> </a><a name=\"hccamera-1\"> </a><a name=\"camera-1-en-US\"> </a><p><b>identifier</b>: <code>http://example.org/devices</code>/camera-123</p><p><b>status</b>: Active</p><p><b>manufacturer</b>: Example Camera Manufacturer</p><h3>DeviceNames</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style=\"display: none\">*</td><td>HD Camera</td><td>User Friendly name</td></tr></table><p><b>type</b>: <span title=\"Codes:{http://snomed.info/sct 14364002}\">HD Camera</span></p><h3>Properties</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>ValueQuantity</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://example.org/device-properties resolution}\">Resolution</span></td><td>1080 p<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codep = 'p')</span></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "system" : "http://example.org/devices",
+    "value" : "camera-123"
+  }],
+  "status" : "active",
+  "manufacturer" : "Example Camera Manufacturer",
+  "deviceName" : [{
+    "name" : "HD Camera",
+    "type" : "user-friendly-name"
+  }],
+  "type" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "14364002",
+      "display" : "Camera"
+    }],
+    "text" : "HD Camera"
+  },
+  "property" : [{
+    "type" : {
+      "coding" : [{
+        "system" : "http://example.org/device-properties",
+        "code" : "resolution",
+        "display" : "Resolution"
+      }]
+    },
+    "valueQuantity" : [{
+      "value" : 1080,
+      "unit" : "p",
+      "system" : "http://unitsofmeasure.org",
+      "code" : "p"
+    }]
+  }]
+}

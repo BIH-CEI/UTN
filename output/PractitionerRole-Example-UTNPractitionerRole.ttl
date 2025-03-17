@@ -1,0 +1,51 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://utn/consentresource.com/PractitionerRole/Example-UTNPractitionerRole> a fhir:PractitionerRole ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Example-UTNPractitionerRole"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"^^xsd:anyURI ;
+       fhir:link <http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole>
+     ] [
+       fhir:v "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_PractitionerRole"^^xsd:anyURI ;
+       fhir:link <https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_PractitionerRole>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole Example-UTNPractitionerRole</b></p><a name=\"Example-UTNPractitionerRole\"> </a><a name=\"hcExample-UTNPractitionerRole\"> </a><a name=\"Example-UTNPractitionerRole-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"StructureDefinition-utn-PR-Base-PractitionerRole.html\">UTN Practitioner Role</a>, <a href=\"https://simplifier.net/resolve?scope=kbv.basis@1.7.0&amp;canonical=https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_PractitionerRole\">KBV_PR_Base_PractitionerRole</a></p></div><p><b>practitioner</b>: <a href=\"https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.consent@1.0.7&amp;canonical=de.medizininformatikinitiative.kerndatensatz.consent/Practitioner/20597e0e-cb2a-45b3-95f0-dc3dbdb617c3\">Practitioner/20597e0e-cb2a-45b3-95f0-dc3dbdb617c3</a></p><p><b>organization</b>: Identifier: <code>http://fhir.de/NamingSystem/asv/teamnummer</code>/001234566</p><p><b>code</b>: <span title=\"Codes:{https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Role_Care AD}\">Ärztliche(r) DirektorIn</span></p><p><b>specialty</b>: <span title=\"Codes:{https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BAR2_ARZTNRFACHGRUPPE 01}\">Allgemeinmedizin</span></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:practitioner [
+     fhir:link <http://utn/consentresource.com/Practitioner/20597e0e-cb2a-45b3-95f0-dc3dbdb617c3> ;
+     fhir:reference [ fhir:v "Practitioner/20597e0e-cb2a-45b3-95f0-dc3dbdb617c3" ]
+  ] ; # 
+  fhir:organization [
+     fhir:identifier [
+       fhir:system [ fhir:v "http://fhir.de/NamingSystem/asv/teamnummer"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "001234566" ]
+     ]
+  ] ; # 
+  fhir:code ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Role_Care"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "AD" ] ;
+       fhir:display [ fhir:v "Ärztliche(r) DirektorIn" ]
+     ] )
+  ] ) ; # 
+  fhir:specialty ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BAR2_ARZTNRFACHGRUPPE"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "01" ] ;
+       fhir:display [ fhir:v "Allgemeinmedizin" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
