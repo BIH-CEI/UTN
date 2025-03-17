@@ -14,6 +14,14 @@ Our project aims to create a framework for a university telemedicine network (UT
 
 ### Use Cases
 
+{% include img.html img="utn_infrastructure.png" caption="Figure 1: UTN Work Package Structure" %}
+
+#### Intensive Care Unit
+
+#### Tele Consultation
+
+#### Mental Health
+
 ### Authors
 
 - Rasim Atakan Poyraz 

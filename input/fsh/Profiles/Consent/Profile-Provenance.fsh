@@ -21,5 +21,3 @@ Title: "UTN Consent Management Provenance"
 * signature.type.code 1.. MS N
 * signature.when MS N
 * signature.who MS
-
-

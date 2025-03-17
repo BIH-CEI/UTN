@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<Location xmlns="http://hl7.org/fhir">
-  <id value="UTNLocation"/>
-  <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Location UTNLocation</b></p><a name="UTNLocation"> </a><a name="hcUTNLocation"> </a><a name="UTNLocation-en-US"> </a><p><b>name</b>: Berlin</p></div>
-  </text>
-  <name value="Berlin"/>
-</Location>

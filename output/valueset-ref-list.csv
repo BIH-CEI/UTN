@@ -1,4 +1,0 @@
-URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
-http://fhir.de/ConsentManagement/ValueSet/ContextIdentifierType,1.0.1,active,,ConsentManagementContextIdentifierType,,"","StructureDefinition/consent-management-patient","THO (V2),de.basisprofil.r4"
-http://hl7.org/fhir/uv/ips/ValueSet/results-laboratory-observations-uv-ips,1.1.0,active,,ResultsLaboratoryObservationUvIps,Results Laboratory Observation - IPS,"Value Set Definition: LOINC {STATUS in {ACTIVE}, CLASSTYPE in {1}, CLASS exclude {CHALSKIN, H&P.HX.LAB, LABORDERS, NR STATS, PATH, PATH.\*, MOLPATH, MOLPATH.\*, CYTO, HL7.CYTOGEN, HL7.GENETICS}}","StructureDefinition/mii-kreatinin","LOINC"
-https://fhir.kbv.de/ValueSet/KBV_VS_Base_Practitioner_Speciality,1.7.0,active,,KBV_VS_Base_Practitioner_Speciality,Practitioner Speciality,"Dieses Valueset enthält die Codes zur Beschreibung von Practitioner Speciality.","StructureDefinition/KBV-PR-Base-Practitioner",
