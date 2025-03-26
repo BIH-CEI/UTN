@@ -1,4 +1,4 @@
-Instance: ISiKHerzfrequenzExample
+Instance: Example-UTNHerzfrequenz
 InstanceOf: UTNHerzfrequenz
 Usage: #example
 

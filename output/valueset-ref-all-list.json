@@ -25,11 +25,11 @@
       "systems" : ["http://unitsofmeasure.org"],
       "uses" : {
       },
-      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
+      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Herzfrequenz Profile",
       "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
-      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
+      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
       "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
-      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Herzfrequenz Profile"
+      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile"
     },
     {
       "url" : "http://fhir.de/ValueSet/VitalSignDE-Atemfrequenz-SNOMED-CT",
@@ -94,8 +94,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "StructureDefinition-KBV-PR-Base-Practitioner.html" : "UTN Practitioner",
-      "StructureDefinition-consent-management-patient.html" : "UTN Patient"
+      "StructureDefinition-consent-management-patient.html" : "UTN Patient",
+      "StructureDefinition-KBV-PR-Base-Practitioner.html" : "UTN Practitioner"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/body-site",
@@ -109,11 +109,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
-      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
-      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
       "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Herzfrequenz Profile",
+      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
+      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
+      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
+      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
       "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin"
     },
     {
@@ -156,9 +156,23 @@
       "sources" : ["2.16.840.1.113883.3.88.12.80.72"],
       "uses" : {
       },
-      "StructureDefinition-utn-PR-Base-PractitionerRole.html" : "UTN Practitioner Role",
       "StructureDefinition-healthcare-service-with-devices.html" : "UTN Healthcare Service with Devices",
+      "StructureDefinition-utn-PR-Base-PractitionerRole.html" : "UTN Practitioner Role",
       "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTClinicalFindings",
+      "title" : "SNOMED CT Clinical Findings",
+      "description" : "This value set includes all the \"Clinical finding\" [SNOMED CT](http://snomed.info/sct) codes - concepts where concept is-a 404684003 (Clinical finding (finding)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.232"],
+      "sources" : ["2.16.840.1.113883.4.642.3.232"],
+      "uses" : {
+      },
+      "StructureDefinition-utn-diagnostik-report.html" : "UTNDiagnostikReport"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/common-tags",
@@ -336,11 +350,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.5"],
       "uses" : {
       },
-      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
-      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
-      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
       "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Herzfrequenz Profile",
+      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
+      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
+      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
+      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
       "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin"
     },
     {
@@ -355,8 +369,36 @@
       "sources" : ["2.16.840.1.113883.4.642.3.512"],
       "uses" : {
       },
-      "StructureDefinition-utn-PR-Base-PractitionerRole.html" : "UTN Practitioner Role",
-      "StructureDefinition-healthcare-service-with-devices.html" : "UTN Healthcare Service with Devices"
+      "StructureDefinition-healthcare-service-with-devices.html" : "UTN Healthcare Service with Devices",
+      "StructureDefinition-utn-PR-Base-PractitionerRole.html" : "UTN Practitioner Role"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/diagnostic-report-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DiagnosticReportStatus",
+      "title" : "DiagnosticReportStatus",
+      "description" : "The status of the diagnostic report.",
+      "systems" : ["http://hl7.org/fhir/diagnostic-report-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.235"],
+      "sources" : ["2.16.840.1.113883.4.642.3.235"],
+      "uses" : {
+      },
+      "StructureDefinition-utn-diagnostik-report.html" : "UTNDiagnostikReport"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/diagnostic-service-sections",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DiagnosticServiceSectionCodes",
+      "title" : "Diagnostic Service Section Codes",
+      "description" : "This value set includes all the codes in HL7 V2 table 0074.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0074"],
+      "oids" : ["2.16.840.1.113883.4.642.3.234"],
+      "sources" : ["2.16.840.1.113883.4.642.3.234"],
+      "uses" : {
+      },
+      "StructureDefinition-utn-diagnostik-report.html" : "UTNDiagnostikReport"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/document-classcodes",
@@ -426,8 +468,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-KBV-PR-Base-Practitioner.html" : "UTN Practitioner",
-      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde"
+      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde",
+      "StructureDefinition-KBV-PR-Base-Practitioner.html" : "UTN Practitioner"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -441,9 +483,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-KBV-PR-Base-Practitioner.html" : "UTN Practitioner",
-      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde",
       "StructureDefinition-consent-management-patient.html" : "UTN Patient",
+      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde",
+      "StructureDefinition-KBV-PR-Base-Practitioner.html" : "UTN Practitioner",
       "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin"
     },
     {
@@ -458,20 +500,21 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-KBV-PR-Base-Practitioner.html" : "UTN Practitioner",
       "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
-      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
       "StructureDefinition-healthcare-service-with-devices.html" : "UTN Healthcare Service with Devices",
-      "StructureDefinition-profile-consent-management-questionnaireresponse.html" : "UTN Consent Management QuestionnaireResponse",
-      "StructureDefinition-consent-management-provenance.html" : "UTN Consent Management Provenance",
-      "StructureDefinition-consent-management-patient.html" : "UTN Patient",
-      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Herzfrequenz Profile",
-      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
-      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde",
+      "StructureDefinition-utn-diagnostik-report.html" : "UTNDiagnostikReport",
       "StructureDefinition-utn-PR-Base-PractitionerRole.html" : "UTN Practitioner Role",
-      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
+      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde",
+      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
+      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Herzfrequenz Profile",
+      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
+      "StructureDefinition-consent-management-patient.html" : "UTN Patient",
+      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
+      "StructureDefinition-profile-consent-management-questionnaireresponse.html" : "UTN Consent Management QuestionnaireResponse",
+      "StructureDefinition-KBV-PR-Base-Practitioner.html" : "UTN Practitioner",
+      "StructureDefinition-consent-management-provenance.html" : "UTN Consent Management Provenance",
       "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference",
-      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck"
+      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -516,8 +559,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1024"],
       "uses" : {
       },
-      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference",
-      "StructureDefinition-consent-management-provenance.html" : "UTN Consent Management Provenance"
+      "StructureDefinition-consent-management-provenance.html" : "UTN Consent Management Provenance",
+      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/name-part-qualifier",
@@ -562,11 +605,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.403"],
       "uses" : {
       },
-      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
-      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
-      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
       "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Herzfrequenz Profile",
+      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
+      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
+      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
+      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
       "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin"
     },
     {
@@ -581,11 +624,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.396"],
       "uses" : {
       },
-      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
-      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
-      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
       "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Herzfrequenz Profile",
+      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
+      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
+      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
+      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
       "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin"
     },
     {
@@ -602,11 +645,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.399"],
       "uses" : {
       },
-      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
-      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
-      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
       "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Herzfrequenz Profile",
+      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
+      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
+      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
+      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
       "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin"
     },
     {
@@ -621,11 +664,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.395"],
       "uses" : {
       },
-      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
-      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
-      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
       "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Herzfrequenz Profile",
+      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
+      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
+      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
+      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
       "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin"
     },
     {
@@ -640,11 +683,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.400"],
       "uses" : {
       },
-      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
-      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
-      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
       "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Herzfrequenz Profile",
+      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
+      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
+      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
+      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
       "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin"
     },
     {
@@ -767,11 +810,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.59"],
       "uses" : {
       },
-      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
-      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
-      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
       "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Herzfrequenz Profile",
+      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
+      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
+      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
+      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
       "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin"
     },
     {
@@ -817,11 +860,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.407"],
       "uses" : {
       },
-      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
-      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
-      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
       "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Herzfrequenz Profile",
+      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
+      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
+      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
+      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
       "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin"
     },
     {
@@ -838,12 +881,26 @@
       "sources" : ["2.16.840.1.113883.4.642.3.397"],
       "uses" : {
       },
-      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
-      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
-      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
       "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Herzfrequenz Profile",
+      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
+      "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerper Temperatur Profile",
+      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
+      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
       "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/report-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LOINCDiagnosticReportCodes",
+      "title" : "LOINC Diagnostic Report Codes",
+      "description" : "This value set includes LOINC codes that relate to Diagnostic Observations.",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.233"],
+      "sources" : ["2.16.840.1.113883.4.642.3.233"],
+      "uses" : {
+      },
+      "StructureDefinition-utn-diagnostik-report.html" : "UTNDiagnostikReport"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/resource-types",
@@ -857,12 +914,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
-      "StructureDefinition-KBV-PR-Base-Practitioner.html" : "UTN Practitioner",
-      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde",
       "StructureDefinition-device-reference.html" : "Device Reference",
       "StructureDefinition-profile-consent-management-questionnaireresponse.html" : "UTN Consent Management QuestionnaireResponse",
-      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference",
+      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde",
+      "StructureDefinition-KBV-PR-Base-Practitioner.html" : "UTN Practitioner",
       "StructureDefinition-consent-management-provenance.html" : "UTN Consent Management Provenance",
+      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference",
       "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin"
     },
     {

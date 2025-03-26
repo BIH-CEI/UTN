@@ -1,0 +1,74 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://utn/consentresource.com/DiagnosticReport/Example-UTN-DiagnosticReport> a fhir:DiagnosticReport ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Example-UTN-DiagnosticReport"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report"^^xsd:anyURI ;
+       fhir:link <http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport Example-UTN-DiagnosticReport</b></p><a name=\"Example-UTN-DiagnosticReport\"> </a><a name=\"hcExample-UTN-DiagnosticReport\"> </a><a name=\"Example-UTN-DiagnosticReport-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-utn-diagnostik-report.html\">UTNDiagnostikReport</a></p></div><h2><span title=\"Codes:{http://loinc.org 20596-5}\">Intensive care unit (ICU)</span> (<span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0074 ICU}\">Bedside ICU Monitoring</span>) </h2><table class=\"grid\"><tr><td>Subject</td><td>John Doe  Other, DoB: 1998-09-19 ( MR)</td></tr><tr><td>When For</td><td>2025-03-19 10:30:00+0000</td></tr><tr><td>Reported</td><td>2025-03-19 11:00:00+0000</td></tr><tr><td>Performer</td><td> <a href=\"Practitioner-Example-UTNPractitioner.html\">Practitioner Hans Topp-Glücklich(official)</a></td></tr></table><p><b>Report Details</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Value</b></td><td><b>Reference Range</b></td><td><b>Flags</b></td><td><b>When For</b></td><td><b>Reported</b></td></tr><tr><td><a href=\"Observation-Example-UTNAtemfrequenz.html\"><span title=\"Codes:{http://loinc.org 9279-1}, {http://snomed.info/sct 86290005}, {urn:iso:std:iso:11073:10101 151562}\">Atemfrequenz</span></a></td><td>26 Atemzüge pro Minute<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code/min = '/min')</span></td><td/><td>draft</td><td>2019-07-02</td><td/></tr><tr><td><a href=\"Observation-Example-UTNHerzfrequenz.html\"><span title=\"Codes:{http://loinc.org 8867-4}, {urn:iso:std:iso:11073:10101 147842}, {http://snomed.info/sct 364075005}\">Herzfrequenz</span></a></td><td>63 per minute<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code/min = '/min')</span></td><td/><td>Final</td><td>2020-10-11</td><td/></tr><tr><td><a href=\"Observation-Example-UTNKoerpergewicht.html\"><span title=\"Codes:{http://loinc.org 29463-7}\">Körpergewicht</span></a></td><td>79 kilogram<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codekg = 'kg')</span></td><td/><td>Final</td><td>2020-10-11</td><td/></tr><tr><td><a href=\"Observation-Example-UTNKoerpertemperatur.html\"><span title=\"Codes:{http://loinc.org 8310-5}, {urn:iso:std:iso:11073:10101 150364}, {http://snomed.info/sct 386725007}\">Körpertemperatur</span></a></td><td>36.8 °C<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeCel = 'Cel')</span></td><td/><td>Final</td><td>2020-10-11</td><td/></tr><tr><td><a href=\"Observation-Example-UTNKreatinin.html\"><span title=\"Codes:{http://loinc.org 59826-8}\">Kreatinin</span></a></td><td>72 µmol/l<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeumol/L = 'umol/L')</span></td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/referencerange-meaning normal}\">Normal Range</span>: 72 - 127</td><td>Final, <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation N}\">Normal</span></td><td>2018-11-20 12:05:00+0100</td><td>2018-03-11 10:28:00+0100</td></tr><tr><td><a href=\"Observation-Example-UTN-Arterieller-Blutdruck.html\"><span title=\"Codes:{http://loinc.org 85354-9}, {http://snomed.info/sct 364090009}\">Blood pressure panel</span></a></td><td/><td/><td>Final</td><td>2025-02-17 10:30:00+0000</td><td/></tr></table><p>No abnormal findings detected in ICU Monitoring.</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "ICU" ] ;
+       fhir:display [ fhir:v "Bedside ICU Monitoring" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:20596-5 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "20596-5" ] ;
+       fhir:display [ fhir:v "Intensive care unit (ICU)" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://utn/consentresource.com/Patient/consent-management-patient> ;
+     fhir:reference [ fhir:v "Patient/consent-management-patient" ]
+  ] ; # 
+  fhir:effective [
+     a fhir:dateTime ;
+     fhir:v "2025-03-19T10:30:00Z"^^xsd:dateTime
+  ] ; # 
+  fhir:issued [ fhir:v "2025-03-19T11:00:00Z"^^xsd:dateTime] ; # 
+  fhir:performer ( [
+     fhir:link <http://utn/consentresource.com/Practitioner/Example-UTNPractitioner> ;
+     fhir:reference [ fhir:v "Practitioner/Example-UTNPractitioner" ]
+  ] ) ; # 
+  fhir:result ( [
+     fhir:link <http://utn/consentresource.com/Observation/Example-UTNAtemfrequenz> ;
+     fhir:reference [ fhir:v "Observation/Example-UTNAtemfrequenz" ]
+  ] [
+     fhir:link <http://utn/consentresource.com/Observation/Example-UTNHerzfrequenz> ;
+     fhir:reference [ fhir:v "Observation/Example-UTNHerzfrequenz" ]
+  ] [
+     fhir:link <http://utn/consentresource.com/Observation/Example-UTNKoerpergewicht> ;
+     fhir:reference [ fhir:v "Observation/Example-UTNKoerpergewicht" ]
+  ] [
+     fhir:link <http://utn/consentresource.com/Observation/Example-UTNKoerpertemperatur> ;
+     fhir:reference [ fhir:v "Observation/Example-UTNKoerpertemperatur" ]
+  ] [
+     fhir:link <http://utn/consentresource.com/Observation/Example-UTNKreatinin> ;
+     fhir:reference [ fhir:v "Observation/Example-UTNKreatinin" ]
+  ] [
+     fhir:link <http://utn/consentresource.com/Observation/Example-UTN-Arterieller-Blutdruck> ;
+     fhir:reference [ fhir:v "Observation/Example-UTN-Arterieller-Blutdruck" ]
+  ] ) ; # 
+  fhir:conclusion [ fhir:v "No abnormal findings detected in ICU Monitoring."] . # 
+
+# -------------------------------------------------------------------------------------
+

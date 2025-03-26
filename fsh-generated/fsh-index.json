@@ -32,6 +32,14 @@
     "endLine": 67
   },
   {
+    "outputFile": "DiagnosticReport-Example-UTN-DiagnosticReport.json",
+    "fshName": "Example-UTN-DiagnosticReport",
+    "fshType": "Instance",
+    "fshFile": "Instances/Parameters/Example-UTN_DiagnosticReport.fsh",
+    "startLine": 1,
+    "endLine": 31
+  },
+  {
     "outputFile": "DocumentReference-Example-UTN-Consent-DocumentReference-Forschungsvorhaben.json",
     "fshName": "Example-UTN-Consent-DocumentReference-Forschungsvorhaben",
     "fshType": "Instance",
@@ -64,16 +72,8 @@
     "endLine": 49
   },
   {
-    "outputFile": "Observation-Example-ISiKKoerpertemperatur.json",
-    "fshName": "Example-ISiKKoerpertemperatur",
-    "fshType": "Instance",
-    "fshFile": "Instances/Parameters/Example-UTN-KoerperTemperatur.fsh",
-    "startLine": 1,
-    "endLine": 13
-  },
-  {
-    "outputFile": "Observation-Example-UTN-Observation-Arterieller-Blutdruck.json",
-    "fshName": "Example-UTN-Observation-Arterieller-Blutdruck",
+    "outputFile": "Observation-Example-UTN-Arterieller-Blutdruck.json",
+    "fshName": "Example-UTN-Arterieller-Blutdruck",
     "fshType": "Instance",
     "fshFile": "Instances/Parameters/Example-UTN-Systolisch-Diastolisch.fsh",
     "startLine": 1,
@@ -88,28 +88,36 @@
     "endLine": 33
   },
   {
-    "outputFile": "Observation-Example-UTNKreatinin.json",
-    "fshName": "Example-UTNKreatinin",
-    "fshType": "Instance",
-    "fshFile": "Instances/Parameters/Example-UTN-Kreatinin.fsh",
-    "startLine": 1,
-    "endLine": 32
-  },
-  {
-    "outputFile": "Observation-ISiKHerzfrequenzExample.json",
-    "fshName": "ISiKHerzfrequenzExample",
+    "outputFile": "Observation-Example-UTNHerzfrequenz.json",
+    "fshName": "Example-UTNHerzfrequenz",
     "fshType": "Instance",
     "fshFile": "Instances/Parameters/Example-UTN-Herzfrequenz.fsh",
     "startLine": 1,
     "endLine": 16
   },
   {
-    "outputFile": "Observation-ISiKKoerpergewichtExample.json",
-    "fshName": "ISiKKoerpergewichtExample",
+    "outputFile": "Observation-Example-UTNKoerpergewicht.json",
+    "fshName": "Example-UTNKoerpergewicht",
     "fshType": "Instance",
     "fshFile": "Instances/Parameters/Example-UTN-KoerperGewicht.fsh",
     "startLine": 1,
     "endLine": 15
+  },
+  {
+    "outputFile": "Observation-Example-UTNKoerpertemperatur.json",
+    "fshName": "Example-UTNKoerpertemperatur",
+    "fshType": "Instance",
+    "fshFile": "Instances/Parameters/Example-UTN-KoerperTemperatur.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "Observation-Example-UTNKreatinin.json",
+    "fshName": "Example-UTNKreatinin",
+    "fshType": "Instance",
+    "fshFile": "Instances/Parameters/Example-UTN-Kreatinin.fsh",
+    "startLine": 1,
+    "endLine": 32
   },
   {
     "outputFile": "Patient-consent-management-patient.json",
@@ -254,6 +262,14 @@
     "fshFile": "Profiles/Consent/Profile-Consent.fsh",
     "startLine": 1,
     "endLine": 63
+  },
+  {
+    "outputFile": "StructureDefinition-utn-diagnostik-report.json",
+    "fshName": "UTNDiagnostikReport",
+    "fshType": "Profile",
+    "fshFile": "Profiles/Meta/Profile-DiagnostikReport.fsh",
+    "startLine": 1,
+    "endLine": 33
   },
   {
     "outputFile": "StructureDefinition-utn-isik-atemfrequenz.json",

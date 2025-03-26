@@ -1,4 +1,4 @@
-Instance: Example-UTN-Observation-Arterieller-Blutdruck
+Instance: Example-UTN-Arterieller-Blutdruck
 InstanceOf: UTN_Observation_Arterieller_Blutdruck
 Title: "Example UTN Arterieller Blutdruck Observation"
 Description: "Example instance for documenting arterial blood pressure observations within UTN."

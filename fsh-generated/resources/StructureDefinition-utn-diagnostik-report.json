@@ -1,0 +1,100 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "utn-diagnostik-report",
+  "url": "http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report",
+  "name": "UTNDiagnostikReport",
+  "status": "draft",
+  "description": "This is the Diagnostic Report of the UTN Patient",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "DiagnosticReport",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DiagnosticReport",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "DiagnosticReport.category",
+        "path": "DiagnosticReport.category",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true,
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://hl7.org/fhir/ValueSet/diagnostic-service-sections"
+        }
+      },
+      {
+        "id": "DiagnosticReport.code",
+        "path": "DiagnosticReport.code",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.code.coding",
+        "path": "DiagnosticReport.code.coding",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.code.coding.system",
+        "path": "DiagnosticReport.code.coding.system",
+        "patternUri": "http://loinc.org",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.code.coding.code",
+        "path": "DiagnosticReport.code.coding.code",
+        "patternCode": "20596-5",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.code.coding.display",
+        "path": "DiagnosticReport.code.coding.display",
+        "patternString": "Intensive care unit (ICU)",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.subject",
+        "path": "DiagnosticReport.subject",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "DiagnosticReport.effective[x]",
+        "path": "DiagnosticReport.effective[x]",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.issued",
+        "path": "DiagnosticReport.issued",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.performer",
+        "path": "DiagnosticReport.performer",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Practitioner"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "DiagnosticReport.conclusion",
+        "path": "DiagnosticReport.conclusion",
+        "mustSupport": true
+      }
+    ]
+  }
+}

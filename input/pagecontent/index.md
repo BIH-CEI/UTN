@@ -7,20 +7,37 @@ The possibilities of telemedicine to support and enable longitudinal data captur
 
 Our use case addresses an insufficiently researched and neglected problem, namely the significantly increased morbidity and mortality in the immediate post-acute COVID-19 phase up to 6 months after infection. Cognitive and psychiatric symptoms are among the most common and debilitating symptoms in the post-acute phase of COVID-19 and contribute significantly to functional deficits. To date, little is known about risk factors, frequency, affected areas, and the longitudinal course of cognitive deficits after COVID-19, and most data are based on patient-reported outcomes. In a first step, the UTN will address this problem to demonstrate its value by collecting detailed cognitive data during hospitalization and after discharge, regardless of the patient's location (e.g., at home, upon readmission, in rehabilitation), to monitor cognitive sequelae of COVID-19 in the post-acute phase. The focus of the UTN is clearly on building a sustainable telemedical infrastructure that will also be suitable for managing future crises beyond 2025 and can be activated immediately if needed. For this purpose, we will develop clearly defined application scenarios.
 
-### Background 
-This IG is the example and WIP for Consent Resource represetantion. 
-
-Our project aims to create a framework for a university telemedicine network (UTN) for high-frequency standardized electronic data collection and integration for COVID-19 research and to develop evidence-based guidelines for telemedicine care.
-
 ### Use Cases
-
-
 
 #### Intensive Care Unit
 
+- Real time remote monitoring of ICU patients.
+- Standardized data sharing between ICU teams across multiple hospitals as well as doctor to doctor
+- Usage of MII Metadataset for ICU 
+
 #### Tele Consultation
 
+- Secure, interoperable teleconsultation workflows for specialists.
+- Standardized reporting and documentation using FHIR profiles of MII, KBV, FHIR Base.
+- Doctor to doctor, patient to doctor.
+- Remote decision support for physicians in hospitals.
+
 #### Mental Health
+
+- Remote assessment and follow-up of cognitive and psychiatric symptoms.
+- Integration of patient-reported and clinician-assessed data.
+- Evidence-based telehealth interventions for post-acute COVID-19 sequelae.
+
+### Background 
+This FHIR Implementation Guide (IG) provides a comprehensive framework for standardized data exchange and interoperability within the UTN Project. It defines:
+
+- Standardized electronic consent management for telemedicine services.
+- Observations for diagnostic report in the ICU setting.
+- Clinical impressions for tele consultation.
+- Implementation best practices for research and clinical workflows.
+
+These components ensure that all stakeholders—hospitals and researchers can particiate in a cohesive, interoperable telemedicine ecosystem that supports both routine care and high-frequency research data collection.
+
 
 ### Authors
 

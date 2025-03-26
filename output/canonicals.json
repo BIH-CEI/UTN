@@ -98,6 +98,13 @@
     "name" : "UTNConsent"
   },
   {
+    "id" : "utn-diagnostik-report",
+    "type" : "StructureDefinition",
+    "url" : "http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report",
+    "version" : "0.1.0",
+    "name" : "UTNDiagnostikReport"
+  },
+  {
     "id" : "utn-isik-atemfrequenz",
     "type" : "StructureDefinition",
     "url" : "http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz",

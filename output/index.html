@@ -174,7 +174,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         
           Draft
           
-            as of 2025-03-17
+            as of 2025-03-26
           
         
       </td>
@@ -202,8 +202,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <ul id="markdown-toc">
   <li><a href="#utn-teleconsultation-and-icu-ig" id="markdown-toc-utn-teleconsultation-and-icu-ig">UTN Teleconsultation and ICU IG</a>    <ul>
       <li><a href="#aim-of-utn" id="markdown-toc-aim-of-utn">Aim of UTN</a></li>
-      <li><a href="#background" id="markdown-toc-background">Background</a></li>
       <li><a href="#use-cases" id="markdown-toc-use-cases">Use Cases</a></li>
+      <li><a href="#background" id="markdown-toc-background">Background</a></li>
       <li><a href="#authors" id="markdown-toc-authors">Authors</a></li>
     </ul>
   </li>
@@ -219,18 +219,44 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Our use case addresses an insufficiently researched and neglected problem, namely the significantly increased morbidity and mortality in the immediate post-acute COVID-19 phase up to 6 months after infection. Cognitive and psychiatric symptoms are among the most common and debilitating symptoms in the post-acute phase of COVID-19 and contribute significantly to functional deficits. To date, little is known about risk factors, frequency, affected areas, and the longitudinal course of cognitive deficits after COVID-19, and most data are based on patient-reported outcomes. In a first step, the UTN will address this problem to demonstrate its value by collecting detailed cognitive data during hospitalization and after discharge, regardless of the patient's location (e.g., at home, upon readmission, in rehabilitation), to monitor cognitive sequelae of COVID-19 in the post-acute phase. The focus of the UTN is clearly on building a sustainable telemedical infrastructure that will also be suitable for managing future crises beyond 2025 and can be activated immediately if needed. For this purpose, we will develop clearly defined application scenarios.</p>
 
-<h3 id="background">Background</h3>
-<p>This IG is the example and WIP for Consent Resource represetantion.</p>
-
-<p>Our project aims to create a framework for a university telemedicine network (UTN) for high-frequency standardized electronic data collection and integration for COVID-19 research and to develop evidence-based guidelines for telemedicine care.</p>
-
 <h3 id="use-cases">Use Cases</h3>
 
 <h4 id="intensive-care-unit">Intensive Care Unit</h4>
 
+<ul>
+  <li>Real time remote monitoring of ICU patients.</li>
+  <li>Standardized data sharing between ICU teams across multiple hospitals as well as doctor to doctor</li>
+  <li>Usage of MII Metadataset for ICU</li>
+</ul>
+
 <h4 id="tele-consultation">Tele Consultation</h4>
 
+<ul>
+  <li>Secure, interoperable teleconsultation workflows for specialists.</li>
+  <li>Standardized reporting and documentation using FHIR profiles of MII, KBV, FHIR Base.</li>
+  <li>Doctor to doctor, patient to doctor.</li>
+  <li>Remote decision support for physicians in hospitals.</li>
+</ul>
+
 <h4 id="mental-health">Mental Health</h4>
+
+<ul>
+  <li>Remote assessment and follow-up of cognitive and psychiatric symptoms.</li>
+  <li>Integration of patient-reported and clinician-assessed data.</li>
+  <li>Evidence-based telehealth interventions for post-acute COVID-19 sequelae.</li>
+</ul>
+
+<h3 id="background">Background</h3>
+<p>This FHIR Implementation Guide (IG) provides a comprehensive framework for standardized data exchange and interoperability within the UTN Project. It defines:</p>
+
+<ul>
+  <li>Standardized electronic consent management for telemedicine services.</li>
+  <li>Observations for diagnostic report in the ICU setting.</li>
+  <li>Clinical impressions for tele consultation.</li>
+  <li>Implementation best practices for research and clinical workflows.</li>
+</ul>
+
+<p>These components ensure that all stakeholders—hospitals and researchers can particiate in a cohesive, interoperable telemedicine ecosystem that supports both routine care and high-frequency research data collection.</p>
 
 <h3 id="authors">Authors</h3>
 
@@ -260,7 +286,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://utn/consentresource.com">BIH-CEI</a>.  Package consent.id#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 17, 2025 15:49+0100">2025-03-17</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://utn/consentresource.com">BIH-CEI</a>.  Package consent.id#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Mar 26, 2025 13:23+0100">2025-03-26</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

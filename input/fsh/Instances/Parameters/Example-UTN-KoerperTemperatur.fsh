@@ -1,4 +1,4 @@
-Instance: Example-ISiKKoerpertemperatur
+Instance: Example-UTNKoerpertemperatur
 InstanceOf: UTNKoerperTemperatur
 Usage: #example
 

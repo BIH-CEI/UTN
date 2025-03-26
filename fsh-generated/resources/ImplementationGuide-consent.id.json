@@ -92,18 +92,11 @@
       },
       {
         "reference": {
-          "reference": "Observation/Example-UTN-Observation-Arterieller-Blutdruck"
+          "reference": "Observation/Example-UTN-Arterieller-Blutdruck"
         },
         "name": "Example UTN Arterieller Blutdruck Observation",
         "description": "Example instance for documenting arterial blood pressure observations within UTN.",
         "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck"
-      },
-      {
-        "reference": {
-          "reference": "Observation/Example-ISiKKoerpertemperatur"
-        },
-        "name": "Example-ISiKKoerpertemperatur",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur"
       },
       {
         "reference": {
@@ -149,10 +142,39 @@
       },
       {
         "reference": {
+          "reference": "DiagnosticReport/Example-UTN-DiagnosticReport"
+        },
+        "name": "Example-UTN-DiagnosticReport",
+        "description": "Example instance of UTN Diagnostic Report",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report"
+      },
+      {
+        "reference": {
           "reference": "Patient/consent-management-patient"
         },
         "name": "Example-UTN-Patient",
         "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/consent-management-patient"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-UTNHerzfrequenz"
+        },
+        "name": "Example-UTNHerzfrequenz",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-UTNKoerpergewicht"
+        },
+        "name": "Example-UTNKoerpergewicht",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-UTNKoerpertemperatur"
+        },
+        "name": "Example-UTNKoerpertemperatur",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur"
       },
       {
         "reference": {
@@ -182,20 +204,6 @@
         "name": "ISiKAtemfrequenz Example",
         "description": "An example Observation for respiratory rate using ISiKAtemfrequenz profile.",
         "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz"
-      },
-      {
-        "reference": {
-          "reference": "Observation/ISiKHerzfrequenzExample"
-        },
-        "name": "ISiKHerzfrequenzExample",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz"
-      },
-      {
-        "reference": {
-          "reference": "Observation/ISiKKoerpergewichtExample"
-        },
-        "name": "ISiKKoerpergewichtExample",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht"
       },
       {
         "reference": {
@@ -317,6 +325,14 @@
         },
         "name": "UTN Practitioner Role",
         "description": "Dieses Profil bildet eine temporäre Rolle einer behandelnden Person in Bezug zu einer Einrichtung ab.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/utn-diagnostik-report"
+        },
+        "name": "UTNDiagnostikReport",
+        "description": "This is the Diagnostic Report of the UTN Patient",
         "exampleBoolean": false
       },
       {

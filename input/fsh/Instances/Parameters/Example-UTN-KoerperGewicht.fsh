@@ -1,4 +1,4 @@
-Instance: ISiKKoerpergewichtExample
+Instance: Example-UTNKoerpergewicht
 InstanceOf: UTNKoerpergewicht
 Usage: #example
 

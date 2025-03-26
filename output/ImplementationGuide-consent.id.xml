@@ -10,7 +10,7 @@
   <name value="UTNConsentResource"/>
   <title value="University Telemedicine Network (UTN) FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-03-17T15:48:53+01:00"/>
+  <date value="2025-03-26T13:23:18+01:00"/>
   <publisher value="BIH-CEI"/>
   <contact>
     <name value="BIH-CEI"/>
@@ -509,21 +509,11 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/Example-UTN-Observation-Arterieller-Blutdruck"/>
+        <reference value="Observation/Example-UTN-Arterieller-Blutdruck"/>
       </reference>
       <name value="Example UTN Arterieller Blutdruck Observation"/>
       <description value="Example instance for documenting arterial blood pressure observations within UTN."/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/Example-ISiKKoerpertemperatur"/>
-      </reference>
-      <name value="Example-ISiKKoerpertemperatur"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -587,6 +577,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DiagnosticReport"/>
+      </extension>
+      <reference>
+        <reference value="DiagnosticReport/Example-UTN-DiagnosticReport"/>
+      </reference>
+      <name value="Example-UTN-DiagnosticReport"/>
+      <description value="Example instance of UTN Diagnostic Report"/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Patient"/>
       </extension>
       <reference>
@@ -594,6 +595,36 @@
       </reference>
       <name value="Example-UTN-Patient"/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/consent-management-patient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Example-UTNHerzfrequenz"/>
+      </reference>
+      <name value="Example-UTNHerzfrequenz"/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Example-UTNKoerpergewicht"/>
+      </reference>
+      <name value="Example-UTNKoerpergewicht"/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Example-UTNKoerpertemperatur"/>
+      </reference>
+      <name value="Example-UTNKoerpertemperatur"/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -635,26 +666,6 @@
       <name value="ISiKAtemfrequenz Example"/>
       <description value="An example Observation for respiratory rate using ISiKAtemfrequenz profile."/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/ISiKHerzfrequenzExample"/>
-      </reference>
-      <name value="ISiKHerzfrequenzExample"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/ISiKKoerpergewichtExample"/>
-      </reference>
-      <name value="ISiKKoerpergewichtExample"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -824,6 +835,17 @@
       </reference>
       <name value="UTN Practitioner Role"/>
       <description value="Dieses Profil bildet eine temporäre Rolle einer behandelnden Person in Bezug zu einer Einrichtung ab."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/utn-diagnostik-report"/>
+      </reference>
+      <name value="UTNDiagnostikReport"/>
+      <description value="This is the Diagnostic Report of the UTN Patient"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

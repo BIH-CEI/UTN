@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "UTNConsentResource"] ; # 
   fhir:title [ fhir:v "University Telemedicine Network (UTN) FHIR Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-03-17T15:48:53+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-03-26T13:23:18+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "BIH-CEI"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "BIH-CEI" ] ;
@@ -910,8 +910,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Observation/Example-UTN-Observation-Arterieller-Blutdruck> ;
-         fhir:reference [ fhir:v "Observation/Example-UTN-Observation-Arterieller-Blutdruck" ]
+         fhir:link <http://utn/consentresource.com/Observation/Example-UTN-Arterieller-Blutdruck> ;
+         fhir:reference [ fhir:v "Observation/Example-UTN-Arterieller-Blutdruck" ]
        ] ;
        fhir:name [ fhir:v "Example UTN Arterieller Blutdruck Observation" ] ;
        fhir:description [ fhir:v "Example instance for documenting arterial blood pressure observations within UTN." ] ;
@@ -919,24 +919,6 @@
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck"^^xsd:anyURI ;
          fhir:link <http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "Observation"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://utn/consentresource.com/Observation/Example-ISiKKoerpertemperatur> ;
-         fhir:reference [ fhir:v "Observation/Example-ISiKKoerpertemperatur" ]
-       ] ;
-       fhir:name [ fhir:v "Example-ISiKKoerpertemperatur" ] ;
-       fhir:example [
-         a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur>
        ]
      ] [
        fhir:extension ( [
@@ -1051,6 +1033,25 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "DiagnosticReport"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/DiagnosticReport/Example-UTN-DiagnosticReport> ;
+         fhir:reference [ fhir:v "DiagnosticReport/Example-UTN-DiagnosticReport" ]
+       ] ;
+       fhir:name [ fhir:v "Example-UTN-DiagnosticReport" ] ;
+       fhir:description [ fhir:v "Example instance of UTN Diagnostic Report" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report"^^xsd:anyURI ;
+         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "Patient"
          ]
        ] ) ;
@@ -1063,6 +1064,60 @@
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/consent-management-patient"^^xsd:anyURI ;
          fhir:link <http://utn/consentresource.com/StructureDefinition/consent-management-patient>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/Observation/Example-UTNHerzfrequenz> ;
+         fhir:reference [ fhir:v "Observation/Example-UTNHerzfrequenz" ]
+       ] ;
+       fhir:name [ fhir:v "Example-UTNHerzfrequenz" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz"^^xsd:anyURI ;
+         fhir:link <http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/Observation/Example-UTNKoerpergewicht> ;
+         fhir:reference [ fhir:v "Observation/Example-UTNKoerpergewicht" ]
+       ] ;
+       fhir:name [ fhir:v "Example-UTNKoerpergewicht" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht"^^xsd:anyURI ;
+         fhir:link <http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/Observation/Example-UTNKoerpertemperatur> ;
+         fhir:reference [ fhir:v "Observation/Example-UTNKoerpertemperatur" ]
+       ] ;
+       fhir:name [ fhir:v "Example-UTNKoerpertemperatur" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur"^^xsd:anyURI ;
+         fhir:link <http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur>
        ]
      ] [
        fhir:extension ( [
@@ -1136,42 +1191,6 @@
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz"^^xsd:anyURI ;
          fhir:link <http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "Observation"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://utn/consentresource.com/Observation/ISiKHerzfrequenzExample> ;
-         fhir:reference [ fhir:v "Observation/ISiKHerzfrequenzExample" ]
-       ] ;
-       fhir:name [ fhir:v "ISiKHerzfrequenzExample" ] ;
-       fhir:example [
-         a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "Observation"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://utn/consentresource.com/Observation/ISiKKoerpergewichtExample> ;
-         fhir:reference [ fhir:v "Observation/ISiKKoerpergewichtExample" ]
-       ] ;
-       fhir:name [ fhir:v "ISiKKoerpergewichtExample" ] ;
-       fhir:example [
-         a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht>
        ]
      ] [
        fhir:extension ( [
@@ -1452,6 +1471,24 @@
        ] ;
        fhir:name [ fhir:v "UTN Practitioner Role" ] ;
        fhir:description [ fhir:v "Dieses Profil bildet eine temporäre Rolle einer behandelnden Person in Bezug zu einer Einrichtung ab." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report> ;
+         fhir:reference [ fhir:v "StructureDefinition/utn-diagnostik-report" ]
+       ] ;
+       fhir:name [ fhir:v "UTNDiagnostikReport" ] ;
+       fhir:description [ fhir:v "This is the Diagnostic Report of the UTN Patient" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
