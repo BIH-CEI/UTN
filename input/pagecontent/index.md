@@ -31,7 +31,7 @@ Our use case addresses an insufficiently researched and neglected problem, namel
 ### Background 
 This FHIR Implementation Guide (IG) provides a comprehensive framework for standardized data exchange and interoperability within the UTN Project. It defines:
 
-- Standardized electronic consent management for telemedicine services.
+- Standardized electronic consent management for telemedicine services. 
 - Observations for diagnostic report in the ICU setting.
 - Clinical impressions for tele consultation.
 - Implementation best practices for research and clinical workflows.

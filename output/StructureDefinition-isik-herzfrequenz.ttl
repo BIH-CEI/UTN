@@ -19,7 +19,7 @@
   fhir:name [ fhir:v "UTNHerzfrequenz"] ; # 
   fhir:title [ fhir:v "UTN Observation Herzfrequenz Profile"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-03-26T13:23:18+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-03-26T13:37:22+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "BIH-CEI"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "BIH-CEI" ] ;
