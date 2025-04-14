@@ -2,6 +2,7 @@ Profile: ConsentManagementPatient
 Parent: Patient
 Id: consent-management-patient
 Title: "UTN Patient"
+Description: "The profile of the UTN Patient"
 
 * identifier 1.. MS N
 * identifier.type 1.. MS N

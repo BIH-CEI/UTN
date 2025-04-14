@@ -1,7 +1,7 @@
 Instance: Example-UTNHerzfrequenz
 InstanceOf: UTNHerzfrequenz
 Usage: #example
-
+Description: "An example Observation for heart rate."
 
 * category = $observation-category#vital-signs
 * code.coding[loinc] = $loinc#8867-4 "Heart rate"

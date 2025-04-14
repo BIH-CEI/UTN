@@ -2,6 +2,7 @@ Profile: ConsentManagementProvenance
 Parent: MII_PR_Consent_Provenance
 Id: consent-management-provenance
 Title: "UTN Consent Management Provenance"
+Description: "This is the consent management provenance profile for the consent profile of the Forschungsvorhaben and Videosprechstunde"
 * target only Reference($QuestionnaireResponse or $Consent)
 * target MS
 * target.reference 1.. MS N

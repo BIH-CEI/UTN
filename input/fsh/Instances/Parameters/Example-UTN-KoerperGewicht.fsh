@@ -1,7 +1,7 @@
 Instance: Example-UTNKoerpergewicht
 InstanceOf: UTNKoerpergewicht
 Usage: #example
-
+Description: "An example Observation for Body Weight."
 
 * category = $observation-category#vital-signs
 //* code.coding[0] = urn:iso:std:iso:11073:10101#188736 "MDC_MASS_BODY_ACTUAL"

@@ -1,6 +1,9 @@
 Instance: Example-UTNPractitioner
 InstanceOf: UTNPractitioner
 Usage: #example
+Description: "Example UTN Practitioner"
+
+
 * meta.profile = "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner"
 * identifier[0].type = $v2-0203#LANR "Lifelong physician number"
 * identifier[=].system = "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR"

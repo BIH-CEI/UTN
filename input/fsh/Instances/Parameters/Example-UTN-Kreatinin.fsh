@@ -1,6 +1,7 @@
 Instance: Example-UTNKreatinin
 InstanceOf: UTNKreatinin
 Usage: #example
+Description: "An example Observation for Creatinin."
 * meta.profile = "https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/ObservationLab"
 * identifier[analyseBefundCode].type = $v2-0203#OBI
 * identifier[analyseBefundCode].system = "https://exmaple.org/fhir/sid/test-lab-results"

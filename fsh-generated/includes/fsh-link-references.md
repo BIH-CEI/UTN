@@ -17,6 +17,8 @@
 [Example-UTNPractitionerRole]: PractitionerRole-Example-UTNPractitionerRole.html
 [Example-UTNAtemfrequenz]: Observation-Example-UTNAtemfrequenz.html
 [phone-1]: Device-phone-1.html
+[UTNHerzfrequenz]: StructureDefinition-isik-herzfrequenz.html
+[UTNKoerpergewicht]: StructureDefinition-isik-koerpergewicht.html
 [teleconsultation-service-1]: HealthcareService-teleconsultation-service-1.html
 [UTNDocumentReference]: StructureDefinition-utn-consent-documentreference-id.html
 [UTNConsent]: StructureDefinition-utn-consent-id.html
@@ -26,9 +28,7 @@
 [UTNKreatinin]: StructureDefinition-mii-kreatinin.html
 [UTN_Observation_Arterieller_Blutdruck]: StructureDefinition-utn-observation-arterieller-blutdruck.html
 [UTNAtemfrequenz]: StructureDefinition-utn-isik-atemfrequenz.html
-[UTNHerzfrequenz]: StructureDefinition-isik-herzfrequenz.html
 [UTNKoerperTemperatur]: StructureDefinition-isik-koerpertemperatur.html
-[UTNKoerpergewicht]: StructureDefinition-isik-koerpergewicht.html
 [ConsentManagementPatient]: StructureDefinition-consent-management-patient.html
 [UTNPractitioner]: StructureDefinition-KBV-PR-Base-Practitioner.html
 [UTNPractitionerRole]: StructureDefinition-utn-PR-Base-PractitionerRole.html

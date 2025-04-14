@@ -5,6 +5,7 @@
   "name": "ConsentManagementProvenance",
   "title": "UTN Consent Management Provenance",
   "status": "draft",
+  "description": "This is the consent management provenance profile for the consent profile of the Forschungsvorhaben and Videosprechstunde",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

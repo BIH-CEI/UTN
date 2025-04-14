@@ -5,7 +5,7 @@
   "name": "UTNKreatinin",
   "title": "UTN Laboruntersuchung-Kreatinin",
   "status": "draft",
-  "description": "Dieses Profil beschreibt eine Laborergebnis in der Medizininformatik-Initiative.",
+  "description": "This profile describes a laboratory result of the Creatinin.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

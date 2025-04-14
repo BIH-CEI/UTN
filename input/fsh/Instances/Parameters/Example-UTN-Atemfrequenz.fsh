@@ -1,7 +1,7 @@
 Instance: Example-UTNAtemfrequenz
 InstanceOf: UTNAtemfrequenz
 Title: "ISiKAtemfrequenz Example"
-Description: "An example Observation for respiratory rate using ISiKAtemfrequenz profile."
+Description: "An example Observation for respiratory rate using Atemfrequenz profile."
 Usage: #example
 
 * status = #draft

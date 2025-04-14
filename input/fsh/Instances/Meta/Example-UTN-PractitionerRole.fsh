@@ -1,6 +1,7 @@
 Instance: Example-UTNPractitionerRole
 InstanceOf: UTNPractitionerRole
 Usage: #example
+Description: "Example UTN PractitionerRole"
 
 * meta.profile = "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_PractitionerRole"
 * practitioner.reference = "Practitioner/20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"

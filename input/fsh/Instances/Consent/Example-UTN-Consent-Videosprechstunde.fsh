@@ -1,7 +1,7 @@
 Instance: Example-UTN-Consent-Videosprechstunde
 InstanceOf: UTNConsent
 Usage: #example
-
+Description: "This example shows how the 'Videosprechstunde Consent form' should be strucutured"
 * meta.profile = "https://www.medizininformatik-initiative.de/fhir/modul-consent/StructureDefinition/mii-pr-consent-einwilligung"
 * status = #active
 * scope = $consentscope#research

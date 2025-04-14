@@ -5,7 +5,7 @@
   "name": "UTNPractitioner",
   "title": "UTN Practitioner",
   "status": "draft",
-  "description": "Dieses Profil bildet eine behandelnde Person ab.",
+  "description": "The profile of the UTN Practitoner",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

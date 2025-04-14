@@ -1,7 +1,7 @@
 Instance: Example-UTNKoerpertemperatur
 InstanceOf: UTNKoerperTemperatur
 Usage: #example
-
+Description: "An example Observation for Body Temperature. "
 * category = $observation-category#vital-signs
 * code.coding[loinc] = $loinc#8310-5 "Body temperature"
 * code.coding[+] = urn:iso:std:iso:11073:10101#150364 "MDC_TEMP_BODY"

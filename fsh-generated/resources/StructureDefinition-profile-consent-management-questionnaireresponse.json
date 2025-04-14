@@ -5,7 +5,7 @@
   "name": "ConsentManagementQuestionnaireResponseUKW",
   "title": "UTN Consent Management QuestionnaireResponse",
   "status": "draft",
-  "description": "Der ausgefüllte Fragebogen zur Einwilligung.",
+  "description": "The completed questionnaire.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

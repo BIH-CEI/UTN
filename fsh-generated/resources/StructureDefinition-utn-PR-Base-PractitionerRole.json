@@ -5,7 +5,7 @@
   "name": "UTNPractitionerRole",
   "title": "UTN Practitioner Role",
   "status": "draft",
-  "description": "Dieses Profil bildet eine temporäre Rolle einer behandelnden Person in Bezug zu einer Einrichtung ab.",
+  "description": "The profile of the UTN Practitoner Role",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

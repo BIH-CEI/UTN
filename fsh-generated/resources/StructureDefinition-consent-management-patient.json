@@ -5,6 +5,7 @@
   "name": "ConsentManagementPatient",
   "title": "UTN Patient",
   "status": "draft",
+  "description": "The profile of the UTN Patient",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

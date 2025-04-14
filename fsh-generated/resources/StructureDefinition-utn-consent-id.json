@@ -5,7 +5,7 @@
   "name": "UTNConsent",
   "title": "UTN Consent Forschungsvorhaben and Videosprechstunde",
   "status": "draft",
-  "description": "Dies ist das Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation",
+  "description": "This is the consent profile for the research project and the video consultation",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

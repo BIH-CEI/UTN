@@ -2,7 +2,7 @@ Profile: ConsentManagementQuestionnaireResponseUKW
 Parent: ConsentManagementQuestionnaireResponse
 Id: profile-consent-management-questionnaireresponse
 Title: "UTN Consent Management QuestionnaireResponse"
-Description: "Der ausgefüllte Fragebogen zur Einwilligung."
+Description: "The completed questionnaire."
 
 * language MS N
 * questionnaire 1.. MS N
