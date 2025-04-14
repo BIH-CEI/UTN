@@ -2,6 +2,7 @@ Instance: Example-UTN-Patient
 InstanceOf: ConsentManagementPatient
 Usage: #example
 Description: "Example UTN Patient"
+
 * id = "consent-management-patient"
 * identifier.type.coding[0].system = "https://example.com"
 * identifier.type.coding[0].code = #MR
