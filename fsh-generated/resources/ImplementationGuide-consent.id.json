@@ -103,6 +103,7 @@
           "reference": "DocumentReference/Example-UTN-Consent-DocumentReference-Forschungsvorhaben"
         },
         "name": "Example-UTN-Consent-DocumentReference-Forschungsvorhaben",
+        "description": "Example of Documentreference for Forschungsvorhaben",
         "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"
       },
       {
@@ -110,6 +111,7 @@
           "reference": "DocumentReference/Example-UTN-Consent-DocumentReference-Videosprechstunde"
         },
         "name": "Example-UTN-Consent-DocumentReference-Videosprechstunde",
+        "description": "Example of Documentreference for Videosprechstunde",
         "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"
       },
       {
@@ -125,6 +127,7 @@
           "reference": "Provenance/Example-UTN-Consent-Provenance-Forschungsvorhaben"
         },
         "name": "Example-UTN-Consent-Provenance-Forschungsvorhaben",
+        "description": "Example of Provenance for Forschungsvorhaben",
         "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/consent-management-provenance"
       },
       {
@@ -132,6 +135,7 @@
           "reference": "Provenance/Example-UTN-Consent-Provenance-Videosprechstunde"
         },
         "name": "Example-UTN-Consent-Provenance-Videosprechstunde",
+        "description": "Example of Provenance for Videosprechstunde",
         "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/consent-management-provenance"
       },
       {
@@ -224,20 +228,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/isik-herzfrequenz"
-        },
-        "name": "Profile for documenting Herzfrequenz observations within UTN.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/isik-koerpergewicht"
-        },
-        "name": "Profile for documenting Koerpergewicht observations within UTN.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "HealthcareService/teleconsultation-service-1"
         },
         "name": "Teleconsultation Service",
@@ -289,7 +279,7 @@
           "reference": "StructureDefinition/mii-kreatinin"
         },
         "name": "UTN Laboruntersuchung-Kreatinin",
-        "description": "This profile describes a laboratory result of the Creatinin.",
+        "description": "Profile for documenting Creatinin within UTN.",
         "exampleBoolean": false
       },
       {
@@ -305,13 +295,31 @@
           "reference": "StructureDefinition/utn-isik-atemfrequenz"
         },
         "name": "UTN Observation Atemfrequenz Profile",
+        "description": "Profile for documenting Atemfrequenz observations within UTN.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/isik-herzfrequenz"
+        },
+        "name": "UTN Observation Heart rate Profile",
+        "description": "Profile for documenting Herzfrequenz observations within UTN.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/isik-koerpergewicht"
+        },
+        "name": "UTN Observation Koerpergewicht Profile",
+        "description": "Profile for documenting Koerpergewicht observations within UTN.",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/isik-koerpertemperatur"
         },
-        "name": "UTN Observation Koerper Temperatur Profile",
+        "name": "UTN Observation Koerpertemperatur Profile",
+        "description": "Profile for documenting Koerpertemperatur observations within UTN.",
         "exampleBoolean": false
       },
       {
@@ -351,6 +359,7 @@
           "reference": "Location/UTNLocation"
         },
         "name": "UTNLocation",
+        "description": "Example location for UTN",
         "exampleBoolean": true
       }
     ],

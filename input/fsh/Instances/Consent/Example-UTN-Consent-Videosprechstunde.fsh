@@ -2,6 +2,7 @@ Instance: Example-UTN-Consent-Videosprechstunde
 InstanceOf: UTNConsent
 Usage: #example
 Description: "This example shows how the 'Videosprechstunde Consent form' should be strucutured"
+
 * meta.profile = "https://www.medizininformatik-initiative.de/fhir/modul-consent/StructureDefinition/mii-pr-consent-einwilligung"
 * status = #active
 * scope = $consentscope#research
@@ -22,6 +23,7 @@ Description: "This example shows how the 'Videosprechstunde Consent form' should
 Instance: Example-UTN-Consent-DocumentReference-Videosprechstunde
 InstanceOf: UTNDocumentReference
 Usage: #example
+Description: "Example of Documentreference for Videosprechstunde"
 * status = #current
 * subject = Reference(Example-UTN-Patient)
 * content.attachment.contentType = #application/pdf
@@ -31,6 +33,8 @@ Usage: #example
 Instance: Example-UTN-Consent-Provenance-Videosprechstunde
 InstanceOf: ConsentManagementProvenance
 Usage: #example
+Description: "Example of Provenance for Videosprechstunde"
+
 * meta.profile = "http://fhir.de/ConsentManagement/StructureDefinition/Provenance"
 * target = Reference(UtnConsentVideosprechstunde)
 * recorded = "2024-07-24T09:00:00Z"

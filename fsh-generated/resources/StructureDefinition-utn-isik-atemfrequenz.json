@@ -5,6 +5,7 @@
   "name": "UTNAtemfrequenz",
   "title": "UTN Observation Atemfrequenz Profile",
   "status": "draft",
+  "description": "Profile for documenting Atemfrequenz observations within UTN.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

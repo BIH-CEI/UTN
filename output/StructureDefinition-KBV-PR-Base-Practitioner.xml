@@ -13,7 +13,7 @@
   <name value="UTNPractitioner"/>
   <title value="UTN Practitioner"/>
   <status value="draft"/>
-  <date value="2025-03-26T13:37:22+01:00"/>
+  <date value="2025-04-15T09:45:28+02:00"/>
   <publisher value="BIH-CEI"/>
   <contact>
     <name value="BIH-CEI"/>
@@ -22,7 +22,7 @@
       <value value="http://utn/consentresource.com"/>
     </telecom>
   </contact>
-  <description value="Dieses Profil bildet eine behandelnde Person ab."/>
+  <description value="The profile of the UTN Practitoner"/>
   <fhirVersion value="4.0.1"/>
   <kind value="resource"/>
   <abstract value="false"/>

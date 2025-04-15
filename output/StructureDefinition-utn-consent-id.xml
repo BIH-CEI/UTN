@@ -23,7 +23,7 @@
   <name value="UTNConsent"/>
   <title value="UTN Consent Forschungsvorhaben and Videosprechstunde"/>
   <status value="draft"/>
-  <date value="2025-03-26T13:37:22+01:00"/>
+  <date value="2025-04-15T09:45:28+02:00"/>
   <publisher value="BIH-CEI"/>
   <contact>
     <name value="BIH-CEI"/>
@@ -32,7 +32,7 @@
       <value value="http://utn/consentresource.com"/>
     </telecom>
   </contact>
-  <description value="Dies ist das Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation"/>
+  <description value="This is the consent profile for the research project and the video consultation"/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="workflow"/>

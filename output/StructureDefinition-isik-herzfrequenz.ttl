@@ -17,9 +17,9 @@
   fhir:url [ fhir:v "http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "UTNHerzfrequenz"] ; # 
-  fhir:title [ fhir:v "UTN Observation Herzfrequenz Profile"] ; # 
+  fhir:title [ fhir:v "UTN Observation Heart rate Profile"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-03-26T13:37:22+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-15T09:45:28+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "BIH-CEI"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "BIH-CEI" ] ;
@@ -28,6 +28,7 @@
        fhir:value [ fhir:v "http://utn/consentresource.com" ]
      ] )
   ] ) ; # 
+  fhir:description [ fhir:v "Profile for documenting Herzfrequenz observations within UTN."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:kind [ fhir:v "resource"] ; # 
   fhir:abstract [ fhir:v false] ; # 

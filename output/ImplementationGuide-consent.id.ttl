@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "UTNConsentResource"] ; # 
   fhir:title [ fhir:v "University Telemedicine Network (UTN) FHIR Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-03-26T13:37:22+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-15T09:45:28+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "BIH-CEI"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "BIH-CEI" ] ;
@@ -933,6 +933,7 @@
          fhir:reference [ fhir:v "DocumentReference/Example-UTN-Consent-DocumentReference-Forschungsvorhaben" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-Consent-DocumentReference-Forschungsvorhaben" ] ;
+       fhir:description [ fhir:v "Example of Documentreference for Forschungsvorhaben" ] ;
        fhir:example [
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"^^xsd:anyURI ;
@@ -951,6 +952,7 @@
          fhir:reference [ fhir:v "DocumentReference/Example-UTN-Consent-DocumentReference-Videosprechstunde" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-Consent-DocumentReference-Videosprechstunde" ] ;
+       fhir:description [ fhir:v "Example of Documentreference for Videosprechstunde" ] ;
        fhir:example [
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"^^xsd:anyURI ;
@@ -969,6 +971,7 @@
          fhir:reference [ fhir:v "Consent/Example-UTN-Consent-Forschungsvorhaben" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-Consent-Forschungsvorhaben" ] ;
+       fhir:description [ fhir:v "This example shows how the 'Forschungsvorhaben Consent form' should be strucutured" ] ;
        fhir:example [
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/utn-consent-id"^^xsd:anyURI ;
@@ -987,6 +990,7 @@
          fhir:reference [ fhir:v "Provenance/Example-UTN-Consent-Provenance-Forschungsvorhaben" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-Consent-Provenance-Forschungsvorhaben" ] ;
+       fhir:description [ fhir:v "Example of Provenance for Forschungsvorhaben" ] ;
        fhir:example [
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/consent-management-provenance"^^xsd:anyURI ;
@@ -1005,6 +1009,7 @@
          fhir:reference [ fhir:v "Provenance/Example-UTN-Consent-Provenance-Videosprechstunde" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-Consent-Provenance-Videosprechstunde" ] ;
+       fhir:description [ fhir:v "Example of Provenance for Videosprechstunde" ] ;
        fhir:example [
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/consent-management-provenance"^^xsd:anyURI ;
@@ -1023,6 +1028,7 @@
          fhir:reference [ fhir:v "Consent/Example-UTN-Consent-Videosprechstunde" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-Consent-Videosprechstunde" ] ;
+       fhir:description [ fhir:v "This example shows how the 'Videosprechstunde Consent form' should be strucutured" ] ;
        fhir:example [
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/utn-consent-id"^^xsd:anyURI ;
@@ -1060,6 +1066,7 @@
          fhir:reference [ fhir:v "Patient/consent-management-patient" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-Patient" ] ;
+       fhir:description [ fhir:v "Example UTN Patient" ] ;
        fhir:example [
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/consent-management-patient"^^xsd:anyURI ;
@@ -1078,6 +1085,7 @@
          fhir:reference [ fhir:v "Observation/Example-UTNHerzfrequenz" ]
        ] ;
        fhir:name [ fhir:v "Example-UTNHerzfrequenz" ] ;
+       fhir:description [ fhir:v "An example Observation for heart rate." ] ;
        fhir:example [
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz"^^xsd:anyURI ;
@@ -1096,6 +1104,7 @@
          fhir:reference [ fhir:v "Observation/Example-UTNKoerpergewicht" ]
        ] ;
        fhir:name [ fhir:v "Example-UTNKoerpergewicht" ] ;
+       fhir:description [ fhir:v "An example Observation for Body Weight." ] ;
        fhir:example [
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht"^^xsd:anyURI ;
@@ -1114,6 +1123,7 @@
          fhir:reference [ fhir:v "Observation/Example-UTNKoerpertemperatur" ]
        ] ;
        fhir:name [ fhir:v "Example-UTNKoerpertemperatur" ] ;
+       fhir:description [ fhir:v "An example Observation for Body Temperature." ] ;
        fhir:example [
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur"^^xsd:anyURI ;
@@ -1132,6 +1142,7 @@
          fhir:reference [ fhir:v "Observation/Example-UTNKreatinin" ]
        ] ;
        fhir:name [ fhir:v "Example-UTNKreatinin" ] ;
+       fhir:description [ fhir:v "An example Observation for Creatinin." ] ;
        fhir:example [
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/mii-kreatinin"^^xsd:anyURI ;
@@ -1150,6 +1161,7 @@
          fhir:reference [ fhir:v "Practitioner/Example-UTNPractitioner" ]
        ] ;
        fhir:name [ fhir:v "Example-UTNPractitioner" ] ;
+       fhir:description [ fhir:v "Example UTN Practitioner" ] ;
        fhir:example [
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"^^xsd:anyURI ;
@@ -1168,6 +1180,7 @@
          fhir:reference [ fhir:v "PractitionerRole/Example-UTNPractitionerRole" ]
        ] ;
        fhir:name [ fhir:v "Example-UTNPractitionerRole" ] ;
+       fhir:description [ fhir:v "Example UTN PractitionerRole" ] ;
        fhir:example [
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"^^xsd:anyURI ;
@@ -1186,7 +1199,7 @@
          fhir:reference [ fhir:v "Observation/Example-UTNAtemfrequenz" ]
        ] ;
        fhir:name [ fhir:v "ISiKAtemfrequenz Example" ] ;
-       fhir:description [ fhir:v "An example Observation for respiratory rate using ISiKAtemfrequenz profile." ] ;
+       fhir:description [ fhir:v "An example Observation for respiratory rate using Atemfrequenz profile." ] ;
        fhir:example [
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz"^^xsd:anyURI ;
@@ -1242,7 +1255,7 @@
          fhir:reference [ fhir:v "StructureDefinition/utn-consent-documentreference-id" ]
        ] ;
        fhir:name [ fhir:v "UTN Consent Document Reference" ] ;
-       fhir:description [ fhir:v "Dies ist das DocumentReference für Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation" ] ;
+       fhir:description [ fhir:v "This is the Document Reference profile for the consent profile of the Forschungsvorhaben and Videosprechstunde" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1260,7 +1273,7 @@
          fhir:reference [ fhir:v "StructureDefinition/utn-consent-id" ]
        ] ;
        fhir:name [ fhir:v "UTN Consent Forschungsvorhaben and Videosprechstunde" ] ;
-       fhir:description [ fhir:v "Dies ist das Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation" ] ;
+       fhir:description [ fhir:v "This is the consent profile for the research project and the video consultation" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1278,6 +1291,7 @@
          fhir:reference [ fhir:v "StructureDefinition/consent-management-provenance" ]
        ] ;
        fhir:name [ fhir:v "UTN Consent Management Provenance" ] ;
+       fhir:description [ fhir:v "This is the consent management provenance profile for the consent profile of the Forschungsvorhaben and Videosprechstunde" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1295,7 +1309,7 @@
          fhir:reference [ fhir:v "StructureDefinition/profile-consent-management-questionnaireresponse" ]
        ] ;
        fhir:name [ fhir:v "UTN Consent Management QuestionnaireResponse" ] ;
-       fhir:description [ fhir:v "Der ausgefüllte Fragebogen zur Einwilligung." ] ;
+       fhir:description [ fhir:v "The completed questionnaire." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1331,7 +1345,7 @@
          fhir:reference [ fhir:v "StructureDefinition/mii-kreatinin" ]
        ] ;
        fhir:name [ fhir:v "UTN Laboruntersuchung-Kreatinin" ] ;
-       fhir:description [ fhir:v "Dieses Profil beschreibt eine Laborergebnis in der Medizininformatik-Initiative." ] ;
+       fhir:description [ fhir:v "Profile for documenting Creatinin within UTN." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1367,6 +1381,7 @@
          fhir:reference [ fhir:v "StructureDefinition/utn-isik-atemfrequenz" ]
        ] ;
        fhir:name [ fhir:v "UTN Observation Atemfrequenz Profile" ] ;
+       fhir:description [ fhir:v "Profile for documenting Atemfrequenz observations within UTN." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1383,24 +1398,8 @@
          fhir:link <http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz> ;
          fhir:reference [ fhir:v "StructureDefinition/isik-herzfrequenz" ]
        ] ;
-       fhir:name [ fhir:v "UTN Observation Herzfrequenz Profile" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "StructureDefinition:resource"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur> ;
-         fhir:reference [ fhir:v "StructureDefinition/isik-koerpertemperatur" ]
-       ] ;
-       fhir:name [ fhir:v "UTN Observation Koerper Temperatur Profile" ] ;
+       fhir:name [ fhir:v "UTN Observation Heart rate Profile" ] ;
+       fhir:description [ fhir:v "Profile for documenting Herzfrequenz observations within UTN." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1418,6 +1417,25 @@
          fhir:reference [ fhir:v "StructureDefinition/isik-koerpergewicht" ]
        ] ;
        fhir:name [ fhir:v "UTN Observation Koerpergewicht Profile" ] ;
+       fhir:description [ fhir:v "Profile for documenting Koerpergewicht observations within UTN." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur> ;
+         fhir:reference [ fhir:v "StructureDefinition/isik-koerpertemperatur" ]
+       ] ;
+       fhir:name [ fhir:v "UTN Observation Koerpertemperatur Profile" ] ;
+       fhir:description [ fhir:v "Profile for documenting Koerpertemperatur observations within UTN." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1435,6 +1453,7 @@
          fhir:reference [ fhir:v "StructureDefinition/consent-management-patient" ]
        ] ;
        fhir:name [ fhir:v "UTN Patient" ] ;
+       fhir:description [ fhir:v "The profile of the UTN Patient" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1452,7 +1471,7 @@
          fhir:reference [ fhir:v "StructureDefinition/KBV-PR-Base-Practitioner" ]
        ] ;
        fhir:name [ fhir:v "UTN Practitioner" ] ;
-       fhir:description [ fhir:v "Dieses Profil bildet eine behandelnde Person ab." ] ;
+       fhir:description [ fhir:v "The profile of the UTN Practitoner" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1470,7 +1489,7 @@
          fhir:reference [ fhir:v "StructureDefinition/utn-PR-Base-PractitionerRole" ]
        ] ;
        fhir:name [ fhir:v "UTN Practitioner Role" ] ;
-       fhir:description [ fhir:v "Dieses Profil bildet eine temporäre Rolle einer behandelnden Person in Bezug zu einer Einrichtung ab." ] ;
+       fhir:description [ fhir:v "The profile of the UTN Practitoner Role" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1506,6 +1525,7 @@
          fhir:reference [ fhir:v "Location/UTNLocation" ]
        ] ;
        fhir:name [ fhir:v "UTNLocation" ] ;
+       fhir:description [ fhir:v "Example location for UTN" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v true

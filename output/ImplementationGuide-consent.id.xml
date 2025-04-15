@@ -10,7 +10,7 @@
   <name value="UTNConsentResource"/>
   <title value="University Telemedicine Network (UTN) FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-03-26T13:37:22+01:00"/>
+  <date value="2025-04-15T09:45:28+02:00"/>
   <publisher value="BIH-CEI"/>
   <contact>
     <name value="BIH-CEI"/>
@@ -523,6 +523,7 @@
         <reference value="DocumentReference/Example-UTN-Consent-DocumentReference-Forschungsvorhaben"/>
       </reference>
       <name value="Example-UTN-Consent-DocumentReference-Forschungsvorhaben"/>
+      <description value="Example of Documentreference for Forschungsvorhaben"/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"/>
     </resource>
     <resource>
@@ -533,6 +534,7 @@
         <reference value="DocumentReference/Example-UTN-Consent-DocumentReference-Videosprechstunde"/>
       </reference>
       <name value="Example-UTN-Consent-DocumentReference-Videosprechstunde"/>
+      <description value="Example of Documentreference for Videosprechstunde"/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"/>
     </resource>
     <resource>
@@ -543,6 +545,7 @@
         <reference value="Consent/Example-UTN-Consent-Forschungsvorhaben"/>
       </reference>
       <name value="Example-UTN-Consent-Forschungsvorhaben"/>
+      <description value="This example shows how the 'Forschungsvorhaben Consent form' should be strucutured"/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-consent-id"/>
     </resource>
     <resource>
@@ -553,6 +556,7 @@
         <reference value="Provenance/Example-UTN-Consent-Provenance-Forschungsvorhaben"/>
       </reference>
       <name value="Example-UTN-Consent-Provenance-Forschungsvorhaben"/>
+      <description value="Example of Provenance for Forschungsvorhaben"/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/consent-management-provenance"/>
     </resource>
     <resource>
@@ -563,6 +567,7 @@
         <reference value="Provenance/Example-UTN-Consent-Provenance-Videosprechstunde"/>
       </reference>
       <name value="Example-UTN-Consent-Provenance-Videosprechstunde"/>
+      <description value="Example of Provenance for Videosprechstunde"/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/consent-management-provenance"/>
     </resource>
     <resource>
@@ -573,6 +578,7 @@
         <reference value="Consent/Example-UTN-Consent-Videosprechstunde"/>
       </reference>
       <name value="Example-UTN-Consent-Videosprechstunde"/>
+      <description value="This example shows how the 'Videosprechstunde Consent form' should be strucutured"/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-consent-id"/>
     </resource>
     <resource>
@@ -594,6 +600,7 @@
         <reference value="Patient/consent-management-patient"/>
       </reference>
       <name value="Example-UTN-Patient"/>
+      <description value="Example UTN Patient"/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/consent-management-patient"/>
     </resource>
     <resource>
@@ -604,6 +611,7 @@
         <reference value="Observation/Example-UTNHerzfrequenz"/>
       </reference>
       <name value="Example-UTNHerzfrequenz"/>
+      <description value="An example Observation for heart rate."/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz"/>
     </resource>
     <resource>
@@ -614,6 +622,7 @@
         <reference value="Observation/Example-UTNKoerpergewicht"/>
       </reference>
       <name value="Example-UTNKoerpergewicht"/>
+      <description value="An example Observation for Body Weight."/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht"/>
     </resource>
     <resource>
@@ -624,6 +633,7 @@
         <reference value="Observation/Example-UTNKoerpertemperatur"/>
       </reference>
       <name value="Example-UTNKoerpertemperatur"/>
+      <description value="An example Observation for Body Temperature."/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur"/>
     </resource>
     <resource>
@@ -634,6 +644,7 @@
         <reference value="Observation/Example-UTNKreatinin"/>
       </reference>
       <name value="Example-UTNKreatinin"/>
+      <description value="An example Observation for Creatinin."/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/mii-kreatinin"/>
     </resource>
     <resource>
@@ -644,6 +655,7 @@
         <reference value="Practitioner/Example-UTNPractitioner"/>
       </reference>
       <name value="Example-UTNPractitioner"/>
+      <description value="Example UTN Practitioner"/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"/>
     </resource>
     <resource>
@@ -654,6 +666,7 @@
         <reference value="PractitionerRole/Example-UTNPractitionerRole"/>
       </reference>
       <name value="Example-UTNPractitionerRole"/>
+      <description value="Example UTN PractitionerRole"/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"/>
     </resource>
     <resource>
@@ -664,7 +677,7 @@
         <reference value="Observation/Example-UTNAtemfrequenz"/>
       </reference>
       <name value="ISiKAtemfrequenz Example"/>
-      <description value="An example Observation for respiratory rate using ISiKAtemfrequenz profile."/>
+      <description value="An example Observation for respiratory rate using Atemfrequenz profile."/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz"/>
     </resource>
     <resource>
@@ -697,7 +710,7 @@
         <reference value="StructureDefinition/utn-consent-documentreference-id"/>
       </reference>
       <name value="UTN Consent Document Reference"/>
-      <description value="Dies ist das DocumentReference für Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation"/>
+      <description value="This is the Document Reference profile for the consent profile of the Forschungsvorhaben and Videosprechstunde"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -708,7 +721,7 @@
         <reference value="StructureDefinition/utn-consent-id"/>
       </reference>
       <name value="UTN Consent Forschungsvorhaben and Videosprechstunde"/>
-      <description value="Dies ist das Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation"/>
+      <description value="This is the consent profile for the research project and the video consultation"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -719,6 +732,7 @@
         <reference value="StructureDefinition/consent-management-provenance"/>
       </reference>
       <name value="UTN Consent Management Provenance"/>
+      <description value="This is the consent management provenance profile for the consent profile of the Forschungsvorhaben and Videosprechstunde"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -729,7 +743,7 @@
         <reference value="StructureDefinition/profile-consent-management-questionnaireresponse"/>
       </reference>
       <name value="UTN Consent Management QuestionnaireResponse"/>
-      <description value="Der ausgefüllte Fragebogen zur Einwilligung."/>
+      <description value="The completed questionnaire."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -751,7 +765,7 @@
         <reference value="StructureDefinition/mii-kreatinin"/>
       </reference>
       <name value="UTN Laboruntersuchung-Kreatinin"/>
-      <description value="Dieses Profil beschreibt eine Laborergebnis in der Medizininformatik-Initiative."/>
+      <description value="Profile for documenting Creatinin within UTN."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -773,6 +787,7 @@
         <reference value="StructureDefinition/utn-isik-atemfrequenz"/>
       </reference>
       <name value="UTN Observation Atemfrequenz Profile"/>
+      <description value="Profile for documenting Atemfrequenz observations within UTN."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -782,17 +797,8 @@
       <reference>
         <reference value="StructureDefinition/isik-herzfrequenz"/>
       </reference>
-      <name value="UTN Observation Herzfrequenz Profile"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/isik-koerpertemperatur"/>
-      </reference>
-      <name value="UTN Observation Koerper Temperatur Profile"/>
+      <name value="UTN Observation Heart rate Profile"/>
+      <description value="Profile for documenting Herzfrequenz observations within UTN."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -803,6 +809,18 @@
         <reference value="StructureDefinition/isik-koerpergewicht"/>
       </reference>
       <name value="UTN Observation Koerpergewicht Profile"/>
+      <description value="Profile for documenting Koerpergewicht observations within UTN."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/isik-koerpertemperatur"/>
+      </reference>
+      <name value="UTN Observation Koerpertemperatur Profile"/>
+      <description value="Profile for documenting Koerpertemperatur observations within UTN."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -813,6 +831,7 @@
         <reference value="StructureDefinition/consent-management-patient"/>
       </reference>
       <name value="UTN Patient"/>
+      <description value="The profile of the UTN Patient"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -823,7 +842,7 @@
         <reference value="StructureDefinition/KBV-PR-Base-Practitioner"/>
       </reference>
       <name value="UTN Practitioner"/>
-      <description value="Dieses Profil bildet eine behandelnde Person ab."/>
+      <description value="The profile of the UTN Practitoner"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -834,7 +853,7 @@
         <reference value="StructureDefinition/utn-PR-Base-PractitionerRole"/>
       </reference>
       <name value="UTN Practitioner Role"/>
-      <description value="Dieses Profil bildet eine temporäre Rolle einer behandelnden Person in Bezug zu einer Einrichtung ab."/>
+      <description value="The profile of the UTN Practitoner Role"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -856,6 +875,7 @@
         <reference value="Location/UTNLocation"/>
       </reference>
       <name value="UTNLocation"/>
+      <description value="Example location for UTN"/>
       <exampleBoolean value="true"/>
     </resource>
     <page>

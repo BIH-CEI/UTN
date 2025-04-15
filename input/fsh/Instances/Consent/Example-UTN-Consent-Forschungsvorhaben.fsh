@@ -22,6 +22,8 @@ Description: "This example shows how the 'Forschungsvorhaben Consent form' shoul
 Instance: Example-UTN-Consent-DocumentReference-Forschungsvorhaben
 InstanceOf: UTNDocumentReference
 Usage: #example
+Description: "Example of Documentreference for Forschungsvorhaben"
+
 * status = #current
 * subject = Reference(Example-UTN-Patient)
 * content.attachment.contentType = #application/pdf
@@ -32,6 +34,8 @@ Usage: #example
 Instance: Example-UTN-Consent-Provenance-Forschungsvorhaben
 InstanceOf: ConsentManagementProvenance
 Usage: #example
+Description: "Example of Provenance for Forschungsvorhaben"
+
 * meta.profile = "http://fhir.de/ConsentManagement/StructureDefinition/Provenance"
 * target = Reference(UtnConsentForschungsvorhaben)
 * recorded = "2024-07-24T09:00:00Z"
@@ -47,4 +51,5 @@ Usage: #example
 
 Instance: UTNLocation
 InstanceOf: Location
+Description: "Example location for UTN"
 * name = "Berlin"

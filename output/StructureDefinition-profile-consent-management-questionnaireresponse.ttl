@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "ConsentManagementQuestionnaireResponseUKW"] ; # 
   fhir:title [ fhir:v "UTN Consent Management QuestionnaireResponse"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-03-26T13:37:22+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-15T09:45:28+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "BIH-CEI"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "BIH-CEI" ] ;
@@ -27,7 +27,7 @@
        fhir:value [ fhir:v "http://utn/consentresource.com" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Der ausgefüllte Fragebogen zur Einwilligung."] ; # 
+  fhir:description [ fhir:v "The completed questionnaire."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "workflow" ] ;

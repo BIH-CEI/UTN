@@ -19,7 +19,7 @@
   fhir:name [ fhir:v "UTNConsent"] ; # 
   fhir:title [ fhir:v "UTN Consent Forschungsvorhaben and Videosprechstunde"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-03-26T13:37:22+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-15T09:45:28+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "BIH-CEI"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "BIH-CEI" ] ;
@@ -28,7 +28,7 @@
        fhir:value [ fhir:v "http://utn/consentresource.com" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Dies ist das Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation"] ; # 
+  fhir:description [ fhir:v "This is the consent profile for the research project and the video consultation"] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "workflow" ] ;

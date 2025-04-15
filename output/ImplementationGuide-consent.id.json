@@ -10,7 +10,7 @@
   "name" : "UTNConsentResource",
   "title" : "University Telemedicine Network (UTN) FHIR Implementation Guide",
   "status" : "draft",
-  "date" : "2025-03-26T13:37:22+01:00",
+  "date" : "2025-04-15T09:45:28+02:00",
   "publisher" : "BIH-CEI",
   "contact" : [{
     "name" : "BIH-CEI",
@@ -690,6 +690,7 @@
         "reference" : "DocumentReference/Example-UTN-Consent-DocumentReference-Forschungsvorhaben"
       },
       "name" : "Example-UTN-Consent-DocumentReference-Forschungsvorhaben",
+      "description" : "Example of Documentreference for Forschungsvorhaben",
       "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"
     },
     {
@@ -701,6 +702,7 @@
         "reference" : "DocumentReference/Example-UTN-Consent-DocumentReference-Videosprechstunde"
       },
       "name" : "Example-UTN-Consent-DocumentReference-Videosprechstunde",
+      "description" : "Example of Documentreference for Videosprechstunde",
       "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"
     },
     {
@@ -712,6 +714,7 @@
         "reference" : "Consent/Example-UTN-Consent-Forschungsvorhaben"
       },
       "name" : "Example-UTN-Consent-Forschungsvorhaben",
+      "description" : "This example shows how the 'Forschungsvorhaben Consent form' should be strucutured",
       "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/utn-consent-id"
     },
     {
@@ -723,6 +726,7 @@
         "reference" : "Provenance/Example-UTN-Consent-Provenance-Forschungsvorhaben"
       },
       "name" : "Example-UTN-Consent-Provenance-Forschungsvorhaben",
+      "description" : "Example of Provenance for Forschungsvorhaben",
       "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/consent-management-provenance"
     },
     {
@@ -734,6 +738,7 @@
         "reference" : "Provenance/Example-UTN-Consent-Provenance-Videosprechstunde"
       },
       "name" : "Example-UTN-Consent-Provenance-Videosprechstunde",
+      "description" : "Example of Provenance for Videosprechstunde",
       "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/consent-management-provenance"
     },
     {
@@ -745,6 +750,7 @@
         "reference" : "Consent/Example-UTN-Consent-Videosprechstunde"
       },
       "name" : "Example-UTN-Consent-Videosprechstunde",
+      "description" : "This example shows how the 'Videosprechstunde Consent form' should be strucutured",
       "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/utn-consent-id"
     },
     {
@@ -768,6 +774,7 @@
         "reference" : "Patient/consent-management-patient"
       },
       "name" : "Example-UTN-Patient",
+      "description" : "Example UTN Patient",
       "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/consent-management-patient"
     },
     {
@@ -779,6 +786,7 @@
         "reference" : "Observation/Example-UTNHerzfrequenz"
       },
       "name" : "Example-UTNHerzfrequenz",
+      "description" : "An example Observation for heart rate.",
       "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz"
     },
     {
@@ -790,6 +798,7 @@
         "reference" : "Observation/Example-UTNKoerpergewicht"
       },
       "name" : "Example-UTNKoerpergewicht",
+      "description" : "An example Observation for Body Weight.",
       "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht"
     },
     {
@@ -801,6 +810,7 @@
         "reference" : "Observation/Example-UTNKoerpertemperatur"
       },
       "name" : "Example-UTNKoerpertemperatur",
+      "description" : "An example Observation for Body Temperature.",
       "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur"
     },
     {
@@ -812,6 +822,7 @@
         "reference" : "Observation/Example-UTNKreatinin"
       },
       "name" : "Example-UTNKreatinin",
+      "description" : "An example Observation for Creatinin.",
       "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/mii-kreatinin"
     },
     {
@@ -823,6 +834,7 @@
         "reference" : "Practitioner/Example-UTNPractitioner"
       },
       "name" : "Example-UTNPractitioner",
+      "description" : "Example UTN Practitioner",
       "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"
     },
     {
@@ -834,6 +846,7 @@
         "reference" : "PractitionerRole/Example-UTNPractitionerRole"
       },
       "name" : "Example-UTNPractitionerRole",
+      "description" : "Example UTN PractitionerRole",
       "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"
     },
     {
@@ -845,7 +858,7 @@
         "reference" : "Observation/Example-UTNAtemfrequenz"
       },
       "name" : "ISiKAtemfrequenz Example",
-      "description" : "An example Observation for respiratory rate using ISiKAtemfrequenz profile.",
+      "description" : "An example Observation for respiratory rate using Atemfrequenz profile.",
       "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz"
     },
     {
@@ -881,7 +894,7 @@
         "reference" : "StructureDefinition/utn-consent-documentreference-id"
       },
       "name" : "UTN Consent Document Reference",
-      "description" : "Dies ist das DocumentReference für Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation",
+      "description" : "This is the Document Reference profile for the consent profile of the Forschungsvorhaben and Videosprechstunde",
       "exampleBoolean" : false
     },
     {
@@ -893,7 +906,7 @@
         "reference" : "StructureDefinition/utn-consent-id"
       },
       "name" : "UTN Consent Forschungsvorhaben and Videosprechstunde",
-      "description" : "Dies ist das Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation",
+      "description" : "This is the consent profile for the research project and the video consultation",
       "exampleBoolean" : false
     },
     {
@@ -905,6 +918,7 @@
         "reference" : "StructureDefinition/consent-management-provenance"
       },
       "name" : "UTN Consent Management Provenance",
+      "description" : "This is the consent management provenance profile for the consent profile of the Forschungsvorhaben and Videosprechstunde",
       "exampleBoolean" : false
     },
     {
@@ -916,7 +930,7 @@
         "reference" : "StructureDefinition/profile-consent-management-questionnaireresponse"
       },
       "name" : "UTN Consent Management QuestionnaireResponse",
-      "description" : "Der ausgefüllte Fragebogen zur Einwilligung.",
+      "description" : "The completed questionnaire.",
       "exampleBoolean" : false
     },
     {
@@ -940,7 +954,7 @@
         "reference" : "StructureDefinition/mii-kreatinin"
       },
       "name" : "UTN Laboruntersuchung-Kreatinin",
-      "description" : "Dieses Profil beschreibt eine Laborergebnis in der Medizininformatik-Initiative.",
+      "description" : "Profile for documenting Creatinin within UTN.",
       "exampleBoolean" : false
     },
     {
@@ -964,6 +978,7 @@
         "reference" : "StructureDefinition/utn-isik-atemfrequenz"
       },
       "name" : "UTN Observation Atemfrequenz Profile",
+      "description" : "Profile for documenting Atemfrequenz observations within UTN.",
       "exampleBoolean" : false
     },
     {
@@ -974,18 +989,8 @@
       "reference" : {
         "reference" : "StructureDefinition/isik-herzfrequenz"
       },
-      "name" : "UTN Observation Herzfrequenz Profile",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/isik-koerpertemperatur"
-      },
-      "name" : "UTN Observation Koerper Temperatur Profile",
+      "name" : "UTN Observation Heart rate Profile",
+      "description" : "Profile for documenting Herzfrequenz observations within UTN.",
       "exampleBoolean" : false
     },
     {
@@ -997,6 +1002,19 @@
         "reference" : "StructureDefinition/isik-koerpergewicht"
       },
       "name" : "UTN Observation Koerpergewicht Profile",
+      "description" : "Profile for documenting Koerpergewicht observations within UTN.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/isik-koerpertemperatur"
+      },
+      "name" : "UTN Observation Koerpertemperatur Profile",
+      "description" : "Profile for documenting Koerpertemperatur observations within UTN.",
       "exampleBoolean" : false
     },
     {
@@ -1008,6 +1026,7 @@
         "reference" : "StructureDefinition/consent-management-patient"
       },
       "name" : "UTN Patient",
+      "description" : "The profile of the UTN Patient",
       "exampleBoolean" : false
     },
     {
@@ -1019,7 +1038,7 @@
         "reference" : "StructureDefinition/KBV-PR-Base-Practitioner"
       },
       "name" : "UTN Practitioner",
-      "description" : "Dieses Profil bildet eine behandelnde Person ab.",
+      "description" : "The profile of the UTN Practitoner",
       "exampleBoolean" : false
     },
     {
@@ -1031,7 +1050,7 @@
         "reference" : "StructureDefinition/utn-PR-Base-PractitionerRole"
       },
       "name" : "UTN Practitioner Role",
-      "description" : "Dieses Profil bildet eine temporäre Rolle einer behandelnden Person in Bezug zu einer Einrichtung ab.",
+      "description" : "The profile of the UTN Practitoner Role",
       "exampleBoolean" : false
     },
     {
@@ -1055,6 +1074,7 @@
         "reference" : "Location/UTNLocation"
       },
       "name" : "UTNLocation",
+      "description" : "Example location for UTN",
       "exampleBoolean" : true
     }],
     "page" : {

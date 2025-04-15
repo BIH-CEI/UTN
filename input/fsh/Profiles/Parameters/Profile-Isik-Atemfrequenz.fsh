@@ -2,6 +2,7 @@ Profile: UTNAtemfrequenz
 Parent: ISiKAtemfrequenz
 Id: utn-isik-atemfrequenz
 Title: "UTN Observation Atemfrequenz Profile"
+Description: "Profile for documenting Atemfrequenz observations within UTN."
 
 * status MS
 * category MS

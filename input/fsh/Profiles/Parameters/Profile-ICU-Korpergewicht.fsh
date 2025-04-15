@@ -1,7 +1,8 @@
 Profile: UTNKoerpergewicht
 Parent: ISiKKoerpergewicht
 Id: isik-koerpergewicht
-Title: "Profile for documenting Koerpergewicht observations within UTN."
+Title: "UTN Observation Koerpergewicht Profile"
+Description: "Profile for documenting Koerpergewicht observations within UTN."
 
 * status MS
 * category MS

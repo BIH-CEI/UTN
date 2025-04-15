@@ -11,7 +11,7 @@
   <name value="ConsentManagementQuestionnaireResponseUKW"/>
   <title value="UTN Consent Management QuestionnaireResponse"/>
   <status value="draft"/>
-  <date value="2025-03-26T13:37:22+01:00"/>
+  <date value="2025-04-15T09:45:28+02:00"/>
   <publisher value="BIH-CEI"/>
   <contact>
     <name value="BIH-CEI"/>
@@ -20,7 +20,7 @@
       <value value="http://utn/consentresource.com"/>
     </telecom>
   </contact>
-  <description value="Der ausgefüllte Fragebogen zur Einwilligung."/>
+  <description value="The completed questionnaire."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="workflow"/>

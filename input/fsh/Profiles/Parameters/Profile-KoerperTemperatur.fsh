@@ -1,7 +1,8 @@
 Profile: UTNKoerperTemperatur
 Parent: ISiKKoerpertemperatur
 Id: isik-koerpertemperatur
-Title: "UTN Observation Koerper Temperatur Profile"
+Title: "UTN Observation Koerpertemperatur Profile"
+Description: "Profile for documenting Koerpertemperatur observations within UTN."
 
 * status MS
 * category MS

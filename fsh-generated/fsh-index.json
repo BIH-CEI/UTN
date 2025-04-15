@@ -13,7 +13,7 @@
     "fshType": "Instance",
     "fshFile": "Instances/Consent/Example-UTN-Consent-Videosprechstunde.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 21
   },
   {
     "outputFile": "Device-camera-1.json",
@@ -45,15 +45,15 @@
     "fshType": "Instance",
     "fshFile": "Instances/Consent/Example-UTN-Consent-Forschungsvorhaben.fsh",
     "startLine": 22,
-    "endLine": 29
+    "endLine": 31
   },
   {
     "outputFile": "DocumentReference-Example-UTN-Consent-DocumentReference-Videosprechstunde.json",
     "fshName": "Example-UTN-Consent-DocumentReference-Videosprechstunde",
     "fshType": "Instance",
     "fshFile": "Instances/Consent/Example-UTN-Consent-Videosprechstunde.fsh",
-    "startLine": 22,
-    "endLine": 29
+    "startLine": 23,
+    "endLine": 31
   },
   {
     "outputFile": "HealthcareService-teleconsultation-service-1.json",
@@ -68,8 +68,8 @@
     "fshName": "UTNLocation",
     "fshType": "Instance",
     "fshFile": "Instances/Consent/Example-UTN-Consent-Forschungsvorhaben.fsh",
-    "startLine": 48,
-    "endLine": 50
+    "startLine": 52,
+    "endLine": 55
   },
   {
     "outputFile": "Observation-Example-UTN-Arterieller-Blutdruck.json",
@@ -125,7 +125,7 @@
     "fshType": "Instance",
     "fshFile": "Instances/Meta/Example-UTN-Patient.fsh",
     "startLine": 1,
-    "endLine": 18
+    "endLine": 19
   },
   {
     "outputFile": "Practitioner-Example-UTNPractitioner.json",
@@ -148,16 +148,16 @@
     "fshName": "Example-UTN-Consent-Provenance-Forschungsvorhaben",
     "fshType": "Instance",
     "fshFile": "Instances/Consent/Example-UTN-Consent-Forschungsvorhaben.fsh",
-    "startLine": 32,
-    "endLine": 45
+    "startLine": 34,
+    "endLine": 49
   },
   {
     "outputFile": "Provenance-Example-UTN-Consent-Provenance-Videosprechstunde.json",
     "fshName": "Example-UTN-Consent-Provenance-Videosprechstunde",
     "fshType": "Instance",
     "fshFile": "Instances/Consent/Example-UTN-Consent-Videosprechstunde.fsh",
-    "startLine": 31,
-    "endLine": 44
+    "startLine": 33,
+    "endLine": 48
   },
   {
     "outputFile": "StructureDefinition-KBV-PR-Base-Practitioner.json",
@@ -205,7 +205,7 @@
     "fshType": "Profile",
     "fshFile": "Profiles/Parameters/Profile-ICU-Herzfrequenz.fsh",
     "startLine": 1,
-    "endLine": 21
+    "endLine": 22
   },
   {
     "outputFile": "StructureDefinition-isik-koerpergewicht.json",
@@ -213,7 +213,7 @@
     "fshType": "Profile",
     "fshFile": "Profiles/Parameters/Profile-ICU-Korpergewicht.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 21
   },
   {
     "outputFile": "StructureDefinition-isik-koerpertemperatur.json",
@@ -221,7 +221,7 @@
     "fshType": "Profile",
     "fshFile": "Profiles/Parameters/Profile-KoerperTemperatur.fsh",
     "startLine": 1,
-    "endLine": 21
+    "endLine": 22
   },
   {
     "outputFile": "StructureDefinition-mii-kreatinin.json",
@@ -277,7 +277,7 @@
     "fshType": "Profile",
     "fshFile": "Profiles/Parameters/Profile-Isik-Atemfrequenz.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 21
   },
   {
     "outputFile": "StructureDefinition-utn-observation-arterieller-blutdruck.json",

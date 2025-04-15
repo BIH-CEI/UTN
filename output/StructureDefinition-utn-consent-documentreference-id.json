@@ -10,7 +10,7 @@
   "name" : "UTNDocumentReference",
   "title" : "UTN Consent Document Reference",
   "status" : "draft",
-  "date" : "2025-03-26T13:37:22+01:00",
+  "date" : "2025-04-15T09:45:28+02:00",
   "publisher" : "BIH-CEI",
   "contact" : [{
     "name" : "BIH-CEI",
@@ -19,7 +19,7 @@
       "value" : "http://utn/consentresource.com"
     }]
   }],
-  "description" : "Dies ist das DocumentReference für Einwilligungsprofil für das Forschungsprojekt und die Videokonsultation",
+  "description" : "This is the Document Reference profile for the consent profile of the Forschungsvorhaben and Videosprechstunde",
   "fhirVersion" : "4.0.1",
   "mapping" : [{
     "identity" : "workflow",

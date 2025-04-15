@@ -10,7 +10,7 @@
   "name" : "UTNKoerpergewicht",
   "title" : "UTN Observation Koerpergewicht Profile",
   "status" : "draft",
-  "date" : "2025-03-26T13:37:22+01:00",
+  "date" : "2025-04-15T09:45:28+02:00",
   "publisher" : "BIH-CEI",
   "contact" : [{
     "name" : "BIH-CEI",
@@ -19,6 +19,7 @@
       "value" : "http://utn/consentresource.com"
     }]
   }],
+  "description" : "Profile for documenting Koerpergewicht observations within UTN.",
   "fhirVersion" : "4.0.1",
   "kind" : "resource",
   "abstract" : false,

@@ -6,10 +6,14 @@
   "status" : "draft",
   "package-id" : "consent.id",
   "ig-ver" : "0.1.0",
-  "date" : "Wed, 26 Mar, 2025 13:37:56 +0100",
-  "dateISO8601" : "2025-03-26T13:37:56+01:00",
-  "exception" : "unable to parse character reference 'canonical=http://fhir.de/CodeSystem/identifier-type-de-basis'' (last text = '\r\n' at line 10 column 129",
+  "date" : "Tue, 15 Apr, 2025 09:45:54 +0200",
+  "dateISO8601" : "2025-04-15T09:45:54+02:00",
+  "errs" : 62,
+  "warnings" : 124,
+  "hints" : 58,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 1233876488
+  "maxMemory" : 1143325040
 }

@@ -5,7 +5,7 @@
   "name": "UTNKreatinin",
   "title": "UTN Laboruntersuchung-Kreatinin",
   "status": "draft",
-  "description": "This profile describes a laboratory result of the Creatinin.",
+  "description": "Profile for documenting Creatinin within UTN.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
