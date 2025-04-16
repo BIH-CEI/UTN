@@ -380,17 +380,32 @@
         },
         {
           "nameUrl": "meta_instances.html",
-          "title": "Meta Instances",
+          "title": "Meta Profiles",
           "generation": "markdown"
         },
         {
           "nameUrl": "consent_instances.html",
-          "title": "Consent Instances",
+          "title": "Consent Profiles",
           "generation": "markdown"
         },
         {
           "nameUrl": "observation_instances.html",
-          "title": "Observation Instances",
+          "title": "Observation Profiles",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "scenario_consent.html",
+          "title": "Scenario Consent",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "scenario_icu.html",
+          "title": "Scenario ICU",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "scenario_teleconsultation.html",
+          "title": "Scenario Teleconsultation",
           "generation": "markdown"
         }
       ]

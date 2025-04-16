@@ -2,6 +2,7 @@ Instance: Example-UTN-HealthcareService
 InstanceOf: HealthcareServiceWithDevices
 Title: "Teleconsultation Service"
 Description: "A teleconsultation service provided by Example Hospital"
+
 * id = "teleconsultation-service-1"
 * identifier.system = "http://example.org/services"
 * identifier.value = "teleconsultation-service-123"

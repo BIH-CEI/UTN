@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Observation Instances - University Telemedicine Network (UTN) FHIR Implementation Guide v0.1.0</title>
+    <title>Observation Profiles - University Telemedicine Network (UTN) FHIR Implementation Guide v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -92,9 +92,6 @@
       </li>
     </ul>
   </li>
-  <li>
-    <a href="artifacts.html">FHIR Artifacts</a>
-  </li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Instances
       <b class="caret"></b>
@@ -104,12 +101,28 @@
         <a href="meta_instances.html">Meta Instances</a>
       </li>
       <li>
-        <a href="consent_instances.html">Consent Instances</a>
-      </li>
-      <li>
         <a href="observation_instances.html">Observation Instances</a>
       </li>
     </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Scenarios
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="scenario_consent.html">Scenario Consent</a>
+      </li>
+      <li>
+        <a href="scenario_icu.html">Scenario ICU</a>
+      </li>
+      <li>
+        <a href="scenario_teleconsultation.html">Scenario Teleconsultation</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="artifacts.html">FHIR Artifacts</a>
   </li>
 </ul>
             </div>    <!-- /.nav-collapse -->
@@ -123,7 +136,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Observation Instances</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Observation Profiles</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -144,7 +157,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </style>
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">University Telemedicine Network (UTN) FHIR Implementation Guide - Local Development build (v0.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://utn/consentresource.com/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-  <h2>Observation Instances</h2>
+  <h2>Observation Profiles</h2>
   
 
 
@@ -178,15 +191,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td>UTN Herzfrequenz</td>
-      <td><a name="l313">​</a><a href="Observation-ISiKHerzfrequenzExample.html"><code class="language-plaintext highlighter-rouge">Herzfrequenz</code></a></td>
+      <td><a name="l336">​</a><a href="Observation-ISiKHerzfrequenzExample.html"><code class="language-plaintext highlighter-rouge">Herzfrequenz</code></a></td>
     </tr>
     <tr>
       <td>UTN KoerperGewicht</td>
-      <td><a name="l324">​</a><a href="output/Observation-ISiKKoerpergewichtExample.html"><code class="language-plaintext highlighter-rouge">KoerperGewicht</code></a></td>
+      <td><a name="l347">​</a><a href="output/Observation-ISiKKoerpergewichtExample.html"><code class="language-plaintext highlighter-rouge">KoerperGewicht</code></a></td>
     </tr>
     <tr>
       <td>UTN KoerperTemperatur</td>
-      <td><a name="l335">​</a><a href="Observation-Example-ISiKKoerpertemperatur.html"><code class="language-plaintext highlighter-rouge">KoerperTemperatur</code></a></td>
+      <td><a name="l358">​</a><a href="Observation-Example-ISiKKoerpertemperatur.html"><code class="language-plaintext highlighter-rouge">KoerperTemperatur</code></a></td>
     </tr>
     <tr>
       <td>UTN Kreatinin</td>
@@ -194,7 +207,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td>UTN Systolisch-Diastolisch</td>
-      <td><a name="l357">​</a><a href="output/Observation-Example-UTN-Observation-Arterieller-Blutdruck.html"><code class="language-plaintext highlighter-rouge">Systolisch-Diastolisch</code></a></td>
+      <td><a name="l380">​</a><a href="output/Observation-Example-UTN-Observation-Arterieller-Blutdruck.html"><code class="language-plaintext highlighter-rouge">Systolisch-Diastolisch</code></a></td>
     </tr>
   </tbody>
 </table>
@@ -218,7 +231,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://utn/consentresource.com">BIH-CEI</a>.  Package consent.id#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Apr 15, 2025 09:45+0200">2025-04-15</span>
+          IG &copy; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://utn/consentresource.com">BIH-CEI</a>.  Package consent.id#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Apr 16, 2025 11:15+0200">2025-04-16</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

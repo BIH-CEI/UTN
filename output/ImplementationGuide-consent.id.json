@@ -10,7 +10,7 @@
   "name" : "UTNConsentResource",
   "title" : "University Telemedicine Network (UTN) FHIR Implementation Guide",
   "status" : "draft",
-  "date" : "2025-04-15T09:45:28+02:00",
+  "date" : "2025-04-16T11:15:21+02:00",
   "publisher" : "BIH-CEI",
   "contact" : [{
     "name" : "BIH-CEI",
@@ -1109,7 +1109,7 @@
           "valueUrl" : "meta_instances.html"
         }],
         "nameUrl" : "meta_instances.html",
-        "title" : "Meta Instances",
+        "title" : "Meta Profiles",
         "generation" : "markdown"
       },
       {
@@ -1118,7 +1118,7 @@
           "valueUrl" : "consent_instances.html"
         }],
         "nameUrl" : "consent_instances.html",
-        "title" : "Consent Instances",
+        "title" : "Consent Profiles",
         "generation" : "markdown"
       },
       {
@@ -1127,7 +1127,34 @@
           "valueUrl" : "observation_instances.html"
         }],
         "nameUrl" : "observation_instances.html",
-        "title" : "Observation Instances",
+        "title" : "Observation Profiles",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "scenario_consent.html"
+        }],
+        "nameUrl" : "scenario_consent.html",
+        "title" : "Scenario Consent",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "scenario_icu.html"
+        }],
+        "nameUrl" : "scenario_icu.html",
+        "title" : "Scenario ICU",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "scenario_teleconsultation.html"
+        }],
+        "nameUrl" : "scenario_teleconsultation.html",
+        "title" : "Scenario Teleconsultation",
         "generation" : "markdown"
       }]
     },

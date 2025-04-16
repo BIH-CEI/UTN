@@ -20,16 +20,16 @@
     "fshName": "CameraDevice",
     "fshType": "Instance",
     "fshFile": "Instances/Meta/Example-UTN-HealthcareService.fsh",
-    "startLine": 30,
-    "endLine": 51
+    "startLine": 31,
+    "endLine": 52
   },
   {
     "outputFile": "Device-phone-1.json",
     "fshName": "PhoneDevice",
     "fshType": "Instance",
     "fshFile": "Instances/Meta/Example-UTN-HealthcareService.fsh",
-    "startLine": 53,
-    "endLine": 67
+    "startLine": 54,
+    "endLine": 68
   },
   {
     "outputFile": "DiagnosticReport-Example-UTN-DiagnosticReport.json",
@@ -61,7 +61,7 @@
     "fshType": "Instance",
     "fshFile": "Instances/Meta/Example-UTN-HealthcareService.fsh",
     "startLine": 1,
-    "endLine": 28
+    "endLine": 29
   },
   {
     "outputFile": "Location-UTNLocation.json",

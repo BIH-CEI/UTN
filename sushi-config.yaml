@@ -72,11 +72,17 @@ pages:
   the_specification.md:
     title: Specification
   meta_instances.md:
-    title: Meta Instances
+    title: Meta Profiles
   consent_instances.md:
-    title: Consent Instances
+    title: Consent Profiles
   observation_instances.md:
-    title: Observation Instances
+    title: Observation Profiles
+  scenario_consent.md:
+    title: Scenario Consent
+  scenario_icu.md:
+    title: Scenario ICU
+  scenario_teleconsultation.md: 
+    title: Scenario Teleconsultation
 
 
 #
@@ -106,11 +112,15 @@ menu:
   Home: index.html
   Implementer Guidance: 
     Specification: the_specification.html
-  FHIR Artifacts: artifacts.html
   Instances:
     Meta Instances: meta_instances.html
-    Consent Instances: consent_instances.html
     Observation Instances: observation_instances.html
+  Scenarios:
+    Scenario Consent: scenario_consent.html
+    Scenario ICU: scenario_icu.html
+    Scenario Teleconsultation: scenario_teleconsultation.html
+  FHIR Artifacts: artifacts.html
+    
   
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮

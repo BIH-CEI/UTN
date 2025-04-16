@@ -10,7 +10,7 @@
   <name value="UTNConsentResource"/>
   <title value="University Telemedicine Network (UTN) FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-04-15T09:45:28+02:00"/>
+  <date value="2025-04-16T11:15:21+02:00"/>
   <publisher value="BIH-CEI"/>
   <contact>
     <name value="BIH-CEI"/>
@@ -906,7 +906,7 @@
           <valueUrl value="meta_instances.html"/>
         </extension>
         <nameUrl value="meta_instances.html"/>
-        <title value="Meta Instances"/>
+        <title value="Meta Profiles"/>
         <generation value="markdown"/>
       </page>
       <page>
@@ -914,7 +914,7 @@
           <valueUrl value="consent_instances.html"/>
         </extension>
         <nameUrl value="consent_instances.html"/>
-        <title value="Consent Instances"/>
+        <title value="Consent Profiles"/>
         <generation value="markdown"/>
       </page>
       <page>
@@ -922,7 +922,31 @@
           <valueUrl value="observation_instances.html"/>
         </extension>
         <nameUrl value="observation_instances.html"/>
-        <title value="Observation Instances"/>
+        <title value="Observation Profiles"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="scenario_consent.html"/>
+        </extension>
+        <nameUrl value="scenario_consent.html"/>
+        <title value="Scenario Consent"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="scenario_icu.html"/>
+        </extension>
+        <nameUrl value="scenario_icu.html"/>
+        <title value="Scenario ICU"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="scenario_teleconsultation.html"/>
+        </extension>
+        <nameUrl value="scenario_teleconsultation.html"/>
+        <title value="Scenario Teleconsultation"/>
         <generation value="markdown"/>
       </page>
     </page>

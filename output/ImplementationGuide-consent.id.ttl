@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "UTNConsentResource"] ; # 
   fhir:title [ fhir:v "University Telemedicine Network (UTN) FHIR Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-04-15T09:45:28+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-16T11:15:21+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "BIH-CEI"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "BIH-CEI" ] ;
@@ -1585,7 +1585,7 @@
            a fhir:url ;
            fhir:v "meta_instances.html"^^xsd:anyURI
          ] ;
-         fhir:title [ fhir:v "Meta Instances" ] ;
+         fhir:title [ fhir:v "Meta Profiles" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -1599,7 +1599,7 @@
            a fhir:url ;
            fhir:v "consent_instances.html"^^xsd:anyURI
          ] ;
-         fhir:title [ fhir:v "Consent Instances" ] ;
+         fhir:title [ fhir:v "Consent Profiles" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -1613,7 +1613,49 @@
            a fhir:url ;
            fhir:v "observation_instances.html"^^xsd:anyURI
          ] ;
-         fhir:title [ fhir:v "Observation Instances" ] ;
+         fhir:title [ fhir:v "Observation Profiles" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "scenario_consent.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "scenario_consent.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "Scenario Consent" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "scenario_icu.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "scenario_icu.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "Scenario ICU" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "scenario_teleconsultation.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "scenario_teleconsultation.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "Scenario Teleconsultation" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;
