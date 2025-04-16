@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "UTNConsentResource"] ; # 
   fhir:title [ fhir:v "University Telemedicine Network (UTN) FHIR Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-04-16T11:15:21+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-16T13:27:07+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "BIH-CEI"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "BIH-CEI" ] ;
@@ -1081,6 +1081,25 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://utn/consentresource.com/Observation/Example-UTNAtemfrequenz> ;
+         fhir:reference [ fhir:v "Observation/Example-UTNAtemfrequenz" ]
+       ] ;
+       fhir:name [ fhir:v "Example-UTNAtemfrequenz" ] ;
+       fhir:description [ fhir:v "An example Observation for respiratory rate using Atemfrequenz profile." ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz"^^xsd:anyURI ;
+         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://utn/consentresource.com/Observation/Example-UTNHerzfrequenz> ;
          fhir:reference [ fhir:v "Observation/Example-UTNHerzfrequenz" ]
        ] ;
@@ -1185,25 +1204,6 @@
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"^^xsd:anyURI ;
          fhir:link <http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "Observation"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://utn/consentresource.com/Observation/Example-UTNAtemfrequenz> ;
-         fhir:reference [ fhir:v "Observation/Example-UTNAtemfrequenz" ]
-       ] ;
-       fhir:name [ fhir:v "ISiKAtemfrequenz Example" ] ;
-       fhir:description [ fhir:v "An example Observation for respiratory rate using Atemfrequenz profile." ] ;
-       fhir:example [
-         a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz>
        ]
      ] [
        fhir:extension ( [

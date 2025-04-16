@@ -2,7 +2,7 @@
 
 |  Field(s) | Example Instance | 
 | --------- | ---------------- | 
-| UTN ICU Diagnostic Report     | [`ICU Diagnostic Report`](Example-UTN_DiagnosticReport.html) | 
+| UTN ICU Diagnostic Report     | [`ICU Diagnostic Report`](DiagnosticReport-Example-UTN-DiagnosticReport.html) | 
 
 
 {: .grid }

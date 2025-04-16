@@ -164,6 +164,14 @@
       },
       {
         "reference": {
+          "reference": "Observation/Example-UTNAtemfrequenz"
+        },
+        "name": "Example-UTNAtemfrequenz",
+        "description": "An example Observation for respiratory rate using Atemfrequenz profile.",
+        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz"
+      },
+      {
+        "reference": {
           "reference": "Observation/Example-UTNHerzfrequenz"
         },
         "name": "Example-UTNHerzfrequenz",
@@ -209,14 +217,6 @@
         "name": "Example-UTNPractitionerRole",
         "description": "Example UTN PractitionerRole",
         "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"
-      },
-      {
-        "reference": {
-          "reference": "Observation/Example-UTNAtemfrequenz"
-        },
-        "name": "ISiKAtemfrequenz Example",
-        "description": "An example Observation for respiratory rate using Atemfrequenz profile.",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz"
       },
       {
         "reference": {

@@ -3,8 +3,8 @@ UTNConsentResource : Validation Results
 
 err = 62, warn = 124, info = 58
 IG Publisher Version: 1.8.23
-Generated Wed Apr 16 11:16:57 CEST 2025. FHIR version 4.0.1 for consent.id#0.1.0 (canonical = http://utn/consentresource.com)
- Build Errors : 6 / 265 / 1
+Generated Wed Apr 16 13:29:27 CEST 2025. FHIR version 4.0.1 for consent.id#0.1.0 (canonical = http://utn/consentresource.com)
+ Build Errors : 5 / 265 / 1
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Consent-Example-UTN-Consent-Forschungsvorhaben : 2 / 4 / 4
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Consent-Example-UTN-Consent-Videosprechstunde : 2 / 4 / 4
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Device-camera-1 : 1 / 1 / 2
@@ -306,7 +306,6 @@ ERROR: /Users/atakanp/Documents/utn_consent_profile/output/observation_instances
 ERROR: /Users/atakanp/Documents/utn_consent_profile/output/observation_instances.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 210, column 12: The link 'output/Observation-Example-UTN-Observation-Arterieller-Blutdruck.html' for "Systolisch-Diastolisch" cannot be resolved
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/observation_instances.html#/html/body/div/div/div/p/a at Line 234, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/scenario_consent.html#/html/body/div/div/div/p/a at Line 218, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
-ERROR: /Users/atakanp/Documents/utn_consent_profile/output/scenario_icu.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 190, column 12: The link 'Example-UTN_DiagnosticReport.html' for "ICU Diagnostic Report" cannot be resolved
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/scenario_icu.html#/html/body/div/div/div/p/a at Line 214, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/scenario_teleconsultation.html#/html/body/div/div/div/p/a at Line 214, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/the_specification.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions

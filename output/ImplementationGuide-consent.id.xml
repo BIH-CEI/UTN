@@ -10,7 +10,7 @@
   <name value="UTNConsentResource"/>
   <title value="University Telemedicine Network (UTN) FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-04-16T11:15:21+02:00"/>
+  <date value="2025-04-16T13:27:07+02:00"/>
   <publisher value="BIH-CEI"/>
   <contact>
     <name value="BIH-CEI"/>
@@ -608,6 +608,17 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
+        <reference value="Observation/Example-UTNAtemfrequenz"/>
+      </reference>
+      <name value="Example-UTNAtemfrequenz"/>
+      <description value="An example Observation for respiratory rate using Atemfrequenz profile."/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
         <reference value="Observation/Example-UTNHerzfrequenz"/>
       </reference>
       <name value="Example-UTNHerzfrequenz"/>
@@ -668,17 +679,6 @@
       <name value="Example-UTNPractitionerRole"/>
       <description value="Example UTN PractitionerRole"/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/Example-UTNAtemfrequenz"/>
-      </reference>
-      <name value="ISiKAtemfrequenz Example"/>
-      <description value="An example Observation for respiratory rate using Atemfrequenz profile."/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

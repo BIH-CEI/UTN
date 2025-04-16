@@ -263,7 +263,6 @@ Generic: line 0, col 0, Error - The link 'Observation-Example-ISiKKoerpertempera
 Generic: line 0, col 0, Error - The link 'output/Observation-Example-UTN-Observation-Arterieller-Blutdruck.html' for "Systolisch-Diastolisch" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Warning - The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions (NOTFOUND)
 Generic: line 0, col 0, Warning - The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'Example-UTN_DiagnosticReport.html' for "ICU Diagnostic Report" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Warning - The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions (NOTFOUND)
 Generic: line 0, col 0, Warning - The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions (NOTFOUND)
 Generic: line 0, col 0, Warning - The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions (NOTFOUND)

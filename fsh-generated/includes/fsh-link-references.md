@@ -9,13 +9,13 @@
 [Example-UTN-Consent-Videosprechstunde]: Consent-Example-UTN-Consent-Videosprechstunde.html
 [Example-UTN-DiagnosticReport]: DiagnosticReport-Example-UTN-DiagnosticReport.html
 [consent-management-patient]: Patient-consent-management-patient.html
+[Example-UTNAtemfrequenz]: Observation-Example-UTNAtemfrequenz.html
 [Example-UTNHerzfrequenz]: Observation-Example-UTNHerzfrequenz.html
 [Example-UTNKoerpergewicht]: Observation-Example-UTNKoerpergewicht.html
 [Example-UTNKoerpertemperatur]: Observation-Example-UTNKoerpertemperatur.html
 [Example-UTNKreatinin]: Observation-Example-UTNKreatinin.html
 [Example-UTNPractitioner]: Practitioner-Example-UTNPractitioner.html
 [Example-UTNPractitionerRole]: PractitionerRole-Example-UTNPractitionerRole.html
-[Example-UTNAtemfrequenz]: Observation-Example-UTNAtemfrequenz.html
 [phone-1]: Device-phone-1.html
 [teleconsultation-service-1]: HealthcareService-teleconsultation-service-1.html
 [UTNDocumentReference]: StructureDefinition-utn-consent-documentreference-id.html

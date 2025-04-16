@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "HealthcareServiceWithDevices"] ; # 
   fhir:title [ fhir:v "UTN Healthcare Service with Devices"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-04-16T11:15:21+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-16T13:27:07+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "BIH-CEI"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "BIH-CEI" ] ;

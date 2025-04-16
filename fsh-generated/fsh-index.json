@@ -85,7 +85,7 @@
     "fshType": "Instance",
     "fshFile": "Instances/Parameters/Example-UTN-Atemfrequenz.fsh",
     "startLine": 1,
-    "endLine": 33
+    "endLine": 32
   },
   {
     "outputFile": "Observation-Example-UTNHerzfrequenz.json",
