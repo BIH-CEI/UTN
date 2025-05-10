@@ -10,7 +10,7 @@
   "name" : "UTNConsentResource",
   "title" : "University Telemedicine Network (UTN) FHIR Implementation Guide",
   "status" : "draft",
-  "date" : "2025-04-16T13:27:07+02:00",
+  "date" : "2025-05-10T09:33:17+02:00",
   "publisher" : "BIH-CEI",
   "contact" : [{
     "name" : "BIH-CEI",
@@ -30,7 +30,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.2.0"
+    "version" : "6.3.0"
   },
   {
     "id" : "hl7ext",
@@ -368,7 +368,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.4.1"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.5.0"
     },
     {
       "extension" : [{

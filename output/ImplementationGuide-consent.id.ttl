@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "UTNConsentResource"] ; # 
   fhir:title [ fhir:v "University Telemedicine Network (UTN) FHIR Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-04-16T13:27:07+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-10T09:33:17+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "BIH-CEI"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "BIH-CEI" ] ;
@@ -44,7 +44,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "6.2.0" ]
+     fhir:version [ fhir:v "6.3.0" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -487,7 +487,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
        fhir:value [
          a fhir:code ;
-         fhir:v "hl7.fhir.uv.tools.r4#0.4.1"
+         fhir:v "hl7.fhir.uv.tools.r4#0.5.0"
        ]
      ] [
        fhir:extension ( [

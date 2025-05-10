@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "HealthcareServiceWithDevices"] ; # 
   fhir:title [ fhir:v "UTN Healthcare Service with Devices"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-04-16T13:27:07+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-10T09:33:17+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "BIH-CEI"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "BIH-CEI" ] ;
@@ -418,7 +418,8 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ] ) ;
-       fhir:isModifier [ fhir:v false ]
+       fhir:isModifier [ fhir:v false ] ;
+       fhir:isSummary [ fhir:v false ]
      ] [
        fhir:id [ fhir:v "HealthcareService.modifierExtension" ] ;
        fhir:path [ fhir:v "HealthcareService.modifierExtension" ] ;

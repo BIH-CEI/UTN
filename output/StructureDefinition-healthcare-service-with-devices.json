@@ -10,7 +10,7 @@
   "name" : "HealthcareServiceWithDevices",
   "title" : "UTN Healthcare Service with Devices",
   "status" : "draft",
-  "date" : "2025-04-16T13:27:07+02:00",
+  "date" : "2025-05-10T09:33:17+02:00",
   "publisher" : "BIH-CEI",
   "contact" : [{
     "name" : "BIH-CEI",
@@ -366,7 +366,8 @@
         "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
-      "isModifier" : false
+      "isModifier" : false,
+      "isSummary" : false
     },
     {
       "id" : "HealthcareService.modifierExtension",

@@ -1,10 +1,10 @@
 UTNConsentResource : Validation Results
 =========================================
 
-err = 62, warn = 124, info = 58
+err = 68, warn = 133, info = 58
 $--
 Generated $--. FHIR version $-- for consent.id#$-- (canonical = http://utn/consentresource.com)
- Build Errors : 5 / 265 / 1
+ Build Errors : 1 / 265 / 1
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Consent-Example-UTN-Consent-Forschungsvorhaben : 2 / 4 / 4
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Consent-Example-UTN-Consent-Videosprechstunde : 2 / 4 / 4
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Device-camera-1 : 1 / 1 / 2
@@ -13,7 +13,7 @@ Generated $--. FHIR version $-- for consent.id#$-- (canonical = http://utn/conse
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/DocumentReference-Example-UTN-Consent-DocumentReference-Forschungsvorhaben : 0 / 1 / 1
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/DocumentReference-Example-UTN-Consent-DocumentReference-Videosprechstunde : 0 / 1 / 1
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/HealthcareService-teleconsultation-service-1 : 2 / 0 / 3
- /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/ImplementationGuide-consent.id : 6 / 2 / 1
+ /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/ImplementationGuide-consent.id : 12 / 8 / 1
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Location-UTNLocation : 0 / 0 / 1
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Observation-Example-UTN-Arterieller-Blutdruck : 10 / 2 / 7
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Observation-Example-UTNAtemfrequenz : 5 / 0 / 2
@@ -21,7 +21,7 @@ Generated $--. FHIR version $-- for consent.id#$-- (canonical = http://utn/conse
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Observation-Example-UTNKoerpergewicht : 3 / 0 / 2
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Observation-Example-UTNKoerpertemperatur : 3 / 1 / 2
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Observation-Example-UTNKreatinin : 7 / 3 / 6
- /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Patient-consent-management-patient : 0 / 3 / 1
+ /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Patient-consent-management-patient : 0 / 1 / 1
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Practitioner-Example-UTNPractitioner : 1 / 5 / 5
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/PractitionerRole-Example-UTNPractitionerRole : 3 / 3 / 6
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Provenance-Example-UTN-Consent-Provenance-Forschungsvorhaben : 4 / 0 / 4
@@ -41,7 +41,7 @@ Generated $--. FHIR version $-- for consent.id#$-- (canonical = http://utn/conse
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/StructureDefinition-utn-consent-id : 2 / 7 / 7
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/StructureDefinition-utn-diagnostik-report : 0 / 0 / 1
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/StructureDefinition-utn-isik-atemfrequenz : 0 / 5 / 5
- /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/StructureDefinition-utn-observation-arterieller-blutdruck : 1 / 7 / 8
+ /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/StructureDefinition-utn-observation-arterieller-blutdruck : 1 / 12 / 8
 </table>
 == n/a ==
 WARNING: ImplementationGuide.dependency[4].url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
@@ -193,9 +193,9 @@ WARNING: /Users/atakanp/Documents/utn_consent_profile/output/StructureDefinition
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/StructureDefinition-healthcare-service-with-devices-testing.html#/html/body/div/div/div/p/a at Line 289, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/StructureDefinition-healthcare-service-with-devices.html#/html/body/div/div/div/p/a at Line 1688, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/StructureDefinition-healthcare-service-with-devices.profile.history.html#/html/body/div/div/div/p/a at Line 271, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
-WARNING: /Users/atakanp/Documents/utn_consent_profile/output/StructureDefinition-healthcare-service-with-devices.profile.json.html#/html/body/div/div/div/p/a at Line 2519, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
-WARNING: /Users/atakanp/Documents/utn_consent_profile/output/StructureDefinition-healthcare-service-with-devices.profile.ttl.html#/html/body/div/div/div/p/a at Line 1965, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
-WARNING: /Users/atakanp/Documents/utn_consent_profile/output/StructureDefinition-healthcare-service-with-devices.profile.xml.html#/html/body/div/div/div/p/a at Line 2292, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
+WARNING: /Users/atakanp/Documents/utn_consent_profile/output/StructureDefinition-healthcare-service-with-devices.profile.json.html#/html/body/div/div/div/p/a at Line 2520, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
+WARNING: /Users/atakanp/Documents/utn_consent_profile/output/StructureDefinition-healthcare-service-with-devices.profile.ttl.html#/html/body/div/div/div/p/a at Line 1966, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
+WARNING: /Users/atakanp/Documents/utn_consent_profile/output/StructureDefinition-healthcare-service-with-devices.profile.xml.html#/html/body/div/div/div/p/a at Line 2293, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/StructureDefinition-isik-herzfrequenz-definitions.html#/html/body/div/div/div/p/a at Line 883, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/StructureDefinition-isik-herzfrequenz-examples.html#/html/body/div/div/div/p/a at Line 293, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/StructureDefinition-isik-herzfrequenz-mappings.html#/html/body/div/div/div/p/a at Line 281, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
@@ -300,10 +300,6 @@ WARNING: /Users/atakanp/Documents/utn_consent_profile/output/artifacts.html#/htm
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/consent_instances.html#/html/body/div/div/div/p/a at Line 218, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/index.html#/html/body/div/div/div/p/a at Line 302, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/meta_instances.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
-ERROR: /Users/atakanp/Documents/utn_consent_profile/output/observation_instances.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 194, column 12: The link 'Observation-ISiKHerzfrequenzExample.html' for "Herzfrequenz" cannot be resolved
-ERROR: /Users/atakanp/Documents/utn_consent_profile/output/observation_instances.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 198, column 12: The link 'output/Observation-ISiKKoerpergewichtExample.html' for "KoerperGewicht" cannot be resolved
-ERROR: /Users/atakanp/Documents/utn_consent_profile/output/observation_instances.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 202, column 12: The link 'Observation-Example-ISiKKoerpertemperatur.html' for "KoerperTemperatur" cannot be resolved
-ERROR: /Users/atakanp/Documents/utn_consent_profile/output/observation_instances.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 210, column 12: The link 'output/Observation-Example-UTN-Observation-Arterieller-Blutdruck.html' for "Systolisch-Diastolisch" cannot be resolved
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/observation_instances.html#/html/body/div/div/div/p/a at Line 234, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/scenario_consent.html#/html/body/div/div/div/p/a at Line 218, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/scenario_icu.html#/html/body/div/div/div/p/a at Line 214, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
@@ -354,6 +350,18 @@ ERROR: ImplementationGuide/consent.id: ImplementationGuide.dependsOn[8].uri: Can
 ERROR: ImplementationGuide/consent.id: ImplementationGuide.dependsOn[9].uri: Canonical URLs must be absolute URLs if they are not fragment references (kbv.basis)
 WARNING: ImplementationGuide/consent.id: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package hl7.fhir.us.core#3.1.0 released on 2019-11-06, but the most recent appropriate version is 7.0.0. This reference is getting old and the more recent version should be considered
 WARNING: ImplementationGuide/consent.id: ImplementationGuide.dependsOn[3]: The ImplementationGuide uses package hl7.fhir.us.mcode#1.0.0 released on 2020-03-18, but the most recent appropriate version is 3.0.0. This reference is getting old and the more recent version should be considered
+ERROR: ImplementationGuide/consent.id: ImplementationGuide.dependsOn[4]: The URL should refer directly to the ImplementationGuide resource (e.g. include '/ImplementationGuide/')
+WARNING: ImplementationGuide/consent.id: ImplementationGuide.dependsOn[4]: The canonical URL de.medizininformatikinitiative.kerndatensatz.consent doesn't point to an actual ImplementationGuide resource
+ERROR: ImplementationGuide/consent.id: ImplementationGuide.dependsOn[5]: The URL should refer directly to the ImplementationGuide resource (e.g. include '/ImplementationGuide/')
+WARNING: ImplementationGuide/consent.id: ImplementationGuide.dependsOn[5]: The canonical URL de.einwilligungsmanagement doesn't point to an actual ImplementationGuide resource
+ERROR: ImplementationGuide/consent.id: ImplementationGuide.dependsOn[6]: The URL should refer directly to the ImplementationGuide resource (e.g. include '/ImplementationGuide/')
+WARNING: ImplementationGuide/consent.id: ImplementationGuide.dependsOn[6]: The canonical URL de.medizininformatikinitiative.kerndatensatz.icu doesn't point to an actual ImplementationGuide resource
+ERROR: ImplementationGuide/consent.id: ImplementationGuide.dependsOn[7]: The URL should refer directly to the ImplementationGuide resource (e.g. include '/ImplementationGuide/')
+WARNING: ImplementationGuide/consent.id: ImplementationGuide.dependsOn[7]: The canonical URL de.medizininformatikinitiative.kerndatensatz.laborbefund doesn't point to an actual ImplementationGuide resource
+ERROR: ImplementationGuide/consent.id: ImplementationGuide.dependsOn[8]: The URL should refer directly to the ImplementationGuide resource (e.g. include '/ImplementationGuide/')
+WARNING: ImplementationGuide/consent.id: ImplementationGuide.dependsOn[8]: The canonical URL de.gematik.isik-vitalparameter doesn't point to an actual ImplementationGuide resource
+ERROR: ImplementationGuide/consent.id: ImplementationGuide.dependsOn[9]: The URL should refer directly to the ImplementationGuide resource (e.g. include '/ImplementationGuide/')
+WARNING: ImplementationGuide/consent.id: ImplementationGuide.dependsOn[9]: The canonical URL kbv.basis doesn't point to an actual ImplementationGuide resource
 == fsh-generated/resources/Location-UTNLocation.json ==
 == fsh-generated/resources/Observation-Example-UTN-Arterieller-Blutdruck.json ==
 ERROR: Observation/Example-UTN-Arterieller-Blutdruck: Observation: Observation.category:VSCat: max allowed = 1, but found 2 (from http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck|0.1.0)
@@ -408,8 +416,6 @@ ERROR: Observation/Example-UTNKreatinin: Observation.category[0]: Observation.ca
 ERROR: Observation/Example-UTNKreatinin: Observation.category[0]: Observation.category.coding:observation-category: max allowed = 1, but found 2 (from https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/ObservationLab|2025.0.2)
 == fsh-generated/resources/Patient-consent-management-patient.json ==
 WARNING: Patient/consent-management-patient: Patient.identifier[0].type.coding[0]: A definition for CodeSystem 'https://example.com' could not be found, so the code cannot be validated
-WARNING: Patient/consent-management-patient: Patient.identifier[0].type.coding[0].system: URL value 'https://example.com' does not resolve
-WARNING: Patient/consent-management-patient: Patient.identifier[0].system: URL value 'https://example.com' does not resolve
 == fsh-generated/resources/Practitioner-Example-UTNPractitioner.json ==
 WARNING: Practitioner/Example-UTNPractitioner: Practitioner.identifier[2].system: URL value 'https://gematik.de/fhir/sid/telematik-id' does not resolve
 WARNING: Practitioner/Example-UTNPractitioner: Practitioner.gender.extension[0].value.ofType(Coding).system: A definition for CodeSystem 'http://fhir.de/StructureDefinition/gender-amtlich-de' could not be found, so the code cannot be validated
@@ -582,3 +588,8 @@ INFORMATION: StructureDefinition/utn-observation-arterieller-blutdruck: Structur
 INFORMATION: StructureDefinition/utn-observation-arterieller-blutdruck: StructureDefinition.snapshot.element[109].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/utn-observation-arterieller-blutdruck: StructureDefinition.snapshot.element[161].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/utn-observation-arterieller-blutdruck: StructureDefinition.snapshot.element[213].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/utn-observation-arterieller-blutdruck: StructureDefinition.snapshot: The slice 'VSCat' on path 'Observation.category' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/utn-observation-arterieller-blutdruck: StructureDefinition.snapshot: The slice 'snomed' on path 'Observation.code.coding' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/utn-observation-arterieller-blutdruck: StructureDefinition.snapshot: The slice 'valueQuantity' on path 'Observation.value[x]' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/utn-observation-arterieller-blutdruck: StructureDefinition.snapshot: The slice 'valueQuantity' on path 'Observation.value[x]' has type 'Quantity  which is not consistent with the element that defines the slicing, which has the type(s) 'CodeableConcept, string, boolean, integer, Range, Ratio, SampledData, time, dateTime, Period'
+WARNING: StructureDefinition/utn-observation-arterieller-blutdruck: StructureDefinition.snapshot: The slice 'valueQuantity' on path 'Observation.component.value[x]' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
