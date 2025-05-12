@@ -10,7 +10,7 @@
   "name" : "UTNConsentResource",
   "title" : "University Telemedicine Network (UTN) FHIR Implementation Guide",
   "status" : "draft",
-  "date" : "2025-05-10T09:33:17+02:00",
+  "date" : "2025-05-12T15:27:13+02:00",
   "publisher" : "BIH-CEI",
   "contact" : [{
     "name" : "BIH-CEI",
@@ -1106,37 +1106,28 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "meta_instances.html"
+          "valueUrl" : "profiles.html"
         }],
-        "nameUrl" : "meta_instances.html",
-        "title" : "Meta Profiles",
+        "nameUrl" : "profiles.html",
+        "title" : "UTN Profiles",
         "generation" : "markdown"
       },
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "consent_instances.html"
+          "valueUrl" : "instances.html"
         }],
-        "nameUrl" : "consent_instances.html",
-        "title" : "Consent Profiles",
+        "nameUrl" : "instances.html",
+        "title" : "UTN Instances",
         "generation" : "markdown"
       },
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "observation_instances.html"
+          "valueUrl" : "scenario_depressionandanxiety.html"
         }],
-        "nameUrl" : "observation_instances.html",
-        "title" : "Observation Profiles",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "scenario_consent.html"
-        }],
-        "nameUrl" : "scenario_consent.html",
-        "title" : "Scenario Consent",
+        "nameUrl" : "scenario_depressionandanxiety.html",
+        "title" : "Scenario Remote Assessment of Depression and Anxiety Severity",
         "generation" : "markdown"
       },
       {

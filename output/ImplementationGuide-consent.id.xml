@@ -10,7 +10,7 @@
   <name value="UTNConsentResource"/>
   <title value="University Telemedicine Network (UTN) FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-05-10T09:33:17+02:00"/>
+  <date value="2025-05-12T15:27:13+02:00"/>
   <publisher value="BIH-CEI"/>
   <contact>
     <name value="BIH-CEI"/>
@@ -903,34 +903,26 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="meta_instances.html"/>
+          <valueUrl value="profiles.html"/>
         </extension>
-        <nameUrl value="meta_instances.html"/>
-        <title value="Meta Profiles"/>
+        <nameUrl value="profiles.html"/>
+        <title value="UTN Profiles"/>
         <generation value="markdown"/>
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="consent_instances.html"/>
+          <valueUrl value="instances.html"/>
         </extension>
-        <nameUrl value="consent_instances.html"/>
-        <title value="Consent Profiles"/>
+        <nameUrl value="instances.html"/>
+        <title value="UTN Instances"/>
         <generation value="markdown"/>
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="observation_instances.html"/>
+          <valueUrl value="scenario_depressionandanxiety.html"/>
         </extension>
-        <nameUrl value="observation_instances.html"/>
-        <title value="Observation Profiles"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="scenario_consent.html"/>
-        </extension>
-        <nameUrl value="scenario_consent.html"/>
-        <title value="Scenario Consent"/>
+        <nameUrl value="scenario_depressionandanxiety.html"/>
+        <title value="Scenario Remote Assessment of Depression and Anxiety Severity"/>
         <generation value="markdown"/>
       </page>
       <page>

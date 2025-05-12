@@ -379,23 +379,18 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "meta_instances.html",
-          "title": "Meta Profiles",
+          "nameUrl": "profiles.html",
+          "title": "UTN Profiles",
           "generation": "markdown"
         },
         {
-          "nameUrl": "consent_instances.html",
-          "title": "Consent Profiles",
+          "nameUrl": "instances.html",
+          "title": "UTN Instances",
           "generation": "markdown"
         },
         {
-          "nameUrl": "observation_instances.html",
-          "title": "Observation Profiles",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "scenario_consent.html",
-          "title": "Scenario Consent",
+          "nameUrl": "scenario_depressionandanxiety.html",
+          "title": "Scenario Remote Assessment of Depression and Anxiety Severity",
           "generation": "markdown"
         },
         {

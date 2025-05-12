@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Meta Profiles - University Telemedicine Network (UTN) FHIR Implementation Guide v0.1.0</title>
+    <title>Scenario Remote Assessment of Depression and Anxiety Severity - University Telemedicine Network (UTN) FHIR Implementation Guide v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"3"}
-    h3,h4,h5,h6{--heading-prefix:"3"}</style>
+    <style type="text/css">h2{--heading-prefix:"5"}
+    h3,h4,h5,h6{--heading-prefix:"5"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -82,28 +82,14 @@
   <li>
     <a href="index.html">Home</a>
   </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Implementer Guidance
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="the_specification.html">Specification</a>
-      </li>
-    </ul>
+  <li>
+    <a href="the_specification.html">Implementer Guidance</a>
   </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Instances
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="meta_instances.html">Meta Instances</a>
-      </li>
-      <li>
-        <a href="observation_instances.html">Observation Instances</a>
-      </li>
-    </ul>
+  <li>
+    <a href="profiles.html">UTN Profiles</a>
+  </li>
+  <li>
+    <a href="instances.html">UTN Instances</a>
   </li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Scenarios
@@ -111,7 +97,7 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="scenario_consent.html">Scenario Consent</a>
+        <a href="scenario_depressionandanxiety.html">Scenario Remote Assessment of Depression and Anxiety Severity </a>
       </li>
       <li>
         <a href="scenario_icu.html">Scenario ICU</a>
@@ -136,7 +122,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Meta Profiles</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Scenario Remote Assessment of Depression and Anxiety Severity</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -157,7 +143,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </style>
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">University Telemedicine Network (UTN) FHIR Implementation Guide - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://utn/consentresource.com/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-  <h2>Meta Profiles</h2>
+  <h2>Scenario Remote Assessment of Depression and Anxiety Severity</h2>
   
 
 
@@ -172,10 +158,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#consent" id="markdown-toc-consent">Consent</a></li>
+  <li><a href="#grid-hamd-17---questionnaire" id="markdown-toc-grid-hamd-17---questionnaire">GRID HAMD 17 - Questionnaire</a></li>
+</ul>
+
 </div>
-<h3 id="meta-instances">Meta Instances</h3>
+<p>This scenario shows how UTN uses FHIR representation of the Consent forms of the Forschugnvorhaben and Videoprechstunde as well as the GRID HAMD 17 Questionnaire.</p>
+
+<h3 id="consent">Consent</h3>
 
 <table>
   <thead>
@@ -186,20 +178,21 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </thead>
   <tbody>
     <tr>
-      <td>UTN Patient</td>
-      <td><a href="Patient-consent-management-patient.html"><code class="language-plaintext highlighter-rouge">Patient</code></a></td>
+      <td>UTN Consent Forschungsvorhaben</td>
+      <td><a href="Consent-Example-UTN-Consent-Forschungsvorhaben.html"><code class="language-plaintext highlighter-rouge">Consent Forschungsvorhaben</code></a></td>
     </tr>
     <tr>
-      <td>UTN Practitioner</td>
-      <td><a href="Practitioner-Example-UTNPractitioner.html"><code class="language-plaintext highlighter-rouge">Practitioner</code></a></td>
-    </tr>
-    <tr>
-      <td>UTN PractitionerRole</td>
-      <td><a href="PractitionerRole-Example-UTNPractitionerRole.html"><code class="language-plaintext highlighter-rouge">PractitionerRole</code></a></td>
+      <td>UTN Consent Videosprechstunde</td>
+      <td><a href="Consent-Example-UTN-Consent-Videosprechstunde.html"><code class="language-plaintext highlighter-rouge">Consent Videosprechstunde</code></a></td>
     </tr>
   </tbody>
 </table>
 
+<h3 class="grid" id="grid-hamd-17---questionnaire">GRID HAMD 17 - Questionnaire</h3>
+
+<ul>
+  <li>to do!</li>
+</ul>
 
 
 
@@ -219,7 +212,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://utn/consentresource.com">BIH-CEI</a>.  Package consent.id#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, May 10, 2025 09:33+0200">2025-05-10</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://utn/consentresource.com">BIH-CEI</a>.  Package consent.id#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 12, 2025 15:27+0200">2025-05-12</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

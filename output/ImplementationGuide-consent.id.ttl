@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "UTNConsentResource"] ; # 
   fhir:title [ fhir:v "University Telemedicine Network (UTN) FHIR Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-05-10T09:33:17+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-12T15:27:13+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "BIH-CEI"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "BIH-CEI" ] ;
@@ -1578,56 +1578,42 @@
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
            fhir:value [
              a fhir:url ;
-             fhir:v "meta_instances.html"^^xsd:anyURI
+             fhir:v "profiles.html"^^xsd:anyURI
            ]
          ] ) ;
          fhir:name [
            a fhir:url ;
-           fhir:v "meta_instances.html"^^xsd:anyURI
+           fhir:v "profiles.html"^^xsd:anyURI
          ] ;
-         fhir:title [ fhir:v "Meta Profiles" ] ;
+         fhir:title [ fhir:v "UTN Profiles" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
            fhir:value [
              a fhir:url ;
-             fhir:v "consent_instances.html"^^xsd:anyURI
+             fhir:v "instances.html"^^xsd:anyURI
            ]
          ] ) ;
          fhir:name [
            a fhir:url ;
-           fhir:v "consent_instances.html"^^xsd:anyURI
+           fhir:v "instances.html"^^xsd:anyURI
          ] ;
-         fhir:title [ fhir:v "Consent Profiles" ] ;
+         fhir:title [ fhir:v "UTN Instances" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
            fhir:value [
              a fhir:url ;
-             fhir:v "observation_instances.html"^^xsd:anyURI
+             fhir:v "scenario_depressionandanxiety.html"^^xsd:anyURI
            ]
          ] ) ;
          fhir:name [
            a fhir:url ;
-           fhir:v "observation_instances.html"^^xsd:anyURI
+           fhir:v "scenario_depressionandanxiety.html"^^xsd:anyURI
          ] ;
-         fhir:title [ fhir:v "Observation Profiles" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [
-             a fhir:url ;
-             fhir:v "scenario_consent.html"^^xsd:anyURI
-           ]
-         ] ) ;
-         fhir:name [
-           a fhir:url ;
-           fhir:v "scenario_consent.html"^^xsd:anyURI
-         ] ;
-         fhir:title [ fhir:v "Scenario Consent" ] ;
+         fhir:title [ fhir:v "Scenario Remote Assessment of Depression and Anxiety Severity" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [

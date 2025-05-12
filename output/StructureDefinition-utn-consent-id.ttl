@@ -19,7 +19,7 @@
   fhir:name [ fhir:v "UTNConsent"] ; # 
   fhir:title [ fhir:v "UTN Consent Forschungsvorhaben and Videosprechstunde"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-05-10T09:33:17+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-12T15:27:13+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "BIH-CEI"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "BIH-CEI" ] ;

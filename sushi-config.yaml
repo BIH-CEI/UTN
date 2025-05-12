@@ -71,14 +71,12 @@ pages:
     title: Home
   the_specification.md:
     title: Specification
-  meta_instances.md:
-    title: Meta Profiles
-  consent_instances.md:
-    title: Consent Profiles
-  observation_instances.md:
-    title: Observation Profiles
-  scenario_consent.md:
-    title: Scenario Consent
+  profiles.md:
+    title: UTN Profiles
+  instances.md:
+    title: UTN Instances
+  scenario_depressionandanxiety.md:
+    title: Scenario Remote Assessment of Depression and Anxiety Severity
   scenario_icu.md:
     title: Scenario ICU
   scenario_teleconsultation.md: 
@@ -110,13 +108,11 @@ pages:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Implementer Guidance: 
-    Specification: the_specification.html
-  Instances:
-    Meta Instances: meta_instances.html
-    Observation Instances: observation_instances.html
+  Implementer Guidance: the_specification.html
+  UTN Profiles: profiles.html
+  UTN Instances: instances.html
   Scenarios:
-    Scenario Consent: scenario_consent.html
+    Scenario Remote Assessment of Depression and Anxiety Severity : scenario_depressionandanxiety.html
     Scenario ICU: scenario_icu.html
     Scenario Teleconsultation: scenario_teleconsultation.html
   FHIR Artifacts: artifacts.html

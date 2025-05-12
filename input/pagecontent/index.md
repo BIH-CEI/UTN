@@ -22,11 +22,12 @@ Our use case addresses an insufficiently researched and neglected problem, namel
 - Doctor to doctor, patient to doctor.
 - Remote decision support for physicians in hospitals.
 
-#### Mental Health
+#### Remote Assessment of Depression and Anxiety Severity 
 
 - Remote assessment and follow-up of cognitive and psychiatric symptoms.
 - Integration of patient-reported and clinician-assessed data.
 - Evidence-based telehealth interventions for post-acute COVID-19 sequelae.
+- GRID HAMD 17 Questionnaire
 
 ### Background 
 This FHIR Implementation Guide (IG) provides a comprehensive framework for standardized data exchange and interoperability within the UTN Project. It defines:
