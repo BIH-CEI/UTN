@@ -3,7 +3,7 @@ UTNConsentResource : Validation Results
 
 err = 68, warn = 133, info = 58
 IG Publisher Version: 1.8.26
-Generated Mon May 12 15:29:10 CEST 2025. FHIR version 4.0.1 for consent.id#0.1.0 (canonical = http://utn/consentresource.com)
+Generated Mon May 12 15:34:49 CEST 2025. FHIR version 4.0.1 for consent.id#0.1.0 (canonical = http://utn/consentresource.com)
  Build Errors : 3 / 264 / 1
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Consent-Example-UTN-Consent-Forschungsvorhaben : 2 / 4 / 4
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Consent-Example-UTN-Consent-Videosprechstunde : 2 / 4 / 4
