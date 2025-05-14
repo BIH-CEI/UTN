@@ -1,5 +1,13 @@
 [
   {
+    "outputFile": "CodeSystem-gridhamd-answer-options-cs.json",
+    "fshName": "GRIDHAMDAnswerOptionsCS",
+    "fshType": "CodeSystem",
+    "fshFile": "CodeSystems/GRIDHAMD_CodeSystem.fsh",
+    "startLine": 3,
+    "endLine": 486
+  },
+  {
     "outputFile": "Consent-Example-UTN-Consent-Forschungsvorhaben.json",
     "fshName": "Example-UTN-Consent-Forschungsvorhaben",
     "fshType": "Instance",
@@ -160,6 +168,14 @@
     "endLine": 48
   },
   {
+    "outputFile": "Questionnaire-GRIDHAMDQuestionnaire.json",
+    "fshName": "GRIDHAMDQuestionnaire",
+    "fshType": "Instance",
+    "fshFile": "Instances/Consent/Example-Questionnaire-GRIDHAMD.fsh",
+    "startLine": 3,
+    "endLine": 137
+  },
+  {
     "outputFile": "StructureDefinition-KBV-PR-Base-Practitioner.json",
     "fshName": "UTNPractitioner",
     "fshType": "Profile",
@@ -286,5 +302,141 @@
     "fshFile": "Profiles/Parameters/Profile-Systolisch-Diastolisch.fsh",
     "startLine": 1,
     "endLine": 7
+  },
+  {
+    "outputFile": "ValueSet-gridhamd-answer-options-vs-q1.json",
+    "fshName": "GRIDHAMDAnswerOptionsVSQ1",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets/GRIDHAMD_ValueSet.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "ValueSet-gridhamd-answer-options-vs-q10.json",
+    "fshName": "GRIDHAMDAnswerOptionsVSQ10",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets/GRIDHAMD_ValueSet.fsh",
+    "startLine": 171,
+    "endLine": 191
+  },
+  {
+    "outputFile": "ValueSet-gridhamd-answer-options-vs-q11.json",
+    "fshName": "GRIDHAMDAnswerOptionsVSQ11",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets/GRIDHAMD_ValueSet.fsh",
+    "startLine": 194,
+    "endLine": 214
+  },
+  {
+    "outputFile": "ValueSet-gridhamd-answer-options-vs-q12.json",
+    "fshName": "GRIDHAMDAnswerOptionsVSQ12",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets/GRIDHAMD_ValueSet.fsh",
+    "startLine": 217,
+    "endLine": 231
+  },
+  {
+    "outputFile": "ValueSet-gridhamd-answer-options-vs-q13.json",
+    "fshName": "GRIDHAMDAnswerOptionsVSQ13",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets/GRIDHAMD_ValueSet.fsh",
+    "startLine": 234,
+    "endLine": 248
+  },
+  {
+    "outputFile": "ValueSet-gridhamd-answer-options-vs-q14.json",
+    "fshName": "GRIDHAMDAnswerOptionsVSQ14",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets/GRIDHAMD_ValueSet.fsh",
+    "startLine": 251,
+    "endLine": 260
+  },
+  {
+    "outputFile": "ValueSet-gridhamd-answer-options-vs-q15.json",
+    "fshName": "GRIDHAMDAnswerOptionsVSQ15",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets/GRIDHAMD_ValueSet.fsh",
+    "startLine": 263,
+    "endLine": 283
+  },
+  {
+    "outputFile": "ValueSet-gridhamd-answer-options-vs-q16.json",
+    "fshName": "GRIDHAMDAnswerOptionsVSQ16",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets/GRIDHAMD_ValueSet.fsh",
+    "startLine": 286,
+    "endLine": 298
+  },
+  {
+    "outputFile": "ValueSet-gridhamd-answer-options-vs-q17.json",
+    "fshName": "GRIDHAMDAnswerOptionsVSQ17",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets/GRIDHAMD_ValueSet.fsh",
+    "startLine": 301,
+    "endLine": 310
+  },
+  {
+    "outputFile": "ValueSet-gridhamd-answer-options-vs-q2.json",
+    "fshName": "GRIDHAMDAnswerOptionsVSQ2",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets/GRIDHAMD_ValueSet.fsh",
+    "startLine": 24,
+    "endLine": 43
+  },
+  {
+    "outputFile": "ValueSet-gridhamd-answer-options-vs-q3.json",
+    "fshName": "GRIDHAMDAnswerOptionsVSQ3",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets/GRIDHAMD_ValueSet.fsh",
+    "startLine": 46,
+    "endLine": 66
+  },
+  {
+    "outputFile": "ValueSet-gridhamd-answer-options-vs-q4.json",
+    "fshName": "GRIDHAMDAnswerOptionsVSQ4",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets/GRIDHAMD_ValueSet.fsh",
+    "startLine": 69,
+    "endLine": 83
+  },
+  {
+    "outputFile": "ValueSet-gridhamd-answer-options-vs-q5.json",
+    "fshName": "GRIDHAMDAnswerOptionsVSQ5",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets/GRIDHAMD_ValueSet.fsh",
+    "startLine": 86,
+    "endLine": 100
+  },
+  {
+    "outputFile": "ValueSet-gridhamd-answer-options-vs-q6.json",
+    "fshName": "GRIDHAMDAnswerOptionsVSQ6",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets/GRIDHAMD_ValueSet.fsh",
+    "startLine": 103,
+    "endLine": 117
+  },
+  {
+    "outputFile": "ValueSet-gridhamd-answer-options-vs-q7.json",
+    "fshName": "GRIDHAMDAnswerOptionsVSQ7",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets/GRIDHAMD_ValueSet.fsh",
+    "startLine": 120,
+    "endLine": 140
+  },
+  {
+    "outputFile": "ValueSet-gridhamd-answer-options-vs-q8.json",
+    "fshName": "GRIDHAMDAnswerOptionsVSQ8",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets/GRIDHAMD_ValueSet.fsh",
+    "startLine": 143,
+    "endLine": 154
+  },
+  {
+    "outputFile": "ValueSet-gridhamd-answer-options-vs-q9.json",
+    "fshName": "GRIDHAMDAnswerOptionsVSQ9",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets/GRIDHAMD_ValueSet.fsh",
+    "startLine": 157,
+    "endLine": 168
   }
 ]

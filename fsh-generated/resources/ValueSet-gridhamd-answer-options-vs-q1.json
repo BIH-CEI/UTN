@@ -1,0 +1,74 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GRIDHAMDAnswerOptionsVSQ1",
+  "id": "gridhamd-answer-options-vs-q1",
+  "title": "GRID-HAMD Answer Options ValueSet",
+  "description": "ValueSet including Q1 of the GRID-HAMD Questionnaire answer options.",
+  "url": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs1",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+        "concept": [
+          {
+            "code": "Q1-1",
+            "display": "Absent and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q1-2",
+            "display": "Mild (Feelings of sadness, discouragement, low selfesteem, pessimism)  and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q1-3",
+            "display": "Mild (Feelings of sadness, discouragement, low selfesteem, pessimism) and Occasional"
+          },
+          {
+            "code": "Q1-4",
+            "display": "Mild (Feelings of sadness, discouragement, low selfesteem, pessimism) and Much of the time"
+          },
+          {
+            "code": "Q1-5",
+            "display": "Mild (Feelings of sadness, discouragement, low selfesteem, pessimism)  and Almost all the time"
+          },
+          {
+            "code": "Q1-6",
+            "display": "Moderate (Clear nonverbal signs of sadness, feelings of hopelessness, helplessness, or worthlessness about some aspects of life) and Occasional"
+          },
+          {
+            "code": "Q1-7",
+            "display": "Moderate (Clear nonverbal signs of sadness, feelings of hopelessness, helplessness, or worthlessness about some aspects of life) and Much of the time"
+          },
+          {
+            "code": "Q1-8",
+            "display": "Moderate (Clear nonverbal signs of sadness, feelings of hopelessness, helplessness, or worthlessness about some aspects of life) and Almost all the time"
+          },
+          {
+            "code": "Q1-9",
+            "display": "Severe (Intense sadness, hopelessness about most aspects of life, feelings of complete helplessness or worthlessness) and Occasional"
+          },
+          {
+            "code": "Q1-10",
+            "display": "Severe (Intense sadness, hopelessness about most aspects of life, feelings of complete helplessness or worthlessness) and Much of the time"
+          },
+          {
+            "code": "Q1-11",
+            "display": "Severe (Intense sadness, hopelessness about most aspects of life, feelings of complete helplessness or worthlessness) and almost all of the time"
+          },
+          {
+            "code": "Q1-12",
+            "display": "Very severe (Extreme sadness; intractable hopelessness or helplessness) and Occasional"
+          },
+          {
+            "code": "Q1-13",
+            "display": "Very severe (Extreme sadness; intractable hopelessness or helplessness) and Much off the time"
+          },
+          {
+            "code": "Q1-14",
+            "display": "Very severe (Extreme sadness; intractable hopelessness or helplessness) and Almost all of the time"
+          }
+        ]
+      }
+    ]
+  }
+}

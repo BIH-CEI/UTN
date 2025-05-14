@@ -1,0 +1,70 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GRIDHAMDAnswerOptionsVSQ2",
+  "id": "gridhamd-answer-options-vs-q2",
+  "title": "GRID-HAMD Answer Options ValueSet",
+  "description": "ValueSet including Q2 of the GRID-HAMD Questionnaire answer options.",
+  "url": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs2",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+        "concept": [
+          {
+            "code": "Q2-1",
+            "display": "Absent and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q2-2",
+            "display": "Mild (Feelings of sadness, discouragement, low selfesteem, pessimism)  and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q2-3",
+            "display": "Mild (Self-critical, self-reproach, e.g., “I’ve letpeople down”)  and Occasional"
+          },
+          {
+            "code": "Q2-4",
+            "display": "Mild (Self-critical, self-reproach, e.g., “I’ve letpeople down”)  and Much of the time"
+          },
+          {
+            "code": "Q2-5",
+            "display": "Mild (Self-critical, self-reproach, e.g., “I’ve letpeople down”) and Almost all the time"
+          },
+          {
+            "code": "Q2-6",
+            "display": "Moderate (Feelings of guilt, remorse, shame; belief that one has done something bad or wrong)  and Occasional"
+          },
+          {
+            "code": "Q2-7",
+            "display": "Moderate (Feelings of guilt, remorse, shame; belief that one has done something bad or wrong) and Much of the time"
+          },
+          {
+            "code": "Q2-8",
+            "display": "Moderate (Feelings of guilt, remorse, shame; belief that one has done something bad or wrong) and Almost all the time"
+          },
+          {
+            "code": "Q2-9",
+            "display": "Severe (Pervasive feelings of guilt; feels the illness is a punishment for sinful deeds) and Occasional"
+          },
+          {
+            "code": "Q2-10",
+            "display": "Severe (Pervasive feelings of guilt; feels the illness is a punishment for sinful deeds) and Much of the time"
+          },
+          {
+            "code": "Q2-11",
+            "display": "Severe (Pervasive feelings of guilt; feels the illness is a punishment for sinful deeds) and almost all of the time"
+          },
+          {
+            "code": "Q2-12",
+            "display": "Very Severe (Delusions, hallucinations) and Much off the time"
+          },
+          {
+            "code": "Q2-13",
+            "display": "Very Severe (Delusions, hallucinations) and Almost all of the time"
+          }
+        ]
+      }
+    ]
+  }
+}

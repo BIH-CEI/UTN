@@ -1,0 +1,50 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GRIDHAMDAnswerOptionsVSQ5",
+  "id": "gridhamd-answer-options-vs-q5",
+  "title": "GRID-HAMD Answer Options ValueSet",
+  "description": "ValueSet including Q5 of the GRID-HAMD Questionnaire answer options.",
+  "url": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs5",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+        "concept": [
+          {
+            "code": "Q5-1",
+            "display": "Absent and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q5-2",
+            "display": "Mild (30 – 59 minutes awake)  and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q5-3",
+            "display": "Mild (30 – 59 minutes awake) and Occasional"
+          },
+          {
+            "code": "Q5-4",
+            "display": "Mild (30 – 59 minutes awake) and Much of the time"
+          },
+          {
+            "code": "Q5-5",
+            "display": "Mild (30 – 59 minutes awake) and Almost all the time"
+          },
+          {
+            "code": "Q5-6",
+            "display": "Marked (1 hour or more awake) and Occasional"
+          },
+          {
+            "code": "Q5-7",
+            "display": "Marked (1 hour or more awake) and Much of the time"
+          },
+          {
+            "code": "Q5-8",
+            "display": "Marked (1 hour or more awake) and Almost all the time"
+          }
+        ]
+      }
+    ]
+  }
+}

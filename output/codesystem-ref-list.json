@@ -1,6 +1,33 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsCS",
+      "title" : "GRID-HAMD Answer Options CodeSystem",
+      "description" : "CodeSystem defining codes for all answer options used in GRID-HAMD Questionnaire.",
+      "uses" : {
+      },
+      "ValueSet-gridhamd-answer-options-vs-q10.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q14.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q1.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q5.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q4.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q16.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q13.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q17.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q2.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q3.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q8.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q9.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q12.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q15.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q7.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q11.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q6.html" : "GRID-HAMD Answer Options ValueSet"
+    },
+    {
       "url" : "http://fhir.de/CodeSystem/identifier-type-de-basis",
       "version" : "1.5.2",
       "status" : "active",

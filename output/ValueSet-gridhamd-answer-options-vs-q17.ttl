@@ -1,0 +1,48 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q17> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "gridhamd-answer-options-vs-q17"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet gridhamd-answer-options-vs-q17</b></p><a name=\"gridhamd-answer-options-vs-q17\"> </a><a name=\"hcgridhamd-answer-options-vs-q17\"> </a><a name=\"gridhamd-answer-options-vs-q17-en-US\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-gridhamd-answer-options-cs.html\"><code>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q17-1\">Q17-1</a></td><td>Any recognition of depressive symptoms, with or without attribution to any cause, e.g., “I’m depressed because my partner always argues with me.</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q17-2\">Q17-2</a></td><td>Denies illness but accepts possibility of being ill, e.g., “I don’t think there’s anything wrong, but other people think there is.</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q17-3\">Q17-3</a></td><td>Complete denial of having any illness, e.g., “I’m not depressed; I’m fine.</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs17"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "GRIDHAMDAnswerOptionsVSQ17"] ; # 
+  fhir:title [ fhir:v "GRID-HAMD Answer Options ValueSet"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2025-05-14T14:21:32+02:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "BIH-CEI"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "BIH-CEI" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://utn/consentresource.com" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "ValueSet including Q17 of the GRID-HAMD Questionnaire answer options."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "Q17-1" ] ;
+         fhir:display [ fhir:v "Any recognition of depressive symptoms, with or without attribution to any cause, e.g., “I’m depressed because my partner always argues with me." ]
+       ] [
+         fhir:code [ fhir:v "Q17-2" ] ;
+         fhir:display [ fhir:v "Denies illness but accepts possibility of being ill, e.g., “I don’t think there’s anything wrong, but other people think there is." ]
+       ] [
+         fhir:code [ fhir:v "Q17-3" ] ;
+         fhir:display [ fhir:v "Complete denial of having any illness, e.g., “I’m not depressed; I’m fine." ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

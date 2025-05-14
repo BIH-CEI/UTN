@@ -1,0 +1,50 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GRIDHAMDAnswerOptionsVSQ12",
+  "id": "gridhamd-answer-options-vs-q12",
+  "title": "GRID-HAMD Answer Options ValueSet",
+  "description": "ValueSet including Q12 of the GRID-HAMD Questionnaire answer options.",
+  "url": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs12",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+        "concept": [
+          {
+            "code": "Q12-1",
+            "display": "Absent and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q12-2",
+            "display": "Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating) and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q12-3",
+            "display": "Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating) and Occasional"
+          },
+          {
+            "code": "Q12-4",
+            "display": "Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating) and Much of the time"
+          },
+          {
+            "code": "Q12-5",
+            "display": "Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating)and Almost all the time"
+          },
+          {
+            "code": "Q12-6",
+            "display": "Marked (Marked loss of appetite, very little interest or pleasure in eating (e.g., forcing self to eat)) and Occasional"
+          },
+          {
+            "code": "Q12-7",
+            "display": "Marked (Marked loss of appetite, very little interest or pleasure in eating (e.g., forcing self to eat)) and Much of the time"
+          },
+          {
+            "code": "Q12-8",
+            "display": "Marked (Marked loss of appetite, very little interest or pleasure in eating (e.g., forcing self to eat))  and Almost all the time"
+          }
+        ]
+      }
+    ]
+  }
+}

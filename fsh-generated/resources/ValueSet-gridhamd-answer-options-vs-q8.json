@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GRIDHAMDAnswerOptionsVSQ8",
+  "id": "gridhamd-answer-options-vs-q8",
+  "title": "GRID-HAMD Answer Options ValueSet",
+  "description": "ValueSet including Q8 of the GRID-HAMD Questionnaire answer options.",
+  "url": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs8",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+        "concept": [
+          {
+            "code": "Q8-1",
+            "display": "Absent"
+          },
+          {
+            "code": "Q8-2",
+            "display": "Mild (Rate of speech slightly reduced)"
+          },
+          {
+            "code": "Q8-3",
+            "display": "Moderate (Rate of speech clearly reduced with noticeable pauses)"
+          },
+          {
+            "code": "Q8-4",
+            "display": "Severe (Interview clearly prolonged due to long breaks; all movements very slowed)"
+          },
+          {
+            "code": "Q8-5",
+            "display": "Very Severe (Interview cannot be completed, unresponsive)"
+          }
+        ]
+      }
+    ]
+  }
+}

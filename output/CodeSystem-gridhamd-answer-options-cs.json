@@ -1,0 +1,1297 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "gridhamd-answer-options-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem gridhamd-answer-options-cs</b></p><a name=\"gridhamd-answer-options-cs\"> </a><a name=\"hcgridhamd-answer-options-cs\"> </a><a name=\"gridhamd-answer-options-cs-en-US\"> </a><p>This  code system <code>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Q1-1<a name=\"gridhamd-answer-options-cs-Q1-1\"> </a></td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q1-2<a name=\"gridhamd-answer-options-cs-Q1-2\"> </a></td><td>Mild (Feelings of sadness, discouragement, low selfesteem, pessimism)  and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q1-3<a name=\"gridhamd-answer-options-cs-Q1-3\"> </a></td><td>Mild (Feelings of sadness, discouragement, low selfesteem, pessimism) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q1-4<a name=\"gridhamd-answer-options-cs-Q1-4\"> </a></td><td>Mild (Feelings of sadness, discouragement, low selfesteem, pessimism) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q1-5<a name=\"gridhamd-answer-options-cs-Q1-5\"> </a></td><td>Mild (Feelings of sadness, discouragement, low selfesteem, pessimism)  and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q1-6<a name=\"gridhamd-answer-options-cs-Q1-6\"> </a></td><td>Moderate (Clear nonverbal signs of sadness, feelings of hopelessness, helplessness, or worthlessness about some aspects of life) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q1-7<a name=\"gridhamd-answer-options-cs-Q1-7\"> </a></td><td>Moderate (Clear nonverbal signs of sadness, feelings of hopelessness, helplessness, or worthlessness about some aspects of life) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q1-8<a name=\"gridhamd-answer-options-cs-Q1-8\"> </a></td><td>Moderate (Clear nonverbal signs of sadness, feelings of hopelessness, helplessness, or worthlessness about some aspects of life) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q1-9<a name=\"gridhamd-answer-options-cs-Q1-9\"> </a></td><td>Severe (Intense sadness, hopelessness about most aspects of life, feelings of complete helplessness or worthlessness) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q1-10<a name=\"gridhamd-answer-options-cs-Q1-10\"> </a></td><td>Severe (Intense sadness, hopelessness about most aspects of life, feelings of complete helplessness or worthlessness) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q1-11<a name=\"gridhamd-answer-options-cs-Q1-11\"> </a></td><td>Severe (Intense sadness, hopelessness about most aspects of life, feelings of complete helplessness or worthlessness) and almost all of the time</td></tr><tr><td style=\"white-space:nowrap\">Q1-12<a name=\"gridhamd-answer-options-cs-Q1-12\"> </a></td><td>Very severe (Extreme sadness; intractable hopelessness or helplessness) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q1-13<a name=\"gridhamd-answer-options-cs-Q1-13\"> </a></td><td>Very severe (Extreme sadness; intractable hopelessness or helplessness) and Much off the time</td></tr><tr><td style=\"white-space:nowrap\">Q1-14<a name=\"gridhamd-answer-options-cs-Q1-14\"> </a></td><td>Very severe (Extreme sadness; intractable hopelessness or helplessness) and Almost all of the time</td></tr><tr><td style=\"white-space:nowrap\">Q2-1<a name=\"gridhamd-answer-options-cs-Q2-1\"> </a></td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q2-2<a name=\"gridhamd-answer-options-cs-Q2-2\"> </a></td><td>Mild (Feelings of sadness, discouragement, low selfesteem, pessimism)  and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q2-3<a name=\"gridhamd-answer-options-cs-Q2-3\"> </a></td><td>Mild (Self-critical, self-reproach, e.g., “I’ve letpeople down”)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q2-4<a name=\"gridhamd-answer-options-cs-Q2-4\"> </a></td><td>Mild (Self-critical, self-reproach, e.g., “I’ve letpeople down”)  and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q2-5<a name=\"gridhamd-answer-options-cs-Q2-5\"> </a></td><td>Mild (Self-critical, self-reproach, e.g., “I’ve letpeople down”) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q2-6<a name=\"gridhamd-answer-options-cs-Q2-6\"> </a></td><td>Moderate (Feelings of guilt, remorse, shame; belief that one has done something bad or wrong)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q2-7<a name=\"gridhamd-answer-options-cs-Q2-7\"> </a></td><td>Moderate (Feelings of guilt, remorse, shame; belief that one has done something bad or wrong) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q2-8<a name=\"gridhamd-answer-options-cs-Q2-8\"> </a></td><td>Moderate (Feelings of guilt, remorse, shame; belief that one has done something bad or wrong) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q2-9<a name=\"gridhamd-answer-options-cs-Q2-9\"> </a></td><td>Severe (Pervasive feelings of guilt; feels the illness is a punishment for sinful deeds) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q2-10<a name=\"gridhamd-answer-options-cs-Q2-10\"> </a></td><td>Severe (Pervasive feelings of guilt; feels the illness is a punishment for sinful deeds) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q2-11<a name=\"gridhamd-answer-options-cs-Q2-11\"> </a></td><td>Severe (Pervasive feelings of guilt; feels the illness is a punishment for sinful deeds) and almost all of the time</td></tr><tr><td style=\"white-space:nowrap\">Q2-12<a name=\"gridhamd-answer-options-cs-Q2-12\"> </a></td><td>Very Severe (Delusions, hallucinations) and Much off the time</td></tr><tr><td style=\"white-space:nowrap\">Q2-13<a name=\"gridhamd-answer-options-cs-Q2-13\"> </a></td><td>Very Severe (Delusions, hallucinations) and Almost all of the time</td></tr><tr><td style=\"white-space:nowrap\">Q3-1<a name=\"gridhamd-answer-options-cs-Q3-1\"> </a></td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q3-2<a name=\"gridhamd-answer-options-cs-Q3-2\"> </a></td><td>Mild (Feels life is not worth living, but expresses no wish to die, e.g., “I don’t care if I live or die”)  and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q3-3<a name=\"gridhamd-answer-options-cs-Q3-3\"> </a></td><td>Mild (Feels life is not worth living, but expresses no wish to die, e.g., “I don’t care if I live or die”)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q3-4<a name=\"gridhamd-answer-options-cs-Q3-4\"> </a></td><td>Mild (Feels life is not worth living, but expresses no wish to die, e.g., “I don’t care if I live or die”) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q3-5<a name=\"gridhamd-answer-options-cs-Q3-5\"> </a></td><td>Mild (Feels life is not worth living, but expresses nowish to die, e.g., “I don’t care if I live or die”)   and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q3-6<a name=\"gridhamd-answer-options-cs-Q3-6\"> </a></td><td>Moderate (Wishes to be dead; thoughts of dying, but no specific plan or intent, e.g., “If I got hit by a bus, I wouldn’t care,” “I’d like to go to sleep and never wake up”)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q3-7<a name=\"gridhamd-answer-options-cs-Q3-7\"> </a></td><td>Moderate (Wishes to be dead; thoughts of dying, but no specific plan or intent, e.g., “If I got hit by a bus, I wouldn’t care,” “I’d like to go to sleep and never wake up”)  and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q3-8<a name=\"gridhamd-answer-options-cs-Q3-8\"> </a></td><td>Moderate (Wishes to be dead; thoughts of dying, but no specific plan or intent, e.g., “If I got hit by a bus, I wouldn’t care,” “I’d like to go to sleep and never wake up”)  and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q3-9<a name=\"gridhamd-answer-options-cs-Q3-9\"> </a></td><td>Severe (Clear suicidal plan or intent; suicidal gesture, e.g., taking a few sleeping pills)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q3-10<a name=\"gridhamd-answer-options-cs-Q3-10\"> </a></td><td>Severe (Clear suicidal plan or intent; suicidal gesture, e.g., taking a few sleeping pills)  and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q3-11<a name=\"gridhamd-answer-options-cs-Q3-11\"> </a></td><td>Severe (Clear suicidal plan or intent; suicidal gesture, e.g., taking a few sleeping pills)  and almost all of the time</td></tr><tr><td style=\"white-space:nowrap\">Q3-12<a name=\"gridhamd-answer-options-cs-Q3-12\"> </a></td><td>Very severe (Attempts at suicide)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q3-13<a name=\"gridhamd-answer-options-cs-Q3-13\"> </a></td><td>Very severe (Attempts at suicide)  and Much off the time</td></tr><tr><td style=\"white-space:nowrap\">Q3-14<a name=\"gridhamd-answer-options-cs-Q3-14\"> </a></td><td>Very severe (Attempts at suicide)  and Almost all of the time</td></tr><tr><td style=\"white-space:nowrap\">Q4-1<a name=\"gridhamd-answer-options-cs-Q4-1\"> </a></td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q4-2<a name=\"gridhamd-answer-options-cs-Q4-2\"> </a></td><td>Mild (30 – 59 minutes to fall asleep)  and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q4-3<a name=\"gridhamd-answer-options-cs-Q4-3\"> </a></td><td>Mild (30 – 59 minutes to fall asleep) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q4-4<a name=\"gridhamd-answer-options-cs-Q4-4\"> </a></td><td>Mild (30 – 59 minutes to fall asleep) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q4-5<a name=\"gridhamd-answer-options-cs-Q4-5\"> </a></td><td>Mild (30 – 59 minutes to fall asleep) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q4-6<a name=\"gridhamd-answer-options-cs-Q4-6\"> </a></td><td>Marked (1 hour or more to fall asleep) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q4-7<a name=\"gridhamd-answer-options-cs-Q4-7\"> </a></td><td>Marked (1 hour or more to fall asleep) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q4-8<a name=\"gridhamd-answer-options-cs-Q4-8\"> </a></td><td>Marked (1 hour or more to fall asleep) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q5-1<a name=\"gridhamd-answer-options-cs-Q5-1\"> </a></td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q5-2<a name=\"gridhamd-answer-options-cs-Q5-2\"> </a></td><td>Mild (30 – 59 minutes awake)  and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q5-3<a name=\"gridhamd-answer-options-cs-Q5-3\"> </a></td><td>Mild (30 – 59 minutes awake) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q5-4<a name=\"gridhamd-answer-options-cs-Q5-4\"> </a></td><td>Mild (30 – 59 minutes awake) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q5-5<a name=\"gridhamd-answer-options-cs-Q5-5\"> </a></td><td>Mild (30 – 59 minutes awake) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q5-6<a name=\"gridhamd-answer-options-cs-Q5-6\"> </a></td><td>Marked (1 hour or more awake) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q5-7<a name=\"gridhamd-answer-options-cs-Q5-7\"> </a></td><td>Marked (1 hour or more awake) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q5-8<a name=\"gridhamd-answer-options-cs-Q5-8\"> </a></td><td>Marked (1 hour or more awake) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q6-1<a name=\"gridhamd-answer-options-cs-Q6-1\"> </a></td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q6-2<a name=\"gridhamd-answer-options-cs-Q6-2\"> </a></td><td>Mild (30 – 59 minutes awake)  and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q6-3<a name=\"gridhamd-answer-options-cs-Q6-3\"> </a></td><td>Mild (30 – 59 minutes awake) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q6-4<a name=\"gridhamd-answer-options-cs-Q6-4\"> </a></td><td>Mild (30 – 59 minutes awake) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q6-5<a name=\"gridhamd-answer-options-cs-Q6-5\"> </a></td><td>Mild (30 – 59 minutes awake) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q6-6<a name=\"gridhamd-answer-options-cs-Q6-6\"> </a></td><td>Marked (1 hour or more awake) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q6-7<a name=\"gridhamd-answer-options-cs-Q6-7\"> </a></td><td>Marked (1 hour or more awake) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q6-8<a name=\"gridhamd-answer-options-cs-Q6-8\"> </a></td><td>Marked (1 hour or more awake) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q7-1<a name=\"gridhamd-answer-options-cs-Q7-1\"> </a></td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q7-2<a name=\"gridhamd-answer-options-cs-Q7-2\"> </a></td><td>Mild (Some reduction in interest or pleasure but no clear impairment in functioning)  and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q7-3<a name=\"gridhamd-answer-options-cs-Q7-3\"> </a></td><td>Mild (Some reduction in interest or pleasure but no clear impairment in functioning)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q7-4<a name=\"gridhamd-answer-options-cs-Q7-4\"> </a></td><td>Mild (Some reduction in interest or pleasure but no clear impairment in functioning) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q7-5<a name=\"gridhamd-answer-options-cs-Q7-5\"> </a></td><td>Mild (Some reduction in interest or pleasure but no clear impairment in functioning)  and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q7-6<a name=\"gridhamd-answer-options-cs-Q7-6\"> </a></td><td>Moderate (Significant reduction in interest or pleasure or clear impairment in functioning)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q7-7<a name=\"gridhamd-answer-options-cs-Q7-7\"> </a></td><td>Moderate (Significant reduction in interest or pleasure or clear impairment in functioning) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q7-8<a name=\"gridhamd-answer-options-cs-Q7-8\"> </a></td><td>Moderate (Significant reduction in interest or pleasure or clear impairment in functioning) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q7-9<a name=\"gridhamd-answer-options-cs-Q7-9\"> </a></td><td>Severe (Profound reduction in interest, pleasure, and functioning) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q7-10<a name=\"gridhamd-answer-options-cs-Q7-10\"> </a></td><td>Severe (Profound reduction in interest, pleasure, and functioning) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q7-11<a name=\"gridhamd-answer-options-cs-Q7-11\"> </a></td><td>Severe (Profound reduction in interest, pleasure, and functioning) and almost all of the time</td></tr><tr><td style=\"white-space:nowrap\">Q7-12<a name=\"gridhamd-answer-options-cs-Q7-12\"> </a></td><td>Very Severe (Unable to work; needs help performing self-care activities; unable to function without assistance) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q7-13<a name=\"gridhamd-answer-options-cs-Q7-13\"> </a></td><td>Very Severe (Unable to work; needs help performing self-care activities; unable to function withoutassistance) and Much off the time</td></tr><tr><td style=\"white-space:nowrap\">Q7-14<a name=\"gridhamd-answer-options-cs-Q7-14\"> </a></td><td>Very Severe (Unable to work; needs help performing self-care activities; unable to function without assistance) and Almost all of the time</td></tr><tr><td style=\"white-space:nowrap\">Q8-1<a name=\"gridhamd-answer-options-cs-Q8-1\"> </a></td><td>Absent</td></tr><tr><td style=\"white-space:nowrap\">Q8-2<a name=\"gridhamd-answer-options-cs-Q8-2\"> </a></td><td>Mild (Rate of speech slightly reduced)</td></tr><tr><td style=\"white-space:nowrap\">Q8-3<a name=\"gridhamd-answer-options-cs-Q8-3\"> </a></td><td>Moderate (Rate of speech clearly reduced with noticeable pauses)</td></tr><tr><td style=\"white-space:nowrap\">Q8-4<a name=\"gridhamd-answer-options-cs-Q8-4\"> </a></td><td>Severe (Interview clearly prolonged due to long breaks; all movements very slowed)</td></tr><tr><td style=\"white-space:nowrap\">Q8-5<a name=\"gridhamd-answer-options-cs-Q8-5\"> </a></td><td>Very Severe (Interview cannot be completed, unresponsive)</td></tr><tr><td style=\"white-space:nowrap\">Q9-1<a name=\"gridhamd-answer-options-cs-Q9-1\"> </a></td><td>Absent (movements within normal range, e.g., occasionally shifts position in seat)</td></tr><tr><td style=\"white-space:nowrap\">Q9-2<a name=\"gridhamd-answer-options-cs-Q9-2\"> </a></td><td>Mild (Doubtful or slight agitation, mild restlessness,e.g., frequently changing position in seat, foottapping, playing with hair, hands, or clothes)</td></tr><tr><td style=\"white-space:nowrap\">Q9-3<a name=\"gridhamd-answer-options-cs-Q9-3\"> </a></td><td>Moderate (Moderate to marked restlessness or agitation, e.g., wringing hands, excessive scratching or picking)</td></tr><tr><td style=\"white-space:nowrap\">Q9-4<a name=\"gridhamd-answer-options-cs-Q9-4\"> </a></td><td>Severe (Cannot sit still or stay seated even for a short period of time; pacing)</td></tr><tr><td style=\"white-space:nowrap\">Q9-5<a name=\"gridhamd-answer-options-cs-Q9-5\"> </a></td><td>Very Severe (Interview cannot be conducted)</td></tr><tr><td style=\"white-space:nowrap\">Q10-1<a name=\"gridhamd-answer-options-cs-Q10-1\"> </a></td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q10-2<a name=\"gridhamd-answer-options-cs-Q10-2\"> </a></td><td>Mild (some feelings of worry or irritability) and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q10-3<a name=\"gridhamd-answer-options-cs-Q10-3\"> </a></td><td>Mild (some feelings of worry or irritability) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q10-4<a name=\"gridhamd-answer-options-cs-Q10-4\"> </a></td><td>Mild (some feelings of worry or irritability) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q10-5<a name=\"gridhamd-answer-options-cs-Q10-5\"> </a></td><td>Mild (some feelings of worry or irritability) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q10-6<a name=\"gridhamd-answer-options-cs-Q10-6\"> </a></td><td>Moderate (excessive worry or irritability; anxiety causes distress; may cause some impairment in functioning) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q10-7<a name=\"gridhamd-answer-options-cs-Q10-7\"> </a></td><td>Moderate (excessive worry or irritability; anxiety causes distress; may cause some impairment in functioning) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q10-8<a name=\"gridhamd-answer-options-cs-Q10-8\"> </a></td><td>Moderate (excessive worry or irritability; anxiety causes distress; may cause some impairment in functioning) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q10-9<a name=\"gridhamd-answer-options-cs-Q10-9\"> </a></td><td>Severe (pervasive worry or dread; fearing the worst; apprehension obvious in demeanor or behavior; significant impairment in functioning; feelings of panic) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q10-10<a name=\"gridhamd-answer-options-cs-Q10-10\"> </a></td><td>Severe (pervasive worry or dread; fearing the worst; apprehension obvious in demeanor or behavior; significant impairment in functioning; feelings of panic) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q10-11<a name=\"gridhamd-answer-options-cs-Q10-11\"> </a></td><td>Severe (pervasive worry or dread; fearing the worst; apprehension obvious in demeanor or behavior; significant impairment in functioning; feelings of panic)  and almost all of the time</td></tr><tr><td style=\"white-space:nowrap\">Q10-12<a name=\"gridhamd-answer-options-cs-Q10-12\"> </a></td><td>Very Severe (incapacitating) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q10-13<a name=\"gridhamd-answer-options-cs-Q10-13\"> </a></td><td>Very Severe (incapacitating) and Much off the time</td></tr><tr><td style=\"white-space:nowrap\">Q10-14<a name=\"gridhamd-answer-options-cs-Q10-14\"> </a></td><td>Very Severe (incapacitating) and Almost all of the time</td></tr><tr><td style=\"white-space:nowrap\">Q11-1<a name=\"gridhamd-answer-options-cs-Q11-1\"> </a></td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q11-2<a name=\"gridhamd-answer-options-cs-Q11-2\"> </a></td><td>Mild (some distress) and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q11-3<a name=\"gridhamd-answer-options-cs-Q11-3\"> </a></td><td>Mild (some distress) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q11-4<a name=\"gridhamd-answer-options-cs-Q11-4\"> </a></td><td>Mild (some distress) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q11-5<a name=\"gridhamd-answer-options-cs-Q11-5\"> </a></td><td>Mild (some distress) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q11-6<a name=\"gridhamd-answer-options-cs-Q11-6\"> </a></td><td>Moderate (marked distress, may cause some impairment in functioning) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q11-7<a name=\"gridhamd-answer-options-cs-Q11-7\"> </a></td><td>Moderate (marked distress, may cause some impairment in functioning) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q11-8<a name=\"gridhamd-answer-options-cs-Q11-8\"> </a></td><td>Moderate (marked distress, may cause some impairment in functioning)  and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q11-9<a name=\"gridhamd-answer-options-cs-Q11-9\"> </a></td><td>Severe (significant impairment in functioning)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q11-10<a name=\"gridhamd-answer-options-cs-Q11-10\"> </a></td><td>Severe (significant impairment in functioning) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q11-11<a name=\"gridhamd-answer-options-cs-Q11-11\"> </a></td><td>Severe (significant impairment in functioning) and almost all of the time</td></tr><tr><td style=\"white-space:nowrap\">Q11-12<a name=\"gridhamd-answer-options-cs-Q11-12\"> </a></td><td>Very Severe (incapacitating) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q11-13<a name=\"gridhamd-answer-options-cs-Q11-13\"> </a></td><td>Very Severe (incapacitating) and Much off the time</td></tr><tr><td style=\"white-space:nowrap\">Q11-14<a name=\"gridhamd-answer-options-cs-Q11-14\"> </a></td><td>Very Severe (incapacitating) and Almost all of the time</td></tr><tr><td style=\"white-space:nowrap\">Q12-1<a name=\"gridhamd-answer-options-cs-Q12-1\"> </a></td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q12-2<a name=\"gridhamd-answer-options-cs-Q12-2\"> </a></td><td>Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating) and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q12-3<a name=\"gridhamd-answer-options-cs-Q12-3\"> </a></td><td>Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q12-4<a name=\"gridhamd-answer-options-cs-Q12-4\"> </a></td><td>Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q12-5<a name=\"gridhamd-answer-options-cs-Q12-5\"> </a></td><td>Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating)and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q12-6<a name=\"gridhamd-answer-options-cs-Q12-6\"> </a></td><td>Marked (Marked loss of appetite, very little interest or pleasure in eating (e.g., forcing self to eat)) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q12-7<a name=\"gridhamd-answer-options-cs-Q12-7\"> </a></td><td>Marked (Marked loss of appetite, very little interest or pleasure in eating (e.g., forcing self to eat)) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q12-8<a name=\"gridhamd-answer-options-cs-Q12-8\"> </a></td><td>Marked (Marked loss of appetite, very little interest or pleasure in eating (e.g., forcing self to eat))  and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q13-1<a name=\"gridhamd-answer-options-cs-Q13-1\"> </a></td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q13-2<a name=\"gridhamd-answer-options-cs-Q13-2\"> </a></td><td>Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q13-3<a name=\"gridhamd-answer-options-cs-Q13-3\"> </a></td><td>Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q13-4<a name=\"gridhamd-answer-options-cs-Q13-4\"> </a></td><td>Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q13-5<a name=\"gridhamd-answer-options-cs-Q13-5\"> </a></td><td>Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q13-6<a name=\"gridhamd-answer-options-cs-Q13-6\"> </a></td><td>Marked (prominent tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q13-7<a name=\"gridhamd-answer-options-cs-Q13-7\"> </a></td><td>Marked (prominent tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains)and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q13-8<a name=\"gridhamd-answer-options-cs-Q13-8\"> </a></td><td>Marked (prominent tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains)  and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q14-1<a name=\"gridhamd-answer-options-cs-Q14-1\"> </a></td><td>Absent</td></tr><tr><td style=\"white-space:nowrap\">Q14-2<a name=\"gridhamd-answer-options-cs-Q14-2\"> </a></td><td>Mild (Some loss of interest or pleasure)</td></tr><tr><td style=\"white-space:nowrap\">Q14-3<a name=\"gridhamd-answer-options-cs-Q14-3\"> </a></td><td>Marked (Marked loss of interest or pleasure)</td></tr><tr><td style=\"white-space:nowrap\">Q15-1<a name=\"gridhamd-answer-options-cs-Q15-1\"> </a></td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q15-2<a name=\"gridhamd-answer-options-cs-Q15-2\"> </a></td><td>Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness)  and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\">Q15-3<a name=\"gridhamd-answer-options-cs-Q15-3\"> </a></td><td>Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q15-4<a name=\"gridhamd-answer-options-cs-Q15-4\"> </a></td><td>Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q15-5<a name=\"gridhamd-answer-options-cs-Q15-5\"> </a></td><td>Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness)  and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q15-6<a name=\"gridhamd-answer-options-cs-Q15-6\"> </a></td><td>Moderate (Excessive or unrealistic worry about having an illness, e.g., “I worry that these headaches are from a brain tumor.”)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q15-7<a name=\"gridhamd-answer-options-cs-Q15-7\"> </a></td><td>Moderate (Excessive or unrealistic worry about having an illness, e.g., “I worry that these headaches are from a brain tumor.”)  and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q15-8<a name=\"gridhamd-answer-options-cs-Q15-8\"> </a></td><td>Moderate (Excessive or unrealistic worry about having an illness, e.g., “I worry that these headaches are from a brain tumor.”)  and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\">Q15-9<a name=\"gridhamd-answer-options-cs-Q15-9\"> </a></td><td>Severe (Strong unrealistic conviction of having an illness, e.g., “I am convinced I have cancer”) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q15-10<a name=\"gridhamd-answer-options-cs-Q15-10\"> </a></td><td>Severe (Strong unrealistic conviction of having an illness, e.g., “I am convinced I have cancer”) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\">Q15-11<a name=\"gridhamd-answer-options-cs-Q15-11\"> </a></td><td>Severe (Strong unrealistic conviction of having an illness, e.g., “I am convinced I have cancer”) and almost all of the time</td></tr><tr><td style=\"white-space:nowrap\">Q15-12<a name=\"gridhamd-answer-options-cs-Q15-12\"> </a></td><td>Very Severe (Somatic delusions or hallucinations, e.g., “My insides are rotting”) and Occasional</td></tr><tr><td style=\"white-space:nowrap\">Q15-13<a name=\"gridhamd-answer-options-cs-Q15-13\"> </a></td><td>Very Severe (Somatic delusions or hallucinations, e.g., “My insides are rotting”)  and Much off the time</td></tr><tr><td style=\"white-space:nowrap\">Q15-14<a name=\"gridhamd-answer-options-cs-Q15-14\"> </a></td><td>Very Severe (Somatic delusions or hallucinations, e.g., “My insides are rotting”) and Almost all of the time</td></tr><tr><td style=\"white-space:nowrap\">Q16/1-1<a name=\"gridhamd-answer-options-cs-Q16.471-1\"> </a></td><td>No weight loss</td></tr><tr><td style=\"white-space:nowrap\">Q16/1-2<a name=\"gridhamd-answer-options-cs-Q16.471-2\"> </a></td><td>Probable weight loss</td></tr><tr><td style=\"white-space:nowrap\">Q16/1-3<a name=\"gridhamd-answer-options-cs-Q16.471-3\"> </a></td><td>Definite weight loss</td></tr><tr><td style=\"white-space:nowrap\">Q16/2-1<a name=\"gridhamd-answer-options-cs-Q16.472-1\"> </a></td><td>Less than 1 lb. (.5 kg) loss per week since last visit</td></tr><tr><td style=\"white-space:nowrap\">Q16/2-2<a name=\"gridhamd-answer-options-cs-Q16.472-2\"> </a></td><td>1-2 lb. (.5 – 1 kg) loss per week since last visit</td></tr><tr><td style=\"white-space:nowrap\">Q16/2-3<a name=\"gridhamd-answer-options-cs-Q16.472-3\"> </a></td><td>More than 2-lb (&gt; 1 kg) loss per week since last visit</td></tr><tr><td style=\"white-space:nowrap\">Q17-1<a name=\"gridhamd-answer-options-cs-Q17-1\"> </a></td><td>Any recognition of depressive symptoms, with or without attribution to any cause, e.g., “I’m depressed because my partner always argues with me.</td></tr><tr><td style=\"white-space:nowrap\">Q17-2<a name=\"gridhamd-answer-options-cs-Q17-2\"> </a></td><td>Denies illness but accepts possibility of being ill, e.g., “I don’t think there’s anything wrong, but other people think there is.</td></tr><tr><td style=\"white-space:nowrap\">Q17-3<a name=\"gridhamd-answer-options-cs-Q17-3\"> </a></td><td>Complete denial of having any illness, e.g., “I’m not depressed; I’m fine.</td></tr></table></div>"
+  },
+  "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+  "version" : "0.1.0",
+  "name" : "GRIDHAMDAnswerOptionsCS",
+  "title" : "GRID-HAMD Answer Options CodeSystem",
+  "status" : "draft",
+  "date" : "2025-05-14T14:21:32+02:00",
+  "publisher" : "BIH-CEI",
+  "contact" : [{
+    "name" : "BIH-CEI",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://utn/consentresource.com"
+    }]
+  }],
+  "description" : "CodeSystem defining codes for all answer options used in GRID-HAMD Questionnaire.",
+  "content" : "complete",
+  "count" : 159,
+  "concept" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q1-1",
+    "display" : "Absent and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q1-2",
+    "display" : "Mild (Feelings of sadness, discouragement, low selfesteem, pessimism)  and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q1-3",
+    "display" : "Mild (Feelings of sadness, discouragement, low selfesteem, pessimism) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q1-4",
+    "display" : "Mild (Feelings of sadness, discouragement, low selfesteem, pessimism) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q1-5",
+    "display" : "Mild (Feelings of sadness, discouragement, low selfesteem, pessimism)  and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q1-6",
+    "display" : "Moderate (Clear nonverbal signs of sadness, feelings of hopelessness, helplessness, or worthlessness about some aspects of life) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q1-7",
+    "display" : "Moderate (Clear nonverbal signs of sadness, feelings of hopelessness, helplessness, or worthlessness about some aspects of life) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q1-8",
+    "display" : "Moderate (Clear nonverbal signs of sadness, feelings of hopelessness, helplessness, or worthlessness about some aspects of life) and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q1-9",
+    "display" : "Severe (Intense sadness, hopelessness about most aspects of life, feelings of complete helplessness or worthlessness) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q1-10",
+    "display" : "Severe (Intense sadness, hopelessness about most aspects of life, feelings of complete helplessness or worthlessness) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q1-11",
+    "display" : "Severe (Intense sadness, hopelessness about most aspects of life, feelings of complete helplessness or worthlessness) and almost all of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q1-12",
+    "display" : "Very severe (Extreme sadness; intractable hopelessness or helplessness) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q1-13",
+    "display" : "Very severe (Extreme sadness; intractable hopelessness or helplessness) and Much off the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q1-14",
+    "display" : "Very severe (Extreme sadness; intractable hopelessness or helplessness) and Almost all of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q2-1",
+    "display" : "Absent and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q2-2",
+    "display" : "Mild (Feelings of sadness, discouragement, low selfesteem, pessimism)  and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q2-3",
+    "display" : "Mild (Self-critical, self-reproach, e.g., “I’ve letpeople down”)  and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q2-4",
+    "display" : "Mild (Self-critical, self-reproach, e.g., “I’ve letpeople down”)  and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q2-5",
+    "display" : "Mild (Self-critical, self-reproach, e.g., “I’ve letpeople down”) and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q2-6",
+    "display" : "Moderate (Feelings of guilt, remorse, shame; belief that one has done something bad or wrong)  and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q2-7",
+    "display" : "Moderate (Feelings of guilt, remorse, shame; belief that one has done something bad or wrong) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q2-8",
+    "display" : "Moderate (Feelings of guilt, remorse, shame; belief that one has done something bad or wrong) and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q2-9",
+    "display" : "Severe (Pervasive feelings of guilt; feels the illness is a punishment for sinful deeds) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q2-10",
+    "display" : "Severe (Pervasive feelings of guilt; feels the illness is a punishment for sinful deeds) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q2-11",
+    "display" : "Severe (Pervasive feelings of guilt; feels the illness is a punishment for sinful deeds) and almost all of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q2-12",
+    "display" : "Very Severe (Delusions, hallucinations) and Much off the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q2-13",
+    "display" : "Very Severe (Delusions, hallucinations) and Almost all of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q3-1",
+    "display" : "Absent and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q3-2",
+    "display" : "Mild (Feels life is not worth living, but expresses no wish to die, e.g., “I don’t care if I live or die”)  and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q3-3",
+    "display" : "Mild (Feels life is not worth living, but expresses no wish to die, e.g., “I don’t care if I live or die”)  and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q3-4",
+    "display" : "Mild (Feels life is not worth living, but expresses no wish to die, e.g., “I don’t care if I live or die”) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q3-5",
+    "display" : "Mild (Feels life is not worth living, but expresses nowish to die, e.g., “I don’t care if I live or die”)   and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q3-6",
+    "display" : "Moderate (Wishes to be dead; thoughts of dying, but no specific plan or intent, e.g., “If I got hit by a bus, I wouldn’t care,” “I’d like to go to sleep and never wake up”)  and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q3-7",
+    "display" : "Moderate (Wishes to be dead; thoughts of dying, but no specific plan or intent, e.g., “If I got hit by a bus, I wouldn’t care,” “I’d like to go to sleep and never wake up”)  and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q3-8",
+    "display" : "Moderate (Wishes to be dead; thoughts of dying, but no specific plan or intent, e.g., “If I got hit by a bus, I wouldn’t care,” “I’d like to go to sleep and never wake up”)  and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q3-9",
+    "display" : "Severe (Clear suicidal plan or intent; suicidal gesture, e.g., taking a few sleeping pills)  and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q3-10",
+    "display" : "Severe (Clear suicidal plan or intent; suicidal gesture, e.g., taking a few sleeping pills)  and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q3-11",
+    "display" : "Severe (Clear suicidal plan or intent; suicidal gesture, e.g., taking a few sleeping pills)  and almost all of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q3-12",
+    "display" : "Very severe (Attempts at suicide)  and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q3-13",
+    "display" : "Very severe (Attempts at suicide)  and Much off the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q3-14",
+    "display" : "Very severe (Attempts at suicide)  and Almost all of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q4-1",
+    "display" : "Absent and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q4-2",
+    "display" : "Mild (30 – 59 minutes to fall asleep)  and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q4-3",
+    "display" : "Mild (30 – 59 minutes to fall asleep) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q4-4",
+    "display" : "Mild (30 – 59 minutes to fall asleep) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q4-5",
+    "display" : "Mild (30 – 59 minutes to fall asleep) and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q4-6",
+    "display" : "Marked (1 hour or more to fall asleep) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q4-7",
+    "display" : "Marked (1 hour or more to fall asleep) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q4-8",
+    "display" : "Marked (1 hour or more to fall asleep) and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q5-1",
+    "display" : "Absent and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q5-2",
+    "display" : "Mild (30 – 59 minutes awake)  and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q5-3",
+    "display" : "Mild (30 – 59 minutes awake) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q5-4",
+    "display" : "Mild (30 – 59 minutes awake) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q5-5",
+    "display" : "Mild (30 – 59 minutes awake) and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q5-6",
+    "display" : "Marked (1 hour or more awake) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q5-7",
+    "display" : "Marked (1 hour or more awake) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q5-8",
+    "display" : "Marked (1 hour or more awake) and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q6-1",
+    "display" : "Absent and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q6-2",
+    "display" : "Mild (30 – 59 minutes awake)  and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q6-3",
+    "display" : "Mild (30 – 59 minutes awake) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q6-4",
+    "display" : "Mild (30 – 59 minutes awake) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q6-5",
+    "display" : "Mild (30 – 59 minutes awake) and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q6-6",
+    "display" : "Marked (1 hour or more awake) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q6-7",
+    "display" : "Marked (1 hour or more awake) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q6-8",
+    "display" : "Marked (1 hour or more awake) and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q7-1",
+    "display" : "Absent and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q7-2",
+    "display" : "Mild (Some reduction in interest or pleasure but no clear impairment in functioning)  and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q7-3",
+    "display" : "Mild (Some reduction in interest or pleasure but no clear impairment in functioning)  and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q7-4",
+    "display" : "Mild (Some reduction in interest or pleasure but no clear impairment in functioning) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q7-5",
+    "display" : "Mild (Some reduction in interest or pleasure but no clear impairment in functioning)  and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q7-6",
+    "display" : "Moderate (Significant reduction in interest or pleasure or clear impairment in functioning)  and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q7-7",
+    "display" : "Moderate (Significant reduction in interest or pleasure or clear impairment in functioning) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q7-8",
+    "display" : "Moderate (Significant reduction in interest or pleasure or clear impairment in functioning) and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q7-9",
+    "display" : "Severe (Profound reduction in interest, pleasure, and functioning) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q7-10",
+    "display" : "Severe (Profound reduction in interest, pleasure, and functioning) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q7-11",
+    "display" : "Severe (Profound reduction in interest, pleasure, and functioning) and almost all of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q7-12",
+    "display" : "Very Severe (Unable to work; needs help performing self-care activities; unable to function without assistance) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q7-13",
+    "display" : "Very Severe (Unable to work; needs help performing self-care activities; unable to function withoutassistance) and Much off the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q7-14",
+    "display" : "Very Severe (Unable to work; needs help performing self-care activities; unable to function without assistance) and Almost all of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q8-1",
+    "display" : "Absent"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q8-2",
+    "display" : "Mild (Rate of speech slightly reduced)"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q8-3",
+    "display" : "Moderate (Rate of speech clearly reduced with noticeable pauses)"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q8-4",
+    "display" : "Severe (Interview clearly prolonged due to long breaks; all movements very slowed)"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q8-5",
+    "display" : "Very Severe (Interview cannot be completed, unresponsive)"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q9-1",
+    "display" : "Absent (movements within normal range, e.g., occasionally shifts position in seat)"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q9-2",
+    "display" : "Mild (Doubtful or slight agitation, mild restlessness,e.g., frequently changing position in seat, foottapping, playing with hair, hands, or clothes)"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q9-3",
+    "display" : "Moderate (Moderate to marked restlessness or agitation, e.g., wringing hands, excessive scratching or picking)"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q9-4",
+    "display" : "Severe (Cannot sit still or stay seated even for a short period of time; pacing)"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q9-5",
+    "display" : "Very Severe (Interview cannot be conducted)"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q10-1",
+    "display" : "Absent and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q10-2",
+    "display" : "Mild (some feelings of worry or irritability) and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q10-3",
+    "display" : "Mild (some feelings of worry or irritability) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q10-4",
+    "display" : "Mild (some feelings of worry or irritability) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q10-5",
+    "display" : "Mild (some feelings of worry or irritability) and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q10-6",
+    "display" : "Moderate (excessive worry or irritability; anxiety causes distress; may cause some impairment in functioning) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q10-7",
+    "display" : "Moderate (excessive worry or irritability; anxiety causes distress; may cause some impairment in functioning) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q10-8",
+    "display" : "Moderate (excessive worry or irritability; anxiety causes distress; may cause some impairment in functioning) and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q10-9",
+    "display" : "Severe (pervasive worry or dread; fearing the worst; apprehension obvious in demeanor or behavior; significant impairment in functioning; feelings of panic) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q10-10",
+    "display" : "Severe (pervasive worry or dread; fearing the worst; apprehension obvious in demeanor or behavior; significant impairment in functioning; feelings of panic) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q10-11",
+    "display" : "Severe (pervasive worry or dread; fearing the worst; apprehension obvious in demeanor or behavior; significant impairment in functioning; feelings of panic)  and almost all of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q10-12",
+    "display" : "Very Severe (incapacitating) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q10-13",
+    "display" : "Very Severe (incapacitating) and Much off the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q10-14",
+    "display" : "Very Severe (incapacitating) and Almost all of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q11-1",
+    "display" : "Absent and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q11-2",
+    "display" : "Mild (some distress) and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q11-3",
+    "display" : "Mild (some distress) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q11-4",
+    "display" : "Mild (some distress) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q11-5",
+    "display" : "Mild (some distress) and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q11-6",
+    "display" : "Moderate (marked distress, may cause some impairment in functioning) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q11-7",
+    "display" : "Moderate (marked distress, may cause some impairment in functioning) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q11-8",
+    "display" : "Moderate (marked distress, may cause some impairment in functioning)  and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q11-9",
+    "display" : "Severe (significant impairment in functioning)  and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q11-10",
+    "display" : "Severe (significant impairment in functioning) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q11-11",
+    "display" : "Severe (significant impairment in functioning) and almost all of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q11-12",
+    "display" : "Very Severe (incapacitating) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q11-13",
+    "display" : "Very Severe (incapacitating) and Much off the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q11-14",
+    "display" : "Very Severe (incapacitating) and Almost all of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q12-1",
+    "display" : "Absent and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q12-2",
+    "display" : "Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating) and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q12-3",
+    "display" : "Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q12-4",
+    "display" : "Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q12-5",
+    "display" : "Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating)and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q12-6",
+    "display" : "Marked (Marked loss of appetite, very little interest or pleasure in eating (e.g., forcing self to eat)) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q12-7",
+    "display" : "Marked (Marked loss of appetite, very little interest or pleasure in eating (e.g., forcing self to eat)) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q12-8",
+    "display" : "Marked (Marked loss of appetite, very little interest or pleasure in eating (e.g., forcing self to eat))  and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q13-1",
+    "display" : "Absent and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q13-2",
+    "display" : "Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q13-3",
+    "display" : "Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q13-4",
+    "display" : "Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q13-5",
+    "display" : "Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q13-6",
+    "display" : "Marked (prominent tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q13-7",
+    "display" : "Marked (prominent tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains)and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q13-8",
+    "display" : "Marked (prominent tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains)  and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q14-1",
+    "display" : "Absent"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q14-2",
+    "display" : "Mild (Some loss of interest or pleasure)"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q14-3",
+    "display" : "Marked (Marked loss of interest or pleasure)"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q15-1",
+    "display" : "Absent and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q15-2",
+    "display" : "Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness)  and Absent or clinically insignificant"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q15-3",
+    "display" : "Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness)  and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q15-4",
+    "display" : "Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q15-5",
+    "display" : "Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness)  and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q15-6",
+    "display" : "Moderate (Excessive or unrealistic worry about having an illness, e.g., “I worry that these headaches are from a brain tumor.”)  and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q15-7",
+    "display" : "Moderate (Excessive or unrealistic worry about having an illness, e.g., “I worry that these headaches are from a brain tumor.”)  and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q15-8",
+    "display" : "Moderate (Excessive or unrealistic worry about having an illness, e.g., “I worry that these headaches are from a brain tumor.”)  and Almost all the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q15-9",
+    "display" : "Severe (Strong unrealistic conviction of having an illness, e.g., “I am convinced I have cancer”) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q15-10",
+    "display" : "Severe (Strong unrealistic conviction of having an illness, e.g., “I am convinced I have cancer”) and Much of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 3
+    }],
+    "code" : "Q15-11",
+    "display" : "Severe (Strong unrealistic conviction of having an illness, e.g., “I am convinced I have cancer”) and almost all of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q15-12",
+    "display" : "Very Severe (Somatic delusions or hallucinations, e.g., “My insides are rotting”) and Occasional"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q15-13",
+    "display" : "Very Severe (Somatic delusions or hallucinations, e.g., “My insides are rotting”)  and Much off the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 4
+    }],
+    "code" : "Q15-14",
+    "display" : "Very Severe (Somatic delusions or hallucinations, e.g., “My insides are rotting”) and Almost all of the time"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q16/1-1",
+    "display" : "No weight loss"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 1
+    }],
+    "code" : "Q16/1-2",
+    "display" : "Probable weight loss"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q16/1-3",
+    "display" : "Definite weight loss"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q16/2-1",
+    "display" : "Less than 1 lb. (.5 kg) loss per week since last visit"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q16/2-2",
+    "display" : "1-2 lb. (.5 – 1 kg) loss per week since last visit"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q16/2-3",
+    "display" : "More than 2-lb (> 1 kg) loss per week since last visit"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q17-1",
+    "display" : "Any recognition of depressive symptoms, with or without attribution to any cause, e.g., “I’m depressed because my partner always argues with me."
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 0
+    }],
+    "code" : "Q17-2",
+    "display" : "Denies illness but accepts possibility of being ill, e.g., “I don’t think there’s anything wrong, but other people think there is."
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+      "valueDecimal" : 2
+    }],
+    "code" : "Q17-3",
+    "display" : "Complete denial of having any illness, e.g., “I’m not depressed; I’m fine."
+  }]
+}

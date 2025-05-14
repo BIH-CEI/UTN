@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="gridhamd-answer-options-vs-q8"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet gridhamd-answer-options-vs-q8</b></p><a name="gridhamd-answer-options-vs-q8"> </a><a name="hcgridhamd-answer-options-vs-q8"> </a><a name="gridhamd-answer-options-vs-q8-en-US"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-gridhamd-answer-options-cs.html"><code>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q8-1">Q8-1</a></td><td>Absent</td></tr><tr><td><a href="CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q8-2">Q8-2</a></td><td>Mild (Rate of speech slightly reduced)</td></tr><tr><td><a href="CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q8-3">Q8-3</a></td><td>Moderate (Rate of speech clearly reduced with noticeable pauses)</td></tr><tr><td><a href="CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q8-4">Q8-4</a></td><td>Severe (Interview clearly prolonged due to long breaks; all movements very slowed)</td></tr><tr><td><a href="CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q8-5">Q8-5</a></td><td>Very Severe (Interview cannot be completed, unresponsive)</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs8"/>
+  <version value="0.1.0"/>
+  <name value="GRIDHAMDAnswerOptionsVSQ8"/>
+  <title value="GRID-HAMD Answer Options ValueSet"/>
+  <status value="draft"/>
+  <date value="2025-05-14T14:21:32+02:00"/>
+  <publisher value="BIH-CEI"/>
+  <contact>
+    <name value="BIH-CEI"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://utn/consentresource.com"/>
+    </telecom>
+  </contact>
+  <description value="ValueSet including Q8 of the GRID-HAMD Questionnaire answer options."/>
+  <compose>
+    <include>
+      <system value="http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"/>
+      <concept>
+        <code value="Q8-1"/>
+        <display value="Absent"/>
+      </concept>
+      <concept>
+        <code value="Q8-2"/>
+        <display value="Mild (Rate of speech slightly reduced)"/>
+      </concept>
+      <concept>
+        <code value="Q8-3"/>
+        <display value="Moderate (Rate of speech clearly reduced with noticeable pauses)"/>
+      </concept>
+      <concept>
+        <code value="Q8-4"/>
+        <display value="Severe (Interview clearly prolonged due to long breaks; all movements very slowed)"/>
+      </concept>
+      <concept>
+        <code value="Q8-5"/>
+        <display value="Very Severe (Interview cannot be completed, unresponsive)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

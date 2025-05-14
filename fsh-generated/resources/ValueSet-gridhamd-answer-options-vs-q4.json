@@ -1,0 +1,50 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GRIDHAMDAnswerOptionsVSQ4",
+  "id": "gridhamd-answer-options-vs-q4",
+  "title": "GRID-HAMD Answer Options ValueSet",
+  "description": "ValueSet including Q4 of the GRID-HAMD Questionnaire answer options.",
+  "url": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs4",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+        "concept": [
+          {
+            "code": "Q4-1",
+            "display": "Absent and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q4-2",
+            "display": "Mild (30 – 59 minutes to fall asleep)  and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q4-3",
+            "display": "Mild (30 – 59 minutes to fall asleep) and Occasional"
+          },
+          {
+            "code": "Q4-4",
+            "display": "Mild (30 – 59 minutes to fall asleep) and Much of the time"
+          },
+          {
+            "code": "Q4-5",
+            "display": "Mild (30 – 59 minutes to fall asleep) and Almost all the time"
+          },
+          {
+            "code": "Q4-6",
+            "display": "Marked (1 hour or more to fall asleep) and Occasional"
+          },
+          {
+            "code": "Q4-7",
+            "display": "Marked (1 hour or more to fall asleep) and Much of the time"
+          },
+          {
+            "code": "Q4-8",
+            "display": "Marked (1 hour or more to fall asleep) and Almost all the time"
+          }
+        ]
+      }
+    ]
+  }
+}

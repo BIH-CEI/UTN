@@ -1,8 +1,1517 @@
 {
   "resourceType" : "Bundle",
-  "id" : "d2f49ac7-aaee-4c8c-9c23-42560d6855d9",
+  "id" : "764c2106-a3ae-415f-8135-8b7de3b82397",
   "meta" : {
-    "lastUpdated" : "2025-05-12T15:33:30.712+02:00"
+    "lastUpdated" : "2025-05-14T14:22:03.213+02:00"
   },
-  "type" : "collection"
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs1",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-gridhamd-answer-options-cs.html\">codesystem GRID-HAMD Answer Options CodeSystem v0.1.0 (CodeSystem)</a></p><p>This value set contains 14 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q1-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q1-1\">Q1-1</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q1-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q1-2\">Q1-2</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Feelings of sadness, discouragement, low selfesteem, pessimism)  and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q1-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q1-3\">Q1-3</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Feelings of sadness, discouragement, low selfesteem, pessimism) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q1-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q1-4\">Q1-4</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Feelings of sadness, discouragement, low selfesteem, pessimism) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q1-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q1-5\">Q1-5</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Feelings of sadness, discouragement, low selfesteem, pessimism)  and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q1-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q1-6\">Q1-6</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (Clear nonverbal signs of sadness, feelings of hopelessness, helplessness, or worthlessness about some aspects of life) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q1-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q1-7\">Q1-7</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (Clear nonverbal signs of sadness, feelings of hopelessness, helplessness, or worthlessness about some aspects of life) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q1-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q1-8\">Q1-8</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (Clear nonverbal signs of sadness, feelings of hopelessness, helplessness, or worthlessness about some aspects of life) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q1-9\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q1-9\">Q1-9</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (Intense sadness, hopelessness about most aspects of life, feelings of complete helplessness or worthlessness) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q1-10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q1-10\">Q1-10</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (Intense sadness, hopelessness about most aspects of life, feelings of complete helplessness or worthlessness) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q1-11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q1-11\">Q1-11</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (Intense sadness, hopelessness about most aspects of life, feelings of complete helplessness or worthlessness) and almost all of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q1-12\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q1-12\">Q1-12</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very severe (Extreme sadness; intractable hopelessness or helplessness) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q1-13\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q1-13\">Q1-13</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very severe (Extreme sadness; intractable hopelessness or helplessness) and Much off the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q1-14\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q1-14\">Q1-14</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very severe (Extreme sadness; intractable hopelessness or helplessness) and Almost all of the time</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs1",
+      "version" : "0.1.0",
+      "name" : "GRIDHAMDAnswerOptionsVSQ1",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "status" : "draft",
+      "date" : "2025-05-14T14:21:32+02:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:8d926027-00e6-4e93-be20-6977fe654a75",
+        "timestamp" : "2025-05-14T14:23:03+02:00",
+        "total" : 14,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q1-1",
+          "display" : "Absent and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q1-2",
+          "display" : "Mild (Feelings of sadness, discouragement, low selfesteem, pessimism)  and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q1-3",
+          "display" : "Mild (Feelings of sadness, discouragement, low selfesteem, pessimism) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q1-4",
+          "display" : "Mild (Feelings of sadness, discouragement, low selfesteem, pessimism) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q1-5",
+          "display" : "Mild (Feelings of sadness, discouragement, low selfesteem, pessimism)  and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q1-6",
+          "display" : "Moderate (Clear nonverbal signs of sadness, feelings of hopelessness, helplessness, or worthlessness about some aspects of life) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q1-7",
+          "display" : "Moderate (Clear nonverbal signs of sadness, feelings of hopelessness, helplessness, or worthlessness about some aspects of life) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q1-8",
+          "display" : "Moderate (Clear nonverbal signs of sadness, feelings of hopelessness, helplessness, or worthlessness about some aspects of life) and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q1-9",
+          "display" : "Severe (Intense sadness, hopelessness about most aspects of life, feelings of complete helplessness or worthlessness) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q1-10",
+          "display" : "Severe (Intense sadness, hopelessness about most aspects of life, feelings of complete helplessness or worthlessness) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q1-11",
+          "display" : "Severe (Intense sadness, hopelessness about most aspects of life, feelings of complete helplessness or worthlessness) and almost all of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q1-12",
+          "display" : "Very severe (Extreme sadness; intractable hopelessness or helplessness) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q1-13",
+          "display" : "Very severe (Extreme sadness; intractable hopelessness or helplessness) and Much off the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q1-14",
+          "display" : "Very severe (Extreme sadness; intractable hopelessness or helplessness) and Almost all of the time"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs10",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-gridhamd-answer-options-cs.html\">codesystem GRID-HAMD Answer Options CodeSystem v0.1.0 (CodeSystem)</a></p><p>This value set contains 14 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q10-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q10-1\">Q10-1</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q10-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q10-2\">Q10-2</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (some feelings of worry or irritability) and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q10-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q10-3\">Q10-3</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (some feelings of worry or irritability) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q10-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q10-4\">Q10-4</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (some feelings of worry or irritability) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q10-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q10-5\">Q10-5</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (some feelings of worry or irritability) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q10-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q10-6\">Q10-6</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (excessive worry or irritability; anxiety causes distress; may cause some impairment in functioning) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q10-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q10-7\">Q10-7</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (excessive worry or irritability; anxiety causes distress; may cause some impairment in functioning) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q10-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q10-8\">Q10-8</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (excessive worry or irritability; anxiety causes distress; may cause some impairment in functioning) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q10-9\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q10-9\">Q10-9</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (pervasive worry or dread; fearing the worst; apprehension obvious in demeanor or behavior; significant impairment in functioning; feelings of panic) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q10-10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q10-10\">Q10-10</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (pervasive worry or dread; fearing the worst; apprehension obvious in demeanor or behavior; significant impairment in functioning; feelings of panic) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q10-11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q10-11\">Q10-11</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (pervasive worry or dread; fearing the worst; apprehension obvious in demeanor or behavior; significant impairment in functioning; feelings of panic)  and almost all of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q10-12\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q10-12\">Q10-12</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very Severe (incapacitating) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q10-13\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q10-13\">Q10-13</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very Severe (incapacitating) and Much off the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q10-14\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q10-14\">Q10-14</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very Severe (incapacitating) and Almost all of the time</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs10",
+      "version" : "0.1.0",
+      "name" : "GRIDHAMDAnswerOptionsVSQ10",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "status" : "draft",
+      "date" : "2025-05-14T14:21:32+02:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:3708ee96-3903-4c1a-9d46-5eeb2ff46085",
+        "timestamp" : "2025-05-14T14:23:03+02:00",
+        "total" : 14,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q10-1",
+          "display" : "Absent and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q10-2",
+          "display" : "Mild (some feelings of worry or irritability) and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q10-3",
+          "display" : "Mild (some feelings of worry or irritability) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q10-4",
+          "display" : "Mild (some feelings of worry or irritability) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q10-5",
+          "display" : "Mild (some feelings of worry or irritability) and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q10-6",
+          "display" : "Moderate (excessive worry or irritability; anxiety causes distress; may cause some impairment in functioning) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q10-7",
+          "display" : "Moderate (excessive worry or irritability; anxiety causes distress; may cause some impairment in functioning) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q10-8",
+          "display" : "Moderate (excessive worry or irritability; anxiety causes distress; may cause some impairment in functioning) and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q10-9",
+          "display" : "Severe (pervasive worry or dread; fearing the worst; apprehension obvious in demeanor or behavior; significant impairment in functioning; feelings of panic) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q10-10",
+          "display" : "Severe (pervasive worry or dread; fearing the worst; apprehension obvious in demeanor or behavior; significant impairment in functioning; feelings of panic) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q10-11",
+          "display" : "Severe (pervasive worry or dread; fearing the worst; apprehension obvious in demeanor or behavior; significant impairment in functioning; feelings of panic)  and almost all of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q10-12",
+          "display" : "Very Severe (incapacitating) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q10-13",
+          "display" : "Very Severe (incapacitating) and Much off the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q10-14",
+          "display" : "Very Severe (incapacitating) and Almost all of the time"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs11",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-gridhamd-answer-options-cs.html\">codesystem GRID-HAMD Answer Options CodeSystem v0.1.0 (CodeSystem)</a></p><p>This value set contains 14 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q11-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-1\">Q11-1</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q11-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-2\">Q11-2</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (some distress) and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q11-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-3\">Q11-3</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (some distress) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q11-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-4\">Q11-4</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (some distress) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q11-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-5\">Q11-5</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (some distress) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q11-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-6\">Q11-6</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (marked distress, may cause some impairment in functioning) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q11-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-7\">Q11-7</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (marked distress, may cause some impairment in functioning) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q11-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-8\">Q11-8</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (marked distress, may cause some impairment in functioning)  and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q11-9\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-9\">Q11-9</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (significant impairment in functioning)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q11-10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-10\">Q11-10</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (significant impairment in functioning) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q11-11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-11\">Q11-11</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (significant impairment in functioning) and almost all of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q11-12\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-12\">Q11-12</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very Severe (incapacitating) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q11-13\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-13\">Q11-13</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very Severe (incapacitating) and Much off the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q11-14\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-14\">Q11-14</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very Severe (incapacitating) and Almost all of the time</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs11",
+      "version" : "0.1.0",
+      "name" : "GRIDHAMDAnswerOptionsVSQ11",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "status" : "draft",
+      "date" : "2025-05-14T14:21:32+02:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:1a169f88-9a9c-4072-892d-1a3f3d2d6166",
+        "timestamp" : "2025-05-14T14:23:03+02:00",
+        "total" : 14,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q11-1",
+          "display" : "Absent and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q11-2",
+          "display" : "Mild (some distress) and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q11-3",
+          "display" : "Mild (some distress) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q11-4",
+          "display" : "Mild (some distress) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q11-5",
+          "display" : "Mild (some distress) and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q11-6",
+          "display" : "Moderate (marked distress, may cause some impairment in functioning) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q11-7",
+          "display" : "Moderate (marked distress, may cause some impairment in functioning) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q11-8",
+          "display" : "Moderate (marked distress, may cause some impairment in functioning)  and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q11-9",
+          "display" : "Severe (significant impairment in functioning)  and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q11-10",
+          "display" : "Severe (significant impairment in functioning) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q11-11",
+          "display" : "Severe (significant impairment in functioning) and almost all of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q11-12",
+          "display" : "Very Severe (incapacitating) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q11-13",
+          "display" : "Very Severe (incapacitating) and Much off the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q11-14",
+          "display" : "Very Severe (incapacitating) and Almost all of the time"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs12",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-gridhamd-answer-options-cs.html\">codesystem GRID-HAMD Answer Options CodeSystem v0.1.0 (CodeSystem)</a></p><p>This value set contains 8 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q12-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q12-1\">Q12-1</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q12-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q12-2\">Q12-2</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating) and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q12-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q12-3\">Q12-3</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q12-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q12-4\">Q12-4</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q12-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q12-5\">Q12-5</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating)and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q12-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q12-6\">Q12-6</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Marked (Marked loss of appetite, very little interest or pleasure in eating (e.g., forcing self to eat)) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q12-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q12-7\">Q12-7</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Marked (Marked loss of appetite, very little interest or pleasure in eating (e.g., forcing self to eat)) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q12-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q12-8\">Q12-8</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Marked (Marked loss of appetite, very little interest or pleasure in eating (e.g., forcing self to eat))  and Almost all the time</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs12",
+      "version" : "0.1.0",
+      "name" : "GRIDHAMDAnswerOptionsVSQ12",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "status" : "draft",
+      "date" : "2025-05-14T14:21:32+02:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:1c364b00-d322-45f5-8861-04591cde7d74",
+        "timestamp" : "2025-05-14T14:23:03+02:00",
+        "total" : 8,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q12-1",
+          "display" : "Absent and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q12-2",
+          "display" : "Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating) and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q12-3",
+          "display" : "Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q12-4",
+          "display" : "Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q12-5",
+          "display" : "Mild (Some loss of appetite but eating without encouragement; less interest or pleasure in eating)and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q12-6",
+          "display" : "Marked (Marked loss of appetite, very little interest or pleasure in eating (e.g., forcing self to eat)) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q12-7",
+          "display" : "Marked (Marked loss of appetite, very little interest or pleasure in eating (e.g., forcing self to eat)) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q12-8",
+          "display" : "Marked (Marked loss of appetite, very little interest or pleasure in eating (e.g., forcing self to eat))  and Almost all the time"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs13",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-gridhamd-answer-options-cs.html\">codesystem GRID-HAMD Answer Options CodeSystem v0.1.0 (CodeSystem)</a></p><p>This value set contains 8 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q13-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q13-1\">Q13-1</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q13-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q13-2\">Q13-2</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q13-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q13-3\">Q13-3</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q13-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q13-4\">Q13-4</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q13-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q13-5\">Q13-5</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q13-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q13-6\">Q13-6</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Marked (prominent tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q13-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q13-7\">Q13-7</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Marked (prominent tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains)and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q13-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q13-8\">Q13-8</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Marked (prominent tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains)  and Almost all the time</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs13",
+      "version" : "0.1.0",
+      "name" : "GRIDHAMDAnswerOptionsVSQ13",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "status" : "draft",
+      "date" : "2025-05-14T14:21:32+02:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:cc206285-cb1a-42f2-b8aa-a9287435c26c",
+        "timestamp" : "2025-05-14T14:23:03+02:00",
+        "total" : 8,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q13-1",
+          "display" : "Absent and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q13-2",
+          "display" : "Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q13-3",
+          "display" : "Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q13-4",
+          "display" : "Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q13-5",
+          "display" : "Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q13-6",
+          "display" : "Marked (prominent tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q13-7",
+          "display" : "Marked (prominent tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains)and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q13-8",
+          "display" : "Marked (prominent tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains)  and Almost all the time"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs14",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-gridhamd-answer-options-cs.html\">codesystem GRID-HAMD Answer Options CodeSystem v0.1.0 (CodeSystem)</a></p><p>This value set contains 3 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q14-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q14-1\">Q14-1</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Absent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q14-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q14-2\">Q14-2</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Some loss of interest or pleasure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q14-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q14-3\">Q14-3</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Marked (Marked loss of interest or pleasure)</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs14",
+      "version" : "0.1.0",
+      "name" : "GRIDHAMDAnswerOptionsVSQ14",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "status" : "draft",
+      "date" : "2025-05-14T14:21:32+02:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:e22ef8d1-80e1-41bf-83c9-bcb268d75018",
+        "timestamp" : "2025-05-14T14:23:03+02:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q14-1",
+          "display" : "Absent"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q14-2",
+          "display" : "Mild (Some loss of interest or pleasure)"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q14-3",
+          "display" : "Marked (Marked loss of interest or pleasure)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs15",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-gridhamd-answer-options-cs.html\">codesystem GRID-HAMD Answer Options CodeSystem v0.1.0 (CodeSystem)</a></p><p>This value set contains 14 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q15-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q15-1\">Q15-1</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q15-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q15-2\">Q15-2</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness)  and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q15-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q15-3\">Q15-3</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q15-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q15-4\">Q15-4</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q15-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q15-5\">Q15-5</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness)  and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q15-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q15-6\">Q15-6</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (Excessive or unrealistic worry about having an illness, e.g., “I worry that these headaches are from a brain tumor.”)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q15-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q15-7\">Q15-7</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (Excessive or unrealistic worry about having an illness, e.g., “I worry that these headaches are from a brain tumor.”)  and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q15-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q15-8\">Q15-8</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (Excessive or unrealistic worry about having an illness, e.g., “I worry that these headaches are from a brain tumor.”)  and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q15-9\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q15-9\">Q15-9</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (Strong unrealistic conviction of having an illness, e.g., “I am convinced I have cancer”) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q15-10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q15-10\">Q15-10</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (Strong unrealistic conviction of having an illness, e.g., “I am convinced I have cancer”) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q15-11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q15-11\">Q15-11</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (Strong unrealistic conviction of having an illness, e.g., “I am convinced I have cancer”) and almost all of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q15-12\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q15-12\">Q15-12</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very Severe (Somatic delusions or hallucinations, e.g., “My insides are rotting”) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q15-13\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q15-13\">Q15-13</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very Severe (Somatic delusions or hallucinations, e.g., “My insides are rotting”)  and Much off the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q15-14\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q15-14\">Q15-14</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very Severe (Somatic delusions or hallucinations, e.g., “My insides are rotting”) and Almost all of the time</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs15",
+      "version" : "0.1.0",
+      "name" : "GRIDHAMDAnswerOptionsVSQ15",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "status" : "draft",
+      "date" : "2025-05-14T14:21:32+02:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:682a469b-ebb1-43a6-adec-d111222d7eb9",
+        "timestamp" : "2025-05-14T14:23:03+02:00",
+        "total" : 14,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q15-1",
+          "display" : "Absent and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q15-2",
+          "display" : "Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness)  and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q15-3",
+          "display" : "Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness)  and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q15-4",
+          "display" : "Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q15-5",
+          "display" : "Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness)  and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q15-6",
+          "display" : "Moderate (Excessive or unrealistic worry about having an illness, e.g., “I worry that these headaches are from a brain tumor.”)  and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q15-7",
+          "display" : "Moderate (Excessive or unrealistic worry about having an illness, e.g., “I worry that these headaches are from a brain tumor.”)  and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q15-8",
+          "display" : "Moderate (Excessive or unrealistic worry about having an illness, e.g., “I worry that these headaches are from a brain tumor.”)  and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q15-9",
+          "display" : "Severe (Strong unrealistic conviction of having an illness, e.g., “I am convinced I have cancer”) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q15-10",
+          "display" : "Severe (Strong unrealistic conviction of having an illness, e.g., “I am convinced I have cancer”) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q15-11",
+          "display" : "Severe (Strong unrealistic conviction of having an illness, e.g., “I am convinced I have cancer”) and almost all of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q15-12",
+          "display" : "Very Severe (Somatic delusions or hallucinations, e.g., “My insides are rotting”) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q15-13",
+          "display" : "Very Severe (Somatic delusions or hallucinations, e.g., “My insides are rotting”)  and Much off the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q15-14",
+          "display" : "Very Severe (Somatic delusions or hallucinations, e.g., “My insides are rotting”) and Almost all of the time"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs16",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-gridhamd-answer-options-cs.html\">codesystem GRID-HAMD Answer Options CodeSystem v0.1.0 (CodeSystem)</a></p><p>This value set contains 6 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q16/1-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q16.471-1\">Q16/1-1</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>No weight loss</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q16/1-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q16.471-2\">Q16/1-2</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Probable weight loss</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q16/1-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q16.471-3\">Q16/1-3</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Definite weight loss</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q16/2-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q16.472-1\">Q16/2-1</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Less than 1 lb. (.5 kg) loss per week since last visit</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q16/2-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q16.472-2\">Q16/2-2</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>1-2 lb. (.5 – 1 kg) loss per week since last visit</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q16/2-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q16.472-3\">Q16/2-3</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>More than 2-lb (&gt; 1 kg) loss per week since last visit</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs16",
+      "version" : "0.1.0",
+      "name" : "GRIDHAMDAnswerOptionsVSQ16",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "status" : "draft",
+      "date" : "2025-05-14T14:21:32+02:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:d8b28e4c-bb43-4f79-a2c1-ad4e0537e5d6",
+        "timestamp" : "2025-05-14T14:23:03+02:00",
+        "total" : 6,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q16/1-1",
+          "display" : "No weight loss"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q16/1-2",
+          "display" : "Probable weight loss"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q16/1-3",
+          "display" : "Definite weight loss"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q16/2-1",
+          "display" : "Less than 1 lb. (.5 kg) loss per week since last visit"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q16/2-2",
+          "display" : "1-2 lb. (.5 – 1 kg) loss per week since last visit"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q16/2-3",
+          "display" : "More than 2-lb (> 1 kg) loss per week since last visit"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs17",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-gridhamd-answer-options-cs.html\">codesystem GRID-HAMD Answer Options CodeSystem v0.1.0 (CodeSystem)</a></p><p>This value set contains 3 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q17-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q17-1\">Q17-1</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Any recognition of depressive symptoms, with or without attribution to any cause, e.g., “I’m depressed because my partner always argues with me.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q17-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q17-2\">Q17-2</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Denies illness but accepts possibility of being ill, e.g., “I don’t think there’s anything wrong, but other people think there is.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q17-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q17-3\">Q17-3</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Complete denial of having any illness, e.g., “I’m not depressed; I’m fine.</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs17",
+      "version" : "0.1.0",
+      "name" : "GRIDHAMDAnswerOptionsVSQ17",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "status" : "draft",
+      "date" : "2025-05-14T14:21:32+02:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:80120f02-34fa-4b69-bd14-10522c71926e",
+        "timestamp" : "2025-05-14T14:23:03+02:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q17-1",
+          "display" : "Any recognition of depressive symptoms, with or without attribution to any cause, e.g., “I’m depressed because my partner always argues with me."
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q17-2",
+          "display" : "Denies illness but accepts possibility of being ill, e.g., “I don’t think there’s anything wrong, but other people think there is."
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q17-3",
+          "display" : "Complete denial of having any illness, e.g., “I’m not depressed; I’m fine."
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs2",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-gridhamd-answer-options-cs.html\">codesystem GRID-HAMD Answer Options CodeSystem v0.1.0 (CodeSystem)</a></p><p>This value set contains 13 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q2-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q2-1\">Q2-1</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q2-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q2-2\">Q2-2</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Feelings of sadness, discouragement, low selfesteem, pessimism)  and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q2-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q2-3\">Q2-3</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Self-critical, self-reproach, e.g., “I’ve letpeople down”)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q2-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q2-4\">Q2-4</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Self-critical, self-reproach, e.g., “I’ve letpeople down”)  and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q2-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q2-5\">Q2-5</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Self-critical, self-reproach, e.g., “I’ve letpeople down”) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q2-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q2-6\">Q2-6</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (Feelings of guilt, remorse, shame; belief that one has done something bad or wrong)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q2-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q2-7\">Q2-7</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (Feelings of guilt, remorse, shame; belief that one has done something bad or wrong) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q2-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q2-8\">Q2-8</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (Feelings of guilt, remorse, shame; belief that one has done something bad or wrong) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q2-9\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q2-9\">Q2-9</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (Pervasive feelings of guilt; feels the illness is a punishment for sinful deeds) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q2-10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q2-10\">Q2-10</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (Pervasive feelings of guilt; feels the illness is a punishment for sinful deeds) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q2-11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q2-11\">Q2-11</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (Pervasive feelings of guilt; feels the illness is a punishment for sinful deeds) and almost all of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q2-12\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q2-12\">Q2-12</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very Severe (Delusions, hallucinations) and Much off the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q2-13\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q2-13\">Q2-13</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very Severe (Delusions, hallucinations) and Almost all of the time</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs2",
+      "version" : "0.1.0",
+      "name" : "GRIDHAMDAnswerOptionsVSQ2",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "status" : "draft",
+      "date" : "2025-05-14T14:21:32+02:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:d5fa4b62-9d63-4922-9ef2-e09f3c01d30f",
+        "timestamp" : "2025-05-14T14:23:03+02:00",
+        "total" : 13,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q2-1",
+          "display" : "Absent and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q2-2",
+          "display" : "Mild (Feelings of sadness, discouragement, low selfesteem, pessimism)  and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q2-3",
+          "display" : "Mild (Self-critical, self-reproach, e.g., “I’ve letpeople down”)  and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q2-4",
+          "display" : "Mild (Self-critical, self-reproach, e.g., “I’ve letpeople down”)  and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q2-5",
+          "display" : "Mild (Self-critical, self-reproach, e.g., “I’ve letpeople down”) and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q2-6",
+          "display" : "Moderate (Feelings of guilt, remorse, shame; belief that one has done something bad or wrong)  and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q2-7",
+          "display" : "Moderate (Feelings of guilt, remorse, shame; belief that one has done something bad or wrong) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q2-8",
+          "display" : "Moderate (Feelings of guilt, remorse, shame; belief that one has done something bad or wrong) and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q2-9",
+          "display" : "Severe (Pervasive feelings of guilt; feels the illness is a punishment for sinful deeds) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q2-10",
+          "display" : "Severe (Pervasive feelings of guilt; feels the illness is a punishment for sinful deeds) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q2-11",
+          "display" : "Severe (Pervasive feelings of guilt; feels the illness is a punishment for sinful deeds) and almost all of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q2-12",
+          "display" : "Very Severe (Delusions, hallucinations) and Much off the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q2-13",
+          "display" : "Very Severe (Delusions, hallucinations) and Almost all of the time"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs3",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-gridhamd-answer-options-cs.html\">codesystem GRID-HAMD Answer Options CodeSystem v0.1.0 (CodeSystem)</a></p><p>This value set contains 14 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q3-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q3-1\">Q3-1</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q3-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q3-2\">Q3-2</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Feels life is not worth living, but expresses no wish to die, e.g., “I don’t care if I live or die”)  and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q3-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q3-3\">Q3-3</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Feels life is not worth living, but expresses no wish to die, e.g., “I don’t care if I live or die”)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q3-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q3-4\">Q3-4</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Feels life is not worth living, but expresses no wish to die, e.g., “I don’t care if I live or die”) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q3-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q3-5\">Q3-5</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Feels life is not worth living, but expresses nowish to die, e.g., “I don’t care if I live or die”)   and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q3-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q3-6\">Q3-6</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (Wishes to be dead; thoughts of dying, but no specific plan or intent, e.g., “If I got hit by a bus, I wouldn’t care,” “I’d like to go to sleep and never wake up”)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q3-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q3-7\">Q3-7</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (Wishes to be dead; thoughts of dying, but no specific plan or intent, e.g., “If I got hit by a bus, I wouldn’t care,” “I’d like to go to sleep and never wake up”)  and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q3-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q3-8\">Q3-8</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (Wishes to be dead; thoughts of dying, but no specific plan or intent, e.g., “If I got hit by a bus, I wouldn’t care,” “I’d like to go to sleep and never wake up”)  and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q3-9\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q3-9\">Q3-9</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (Clear suicidal plan or intent; suicidal gesture, e.g., taking a few sleeping pills)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q3-10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q3-10\">Q3-10</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (Clear suicidal plan or intent; suicidal gesture, e.g., taking a few sleeping pills)  and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q3-11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q3-11\">Q3-11</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (Clear suicidal plan or intent; suicidal gesture, e.g., taking a few sleeping pills)  and almost all of the time&quot;4</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q3-12\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q3-12\">Q3-12</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very severe (Attempts at suicide)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q3-13\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q3-13\">Q3-13</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very severe (Attempts at suicide)  and Much off the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q3-14\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q3-14\">Q3-14</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very severe (Attempts at suicide)  and Almost all of the time</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs3",
+      "version" : "0.1.0",
+      "name" : "GRIDHAMDAnswerOptionsVSQ3",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "status" : "draft",
+      "date" : "2025-05-14T14:21:32+02:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:04bb518d-9168-43ca-b9bc-cae38b9dab2c",
+        "timestamp" : "2025-05-14T14:23:03+02:00",
+        "total" : 14,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q3-1",
+          "display" : "Absent and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q3-2",
+          "display" : "Mild (Feels life is not worth living, but expresses no wish to die, e.g., “I don’t care if I live or die”)  and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q3-3",
+          "display" : "Mild (Feels life is not worth living, but expresses no wish to die, e.g., “I don’t care if I live or die”)  and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q3-4",
+          "display" : "Mild (Feels life is not worth living, but expresses no wish to die, e.g., “I don’t care if I live or die”) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q3-5",
+          "display" : "Mild (Feels life is not worth living, but expresses nowish to die, e.g., “I don’t care if I live or die”)   and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q3-6",
+          "display" : "Moderate (Wishes to be dead; thoughts of dying, but no specific plan or intent, e.g., “If I got hit by a bus, I wouldn’t care,” “I’d like to go to sleep and never wake up”)  and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q3-7",
+          "display" : "Moderate (Wishes to be dead; thoughts of dying, but no specific plan or intent, e.g., “If I got hit by a bus, I wouldn’t care,” “I’d like to go to sleep and never wake up”)  and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q3-8",
+          "display" : "Moderate (Wishes to be dead; thoughts of dying, but no specific plan or intent, e.g., “If I got hit by a bus, I wouldn’t care,” “I’d like to go to sleep and never wake up”)  and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q3-9",
+          "display" : "Severe (Clear suicidal plan or intent; suicidal gesture, e.g., taking a few sleeping pills)  and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q3-10",
+          "display" : "Severe (Clear suicidal plan or intent; suicidal gesture, e.g., taking a few sleeping pills)  and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q3-11",
+          "display" : "Severe (Clear suicidal plan or intent; suicidal gesture, e.g., taking a few sleeping pills)  and almost all of the time\"4"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q3-12",
+          "display" : "Very severe (Attempts at suicide)  and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q3-13",
+          "display" : "Very severe (Attempts at suicide)  and Much off the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q3-14",
+          "display" : "Very severe (Attempts at suicide)  and Almost all of the time"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs4",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-gridhamd-answer-options-cs.html\">codesystem GRID-HAMD Answer Options CodeSystem v0.1.0 (CodeSystem)</a></p><p>This value set contains 8 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q4-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q4-1\">Q4-1</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q4-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q4-2\">Q4-2</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (30 – 59 minutes to fall asleep)  and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q4-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q4-3\">Q4-3</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (30 – 59 minutes to fall asleep) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q4-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q4-4\">Q4-4</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (30 – 59 minutes to fall asleep) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q4-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q4-5\">Q4-5</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (30 – 59 minutes to fall asleep) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q4-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q4-6\">Q4-6</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Marked (1 hour or more to fall asleep) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q4-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q4-7\">Q4-7</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Marked (1 hour or more to fall asleep) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q4-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q4-8\">Q4-8</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Marked (1 hour or more to fall asleep) and Almost all the time</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs4",
+      "version" : "0.1.0",
+      "name" : "GRIDHAMDAnswerOptionsVSQ4",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "status" : "draft",
+      "date" : "2025-05-14T14:21:32+02:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:b20c7fb1-8855-4e1c-8dd3-2c5a38dc82bf",
+        "timestamp" : "2025-05-14T14:23:03+02:00",
+        "total" : 8,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q4-1",
+          "display" : "Absent and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q4-2",
+          "display" : "Mild (30 – 59 minutes to fall asleep)  and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q4-3",
+          "display" : "Mild (30 – 59 minutes to fall asleep) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q4-4",
+          "display" : "Mild (30 – 59 minutes to fall asleep) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q4-5",
+          "display" : "Mild (30 – 59 minutes to fall asleep) and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q4-6",
+          "display" : "Marked (1 hour or more to fall asleep) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q4-7",
+          "display" : "Marked (1 hour or more to fall asleep) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q4-8",
+          "display" : "Marked (1 hour or more to fall asleep) and Almost all the time"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs5",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-gridhamd-answer-options-cs.html\">codesystem GRID-HAMD Answer Options CodeSystem v0.1.0 (CodeSystem)</a></p><p>This value set contains 8 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q5-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q5-1\">Q5-1</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q5-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q5-2\">Q5-2</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (30 – 59 minutes awake)  and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q5-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q5-3\">Q5-3</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (30 – 59 minutes awake) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q5-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q5-4\">Q5-4</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (30 – 59 minutes awake) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q5-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q5-5\">Q5-5</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (30 – 59 minutes awake) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q5-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q5-6\">Q5-6</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Marked (1 hour or more awake) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q5-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q5-7\">Q5-7</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Marked (1 hour or more awake) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q5-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q5-8\">Q5-8</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Marked (1 hour or more awake) and Almost all the time</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs5",
+      "version" : "0.1.0",
+      "name" : "GRIDHAMDAnswerOptionsVSQ5",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "status" : "draft",
+      "date" : "2025-05-14T14:21:32+02:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:e5e171f2-a4ec-48b0-a175-379508f66969",
+        "timestamp" : "2025-05-14T14:23:03+02:00",
+        "total" : 8,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q5-1",
+          "display" : "Absent and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q5-2",
+          "display" : "Mild (30 – 59 minutes awake)  and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q5-3",
+          "display" : "Mild (30 – 59 minutes awake) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q5-4",
+          "display" : "Mild (30 – 59 minutes awake) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q5-5",
+          "display" : "Mild (30 – 59 minutes awake) and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q5-6",
+          "display" : "Marked (1 hour or more awake) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q5-7",
+          "display" : "Marked (1 hour or more awake) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q5-8",
+          "display" : "Marked (1 hour or more awake) and Almost all the time"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs6",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-gridhamd-answer-options-cs.html\">codesystem GRID-HAMD Answer Options CodeSystem v0.1.0 (CodeSystem)</a></p><p>This value set contains 8 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q6-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q6-1\">Q6-1</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q6-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q6-2\">Q6-2</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (30 – 59 minutes awake)  and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q6-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q6-3\">Q6-3</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (30 – 59 minutes awake) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q6-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q6-4\">Q6-4</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (30 – 59 minutes awake) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q6-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q6-5\">Q6-5</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (30 – 59 minutes awake) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q6-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q6-6\">Q6-6</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Marked (1 hour or more awake) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q6-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q6-7\">Q6-7</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Marked (1 hour or more awake) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q6-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q6-8\">Q6-8</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Marked (1 hour or more awake) and Almost all the time</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs6",
+      "version" : "0.1.0",
+      "name" : "GRIDHAMDAnswerOptionsVSQ6",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "status" : "draft",
+      "date" : "2025-05-14T14:21:32+02:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:dd801408-1615-4d0c-9650-d002a54c0e06",
+        "timestamp" : "2025-05-14T14:23:03+02:00",
+        "total" : 8,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q6-1",
+          "display" : "Absent and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q6-2",
+          "display" : "Mild (30 – 59 minutes awake)  and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q6-3",
+          "display" : "Mild (30 – 59 minutes awake) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q6-4",
+          "display" : "Mild (30 – 59 minutes awake) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q6-5",
+          "display" : "Mild (30 – 59 minutes awake) and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q6-6",
+          "display" : "Marked (1 hour or more awake) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q6-7",
+          "display" : "Marked (1 hour or more awake) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q6-8",
+          "display" : "Marked (1 hour or more awake) and Almost all the time"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs7",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-gridhamd-answer-options-cs.html\">codesystem GRID-HAMD Answer Options CodeSystem v0.1.0 (CodeSystem)</a></p><p>This value set contains 14 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q7-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q7-1\">Q7-1</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Absent and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q7-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q7-2\">Q7-2</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Some reduction in interest or pleasure but no clear impairment in functioning)  and Absent or clinically insignificant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q7-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q7-3\">Q7-3</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Some reduction in interest or pleasure but no clear impairment in functioning)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q7-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q7-4\">Q7-4</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Some reduction in interest or pleasure but no clear impairment in functioning) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q7-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q7-5\">Q7-5</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Some reduction in interest or pleasure but no clear impairment in functioning)  and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q7-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q7-6\">Q7-6</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (Significant reduction in interest or pleasure or clear impairment in functioning)  and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q7-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q7-7\">Q7-7</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (Significant reduction in interest or pleasure or clear impairment in functioning) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q7-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q7-8\">Q7-8</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (Significant reduction in interest or pleasure or clear impairment in functioning) and Almost all the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q7-9\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q7-9\">Q7-9</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (Profound reduction in interest, pleasure, and functioning) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q7-10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q7-10\">Q7-10</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (Profound reduction in interest, pleasure, and functioning) and Much of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q7-11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q7-11\">Q7-11</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (Profound reduction in interest, pleasure, and functioning) and almost all of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q7-12\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q7-12\">Q7-12</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very Severe (Unable to work; needs help performing self-care activities; unable to function without assistance) and Occasional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q7-13\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q7-13\">Q7-13</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very Severe (Unable to work; needs help performing self-care activities; unable to function withoutassistance) and Much off the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q7-14\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q7-14\">Q7-14</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very Severe (Unable to work; needs help performing self-care activities; unable to function without assistance) and Almost all of the time</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs7",
+      "version" : "0.1.0",
+      "name" : "GRIDHAMDAnswerOptionsVSQ7",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "status" : "draft",
+      "date" : "2025-05-14T14:21:32+02:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:911646d9-8479-4fb8-9682-ba9c20555928",
+        "timestamp" : "2025-05-14T14:23:03+02:00",
+        "total" : 14,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q7-1",
+          "display" : "Absent and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q7-2",
+          "display" : "Mild (Some reduction in interest or pleasure but no clear impairment in functioning)  and Absent or clinically insignificant"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q7-3",
+          "display" : "Mild (Some reduction in interest or pleasure but no clear impairment in functioning)  and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q7-4",
+          "display" : "Mild (Some reduction in interest or pleasure but no clear impairment in functioning) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q7-5",
+          "display" : "Mild (Some reduction in interest or pleasure but no clear impairment in functioning)  and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q7-6",
+          "display" : "Moderate (Significant reduction in interest or pleasure or clear impairment in functioning)  and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q7-7",
+          "display" : "Moderate (Significant reduction in interest or pleasure or clear impairment in functioning) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q7-8",
+          "display" : "Moderate (Significant reduction in interest or pleasure or clear impairment in functioning) and Almost all the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q7-9",
+          "display" : "Severe (Profound reduction in interest, pleasure, and functioning) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q7-10",
+          "display" : "Severe (Profound reduction in interest, pleasure, and functioning) and Much of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q7-11",
+          "display" : "Severe (Profound reduction in interest, pleasure, and functioning) and almost all of the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q7-12",
+          "display" : "Very Severe (Unable to work; needs help performing self-care activities; unable to function without assistance) and Occasional"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q7-13",
+          "display" : "Very Severe (Unable to work; needs help performing self-care activities; unable to function withoutassistance) and Much off the time"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q7-14",
+          "display" : "Very Severe (Unable to work; needs help performing self-care activities; unable to function without assistance) and Almost all of the time"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs8",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-gridhamd-answer-options-cs.html\">codesystem GRID-HAMD Answer Options CodeSystem v0.1.0 (CodeSystem)</a></p><p>This value set contains 5 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q8-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q8-1\">Q8-1</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Absent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q8-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q8-2\">Q8-2</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Rate of speech slightly reduced)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q8-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q8-3\">Q8-3</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (Rate of speech clearly reduced with noticeable pauses)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q8-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q8-4\">Q8-4</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (Interview clearly prolonged due to long breaks; all movements very slowed)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q8-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q8-5\">Q8-5</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very Severe (Interview cannot be completed, unresponsive)</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs8",
+      "version" : "0.1.0",
+      "name" : "GRIDHAMDAnswerOptionsVSQ8",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "status" : "draft",
+      "date" : "2025-05-14T14:21:32+02:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:e7cc9f19-cc68-40f2-b739-91cb38892fb7",
+        "timestamp" : "2025-05-14T14:23:03+02:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q8-1",
+          "display" : "Absent"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q8-2",
+          "display" : "Mild (Rate of speech slightly reduced)"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q8-3",
+          "display" : "Moderate (Rate of speech clearly reduced with noticeable pauses)"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q8-4",
+          "display" : "Severe (Interview clearly prolonged due to long breaks; all movements very slowed)"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q8-5",
+          "display" : "Very Severe (Interview cannot be completed, unresponsive)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs9",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-gridhamd-answer-options-cs.html\">codesystem GRID-HAMD Answer Options CodeSystem v0.1.0 (CodeSystem)</a></p><p>This value set contains 5 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q9-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q9-1\">Q9-1</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Absent (movements within normal range, e.g., occasionally shifts position in seat)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q9-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q9-2\">Q9-2</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Mild (Doubtful or slight agitation, mild restlessness,e.g., frequently changing position in seat, foottapping, playing with hair, hands, or clothes)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q9-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q9-3\">Q9-3</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Moderate (Moderate to marked restlessness or agitation, e.g., wringing hands, excessive scratching or picking)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q9-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q9-4\">Q9-4</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Severe (Cannot sit still or stay seated even for a short period of time; pacing)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs-Q9-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q9-5\">Q9-5</a></td><td>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</td><td>Very Severe (Interview cannot be conducted)</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs9",
+      "version" : "0.1.0",
+      "name" : "GRIDHAMDAnswerOptionsVSQ9",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "status" : "draft",
+      "date" : "2025-05-14T14:21:32+02:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:6746350c-12b0-4d4f-8790-5ce924dfa413",
+        "timestamp" : "2025-05-14T14:23:03+02:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q9-1",
+          "display" : "Absent (movements within normal range, e.g., occasionally shifts position in seat)"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q9-2",
+          "display" : "Mild (Doubtful or slight agitation, mild restlessness,e.g., frequently changing position in seat, foottapping, playing with hair, hands, or clothes)"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q9-3",
+          "display" : "Moderate (Moderate to marked restlessness or agitation, e.g., wringing hands, excessive scratching or picking)"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q9-4",
+          "display" : "Severe (Cannot sit still or stay seated even for a short period of time; pacing)"
+        },
+        {
+          "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+          "code" : "Q9-5",
+          "display" : "Very Severe (Interview cannot be conducted)"
+        }]
+      }
+    }
+  }]
 }

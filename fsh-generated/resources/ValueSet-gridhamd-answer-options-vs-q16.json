@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GRIDHAMDAnswerOptionsVSQ16",
+  "id": "gridhamd-answer-options-vs-q16",
+  "title": "GRID-HAMD Answer Options ValueSet",
+  "description": "ValueSet including Q16 of the GRID-HAMD Questionnaire answer options.",
+  "url": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs16",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+        "concept": [
+          {
+            "code": "Q16/1-1",
+            "display": "No weight loss"
+          },
+          {
+            "code": "Q16/1-2",
+            "display": "Probable weight loss"
+          },
+          {
+            "code": "Q16/1-3",
+            "display": "Definite weight loss"
+          },
+          {
+            "code": "Q16/2-1",
+            "display": "Less than 1 lb. (.5 kg) loss per week since last visit"
+          },
+          {
+            "code": "Q16/2-2",
+            "display": "1-2 lb. (.5 – 1 kg) loss per week since last visit"
+          },
+          {
+            "code": "Q16/2-3",
+            "display": "More than 2-lb (> 1 kg) loss per week since last visit"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "gridhamd-answer-options-vs-q11",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet gridhamd-answer-options-vs-q11</b></p><a name=\"gridhamd-answer-options-vs-q11\"> </a><a name=\"hcgridhamd-answer-options-vs-q11\"> </a><a name=\"gridhamd-answer-options-vs-q11-en-US\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-gridhamd-answer-options-cs.html\"><code>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-1\">Q11-1</a></td><td>Absent and Absent or clinically insignificant</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-2\">Q11-2</a></td><td>Mild (some distress) and Absent or clinically insignificant</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-3\">Q11-3</a></td><td>Mild (some distress) and Occasional</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-4\">Q11-4</a></td><td>Mild (some distress) and Much of the time</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-5\">Q11-5</a></td><td>Mild (some distress) and Almost all the time</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-6\">Q11-6</a></td><td>Moderate (marked distress, may cause some impairment in functioning) and Occasional</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-7\">Q11-7</a></td><td>Moderate (marked distress, may cause some impairment in functioning) and Much of the time</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-8\">Q11-8</a></td><td>Moderate (marked distress, may cause some impairment in functioning)  and Almost all the time</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-9\">Q11-9</a></td><td>Severe (significant impairment in functioning)  and Occasional</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-10\">Q11-10</a></td><td>Severe (significant impairment in functioning) and Much of the time</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-11\">Q11-11</a></td><td>Severe (significant impairment in functioning) and almost all of the time</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-12\">Q11-12</a></td><td>Very Severe (incapacitating) and Occasional</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-13\">Q11-13</a></td><td>Very Severe (incapacitating) and Much off the time</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q11-14\">Q11-14</a></td><td>Very Severe (incapacitating) and Almost all of the time</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs11",
+  "version" : "0.1.0",
+  "name" : "GRIDHAMDAnswerOptionsVSQ11",
+  "title" : "GRID-HAMD Answer Options ValueSet",
+  "status" : "draft",
+  "date" : "2025-05-14T14:21:32+02:00",
+  "publisher" : "BIH-CEI",
+  "contact" : [{
+    "name" : "BIH-CEI",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://utn/consentresource.com"
+    }]
+  }],
+  "description" : "ValueSet including Q11 of the GRID-HAMD Questionnaire answer options.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+      "concept" : [{
+        "code" : "Q11-1",
+        "display" : "Absent and Absent or clinically insignificant"
+      },
+      {
+        "code" : "Q11-2",
+        "display" : "Mild (some distress) and Absent or clinically insignificant"
+      },
+      {
+        "code" : "Q11-3",
+        "display" : "Mild (some distress) and Occasional"
+      },
+      {
+        "code" : "Q11-4",
+        "display" : "Mild (some distress) and Much of the time"
+      },
+      {
+        "code" : "Q11-5",
+        "display" : "Mild (some distress) and Almost all the time"
+      },
+      {
+        "code" : "Q11-6",
+        "display" : "Moderate (marked distress, may cause some impairment in functioning) and Occasional"
+      },
+      {
+        "code" : "Q11-7",
+        "display" : "Moderate (marked distress, may cause some impairment in functioning) and Much of the time"
+      },
+      {
+        "code" : "Q11-8",
+        "display" : "Moderate (marked distress, may cause some impairment in functioning)  and Almost all the time"
+      },
+      {
+        "code" : "Q11-9",
+        "display" : "Severe (significant impairment in functioning)  and Occasional"
+      },
+      {
+        "code" : "Q11-10",
+        "display" : "Severe (significant impairment in functioning) and Much of the time"
+      },
+      {
+        "code" : "Q11-11",
+        "display" : "Severe (significant impairment in functioning) and almost all of the time"
+      },
+      {
+        "code" : "Q11-12",
+        "display" : "Very Severe (incapacitating) and Occasional"
+      },
+      {
+        "code" : "Q11-13",
+        "display" : "Very Severe (incapacitating) and Much off the time"
+      },
+      {
+        "code" : "Q11-14",
+        "display" : "Very Severe (incapacitating) and Almost all of the time"
+      }]
+    }]
+  }
+}

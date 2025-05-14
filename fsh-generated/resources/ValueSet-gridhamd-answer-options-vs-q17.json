@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GRIDHAMDAnswerOptionsVSQ17",
+  "id": "gridhamd-answer-options-vs-q17",
+  "title": "GRID-HAMD Answer Options ValueSet",
+  "description": "ValueSet including Q17 of the GRID-HAMD Questionnaire answer options.",
+  "url": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs17",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+        "concept": [
+          {
+            "code": "Q17-1",
+            "display": "Any recognition of depressive symptoms, with or without attribution to any cause, e.g., “I’m depressed because my partner always argues with me."
+          },
+          {
+            "code": "Q17-2",
+            "display": "Denies illness but accepts possibility of being ill, e.g., “I don’t think there’s anything wrong, but other people think there is."
+          },
+          {
+            "code": "Q17-3",
+            "display": "Complete denial of having any illness, e.g., “I’m not depressed; I’m fine."
+          }
+        ]
+      }
+    ]
+  }
+}

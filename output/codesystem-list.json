@@ -1,3 +1,12 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [
+    {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsCS",
+      "title" : "GRID-HAMD Answer Options CodeSystem",
+      "description" : "CodeSystem defining codes for all answer options used in GRID-HAMD Questionnaire."
+    }
+  ]
 }

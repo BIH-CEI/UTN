@@ -1,0 +1,74 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GRIDHAMDAnswerOptionsVSQ7",
+  "id": "gridhamd-answer-options-vs-q7",
+  "title": "GRID-HAMD Answer Options ValueSet",
+  "description": "ValueSet including Q7 of the GRID-HAMD Questionnaire answer options.",
+  "url": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs7",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+        "concept": [
+          {
+            "code": "Q7-1",
+            "display": "Absent and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q7-2",
+            "display": "Mild (Some reduction in interest or pleasure but no clear impairment in functioning)  and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q7-3",
+            "display": "Mild (Some reduction in interest or pleasure but no clear impairment in functioning)  and Occasional"
+          },
+          {
+            "code": "Q7-4",
+            "display": "Mild (Some reduction in interest or pleasure but no clear impairment in functioning) and Much of the time"
+          },
+          {
+            "code": "Q7-5",
+            "display": "Mild (Some reduction in interest or pleasure but no clear impairment in functioning)  and Almost all the time"
+          },
+          {
+            "code": "Q7-6",
+            "display": "Moderate (Significant reduction in interest or pleasure or clear impairment in functioning)  and Occasional"
+          },
+          {
+            "code": "Q7-7",
+            "display": "Moderate (Significant reduction in interest or pleasure or clear impairment in functioning) and Much of the time"
+          },
+          {
+            "code": "Q7-8",
+            "display": "Moderate (Significant reduction in interest or pleasure or clear impairment in functioning) and Almost all the time"
+          },
+          {
+            "code": "Q7-9",
+            "display": "Severe (Profound reduction in interest, pleasure, and functioning) and Occasional"
+          },
+          {
+            "code": "Q7-10",
+            "display": "Severe (Profound reduction in interest, pleasure, and functioning) and Much of the time"
+          },
+          {
+            "code": "Q7-11",
+            "display": "Severe (Profound reduction in interest, pleasure, and functioning) and almost all of the time"
+          },
+          {
+            "code": "Q7-12",
+            "display": "Very Severe (Unable to work; needs help performing self-care activities; unable to function without assistance) and Occasional"
+          },
+          {
+            "code": "Q7-13",
+            "display": "Very Severe (Unable to work; needs help performing self-care activities; unable to function withoutassistance) and Much off the time"
+          },
+          {
+            "code": "Q7-14",
+            "display": "Very Severe (Unable to work; needs help performing self-care activities; unable to function without assistance) and Almost all of the time"
+          }
+        ]
+      }
+    ]
+  }
+}

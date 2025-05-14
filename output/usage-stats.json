@@ -189,6 +189,9 @@
       "Observation.valueQuantity",
       "Observation.value[x]"
     ],
+    "http://hl7.org/fhir/StructureDefinition/ordinalValue": [
+      "CodeSystem.concept"
+    ],
     "http://hl7.org/fhir/StructureDefinition/quantity-precision": [
       "Observation.valueQuantity.value",
       "Observation.value[x].value"

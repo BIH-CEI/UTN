@@ -10,7 +10,7 @@
   <name value="UTNConsentResource"/>
   <title value="University Telemedicine Network (UTN) FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-05-12T15:33:04+02:00"/>
+  <date value="2025-05-14T14:21:32+02:00"/>
   <publisher value="BIH-CEI"/>
   <contact>
     <name value="BIH-CEI"/>
@@ -679,6 +679,215 @@
       <name value="Example-UTNPractitionerRole"/>
       <description value="Example UTN PractitionerRole"/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/GRIDHAMDQuestionnaire"/>
+      </reference>
+      <name value="GRID Hamilton Depression Rating Scale"/>
+      <description value="A structured clinical questionnaire for assessing depression severity."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/gridhamd-answer-options-cs"/>
+      </reference>
+      <name value="GRID-HAMD Answer Options CodeSystem"/>
+      <description value="CodeSystem defining codes for all answer options used in GRID-HAMD Questionnaire."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/gridhamd-answer-options-vs-q1"/>
+      </reference>
+      <name value="GRID-HAMD Answer Options ValueSet"/>
+      <description value="ValueSet including Q1 of the GRID-HAMD Questionnaire answer options."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/gridhamd-answer-options-vs-q2"/>
+      </reference>
+      <name value="GRID-HAMD Answer Options ValueSet"/>
+      <description value="ValueSet including Q2 of the GRID-HAMD Questionnaire answer options."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/gridhamd-answer-options-vs-q3"/>
+      </reference>
+      <name value="GRID-HAMD Answer Options ValueSet"/>
+      <description value="ValueSet including Q3 of the GRID-HAMD Questionnaire answer options."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/gridhamd-answer-options-vs-q4"/>
+      </reference>
+      <name value="GRID-HAMD Answer Options ValueSet"/>
+      <description value="ValueSet including Q4 of the GRID-HAMD Questionnaire answer options."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/gridhamd-answer-options-vs-q5"/>
+      </reference>
+      <name value="GRID-HAMD Answer Options ValueSet"/>
+      <description value="ValueSet including Q5 of the GRID-HAMD Questionnaire answer options."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/gridhamd-answer-options-vs-q6"/>
+      </reference>
+      <name value="GRID-HAMD Answer Options ValueSet"/>
+      <description value="ValueSet including Q6 of the GRID-HAMD Questionnaire answer options."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/gridhamd-answer-options-vs-q7"/>
+      </reference>
+      <name value="GRID-HAMD Answer Options ValueSet"/>
+      <description value="ValueSet including Q7 of the GRID-HAMD Questionnaire answer options."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/gridhamd-answer-options-vs-q8"/>
+      </reference>
+      <name value="GRID-HAMD Answer Options ValueSet"/>
+      <description value="ValueSet including Q8 of the GRID-HAMD Questionnaire answer options."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/gridhamd-answer-options-vs-q9"/>
+      </reference>
+      <name value="GRID-HAMD Answer Options ValueSet"/>
+      <description value="ValueSet including Q9 of the GRID-HAMD Questionnaire answer options."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/gridhamd-answer-options-vs-q10"/>
+      </reference>
+      <name value="GRID-HAMD Answer Options ValueSet"/>
+      <description value="ValueSet including Q10 of the GRID-HAMD Questionnaire answer options."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/gridhamd-answer-options-vs-q11"/>
+      </reference>
+      <name value="GRID-HAMD Answer Options ValueSet"/>
+      <description value="ValueSet including Q11 of the GRID-HAMD Questionnaire answer options."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/gridhamd-answer-options-vs-q12"/>
+      </reference>
+      <name value="GRID-HAMD Answer Options ValueSet"/>
+      <description value="ValueSet including Q12 of the GRID-HAMD Questionnaire answer options."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/gridhamd-answer-options-vs-q13"/>
+      </reference>
+      <name value="GRID-HAMD Answer Options ValueSet"/>
+      <description value="ValueSet including Q13 of the GRID-HAMD Questionnaire answer options."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/gridhamd-answer-options-vs-q14"/>
+      </reference>
+      <name value="GRID-HAMD Answer Options ValueSet"/>
+      <description value="ValueSet including Q14 of the GRID-HAMD Questionnaire answer options."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/gridhamd-answer-options-vs-q15"/>
+      </reference>
+      <name value="GRID-HAMD Answer Options ValueSet"/>
+      <description value="ValueSet including Q15 of the GRID-HAMD Questionnaire answer options."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/gridhamd-answer-options-vs-q16"/>
+      </reference>
+      <name value="GRID-HAMD Answer Options ValueSet"/>
+      <description value="ValueSet including Q16 of the GRID-HAMD Questionnaire answer options."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/gridhamd-answer-options-vs-q17"/>
+      </reference>
+      <name value="GRID-HAMD Answer Options ValueSet"/>
+      <description value="ValueSet including Q17 of the GRID-HAMD Questionnaire answer options."/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

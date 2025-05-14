@@ -1,0 +1,50 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GRIDHAMDAnswerOptionsVSQ13",
+  "id": "gridhamd-answer-options-vs-q13",
+  "title": "GRID-HAMD Answer Options ValueSet",
+  "description": "ValueSet including Q13 of the GRID-HAMD Questionnaire answer options.",
+  "url": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs13",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+        "concept": [
+          {
+            "code": "Q13-1",
+            "display": "Absent and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q13-2",
+            "display": "Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q13-3",
+            "display": "Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Occasional"
+          },
+          {
+            "code": "Q13-4",
+            "display": "Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Much of the time"
+          },
+          {
+            "code": "Q13-5",
+            "display": "Mild (mild tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Almost all the time"
+          },
+          {
+            "code": "Q13-6",
+            "display": "Marked (prominent tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains) and Occasional"
+          },
+          {
+            "code": "Q13-7",
+            "display": "Marked (prominent tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains)and Much of the time"
+          },
+          {
+            "code": "Q13-8",
+            "display": "Marked (prominent tiredness, loss of energy, fatigue, feelings of heaviness in limbs or being weighted down, or muscular aches or pains)  and Almost all the time"
+          }
+        ]
+      }
+    ]
+  }
+}

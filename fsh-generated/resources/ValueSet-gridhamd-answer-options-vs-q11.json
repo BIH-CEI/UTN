@@ -1,0 +1,74 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GRIDHAMDAnswerOptionsVSQ11",
+  "id": "gridhamd-answer-options-vs-q11",
+  "title": "GRID-HAMD Answer Options ValueSet",
+  "description": "ValueSet including Q11 of the GRID-HAMD Questionnaire answer options.",
+  "url": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs11",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+        "concept": [
+          {
+            "code": "Q11-1",
+            "display": "Absent and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q11-2",
+            "display": "Mild (some distress) and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q11-3",
+            "display": "Mild (some distress) and Occasional"
+          },
+          {
+            "code": "Q11-4",
+            "display": "Mild (some distress) and Much of the time"
+          },
+          {
+            "code": "Q11-5",
+            "display": "Mild (some distress) and Almost all the time"
+          },
+          {
+            "code": "Q11-6",
+            "display": "Moderate (marked distress, may cause some impairment in functioning) and Occasional"
+          },
+          {
+            "code": "Q11-7",
+            "display": "Moderate (marked distress, may cause some impairment in functioning) and Much of the time"
+          },
+          {
+            "code": "Q11-8",
+            "display": "Moderate (marked distress, may cause some impairment in functioning)  and Almost all the time"
+          },
+          {
+            "code": "Q11-9",
+            "display": "Severe (significant impairment in functioning)  and Occasional"
+          },
+          {
+            "code": "Q11-10",
+            "display": "Severe (significant impairment in functioning) and Much of the time"
+          },
+          {
+            "code": "Q11-11",
+            "display": "Severe (significant impairment in functioning) and almost all of the time"
+          },
+          {
+            "code": "Q11-12",
+            "display": "Very Severe (incapacitating) and Occasional"
+          },
+          {
+            "code": "Q11-13",
+            "display": "Very Severe (incapacitating) and Much off the time"
+          },
+          {
+            "code": "Q11-14",
+            "display": "Very Severe (incapacitating) and Almost all of the time"
+          }
+        ]
+      }
+    ]
+  }
+}

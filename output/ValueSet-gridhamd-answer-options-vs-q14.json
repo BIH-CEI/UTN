@@ -1,0 +1,40 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "gridhamd-answer-options-vs-q14",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet gridhamd-answer-options-vs-q14</b></p><a name=\"gridhamd-answer-options-vs-q14\"> </a><a name=\"hcgridhamd-answer-options-vs-q14\"> </a><a name=\"gridhamd-answer-options-vs-q14-en-US\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-gridhamd-answer-options-cs.html\"><code>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q14-1\">Q14-1</a></td><td>Absent</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q14-2\">Q14-2</a></td><td>Mild (Some loss of interest or pleasure)</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q14-3\">Q14-3</a></td><td>Marked (Marked loss of interest or pleasure)</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs14",
+  "version" : "0.1.0",
+  "name" : "GRIDHAMDAnswerOptionsVSQ14",
+  "title" : "GRID-HAMD Answer Options ValueSet",
+  "status" : "draft",
+  "date" : "2025-05-14T14:21:32+02:00",
+  "publisher" : "BIH-CEI",
+  "contact" : [{
+    "name" : "BIH-CEI",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://utn/consentresource.com"
+    }]
+  }],
+  "description" : "ValueSet including Q14 of the GRID-HAMD Questionnaire answer options.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+      "concept" : [{
+        "code" : "Q14-1",
+        "display" : "Absent"
+      },
+      {
+        "code" : "Q14-2",
+        "display" : "Mild (Some loss of interest or pleasure)"
+      },
+      {
+        "code" : "Q14-3",
+        "display" : "Marked (Marked loss of interest or pleasure)"
+      }]
+    }]
+  }
+}

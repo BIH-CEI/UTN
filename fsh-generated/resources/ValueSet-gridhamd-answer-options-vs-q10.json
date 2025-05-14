@@ -1,0 +1,74 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GRIDHAMDAnswerOptionsVSQ10",
+  "id": "gridhamd-answer-options-vs-q10",
+  "title": "GRID-HAMD Answer Options ValueSet",
+  "description": "ValueSet including Q10 of the GRID-HAMD Questionnaire answer options.",
+  "url": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs10",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+        "concept": [
+          {
+            "code": "Q10-1",
+            "display": "Absent and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q10-2",
+            "display": "Mild (some feelings of worry or irritability) and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q10-3",
+            "display": "Mild (some feelings of worry or irritability) and Occasional"
+          },
+          {
+            "code": "Q10-4",
+            "display": "Mild (some feelings of worry or irritability) and Much of the time"
+          },
+          {
+            "code": "Q10-5",
+            "display": "Mild (some feelings of worry or irritability) and Almost all the time"
+          },
+          {
+            "code": "Q10-6",
+            "display": "Moderate (excessive worry or irritability; anxiety causes distress; may cause some impairment in functioning) and Occasional"
+          },
+          {
+            "code": "Q10-7",
+            "display": "Moderate (excessive worry or irritability; anxiety causes distress; may cause some impairment in functioning) and Much of the time"
+          },
+          {
+            "code": "Q10-8",
+            "display": "Moderate (excessive worry or irritability; anxiety causes distress; may cause some impairment in functioning) and Almost all the time"
+          },
+          {
+            "code": "Q10-9",
+            "display": "Severe (pervasive worry or dread; fearing the worst; apprehension obvious in demeanor or behavior; significant impairment in functioning; feelings of panic) and Occasional"
+          },
+          {
+            "code": "Q10-10",
+            "display": "Severe (pervasive worry or dread; fearing the worst; apprehension obvious in demeanor or behavior; significant impairment in functioning; feelings of panic) and Much of the time"
+          },
+          {
+            "code": "Q10-11",
+            "display": "Severe (pervasive worry or dread; fearing the worst; apprehension obvious in demeanor or behavior; significant impairment in functioning; feelings of panic)  and almost all of the time"
+          },
+          {
+            "code": "Q10-12",
+            "display": "Very Severe (incapacitating) and Occasional"
+          },
+          {
+            "code": "Q10-13",
+            "display": "Very Severe (incapacitating) and Much off the time"
+          },
+          {
+            "code": "Q10-14",
+            "display": "Very Severe (incapacitating) and Almost all of the time"
+          }
+        ]
+      }
+    ]
+  }
+}

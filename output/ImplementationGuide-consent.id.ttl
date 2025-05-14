@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "UTNConsentResource"] ; # 
   fhir:title [ fhir:v "University Telemedicine Network (UTN) FHIR Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-05-12T15:33:04+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-14T14:21:32+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "BIH-CEI"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "BIH-CEI" ] ;
@@ -1204,6 +1204,348 @@
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"^^xsd:anyURI ;
          fhir:link <http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Questionnaire"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/Questionnaire/GRIDHAMDQuestionnaire> ;
+         fhir:reference [ fhir:v "Questionnaire/GRIDHAMDQuestionnaire" ]
+       ] ;
+       fhir:name [ fhir:v "GRID Hamilton Depression Rating Scale" ] ;
+       fhir:description [ fhir:v "A structured clinical questionnaire for assessing depression severity." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/CodeSystem/gridhamd-answer-options-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/gridhamd-answer-options-cs" ]
+       ] ;
+       fhir:name [ fhir:v "GRID-HAMD Answer Options CodeSystem" ] ;
+       fhir:description [ fhir:v "CodeSystem defining codes for all answer options used in GRID-HAMD Questionnaire." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q1> ;
+         fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q1" ]
+       ] ;
+       fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet including Q1 of the GRID-HAMD Questionnaire answer options." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q2> ;
+         fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q2" ]
+       ] ;
+       fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet including Q2 of the GRID-HAMD Questionnaire answer options." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q3> ;
+         fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q3" ]
+       ] ;
+       fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet including Q3 of the GRID-HAMD Questionnaire answer options." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q4> ;
+         fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q4" ]
+       ] ;
+       fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet including Q4 of the GRID-HAMD Questionnaire answer options." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q5> ;
+         fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q5" ]
+       ] ;
+       fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet including Q5 of the GRID-HAMD Questionnaire answer options." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q6> ;
+         fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q6" ]
+       ] ;
+       fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet including Q6 of the GRID-HAMD Questionnaire answer options." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q7> ;
+         fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q7" ]
+       ] ;
+       fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet including Q7 of the GRID-HAMD Questionnaire answer options." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q8> ;
+         fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q8" ]
+       ] ;
+       fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet including Q8 of the GRID-HAMD Questionnaire answer options." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q9> ;
+         fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q9" ]
+       ] ;
+       fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet including Q9 of the GRID-HAMD Questionnaire answer options." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q10> ;
+         fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q10" ]
+       ] ;
+       fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet including Q10 of the GRID-HAMD Questionnaire answer options." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q11> ;
+         fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q11" ]
+       ] ;
+       fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet including Q11 of the GRID-HAMD Questionnaire answer options." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q12> ;
+         fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q12" ]
+       ] ;
+       fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet including Q12 of the GRID-HAMD Questionnaire answer options." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q13> ;
+         fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q13" ]
+       ] ;
+       fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet including Q13 of the GRID-HAMD Questionnaire answer options." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q14> ;
+         fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q14" ]
+       ] ;
+       fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet including Q14 of the GRID-HAMD Questionnaire answer options." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q15> ;
+         fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q15" ]
+       ] ;
+       fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet including Q15 of the GRID-HAMD Questionnaire answer options." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q16> ;
+         fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q16" ]
+       ] ;
+       fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet including Q16 of the GRID-HAMD Questionnaire answer options." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q17> ;
+         fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q17" ]
+       ] ;
+       fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet including Q17 of the GRID-HAMD Questionnaire answer options." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
        ]
      ] [
        fhir:extension ( [

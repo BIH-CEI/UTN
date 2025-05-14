@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="gridhamd-answer-options-vs-q4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet gridhamd-answer-options-vs-q4</b></p><a name="gridhamd-answer-options-vs-q4"> </a><a name="hcgridhamd-answer-options-vs-q4"> </a><a name="gridhamd-answer-options-vs-q4-en-US"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-gridhamd-answer-options-cs.html"><code>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q4-1">Q4-1</a></td><td>Absent and Absent or clinically insignificant</td></tr><tr><td><a href="CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q4-2">Q4-2</a></td><td>Mild (30 – 59 minutes to fall asleep)  and Absent or clinically insignificant</td></tr><tr><td><a href="CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q4-3">Q4-3</a></td><td>Mild (30 – 59 minutes to fall asleep) and Occasional</td></tr><tr><td><a href="CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q4-4">Q4-4</a></td><td>Mild (30 – 59 minutes to fall asleep) and Much of the time</td></tr><tr><td><a href="CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q4-5">Q4-5</a></td><td>Mild (30 – 59 minutes to fall asleep) and Almost all the time</td></tr><tr><td><a href="CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q4-6">Q4-6</a></td><td>Marked (1 hour or more to fall asleep) and Occasional</td></tr><tr><td><a href="CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q4-7">Q4-7</a></td><td>Marked (1 hour or more to fall asleep) and Much of the time</td></tr><tr><td><a href="CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q4-8">Q4-8</a></td><td>Marked (1 hour or more to fall asleep) and Almost all the time</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs4"/>
+  <version value="0.1.0"/>
+  <name value="GRIDHAMDAnswerOptionsVSQ4"/>
+  <title value="GRID-HAMD Answer Options ValueSet"/>
+  <status value="draft"/>
+  <date value="2025-05-14T14:21:32+02:00"/>
+  <publisher value="BIH-CEI"/>
+  <contact>
+    <name value="BIH-CEI"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://utn/consentresource.com"/>
+    </telecom>
+  </contact>
+  <description value="ValueSet including Q4 of the GRID-HAMD Questionnaire answer options."/>
+  <compose>
+    <include>
+      <system value="http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"/>
+      <concept>
+        <code value="Q4-1"/>
+        <display value="Absent and Absent or clinically insignificant"/>
+      </concept>
+      <concept>
+        <code value="Q4-2"/>
+        <display value="Mild (30 – 59 minutes to fall asleep)  and Absent or clinically insignificant"/>
+      </concept>
+      <concept>
+        <code value="Q4-3"/>
+        <display value="Mild (30 – 59 minutes to fall asleep) and Occasional"/>
+      </concept>
+      <concept>
+        <code value="Q4-4"/>
+        <display value="Mild (30 – 59 minutes to fall asleep) and Much of the time"/>
+      </concept>
+      <concept>
+        <code value="Q4-5"/>
+        <display value="Mild (30 – 59 minutes to fall asleep) and Almost all the time"/>
+      </concept>
+      <concept>
+        <code value="Q4-6"/>
+        <display value="Marked (1 hour or more to fall asleep) and Occasional"/>
+      </concept>
+      <concept>
+        <code value="Q4-7"/>
+        <display value="Marked (1 hour or more to fall asleep) and Much of the time"/>
+      </concept>
+      <concept>
+        <code value="Q4-8"/>
+        <display value="Marked (1 hour or more to fall asleep) and Almost all the time"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

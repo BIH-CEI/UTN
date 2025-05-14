@@ -1,0 +1,74 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GRIDHAMDAnswerOptionsVSQ15",
+  "id": "gridhamd-answer-options-vs-q15",
+  "title": "GRID-HAMD Answer Options ValueSet",
+  "description": "ValueSet including Q15 of the GRID-HAMD Questionnaire answer options.",
+  "url": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs15",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+        "concept": [
+          {
+            "code": "Q15-1",
+            "display": "Absent and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q15-2",
+            "display": "Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness)  and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q15-3",
+            "display": "Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness)  and Occasional"
+          },
+          {
+            "code": "Q15-4",
+            "display": "Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness) and Much of the time"
+          },
+          {
+            "code": "Q15-5",
+            "display": "Mild (preoccupation with bodily functions and sensations, but no concerns about a specific illness)  and Almost all the time"
+          },
+          {
+            "code": "Q15-6",
+            "display": "Moderate (Excessive or unrealistic worry about having an illness, e.g., “I worry that these headaches are from a brain tumor.”)  and Occasional"
+          },
+          {
+            "code": "Q15-7",
+            "display": "Moderate (Excessive or unrealistic worry about having an illness, e.g., “I worry that these headaches are from a brain tumor.”)  and Much of the time"
+          },
+          {
+            "code": "Q15-8",
+            "display": "Moderate (Excessive or unrealistic worry about having an illness, e.g., “I worry that these headaches are from a brain tumor.”)  and Almost all the time"
+          },
+          {
+            "code": "Q15-9",
+            "display": "Severe (Strong unrealistic conviction of having an illness, e.g., “I am convinced I have cancer”) and Occasional"
+          },
+          {
+            "code": "Q15-10",
+            "display": "Severe (Strong unrealistic conviction of having an illness, e.g., “I am convinced I have cancer”) and Much of the time"
+          },
+          {
+            "code": "Q15-11",
+            "display": "Severe (Strong unrealistic conviction of having an illness, e.g., “I am convinced I have cancer”) and almost all of the time"
+          },
+          {
+            "code": "Q15-12",
+            "display": "Very Severe (Somatic delusions or hallucinations, e.g., “My insides are rotting”) and Occasional"
+          },
+          {
+            "code": "Q15-13",
+            "display": "Very Severe (Somatic delusions or hallucinations, e.g., “My insides are rotting”)  and Much off the time"
+          },
+          {
+            "code": "Q15-14",
+            "display": "Very Severe (Somatic delusions or hallucinations, e.g., “My insides are rotting”) and Almost all of the time"
+          }
+        ]
+      }
+    ]
+  }
+}

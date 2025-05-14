@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GRIDHAMDAnswerOptionsVSQ14",
+  "id": "gridhamd-answer-options-vs-q14",
+  "title": "GRID-HAMD Answer Options ValueSet",
+  "description": "ValueSet including Q14 of the GRID-HAMD Questionnaire answer options.",
+  "url": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs14",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+        "concept": [
+          {
+            "code": "Q14-1",
+            "display": "Absent"
+          },
+          {
+            "code": "Q14-2",
+            "display": "Mild (Some loss of interest or pleasure)"
+          },
+          {
+            "code": "Q14-3",
+            "display": "Marked (Marked loss of interest or pleasure)"
+          }
+        ]
+      }
+    ]
+  }
+}

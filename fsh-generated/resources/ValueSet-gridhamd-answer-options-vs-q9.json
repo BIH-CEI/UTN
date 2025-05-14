@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GRIDHAMDAnswerOptionsVSQ9",
+  "id": "gridhamd-answer-options-vs-q9",
+  "title": "GRID-HAMD Answer Options ValueSet",
+  "description": "ValueSet including Q9 of the GRID-HAMD Questionnaire answer options.",
+  "url": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs9",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+        "concept": [
+          {
+            "code": "Q9-1",
+            "display": "Absent (movements within normal range, e.g., occasionally shifts position in seat)"
+          },
+          {
+            "code": "Q9-2",
+            "display": "Mild (Doubtful or slight agitation, mild restlessness,e.g., frequently changing position in seat, foottapping, playing with hair, hands, or clothes)"
+          },
+          {
+            "code": "Q9-3",
+            "display": "Moderate (Moderate to marked restlessness or agitation, e.g., wringing hands, excessive scratching or picking)"
+          },
+          {
+            "code": "Q9-4",
+            "display": "Severe (Cannot sit still or stay seated even for a short period of time; pacing)"
+          },
+          {
+            "code": "Q9-5",
+            "display": "Very Severe (Interview cannot be conducted)"
+          }
+        ]
+      }
+    ]
+  }
+}

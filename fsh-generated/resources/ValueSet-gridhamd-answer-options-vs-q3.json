@@ -1,0 +1,74 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GRIDHAMDAnswerOptionsVSQ3",
+  "id": "gridhamd-answer-options-vs-q3",
+  "title": "GRID-HAMD Answer Options ValueSet",
+  "description": "ValueSet including Q3 of the GRID-HAMD Questionnaire answer options.",
+  "url": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs3",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs",
+        "concept": [
+          {
+            "code": "Q3-1",
+            "display": "Absent and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q3-2",
+            "display": "Mild (Feels life is not worth living, but expresses no wish to die, e.g., “I don’t care if I live or die”)  and Absent or clinically insignificant"
+          },
+          {
+            "code": "Q3-3",
+            "display": "Mild (Feels life is not worth living, but expresses no wish to die, e.g., “I don’t care if I live or die”)  and Occasional"
+          },
+          {
+            "code": "Q3-4",
+            "display": "Mild (Feels life is not worth living, but expresses no wish to die, e.g., “I don’t care if I live or die”) and Much of the time"
+          },
+          {
+            "code": "Q3-5",
+            "display": "Mild (Feels life is not worth living, but expresses nowish to die, e.g., “I don’t care if I live or die”)   and Almost all the time"
+          },
+          {
+            "code": "Q3-6",
+            "display": "Moderate (Wishes to be dead; thoughts of dying, but no specific plan or intent, e.g., “If I got hit by a bus, I wouldn’t care,” “I’d like to go to sleep and never wake up”)  and Occasional"
+          },
+          {
+            "code": "Q3-7",
+            "display": "Moderate (Wishes to be dead; thoughts of dying, but no specific plan or intent, e.g., “If I got hit by a bus, I wouldn’t care,” “I’d like to go to sleep and never wake up”)  and Much of the time"
+          },
+          {
+            "code": "Q3-8",
+            "display": "Moderate (Wishes to be dead; thoughts of dying, but no specific plan or intent, e.g., “If I got hit by a bus, I wouldn’t care,” “I’d like to go to sleep and never wake up”)  and Almost all the time"
+          },
+          {
+            "code": "Q3-9",
+            "display": "Severe (Clear suicidal plan or intent; suicidal gesture, e.g., taking a few sleeping pills)  and Occasional"
+          },
+          {
+            "code": "Q3-10",
+            "display": "Severe (Clear suicidal plan or intent; suicidal gesture, e.g., taking a few sleeping pills)  and Much of the time"
+          },
+          {
+            "code": "Q3-11",
+            "display": "Severe (Clear suicidal plan or intent; suicidal gesture, e.g., taking a few sleeping pills)  and almost all of the time\"4"
+          },
+          {
+            "code": "Q3-12",
+            "display": "Very severe (Attempts at suicide)  and Occasional"
+          },
+          {
+            "code": "Q3-13",
+            "display": "Very severe (Attempts at suicide)  and Much off the time"
+          },
+          {
+            "code": "Q3-14",
+            "display": "Very severe (Attempts at suicide)  and Almost all of the time"
+          }
+        ]
+      }
+    ]
+  }
+}

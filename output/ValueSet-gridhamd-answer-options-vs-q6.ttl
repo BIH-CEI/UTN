@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q6> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "gridhamd-answer-options-vs-q6"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet gridhamd-answer-options-vs-q6</b></p><a name=\"gridhamd-answer-options-vs-q6\"> </a><a name=\"hcgridhamd-answer-options-vs-q6\"> </a><a name=\"gridhamd-answer-options-vs-q6-en-US\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-gridhamd-answer-options-cs.html\"><code>http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q6-1\">Q6-1</a></td><td>Absent and Absent or clinically insignificant</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q6-2\">Q6-2</a></td><td>Mild (30 – 59 minutes awake)  and Absent or clinically insignificant</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q6-3\">Q6-3</a></td><td>Mild (30 – 59 minutes awake) and Occasional</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q6-4\">Q6-4</a></td><td>Mild (30 – 59 minutes awake) and Much of the time</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q6-5\">Q6-5</a></td><td>Mild (30 – 59 minutes awake) and Almost all the time</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q6-6\">Q6-6</a></td><td>Marked (1 hour or more awake) and Occasional</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q6-7\">Q6-7</a></td><td>Marked (1 hour or more awake) and Much of the time</td></tr><tr><td><a href=\"CodeSystem-gridhamd-answer-options-cs.html#gridhamd-answer-options-cs-Q6-8\">Q6-8</a></td><td>Marked (1 hour or more awake) and Almost all the time</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs6"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "GRIDHAMDAnswerOptionsVSQ6"] ; # 
+  fhir:title [ fhir:v "GRID-HAMD Answer Options ValueSet"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2025-05-14T14:21:32+02:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "BIH-CEI"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "BIH-CEI" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://utn/consentresource.com" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "ValueSet including Q6 of the GRID-HAMD Questionnaire answer options."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "Q6-1" ] ;
+         fhir:display [ fhir:v "Absent and Absent or clinically insignificant" ]
+       ] [
+         fhir:code [ fhir:v "Q6-2" ] ;
+         fhir:display [ fhir:v "Mild (30 – 59 minutes awake)  and Absent or clinically insignificant" ]
+       ] [
+         fhir:code [ fhir:v "Q6-3" ] ;
+         fhir:display [ fhir:v "Mild (30 – 59 minutes awake) and Occasional" ]
+       ] [
+         fhir:code [ fhir:v "Q6-4" ] ;
+         fhir:display [ fhir:v "Mild (30 – 59 minutes awake) and Much of the time" ]
+       ] [
+         fhir:code [ fhir:v "Q6-5" ] ;
+         fhir:display [ fhir:v "Mild (30 – 59 minutes awake) and Almost all the time" ]
+       ] [
+         fhir:code [ fhir:v "Q6-6" ] ;
+         fhir:display [ fhir:v "Marked (1 hour or more awake) and Occasional" ]
+       ] [
+         fhir:code [ fhir:v "Q6-7" ] ;
+         fhir:display [ fhir:v "Marked (1 hour or more awake) and Much of the time" ]
+       ] [
+         fhir:code [ fhir:v "Q6-8" ] ;
+         fhir:display [ fhir:v "Marked (1 hour or more awake) and Almost all the time" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

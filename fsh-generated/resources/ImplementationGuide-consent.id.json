@@ -220,6 +220,158 @@
       },
       {
         "reference": {
+          "reference": "Questionnaire/GRIDHAMDQuestionnaire"
+        },
+        "name": "GRID Hamilton Depression Rating Scale",
+        "description": "A structured clinical questionnaire for assessing depression severity.",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/gridhamd-answer-options-cs"
+        },
+        "name": "GRID-HAMD Answer Options CodeSystem",
+        "description": "CodeSystem defining codes for all answer options used in GRID-HAMD Questionnaire.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q1"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q1 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q2"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q2 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q3"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q3 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q4"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q4 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q5"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q5 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q6"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q6 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q7"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q7 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q8"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q8 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q9"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q9 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q10"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q10 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q11"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q11 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q12"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q12 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q13"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q13 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q14"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q14 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q15"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q15 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q16"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q16 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q17"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q17 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Device/phone-1"
         },
         "name": "Phone Device",

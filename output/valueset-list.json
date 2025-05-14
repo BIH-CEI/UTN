@@ -1,3 +1,191 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [
+    {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs1",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsVSQ1",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "description" : "ValueSet including Q1 of the GRID-HAMD Questionnaire answer options.",
+      "systems" : [
+        "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs10",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsVSQ10",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "description" : "ValueSet including Q10 of the GRID-HAMD Questionnaire answer options.",
+      "systems" : [
+        "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs11",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsVSQ11",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "description" : "ValueSet including Q11 of the GRID-HAMD Questionnaire answer options.",
+      "systems" : [
+        "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs12",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsVSQ12",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "description" : "ValueSet including Q12 of the GRID-HAMD Questionnaire answer options.",
+      "systems" : [
+        "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs13",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsVSQ13",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "description" : "ValueSet including Q13 of the GRID-HAMD Questionnaire answer options.",
+      "systems" : [
+        "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs14",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsVSQ14",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "description" : "ValueSet including Q14 of the GRID-HAMD Questionnaire answer options.",
+      "systems" : [
+        "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs15",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsVSQ15",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "description" : "ValueSet including Q15 of the GRID-HAMD Questionnaire answer options.",
+      "systems" : [
+        "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs16",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsVSQ16",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "description" : "ValueSet including Q16 of the GRID-HAMD Questionnaire answer options.",
+      "systems" : [
+        "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs17",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsVSQ17",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "description" : "ValueSet including Q17 of the GRID-HAMD Questionnaire answer options.",
+      "systems" : [
+        "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs2",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsVSQ2",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "description" : "ValueSet including Q2 of the GRID-HAMD Questionnaire answer options.",
+      "systems" : [
+        "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs3",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsVSQ3",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "description" : "ValueSet including Q3 of the GRID-HAMD Questionnaire answer options.",
+      "systems" : [
+        "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs4",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsVSQ4",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "description" : "ValueSet including Q4 of the GRID-HAMD Questionnaire answer options.",
+      "systems" : [
+        "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs5",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsVSQ5",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "description" : "ValueSet including Q5 of the GRID-HAMD Questionnaire answer options.",
+      "systems" : [
+        "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs6",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsVSQ6",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "description" : "ValueSet including Q6 of the GRID-HAMD Questionnaire answer options.",
+      "systems" : [
+        "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs7",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsVSQ7",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "description" : "ValueSet including Q7 of the GRID-HAMD Questionnaire answer options.",
+      "systems" : [
+        "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs8",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsVSQ8",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "description" : "ValueSet including Q8 of the GRID-HAMD Questionnaire answer options.",
+      "systems" : [
+        "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"
+      ]
+    },
+    {
+      "url" : "http://example.org/fhir/CodeSystem/gridhamd-answer-options-vs9",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GRIDHAMDAnswerOptionsVSQ9",
+      "title" : "GRID-HAMD Answer Options ValueSet",
+      "description" : "ValueSet including Q9 of the GRID-HAMD Questionnaire answer options.",
+      "systems" : [
+        "http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs"
+      ]
+    }
+  ]
 }

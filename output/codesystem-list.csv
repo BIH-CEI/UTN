@@ -1,1 +1,2 @@
 URL,Version,Status,OIDs,Name,Title,Description,Used
+http://example.org/fhir/CodeSystem/gridhamd-answer-options-cs,0.1.0,draft,,GRIDHAMDAnswerOptionsCS,GRID-HAMD Answer Options CodeSystem,"CodeSystem defining codes for all answer options used in GRID-HAMD Questionnaire.",
