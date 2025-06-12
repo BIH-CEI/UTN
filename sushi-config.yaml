@@ -51,9 +51,21 @@ dependencies:
     uri: de.gematik.isik-vitalparameter
     version: 4.0.0
 
+  de.gematik.isik-basismodul:
+    uri: de.gematik.isik-basismodul
+    version: 4.0.3
+
   kbv.basis:
     uri: kbv.basis
     version: 1.7.0
+  
+  de.medizininformatikinitiative.kerndatensatz.fall:
+    uri: de.medizininformatikinitiative.kerndatensatz.fall
+    version: 2025.0.0
+
+  de.medizininformatikinitiative.kerndatensatz.medikation:
+    uri: de.medizininformatikinitiative.kerndatensatz.medikation
+    version: 2025.0.0
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in
