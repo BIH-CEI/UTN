@@ -45,6 +45,33 @@ Alias: $KBV_VS_Base_Role_Care = https://fhir.kbv.de/ValueSet/KBV_VS_Base_Role_Ca
 Alias: $KBV_VS_SFHIR_BAR2_ARZTNRFACHGRUPPE = https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_BAR2_ARZTNRFACHGRUPPE
 Alias: $FacharzttitelDerAerztekammern = http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern
 
+
+//Encounter
+Alias: $spdx-license = http://hl7.org/fhir/spdx-license
+Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
+Alias: $location-physical-type = http://terminology.hl7.org/CodeSystem/location-physical-type
+Alias: $Aufnahmegrund = http://fhir.de/StructureDefinition/Aufnahmegrund
+Alias: $extension-Encounter.plannedStartDate = http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedStartDate
+Alias: $extension-Encounter.plannedEndDate = http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedEndDate
+Alias: $Entlassungsgrund = http://fhir.de/StructureDefinition/Entlassungsgrund
+Alias: $identifier-type-codes = https://www.medizininformatik-initiative.de/fhir/core/modul-fall/ValueSet/identifier-type-codes
+Alias: $EncounterStatusDe = http://fhir.de/ValueSet/EncounterStatusDe
+Alias: $EncounterClassDE = http://fhir.de/ValueSet/EncounterClassDE
+Alias: $kontaktebene-de = http://fhir.de/ValueSet/kontaktebene-de
+Alias: $kontaktart-de = http://fhir.de/ValueSet/kontaktart-de
+Alias: $Fachabteilungsschluessel = http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel
+Alias: $mii-vs-fall-diagnosis-use = https://www.medizininformatik-initiative.de/fhir/core/modul-fall/ValueSet/mii-vs-fall-diagnosis-use
+Alias: $DiagnoseTyp = http://fhir.de/ValueSet/DiagnoseTyp
+Alias: $Diagnosesubtyp = http://fhir.de/ValueSet/Diagnosesubtyp
+Alias: $Aufnahmeanlass = http://fhir.de/ValueSet/dgkev/Aufnahmeanlass
+Alias: $location-physical-type_1 = https://www.medizininformatik-initiative.de/fhir/core/modul-fall/ValueSet/location-physical-type
+Alias: $v3-ActReason = http://terminology.hl7.org/CodeSystem/v3-ActReason
+Alias: $Kontaktebene = http://fhir.de/CodeSystem/Kontaktebene
+Alias: $KontaktArtDe = http://fhir.de/ValueSet/kontaktart-de
+Alias: $Fachabteilungsschluessel-erweitert = http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel-erweitert
+Alias: $v3-ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
+Alias: $serviceType = http://terminology.hl7.org/CodeSystem/service-type
+
 //Parameters
 Alias: $observation-de-vitalsign-herzfrequenz = http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz
 Alias: $ISiKHerzfrequenzSCTVS = https://gematik.de/fhir/isik/ValueSet/ISiKHerzfrequenzSCTVS
@@ -68,3 +95,14 @@ Alias: $iso21090-PQ-translation = http://hl7.org/fhir/StructureDefinition/iso210
 Alias: $mii-vs-labor-identifier-type-codes = https://www.medizininformatik-initiative.de/fhir/core/modul-labor/ValueSet/mii-vs-labor-identifier-type-codes
 Alias: $results-laboratory-observations-uv-ips = http://hl7.org/fhir/uv/ips/ValueSet/results-laboratory-observations-uv-ips
 
+
+Alias: $list-order = http://terminology.hl7.org/CodeSystem/list-order
+Alias: $list-empty-reason = http://terminology.hl7.org/CodeSystem/list-empty-reason
+Alias: $diagnosisRole = http://hl7.org/fhir/ValueSet/diagnosis-role
+
+Alias: $Procedure = https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure
+Alias: $vs-mii-icu-code-extrakorporale-verfahren = https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-code-extrakorporale-verfahren
+
+Alias: $Procedure = https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure
+Alias: $vs-mii-icu-category-procedure-beatmung-snomed = https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-category-procedure-beatmung-snomed
+Alias: $vs-mii-icu-code-procedure-beatmung-snomed = https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-code-procedure-beatmung-snomed
