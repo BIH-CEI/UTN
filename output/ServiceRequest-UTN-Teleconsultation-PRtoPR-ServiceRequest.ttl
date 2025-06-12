@@ -1,0 +1,47 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://utn/consentresource.com/ServiceRequest/UTN-Teleconsultation-PRtoPR-ServiceRequest> a fhir:ServiceRequest ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "UTN-Teleconsultation-PRtoPR-ServiceRequest"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest UTN-Teleconsultation-PRtoPR-ServiceRequest</b></p><a name=\"UTN-Teleconsultation-PRtoPR-ServiceRequest\"> </a><a name=\"hcUTN-Teleconsultation-PRtoPR-ServiceRequest\"> </a><a name=\"UTN-Teleconsultation-PRtoPR-ServiceRequest-en-US\"> </a><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/servicerequest-category 409063005}\">Counselling</span></p><p><b>subject</b>: <a href=\"Patient-utn-patient-1.html\">John Doe  Other, DoB: 1970-09-19 ( MR)</a></p><p><b>encounter</b>: <a href=\"Encounter-Example-UTN-Encounter-PRtoPR.html\">Encounter: status = in-progress; class = inpatient encounter (ActCode#IMP); type = intensivstationaer; serviceType = Intensivmedizin; period = 2025-01-14 08:00:00+1000 --&gt; (ongoing)</a></p><p><b>requester</b>: <a href=\"Practitioner-Example-UTN-Practitioner-PR1.html\">Practitioner Hans Topp-Glücklich(official)</a></p><p><b>performer</b>: <a href=\"Practitioner-Example-UTN-Practitioner-PR2.html\">Practitioner Gunther Neumann(official)</a></p><p><b>supportingInfo</b>: <a href=\"Composition-Example-UTN-Teleconsultation-PRtoPR.html\">Composition Consultation Note</a></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:intent [ fhir:v "order"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/servicerequest-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "409063005" ] ;
+       fhir:display [ fhir:v "Counselling" ]
+     ] )
+  ] ) ; # 
+  fhir:subject [
+     fhir:link <http://utn/consentresource.com/Patient/utn-patient-1> ;
+     fhir:reference [ fhir:v "Patient/utn-patient-1" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://utn/consentresource.com/Encounter/Example-UTN-Encounter-PRtoPR> ;
+     fhir:reference [ fhir:v "Encounter/Example-UTN-Encounter-PRtoPR" ]
+  ] ; # 
+  fhir:requester [
+     fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+     fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
+  ] ; # 
+  fhir:performer ( [
+     fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR2> ;
+     fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR2" ]
+  ] ) ; # 
+  fhir:supportingInfo ( [
+     fhir:link <http://utn/consentresource.com/Composition/Example-UTN-Teleconsultation-PRtoPR> ;
+     fhir:reference [ fhir:v "Composition/Example-UTN-Teleconsultation-PRtoPR" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

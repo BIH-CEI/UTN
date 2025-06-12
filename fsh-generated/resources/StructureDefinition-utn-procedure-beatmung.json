@@ -1,0 +1,28 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "utn-procedure-beatmung",
+  "url": "http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung",
+  "name": "UTN_Procedure_Beatmung",
+  "title": "UTN Procedure Beatmung",
+  "status": "draft",
+  "description": "Profil für die Beatmungsprozedur",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/beatmung",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure.code.coding:sct",
+        "path": "Procedure.code.coding",
+        "sliceName": "sct",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-code-procedure-beatmung-snomed"
+        }
+      }
+    ]
+  }
+}

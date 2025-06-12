@@ -1,0 +1,51 @@
+{
+  "resourceType" : "Composition",
+  "id" : "Example-UTN-Teleconsultation-PTtoPR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Composition Example-UTN-Teleconsultation-PTtoPR</b></p><a name=\"Example-UTN-Teleconsultation-PTtoPR\"> </a><a name=\"hcExample-UTN-Teleconsultation-PTtoPR\"> </a><a name=\"Example-UTN-Teleconsultation-PTtoPR-en-US\"> </a><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 85208-7}\">Telehealth Consult note</span></p><p><b>category</b>: <span title=\"Codes:{http://loinc.org 173421-1}\">Report</span></p><p><b>encounter</b>: <a href=\"Encounter-Example-UTN-Encounter-PTtoPR.html\">Encounter: status = finished; class = virtual (ActCode#VR); type = konsil; serviceType = Kardiologie; period = 2024-06-14 16:00:00+1000 --&gt; 2024-06-14 17:00:00+1000</a></p><p><b>date</b>: 2012-01-04 09:10:14+0000</p><p><b>author</b>: <a href=\"Practitioner-Example-UTN-Practitioner-PR1.html\">Practitioner Hans Topp-Glücklich(official)</a></p><p><b>title</b>: Consultation Note</p></div>"
+  },
+  "status" : "final",
+  "type" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "85208-7",
+      "display" : "Telehealth Consult note"
+    }]
+  },
+  "category" : [{
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "173421-1",
+      "display" : "Report"
+    }]
+  }],
+  "subject" : {
+    "reference" : "Patient/utn-patient-1"
+  },
+  "encounter" : {
+    "reference" : "Encounter/Example-UTN-Encounter-PTtoPR"
+  },
+  "date" : "2012-01-04T09:10:14Z",
+  "author" : [{
+    "reference" : "Practitioner/Example-UTN-Practitioner-PR1"
+  }],
+  "title" : "Consultation Note",
+  "section" : [{
+    "title" : "Consultation Note Text",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "29545-1",
+        "display" : "Physical findings Narrative"
+      }]
+    },
+    "author" : [{
+      "reference" : "Practitioner/Example-UTN-Practitioner-PR1"
+    }],
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Patient reports mild chest pain during exercise. No other symptoms reported. ECG normal. Advised lifestyle modification and follow-up in 1 month.</p></div>"
+    }
+  }]
+}

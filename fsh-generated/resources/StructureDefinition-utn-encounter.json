@@ -1,0 +1,45 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "utn-encounter",
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/spdx-license",
+            "code": "CC-BY-4.0",
+            "display": "Creative Commons Attribution 4.0 International"
+          }
+        ]
+      }
+    }
+  ],
+  "url": "http://utn/consentresource.com/StructureDefinition/utn-encounter",
+  "name": "UTN-Encounter",
+  "title": "UTN Encounter",
+  "status": "draft",
+  "description": "This is the profile of Enocunter within UTN",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Encounter",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Encounter.participant.individual",
+        "path": "Encounter.participant.individual",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Practitioner"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

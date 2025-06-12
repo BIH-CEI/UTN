@@ -4,66 +4,10 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "http://utn/consentresource.com/StructureDefinition/device-reference",
-      "title": "Device Reference",
+      "url": "http://utn/consentresource.com/StructureDefinition/composition-basedon-servicerequest",
+      "title": "Composition BasedOn ServiceRequest",
       "types": [
-        "base64Binary",
-        "boolean",
-        "canonical",
-        "code",
-        "date",
-        "dateTime",
-        "decimal",
-        "id",
-        "instant",
-        "integer",
-        "markdown",
-        "oid",
-        "positiveInt",
-        "string",
-        "time",
-        "unsignedInt",
-        "uri",
-        "url",
-        "uuid",
-        "Address",
-        "Age",
-        "Annotation",
-        "Attachment",
-        "CodeableConcept",
-        "Coding",
-        "ContactPoint",
-        "Count",
-        "Distance",
-        "Duration",
-        "HumanName",
-        "Identifier",
-        "Money",
-        "Period",
-        "Quantity",
-        "Range",
-        "Ratio",
-        "Reference",
-        "SampledData",
-        "Signature",
-        "Timing",
-        "ContactDetail",
-        "Contributor",
-        "DataRequirement",
-        "Expression",
-        "ParameterDefinition",
-        "RelatedArtifact",
-        "TriggerDefinition",
-        "UsageContext",
-        "Dosage",
-        "Meta",
-        "Reference",
-        "string",
-        "Extension",
-        "string",
-        "uri",
-        "Identifier",
-        "string"
+        "Reference"
       ]
     }
   ],
@@ -74,12 +18,6 @@
         "title": "UTN Practitioner"
       }
     ],
-    "Patient": [
-      {
-        "url": "http://utn/consentresource.com/StructureDefinition/consent-management-patient",
-        "title": "UTN Patient"
-      }
-    ],
     "Provenance": [
       {
         "url": "http://utn/consentresource.com/StructureDefinition/consent-management-provenance",
@@ -88,7 +26,7 @@
     ],
     "HealthcareService": [
       {
-        "url": "http://utn/consentresource.com/StructureDefinition/healthcare-service-with-devices",
+        "url": "http://utn/consentresource.com/StructureDefinition/healthcare-service",
         "title": "UTN Healthcare Service with Devices"
       }
     ],
@@ -108,6 +46,12 @@
         "title": "UTN Consent Management QuestionnaireResponse"
       }
     ],
+    "Communication": [
+      {
+        "url": "http://utn/consentresource.com/StructureDefinition/teleconsult-communication",
+        "title": "Teleconsultation Communication"
+      }
+    ],
     "PractitionerRole": [
       {
         "url": "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole",
@@ -116,8 +60,8 @@
     ],
     "DocumentReference": [
       {
-        "url": "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id",
-        "title": "UTN Consent Document Reference"
+        "url": "http://utn/consentresource.com/StructureDefinition/utn-documentreference",
+        "title": "UTNTeleconsultDocumentReference"
       }
     ],
     "Consent": [
@@ -131,11 +75,35 @@
         "url": "http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report",
         "title": "UTNDiagnostikReport"
       }
+    ],
+    "Encounter": [
+      {
+        "url": "http://utn/consentresource.com/StructureDefinition/utn-encounter",
+        "title": "UTN Encounter"
+      }
+    ],
+    "Procedure": [
+      {
+        "url": "http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung",
+        "title": "UTN Procedure Beatmung"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "http://utn/consentresource.com/StructureDefinition/utn-patient",
+        "title": "UTN Patient"
+      }
+    ],
+    "ServiceRequest": [
+      {
+        "url": "http://utn/consentresource.com/StructureDefinition/utn-service-request",
+        "title": "UTN Teleconsultation Service Request"
+      }
     ]
   },
   "usage": {
-    "http://example.org/fhir/StructureDefinition/device-reference": [
-      "HealthcareService"
+    "http://example.org/fhir/StructureDefinition/composition-basedon-servicerequest": [
+      "Composition"
     ],
     "http://fhir.de/ConsentManagement/StructureDefinition/DomainReference": [
       "Consent"
@@ -143,11 +111,29 @@
     "http://fhir.de/ConsentManagement/StructureDefinition/Xacml": [
       "Consent.policyRule"
     ],
+    "http://fhir.de/StructureDefinition/Aufnahmegrund": [
+      "Encounter"
+    ],
+    "http://fhir.de/StructureDefinition/Entlassungsgrund": [
+      "Encounter.hospitalization.dischargeDisposition"
+    ],
+    "http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum": [
+      "Procedure"
+    ],
     "http://fhir.de/StructureDefinition/gender-amtlich-de": [
       "Practitioner.gender"
     ],
     "http://fhir.de/StructureDefinition/humanname-namenszusatz": [
       "Practitioner.name.family"
+    ],
+    "http://fhir.de/StructureDefinition/seitenlokalisation": [
+      "Procedure.code.coding"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedEndDate": [
+      "Encounter"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedStartDate": [
+      "Encounter"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
@@ -238,15 +224,18 @@
     "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
       "StructureDefinition.snapshot"
     ],
-    "http://utn/consentresource.com/StructureDefinition/device-reference": [
-      "HealthcareService"
-    ],
     "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment": [
       "Practitioner"
     ],
     "https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/QuelleKlinischesBezugsdatum": [
       "Observation.effectiveDateTime",
       "Observation.effective[x]"
+    ],
+    "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht": [
+      "Procedure"
+    ],
+    "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable": [
+      "StructureDefinition"
     ]
   }
 }

@@ -1,0 +1,44 @@
+{
+  "resourceType": "Patient",
+  "id": "utn-patient-1",
+  "meta": {
+    "profile": [
+      "http://utn/consentresource.com/StructureDefinition/utn-patient"
+    ]
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "https://example.com",
+            "code": "MR"
+          }
+        ]
+      },
+      "system": "https://example.com",
+      "value": "12345"
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "John"
+      ],
+      "family": "Doe"
+    }
+  ],
+  "address": [
+    {
+      "line": [
+        "Teststraße 2"
+      ],
+      "type": "both",
+      "city": "Köln",
+      "postalCode": "50823",
+      "country": "DE"
+    }
+  ],
+  "birthDate": "1970-09-19",
+  "gender": "other"
+}

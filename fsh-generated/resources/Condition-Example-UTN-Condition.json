@@ -1,0 +1,29 @@
+{
+  "resourceType": "Condition",
+  "id": "Example-UTN-Condition",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "38341003",
+        "display": "Hypertensive disorder, systemic arterial (disorder)"
+      }
+    ]
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "code": "active"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/utn-patient-2"
+  },
+  "encounter": {
+    "reference": "Encounter/Example-UTN-Encounter-PRtoPR"
+  },
+  "recorder": {
+    "reference": "Practitioner/Example-UTN-Practitioner-PR1"
+  }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MedicationStatement xmlns="http://hl7.org/fhir">
+  <id value="Example-UTN-MEdikationStatement"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/core/modul-medikation/StructureDefinition/MedicationStatement"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: MedicationStatement Example-UTN-MEdikationStatement</b></p><a name="Example-UTN-MEdikationStatement"> </a><a name="hcExample-UTN-MEdikationStatement"> </a><a name="Example-UTN-MEdikationStatement-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.medikation@2025.0.0&amp;canonical=https://www.medizininformatik-initiative.de/fhir/core/modul-medikation/StructureDefinition/MedicationStatement">MII PR Medikation MedicationStatement</a></p></div><p><b>status</b>: Active</p><p><b>medication</b>: <span title="Codes:{http://fhir.de/CodeSystem/bfarm/atc C09AA05}">Ramipril</span></p><p><b>subject</b>: <a href="Patient-utn-patient-2.html">Anna Müller  Female, DoB: 1985-03-12 ( MR)</a></p><p><b>effective</b>: 2025-01-14 16:48:00+1000</p></div>
+  </text>
+  <status value="active"/>
+  <medicationCodeableConcept>
+    <coding>
+      <system value="http://fhir.de/CodeSystem/bfarm/atc"/>
+      <code value="C09AA05"/>
+    </coding>
+    <text value="Ramipril"/>
+  </medicationCodeableConcept>
+  <subject>
+    <reference value="Patient/utn-patient-2"/>
+  </subject>
+  <effectiveDateTime value="2025-01-14T16:48:00+10:00"/>
+</MedicationStatement>

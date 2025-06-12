@@ -1,0 +1,27 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "utn-icu-extrakorporales-verfahren",
+  "url": "http://utn/consentresource.com/StructureDefinition/utn-icu-extrakorporales-verfahren",
+  "name": "UTNEcmo",
+  "title": "MII PR ICU Extrakorporales Verfahren",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/extrakorporales-verfahren",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure.code.coding:sct",
+        "path": "Procedure.code.coding",
+        "sliceName": "sct",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-code-extrakorporale-verfahren"
+        }
+      }
+    ]
+  }
+}

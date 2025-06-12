@@ -1,0 +1,47 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://utn/consentresource.com/Patient/utn-patient-1> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "utn-patient-1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://utn/consentresource.com/StructureDefinition/utn-patient"^^xsd:anyURI ;
+       fhir:link <http://utn/consentresource.com/StructureDefinition/utn-patient>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient utn-patient-1</b></p><a name=\"utn-patient-1\"> </a><a name=\"hcutn-patient-1\"> </a><a name=\"utn-patient-1-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-utn-patient.html\">UTN Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">John Doe  Other, DoB: 1970-09-19 ( MR)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\">Teststraße 2 Köln 50823 DE </td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:identifier ( [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://example.com"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "MR" ]
+       ] )
+     ] ;
+     fhir:system [ fhir:v "https://example.com"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "12345" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Doe" ] ;
+     fhir:given ( [ fhir:v "John" ] )
+  ] ) ; # 
+  fhir:gender [ fhir:v "other"] ; # 
+  fhir:birthDate [ fhir:v "1970-09-19"^^xsd:date] ; # 
+  fhir:address ( [
+     fhir:type [ fhir:v "both" ] ;
+     fhir:line ( [ fhir:v "Teststraße 2" ] ) ;
+     fhir:city [ fhir:v "Köln" ] ;
+     fhir:postalCode [ fhir:v "50823" ] ;
+     fhir:country [ fhir:v "DE" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

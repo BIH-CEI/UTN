@@ -1,0 +1,110 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://utn/consentresource.com/Composition/Example-UTN-Teleconsultation-PRtoPR> a fhir:Composition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Example-UTN-Teleconsultation-PRtoPR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Composition Example-UTN-Teleconsultation-PRtoPR</b></p><a name=\"Example-UTN-Teleconsultation-PRtoPR\"> </a><a name=\"hcExample-UTN-Teleconsultation-PRtoPR\"> </a><a name=\"Example-UTN-Teleconsultation-PRtoPR-en-US\"> </a><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 85208-7}\">Telehealth Consult note</span></p><p><b>category</b>: <span title=\"Codes:{http://loinc.org 11488-4}\">Consult Note</span></p><p><b>encounter</b>: <a href=\"Encounter-Example-UTN-Encounter-PRtoPR.html\">Encounter: status = in-progress; class = inpatient encounter (ActCode#IMP); type = intensivstationaer; serviceType = Intensivmedizin; period = 2025-01-14 08:00:00+1000 --&gt; (ongoing)</a></p><p><b>date</b>: 2012-01-04 09:10:14+0000</p><p><b>author</b>: <a href=\"Practitioner-Example-UTN-Practitioner-PR1.html\">Practitioner Hans Topp-Glücklich(official)</a></p><p><b>title</b>: Consultation Note</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       a loinc:85208-7 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "85208-7" ] ;
+       fhir:display [ fhir:v "Telehealth Consult note" ]
+     ] )
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       a loinc:11488-4 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "11488-4" ] ;
+       fhir:display [ fhir:v "Consult Note" ]
+     ] )
+  ] ) ; # 
+  fhir:subject [
+     fhir:link <http://utn/consentresource.com/Patient/utn-patient-2> ;
+     fhir:reference [ fhir:v "Patient/utn-patient-2" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://utn/consentresource.com/Encounter/Example-UTN-Encounter-PRtoPR> ;
+     fhir:reference [ fhir:v "Encounter/Example-UTN-Encounter-PRtoPR" ]
+  ] ; # 
+  fhir:date [ fhir:v "2012-01-04T09:10:14Z"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+     fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "Consultation Note"] ; # 
+  fhir:section ( [
+     fhir:title [ fhir:v "Aufnahme" ] ;
+     fhir:author ( [
+       fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+       fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
+     ] ) ;
+     fhir:entry ( [
+       fhir:link <http://utn/consentresource.com/AllergyIntolerance/Example-UTN-AllergyIntolerance> ;
+       fhir:reference [ fhir:v "AllergyIntolerance/Example-UTN-AllergyIntolerance" ]
+     ] [
+       fhir:link <http://utn/consentresource.com/Observation/Example-UTNKoerpergewicht> ;
+       fhir:reference [ fhir:v "Observation/Example-UTNKoerpergewicht" ]
+     ] [
+       fhir:link <http://utn/consentresource.com/Observation/Example-UTN-Koerperroesse> ;
+       fhir:reference [ fhir:v "Observation/Example-UTN-Koerperroesse" ]
+     ] [
+       fhir:link <http://utn/consentresource.com/Condition/Example-UTN-Sepsis> ;
+       fhir:reference [ fhir:v "Condition/Example-UTN-Sepsis" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Vorerkrankungen / Vor-OPs" ] ;
+     fhir:author ( [
+       fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+       fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
+     ] ) ;
+     fhir:entry ( [
+       fhir:link <http://utn/consentresource.com/Condition/Example-UTN-Sepsis> ;
+       fhir:reference [ fhir:v "Condition/Example-UTN-Sepsis" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Vormedikation" ] ;
+     fhir:author ( [
+       fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+       fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
+     ] ) ;
+     fhir:entry ( [
+       fhir:link <http://utn/consentresource.com/MedicationStatement/Example-UTN-MEdikationStatement> ;
+       fhir:reference [ fhir:v "MedicationStatement/Example-UTN-MEdikationStatement" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Beatmung" ] ;
+     fhir:author ( [
+       fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+       fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
+     ] ) ;
+     fhir:entry ( [
+       fhir:link <http://utn/consentresource.com/Procedure/Example-UTN-Invasive-Beatmung> ;
+       fhir:reference [ fhir:v "Procedure/Example-UTN-Invasive-Beatmung" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Adjuvante Therapien" ] ;
+     fhir:author ( [
+       fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+       fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
+     ] ) ;
+     fhir:entry ( [
+       fhir:link <http://utn/consentresource.com/Procedure/Example-UTN-VVECMO> ;
+       fhir:reference [ fhir:v "Procedure/Example-UTN-VVECMO" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

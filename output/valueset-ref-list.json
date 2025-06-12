@@ -251,7 +251,23 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-consent-management-patient.html" : "UTN Patient"
+      "StructureDefinition-utn-patient.html" : "UTN Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/communication-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CommunicationCategory",
+      "title" : "CommunicationCategory",
+      "description" : "Codes for general categories of communications such as alerts, instructions, etc.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/communication-category"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.172"],
+      "sources" : ["2.16.840.1.113883.4.642.3.172"],
+      "uses" : {
+      },
+      "StructureDefinition-teleconsult-communication.html" : "Teleconsultation Communication"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/diagnostic-service-sections",
@@ -295,6 +311,30 @@
       "uses" : {
       },
       "StructureDefinition-KBV-PR-Base-Practitioner.html" : "UTN Practitioner"
+    },
+    {
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-code-extrakorporale-verfahren",
+      "version" : "2025.0.2",
+      "status" : "active",
+      "name" : "VS_MII_ICU_Code_Extrakorporale_Verfahren",
+      "title" : "VS MII ICU Code extrakorporale Verfahren",
+      "description" : "Mögliche Codes für extrakorporale Verfahren. Für die Einteilung und Interpretation in Bezug auf unterschiedliche Detail-Level beachte den zugehörigen implementationguide.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-utn-icu-extrakorporales-verfahren.html" : "MII PR ICU Extrakorporales Verfahren"
+    },
+    {
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-code-procedure-beatmung-snomed",
+      "version" : "2025.0.2",
+      "status" : "active",
+      "name" : "VS_MII_ICU_Code_Procedure_Beatmung_SNOMED",
+      "title" : "VS MII ICU Code Procedure Beatmung [SNOMED]",
+      "description" : null,
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-utn-procedure-beatmung.html" : "UTN Procedure Beatmung"
     }
   ]
 }

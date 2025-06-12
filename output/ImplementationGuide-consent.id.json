@@ -10,7 +10,7 @@
   "name" : "UTNConsentResource",
   "title" : "University Telemedicine Network (UTN) FHIR Implementation Guide",
   "status" : "draft",
-  "date" : "2025-05-14T14:21:32+02:00",
+  "date" : "2025-06-12T14:08:24+02:00",
   "publisher" : "BIH-CEI",
   "contact" : [{
     "name" : "BIH-CEI",
@@ -30,7 +30,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.3.0"
+    "version" : "6.4.0"
   },
   {
     "id" : "hl7ext",
@@ -85,10 +85,28 @@
     "version" : "4.0.0"
   },
   {
+    "id" : "de_gematik_isik_basismodul",
+    "uri" : "de.gematik.isik-basismodul",
+    "packageId" : "de.gematik.isik-basismodul",
+    "version" : "4.0.3"
+  },
+  {
     "id" : "kbv_basis",
     "uri" : "kbv.basis",
     "packageId" : "kbv.basis",
     "version" : "1.7.0"
+  },
+  {
+    "id" : "de_medizininformatikinitiative_kerndatensatz_fall",
+    "uri" : "de.medizininformatikinitiative.kerndatensatz.fall",
+    "packageId" : "de.medizininformatikinitiative.kerndatensatz.fall",
+    "version" : "2025.0.0"
+  },
+  {
+    "id" : "de_medizininformatikinitiative_kerndatensatz_medikation",
+    "uri" : "de.medizininformatikinitiative.kerndatensatz.medikation",
+    "packageId" : "de.medizininformatikinitiative.kerndatensatz.medikation",
+    "version" : "2025.0.0"
   }],
   "definition" : {
     "extension" : [{
@@ -648,13 +666,13 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Device"
+        "valueString" : "AllergyIntolerance"
       }],
       "reference" : {
-        "reference" : "Device/camera-1"
+        "reference" : "AllergyIntolerance/Example-UTN-AllergyIntolerance"
       },
-      "name" : "Camera Device",
-      "description" : "An HD camera used for teleconsultation",
+      "name" : "Allergies of the Patient",
+      "description" : "Indicates that the patient has no known allergies.",
       "exampleBoolean" : true
     },
     {
@@ -663,11 +681,59 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/device-reference"
+        "reference" : "StructureDefinition/composition-basedon-servicerequest"
       },
-      "name" : "Device Reference",
-      "description" : "Extension to reference devices in a HealthcareService",
+      "name" : "Composition BasedOn ServiceRequest",
+      "description" : "Links a Composition to the ServiceRequest it is based on.",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Encounter"
+      }],
+      "reference" : {
+        "reference" : "Encounter/Example-UTN-Encounter-PTtoPR"
+      },
+      "name" : "Encounter 1",
+      "description" : "Encounter which is between patient to practitioner",
+      "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/utn-encounter"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Encounter"
+      }],
+      "reference" : {
+        "reference" : "Encounter/Example-UTN-Encounter-PRtoPR"
+      },
+      "name" : "Encounter 2",
+      "description" : "Encounter which is between practitioner to practitioner",
+      "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/utn-encounter"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/Example-UTN-Condition"
+      },
+      "name" : "Example of Hypertonus Condition",
+      "description" : "Represents a condition of systemic hypertension",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Procedure"
+      }],
+      "reference" : {
+        "reference" : "Procedure/Example-UTN-Invasive-Beatmung"
+      },
+      "name" : "Example of UTN Procedure Beatmung",
+      "description" : "Example instance of a ventilation procedure conforming to UTN_Procedure_Beatmung profile",
+      "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung"
     },
     {
       "extension" : [{
@@ -768,14 +834,85 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/Example-UTN-Koerperroesse"
+      },
+      "name" : "Example-UTN-Koerperroesse",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Patient"
       }],
       "reference" : {
-        "reference" : "Patient/consent-management-patient"
+        "reference" : "Patient/utn-patient-1"
       },
       "name" : "Example-UTN-Patient",
-      "description" : "Example UTN Patient",
-      "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/consent-management-patient"
+      "description" : "Example UTN Patient 1",
+      "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/utn-patient"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/utn-patient-2"
+      },
+      "name" : "Example-UTN-Patient-2",
+      "description" : "Example UTN Patient 2",
+      "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/utn-patient"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/Example-UTN-Practitioner-PR1"
+      },
+      "name" : "Example-UTN-Practitioner-PR1",
+      "description" : "Example UTN Practitioner 1",
+      "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/Example-UTN-Practitioner-PR2"
+      },
+      "name" : "Example-UTN-Practitioner-PR2",
+      "description" : "Example UTN Practitioner 2",
+      "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "PractitionerRole"
+      }],
+      "reference" : {
+        "reference" : "PractitionerRole/Example-UTN-PractitionerRole-PR1"
+      },
+      "name" : "Example-UTN-PractitionerRole-PR1",
+      "description" : "Example UTN PractitionerRole PR1",
+      "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "PractitionerRole"
+      }],
+      "reference" : {
+        "reference" : "PractitionerRole/Example-UTN-PractitionerRole-PR2"
+      },
+      "name" : "Example-UTN-PractitionerRole-PR2",
+      "description" : "Example UTN PractitionerRole PR 2",
+      "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"
     },
     {
       "extension" : [{
@@ -836,30 +973,6 @@
       "name" : "Example-UTNKreatinin",
       "description" : "An example Observation for Creatinin.",
       "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/mii-kreatinin"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Practitioner"
-      }],
-      "reference" : {
-        "reference" : "Practitioner/Example-UTNPractitioner"
-      },
-      "name" : "Example-UTNPractitioner",
-      "description" : "Example UTN Practitioner",
-      "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "PractitionerRole"
-      }],
-      "reference" : {
-        "reference" : "PractitionerRole/Example-UTNPractitionerRole"
-      },
-      "name" : "Example-UTNPractitionerRole",
-      "description" : "Example UTN PractitionerRole",
-      "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"
     },
     {
       "extension" : [{
@@ -1092,13 +1205,107 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Device"
+        "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "Device/phone-1"
+        "reference" : "StructureDefinition/utn-icu-extrakorporales-verfahren"
       },
-      "name" : "Phone Device",
-      "description" : "A smartphone used for teleconsultation",
+      "name" : "MII PR ICU Extrakorporales Verfahren",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationStatement"
+      }],
+      "reference" : {
+        "reference" : "MedicationStatement/Example-UTN-MEdikationStatement"
+      },
+      "name" : "Ramipril",
+      "description" : "The medication of the patient during the encounter of ICU",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/Example-UTN-Sepsis"
+      },
+      "name" : "Sepsis Condition",
+      "description" : "Represents an active sepsis condition observed during an ICU encounter.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/teleconsult-communication"
+      },
+      "name" : "Teleconsultation Communication",
+      "description" : "Profile for communications during teleconsultation sessions between healthcare providers.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/Example-UTN-Teleconsultation-PTtoPR"
+      },
+      "name" : "Teleconsultation note between patient and practitioner",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/Example-UTN-Teleconsultation-PRtoPR"
+      },
+      "name" : "Teleconsultation note between practitioner and practitioner",
+      "description" : "Teleconsultation note sent to practitioner as part of the Service Request",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/Example-UTN-Teleconsultation-PRtoPR-Return"
+      },
+      "name" : "Teleconsultation note between practitioner and practitioner",
+      "description" : "Teleconsultation note sent back to practitioner based on the Service Request",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Communication"
+      }],
+      "reference" : {
+        "reference" : "Communication/Example-UTN-PRtoPR-Consult"
+      },
+      "name" : "Teleconsultation Note from Charité to Uniklinik Würzburg",
+      "description" : "A message sent by a practitioner at Charité to a specialist at Uniklinik Würzburg regarding a patient case.",
+      "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/teleconsult-communication"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ServiceRequest"
+      }],
+      "reference" : {
+        "reference" : "ServiceRequest/UTN-Teleconsultation-PRtoPR-ServiceRequest"
+      },
+      "name" : "Teleconsultation Request",
+      "description" : "Request for a teleconsultation from practitioner to practitioner",
       "exampleBoolean" : true
     },
     {
@@ -1107,11 +1314,23 @@
         "valueString" : "HealthcareService"
       }],
       "reference" : {
-        "reference" : "HealthcareService/teleconsultation-service-1"
+        "reference" : "HealthcareService/teleconsultation-service-charite"
       },
-      "name" : "Teleconsultation Service",
-      "description" : "A teleconsultation service provided by Example Hospital",
-      "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/healthcare-service-with-devices"
+      "name" : "Teleconsultation Service - Charité",
+      "description" : "Teleconsultation service provided by Charité – Universitätsmedizin Berlin",
+      "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/healthcare-service"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "HealthcareService"
+      }],
+      "reference" : {
+        "reference" : "HealthcareService/teleconsultation-service-wuerzburg"
+      },
+      "name" : "Teleconsultation Service - Uniklinik Würzburg",
+      "description" : "Teleconsultation service provided by Universitätsklinikum Würzburg",
+      "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/healthcare-service"
     },
     {
       "extension" : [{
@@ -1167,7 +1386,19 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/healthcare-service-with-devices"
+        "reference" : "StructureDefinition/utn-encounter"
+      },
+      "name" : "UTN Encounter",
+      "description" : "This is the profile of Enocunter within UTN",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/healthcare-service"
       },
       "name" : "UTN Healthcare Service with Devices",
       "description" : "A profile for HealthcareService to include references to non-medical devices used in teleconsultation.",
@@ -1251,7 +1482,7 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/consent-management-patient"
+        "reference" : "StructureDefinition/utn-patient"
       },
       "name" : "UTN Patient",
       "description" : "The profile of the UTN Patient",
@@ -1287,6 +1518,30 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/utn-procedure-beatmung"
+      },
+      "name" : "UTN Procedure Beatmung",
+      "description" : "Profil für die Beatmungsprozedur",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/utn-service-request"
+      },
+      "name" : "UTN Teleconsultation Service Request",
+      "description" : "This profile shows how to create service request for teleconsultation",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/utn-diagnostik-report"
       },
       "name" : "UTNDiagnostikReport",
@@ -1304,6 +1559,29 @@
       "name" : "UTNLocation",
       "description" : "Example location for UTN",
       "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/utn-documentreference"
+      },
+      "name" : "UTNTeleconsultDocumentReference",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Procedure"
+      }],
+      "reference" : {
+        "reference" : "Procedure/Example-UTN-VVECMO"
+      },
+      "name" : "Venovenous ECMO Procedure",
+      "description" : "venovenous extracorporeal membrane oxygenation procedure",
+      "exampleCanonical" : "http://utn/consentresource.com/StructureDefinition/utn-icu-extrakorporales-verfahren"
     }],
     "page" : {
       "extension" : [{

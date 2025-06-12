@@ -147,11 +147,11 @@
     "name" : "UTNPractitioner"
   },
   {
-    "id" : "consent-management-patient",
+    "id" : "composition-basedon-servicerequest",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/consent-management-patient",
+    "url" : "http://utn/consentresource.com/StructureDefinition/composition-basedon-servicerequest",
     "version" : "0.1.0",
-    "name" : "ConsentManagementPatient"
+    "name" : "CompositionBasedOnServiceRequest"
   },
   {
     "id" : "consent-management-provenance",
@@ -161,18 +161,11 @@
     "name" : "ConsentManagementProvenance"
   },
   {
-    "id" : "device-reference",
+    "id" : "healthcare-service",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/device-reference",
+    "url" : "http://utn/consentresource.com/StructureDefinition/healthcare-service",
     "version" : "0.1.0",
-    "name" : "DeviceReference"
-  },
-  {
-    "id" : "healthcare-service-with-devices",
-    "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/healthcare-service-with-devices",
-    "version" : "0.1.0",
-    "name" : "HealthcareServiceWithDevices"
+    "name" : "UTNHealthcareService"
   },
   {
     "id" : "isik-herzfrequenz",
@@ -210,6 +203,13 @@
     "name" : "ConsentManagementQuestionnaireResponseUKW"
   },
   {
+    "id" : "teleconsult-communication",
+    "type" : "StructureDefinition",
+    "url" : "http://utn/consentresource.com/StructureDefinition/teleconsult-communication",
+    "version" : "0.1.0",
+    "name" : "UTNTeleconsultCommunication"
+  },
+  {
     "id" : "utn-PR-Base-PractitionerRole",
     "type" : "StructureDefinition",
     "url" : "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole",
@@ -238,6 +238,27 @@
     "name" : "UTNDiagnostikReport"
   },
   {
+    "id" : "utn-documentreference",
+    "type" : "StructureDefinition",
+    "url" : "http://utn/consentresource.com/StructureDefinition/utn-documentreference",
+    "version" : "0.1.0",
+    "name" : "UTNTeleconsultDocumentReference"
+  },
+  {
+    "id" : "utn-encounter",
+    "type" : "StructureDefinition",
+    "url" : "http://utn/consentresource.com/StructureDefinition/utn-encounter",
+    "version" : "0.1.0",
+    "name" : "UTN-Encounter"
+  },
+  {
+    "id" : "utn-icu-extrakorporales-verfahren",
+    "type" : "StructureDefinition",
+    "url" : "http://utn/consentresource.com/StructureDefinition/utn-icu-extrakorporales-verfahren",
+    "version" : "0.1.0",
+    "name" : "UTNEcmo"
+  },
+  {
     "id" : "utn-isik-atemfrequenz",
     "type" : "StructureDefinition",
     "url" : "http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz",
@@ -250,5 +271,26 @@
     "url" : "http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck",
     "version" : "0.1.0",
     "name" : "UTN_Observation_Arterieller_Blutdruck"
+  },
+  {
+    "id" : "utn-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://utn/consentresource.com/StructureDefinition/utn-patient",
+    "version" : "0.1.0",
+    "name" : "UTNPatient"
+  },
+  {
+    "id" : "utn-procedure-beatmung",
+    "type" : "StructureDefinition",
+    "url" : "http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung",
+    "version" : "0.1.0",
+    "name" : "UTN_Procedure_Beatmung"
+  },
+  {
+    "id" : "utn-service-request",
+    "type" : "StructureDefinition",
+    "url" : "http://utn/consentresource.com/StructureDefinition/utn-service-request",
+    "version" : "0.1.0",
+    "name" : "UTNServiceRequest"
   }
 ]

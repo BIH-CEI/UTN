@@ -1,0 +1,50 @@
+{
+  "resourceType": "HealthcareService",
+  "id": "teleconsultation-service-wuerzburg",
+  "meta": {
+    "profile": [
+      "http://utn/consentresource.com/StructureDefinition/healthcare-service"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://ukw.de/services",
+      "value": "teleconsult-ukw-001"
+    }
+  ],
+  "providedBy": {
+    "reference": "Organization/UniklinikWuerzburg",
+    "display": "Universitätsklinikum Würzburg"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/service-category",
+          "code": "8",
+          "display": "Counselling"
+        }
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "+49-931-201-0",
+      "use": "work"
+    },
+    {
+      "system": "email",
+      "value": "teleconsult@ukw.de",
+      "use": "work"
+    }
+  ],
+  "location": [
+    {
+      "reference": "Location/UKWMain",
+      "display": "Uniklinik Würzburg Main Building"
+    }
+  ],
+  "active": true,
+  "name": "Uniklinik Würzburg Teleconsultation Service"
+}

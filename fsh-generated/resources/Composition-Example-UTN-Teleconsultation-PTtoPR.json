@@ -1,0 +1,61 @@
+{
+  "resourceType": "Composition",
+  "id": "Example-UTN-Teleconsultation-PTtoPR",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "173421-1",
+          "system": "http://loinc.org",
+          "display": "Report"
+        }
+      ]
+    }
+  ],
+  "author": [
+    {
+      "reference": "Practitioner/Example-UTN-Practitioner-PR1"
+    }
+  ],
+  "section": [
+    {
+      "author": [
+        {
+          "reference": "Practitioner/Example-UTN-Practitioner-PR1"
+        }
+      ],
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Patient reports mild chest pain during exercise. No other symptoms reported. ECG normal. Advised lifestyle modification and follow-up in 1 month.</p></div>"
+      },
+      "title": "Consultation Note Text",
+      "code": {
+        "coding": [
+          {
+            "code": "29545-1",
+            "system": "http://loinc.org",
+            "display": "Physical findings Narrative"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "final",
+  "type": {
+    "coding": [
+      {
+        "code": "85208-7",
+        "system": "http://loinc.org",
+        "display": "Telehealth Consult note"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/utn-patient-1"
+  },
+  "encounter": {
+    "reference": "Encounter/Example-UTN-Encounter-PTtoPR"
+  },
+  "date": "2012-01-04T09:10:14Z",
+  "title": "Consultation Note"
+}

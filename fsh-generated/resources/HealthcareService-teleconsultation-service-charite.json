@@ -1,0 +1,50 @@
+{
+  "resourceType": "HealthcareService",
+  "id": "teleconsultation-service-charite",
+  "meta": {
+    "profile": [
+      "http://utn/consentresource.com/StructureDefinition/healthcare-service"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://charite.de/services",
+      "value": "teleconsult-charite-001"
+    }
+  ],
+  "providedBy": {
+    "reference": "Organization/Charite",
+    "display": "Charité – Universitätsmedizin Berlin"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/service-category",
+          "code": "8",
+          "display": "Counselling"
+        }
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "+49-30-450-50",
+      "use": "work"
+    },
+    {
+      "system": "email",
+      "value": "teleconsult@charite.de",
+      "use": "work"
+    }
+  ],
+  "location": [
+    {
+      "reference": "Location/ChariteCampusMitte",
+      "display": "Charité Campus Mitte"
+    }
+  ],
+  "active": true,
+  "name": "Charité Teleconsultation Service"
+}

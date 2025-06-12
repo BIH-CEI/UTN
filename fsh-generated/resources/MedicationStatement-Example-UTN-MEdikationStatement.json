@@ -1,0 +1,23 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "Example-UTN-MEdikationStatement",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/core/modul-medikation/StructureDefinition/MedicationStatement"
+    ]
+  },
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "code": "C09AA05",
+        "system": "http://fhir.de/CodeSystem/bfarm/atc"
+      }
+    ],
+    "text": "Ramipril"
+  },
+  "status": "active",
+  "effectiveDateTime": "2025-01-14T16:48:00+10:00",
+  "subject": {
+    "reference": "Patient/utn-patient-2"
+  }
+}

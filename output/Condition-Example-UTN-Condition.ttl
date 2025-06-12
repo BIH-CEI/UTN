@@ -1,0 +1,44 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://utn/consentresource.com/Condition/Example-UTN-Condition> a fhir:Condition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Example-UTN-Condition"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition Example-UTN-Condition</b></p><a name=\"Example-UTN-Condition\"> </a><a name=\"hcExample-UTN-Condition\"> </a><a name=\"Example-UTN-Condition-en-US\"> </a><p><b>clinicalStatus</b>: <span title=\"Codes:\">active</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 38341003}\">Hypertensive disorder, systemic arterial (disorder)</span></p><p><b>subject</b>: <a href=\"Patient-utn-patient-2.html\">Anna Müller  Female, DoB: 1985-03-12 ( MR)</a></p><p><b>encounter</b>: <a href=\"Encounter-Example-UTN-Encounter-PRtoPR.html\">Encounter: status = in-progress; class = inpatient encounter (ActCode#IMP); type = intensivstationaer; serviceType = Intensivmedizin; period = 2025-01-14 08:00:00+1000 --&gt; (ongoing)</a></p><p><b>recorder</b>: <a href=\"Practitioner-Example-UTN-Practitioner-PR1.html\">Practitioner Hans Topp-Glücklich(official)</a></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:clinicalStatus [
+     fhir:coding ( [
+       fhir:code [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:38341003 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "38341003" ] ;
+       fhir:display [ fhir:v "Hypertensive disorder, systemic arterial (disorder)" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://utn/consentresource.com/Patient/utn-patient-2> ;
+     fhir:reference [ fhir:v "Patient/utn-patient-2" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://utn/consentresource.com/Encounter/Example-UTN-Encounter-PRtoPR> ;
+     fhir:reference [ fhir:v "Encounter/Example-UTN-Encounter-PRtoPR" ]
+  ] ; # 
+  fhir:recorder [
+     fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+     fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

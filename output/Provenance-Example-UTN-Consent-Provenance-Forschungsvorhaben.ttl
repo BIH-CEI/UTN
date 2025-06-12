@@ -49,8 +49,8 @@
      ] ) ;
      fhir:when [ fhir:v "2024-07-24T09:00:00Z"^^xsd:dateTime ] ;
      fhir:who [
-       fhir:link <http://utn/consentresource.com/Patient/consent-management-patient> ;
-       fhir:reference [ fhir:v "Patient/consent-management-patient" ]
+       fhir:link <http://utn/consentresource.com/Patient/utn-patient-1> ;
+       fhir:reference [ fhir:v "Patient/utn-patient-1" ]
      ]
   ] ) . # 
 

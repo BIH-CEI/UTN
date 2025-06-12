@@ -142,7 +142,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">University Telemedicine Network (UTN) FHIR Implementation Guide - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://utn/consentresource.com/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">University Telemedicine Network (UTN) FHIR Implementation Guide - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://utn/consentresource.com/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -154,19 +154,22 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    <p>Contents:</p>
    <ul>
       <li>
-         <a href="#1">Structures: Resource Profiles</a>
+         <a href="#1">Structures: Abstract Profiles</a>
       </li>
       <li>
-         <a href="#2">Structures: Extension Definitions</a>
+         <a href="#2">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#3">Terminology: Value Sets</a>
+         <a href="#3">Structures: Extension Definitions</a>
       </li>
       <li>
-         <a href="#4">Terminology: Code Systems</a>
+         <a href="#4">Terminology: Value Sets</a>
       </li>
       <li>
-         <a href="#5">Example: Example Instances</a>
+         <a href="#5">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#6">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -175,11 +178,37 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
      xmlns:html="http://www.w3.org/1999/xhtml">
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
    <a name="1"> </a>
+   <h3>Structures: Abstract Profiles </h3>
+    <p>These are profiles on resources or data types that describe patterns used by other profiles, but cannot be instantiated directly.  I.e. instances can conform to profiles <em>based</em> on these abstract profiles, but do not declare conformance to the abstract profiles themselves.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-teleconsult-communication.html"
+                  title="StructureDefinition/teleconsult-communication">Teleconsultation Communication</a>
+            </td>
+            <td>
+<p>Profile for communications during teleconsultation sessions between healthcare providers.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="2"> </a>
    <h3>Structures: Resource Profiles </h3>
     <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
 <table class="grid">
       <col style="width:20%"/>
       <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-utn-icu-extrakorporales-verfahren.html"
+                  title="StructureDefinition/utn-icu-extrakorporales-verfahren">MII PR ICU Extrakorporales Verfahren</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
          <tr>
             <td style="column-width:30%">
                <a href="StructureDefinition-utn-consent-documentreference-id.html"
@@ -218,8 +247,17 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-healthcare-service-with-devices.html"
-                  title="StructureDefinition/healthcare-service-with-devices">UTN Healthcare Service with Devices</a>
+               <a href="StructureDefinition-utn-encounter.html"
+                  title="StructureDefinition/utn-encounter">UTN Encounter</a>
+            </td>
+            <td>
+<p>This is the profile of Enocunter within UTN</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-healthcare-service.html"
+                  title="StructureDefinition/healthcare-service">UTN Healthcare Service with Devices</a>
             </td>
             <td>
 <p>A profile for HealthcareService to include references to non-medical devices used in teleconsultation.</p>
@@ -281,8 +319,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-consent-management-patient.html"
-                  title="StructureDefinition/consent-management-patient">UTN Patient</a>
+               <a href="StructureDefinition-utn-patient.html"
+                  title="StructureDefinition/utn-patient">UTN Patient</a>
             </td>
             <td>
 <p>The profile of the UTN Patient</p>
@@ -308,6 +346,24 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="StructureDefinition-utn-procedure-beatmung.html"
+                  title="StructureDefinition/utn-procedure-beatmung">UTN Procedure Beatmung</a>
+            </td>
+            <td>
+<p>Profil für die Beatmungsprozedur</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-utn-service-request.html"
+                  title="StructureDefinition/utn-service-request">UTN Teleconsultation Service Request</a>
+            </td>
+            <td>
+<p>This profile shows how to create service request for teleconsultation</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="StructureDefinition-utn-diagnostik-report.html"
                   title="StructureDefinition/utn-diagnostik-report">UTNDiagnostikReport</a>
             </td>
@@ -315,9 +371,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>This is the Diagnostic Report of the UTN Patient</p>
 </td>
          </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-utn-documentreference.html"
+                  title="StructureDefinition/utn-documentreference">UTNTeleconsultDocumentReference</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
       </tbody>
    </table>
-   <a name="2"> </a>
+   <a name="3"> </a>
    <h3>Structures: Extension Definitions </h3>
     <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
 <table class="grid">
@@ -325,16 +390,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-device-reference.html"
-                  title="StructureDefinition/device-reference">Device Reference</a>
+               <a href="StructureDefinition-composition-basedon-servicerequest.html"
+                  title="StructureDefinition/composition-basedon-servicerequest">Composition BasedOn ServiceRequest</a>
             </td>
             <td>
-<p>Extension to reference devices in a HealthcareService</p>
+<p>Links a Composition to the ServiceRequest it is based on.</p>
 </td>
          </tr>
       </tbody>
    </table>
-   <a name="3"> </a>
+   <a name="4"> </a>
    <h3>Terminology: Value Sets </h3>
     <p>These define sets of codes used by systems conforming to this implementation guide.</p>
 <table class="grid">
@@ -495,7 +560,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
-   <a name="4"> </a>
+   <a name="5"> </a>
    <h3>Terminology: Code Systems </h3>
     <p>These define new code systems used by systems conforming to this implementation guide.</p>
 <table class="grid">
@@ -512,7 +577,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
-   <a name="5"> </a>
+   <a name="6"> </a>
    <h3>Example: Example Instances </h3>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
 <table class="grid">
@@ -520,10 +585,29 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="Device-camera-1.html" title="Device/camera-1">Camera Device</a>
+               <a href="AllergyIntolerance-Example-UTN-AllergyIntolerance.html"
+                  title="AllergyIntolerance/Example-UTN-AllergyIntolerance">Allergies of the Patient</a>
             </td>
             <td>
-<p>An HD camera used for teleconsultation</p>
+<p>Indicates that the patient has no known allergies.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Encounter-Example-UTN-Encounter-PTtoPR.html"
+                  title="Encounter/Example-UTN-Encounter-PTtoPR">Encounter 1</a>
+            </td>
+            <td>
+<p>Encounter which is between patient to practitioner</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Encounter-Example-UTN-Encounter-PRtoPR.html"
+                  title="Encounter/Example-UTN-Encounter-PRtoPR">Encounter 2</a>
+            </td>
+            <td>
+<p>Encounter which is between practitioner to practitioner</p>
 </td>
          </tr>
          <tr>
@@ -533,6 +617,24 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </td>
             <td>
 <p>Example instance for documenting arterial blood pressure observations within UTN.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Condition-Example-UTN-Condition.html"
+                  title="Condition/Example-UTN-Condition">Example of Hypertonus Condition</a>
+            </td>
+            <td>
+<p>Represents a condition of systemic hypertension</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Procedure-Example-UTN-Invasive-Beatmung.html"
+                  title="Procedure/Example-UTN-Invasive-Beatmung">Example of UTN Procedure Beatmung</a>
+            </td>
+            <td>
+<p>Example instance of a ventilation procedure conforming to UTN_Procedure_Beatmung profile</p>
 </td>
          </tr>
          <tr>
@@ -600,11 +702,63 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Patient-consent-management-patient.html"
-                  title="Patient/consent-management-patient">Example-UTN-Patient</a>
+               <a href="Observation-Example-UTN-Koerperroesse.html"
+                  title="Observation/Example-UTN-Koerperroesse">Example-UTN-Koerperroesse</a>
             </td>
             <td>
-<p>Example UTN Patient</p>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Patient-utn-patient-1.html" title="Patient/utn-patient-1">Example-UTN-Patient</a>
+            </td>
+            <td>
+<p>Example UTN Patient 1</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Patient-utn-patient-2.html" title="Patient/utn-patient-2">Example-UTN-Patient-2</a>
+            </td>
+            <td>
+<p>Example UTN Patient 2</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Practitioner-Example-UTN-Practitioner-PR1.html"
+                  title="Practitioner/Example-UTN-Practitioner-PR1">Example-UTN-Practitioner-PR1</a>
+            </td>
+            <td>
+<p>Example UTN Practitioner 1</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Practitioner-Example-UTN-Practitioner-PR2.html"
+                  title="Practitioner/Example-UTN-Practitioner-PR2">Example-UTN-Practitioner-PR2</a>
+            </td>
+            <td>
+<p>Example UTN Practitioner 2</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="PractitionerRole-Example-UTN-PractitionerRole-PR1.html"
+                  title="PractitionerRole/Example-UTN-PractitionerRole-PR1">Example-UTN-PractitionerRole-PR1</a>
+            </td>
+            <td>
+<p>Example UTN PractitionerRole PR1</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="PractitionerRole-Example-UTN-PractitionerRole-PR2.html"
+                  title="PractitionerRole/Example-UTN-PractitionerRole-PR2">Example-UTN-PractitionerRole-PR2</a>
+            </td>
+            <td>
+<p>Example UTN PractitionerRole PR 2</p>
 </td>
          </tr>
          <tr>
@@ -654,24 +808,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Practitioner-Example-UTNPractitioner.html"
-                  title="Practitioner/Example-UTNPractitioner">Example-UTNPractitioner</a>
-            </td>
-            <td>
-<p>Example UTN Practitioner</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="PractitionerRole-Example-UTNPractitionerRole.html"
-                  title="PractitionerRole/Example-UTNPractitionerRole">Example-UTNPractitionerRole</a>
-            </td>
-            <td>
-<p>Example UTN PractitionerRole</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
                <a href="Questionnaire-GRIDHAMDQuestionnaire.html"
                   title="Questionnaire/GRIDHAMDQuestionnaire">GRID Hamilton Depression Rating Scale</a>
             </td>
@@ -681,19 +817,83 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Device-phone-1.html" title="Device/phone-1">Phone Device</a>
+               <a href="MedicationStatement-Example-UTN-MEdikationStatement.html"
+                  title="MedicationStatement/Example-UTN-MEdikationStatement">Ramipril</a>
             </td>
             <td>
-<p>A smartphone used for teleconsultation</p>
+<p>The medication of the patient during the encounter of ICU</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="HealthcareService-teleconsultation-service-1.html"
-                  title="HealthcareService/teleconsultation-service-1">Teleconsultation Service</a>
+               <a href="Condition-Example-UTN-Sepsis.html"
+                  title="Condition/Example-UTN-Sepsis">Sepsis Condition</a>
             </td>
             <td>
-<p>A teleconsultation service provided by Example Hospital</p>
+<p>Represents an active sepsis condition observed during an ICU encounter.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Communication-Example-UTN-PRtoPR-Consult.html"
+                  title="Communication/Example-UTN-PRtoPR-Consult">Teleconsultation Note from Charité to Uniklinik Würzburg</a>
+            </td>
+            <td>
+<p>A message sent by a practitioner at Charité to a specialist at Uniklinik Würzburg regarding a patient case.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ServiceRequest-UTN-Teleconsultation-PRtoPR-ServiceRequest.html"
+                  title="ServiceRequest/UTN-Teleconsultation-PRtoPR-ServiceRequest">Teleconsultation Request</a>
+            </td>
+            <td>
+<p>Request for a teleconsultation from practitioner to practitioner</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="HealthcareService-teleconsultation-service-charite.html"
+                  title="HealthcareService/teleconsultation-service-charite">Teleconsultation Service - Charité</a>
+            </td>
+            <td>
+<p>Teleconsultation service provided by Charité – Universitätsmedizin Berlin</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="HealthcareService-teleconsultation-service-wuerzburg.html"
+                  title="HealthcareService/teleconsultation-service-wuerzburg">Teleconsultation Service - Uniklinik Würzburg</a>
+            </td>
+            <td>
+<p>Teleconsultation service provided by Universitätsklinikum Würzburg</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Composition-Example-UTN-Teleconsultation-PTtoPR.html"
+                  title="Composition/Example-UTN-Teleconsultation-PTtoPR">Teleconsultation note between patient and practitioner</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Composition-Example-UTN-Teleconsultation-PRtoPR.html"
+                  title="Composition/Example-UTN-Teleconsultation-PRtoPR">Teleconsultation note between practitioner and practitioner</a>
+            </td>
+            <td>
+<p>Teleconsultation note sent to practitioner as part of the Service Request</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Composition-Example-UTN-Teleconsultation-PRtoPR-Return.html"
+                  title="Composition/Example-UTN-Teleconsultation-PRtoPR-Return">Teleconsultation note between practitioner and practitioner</a>
+            </td>
+            <td>
+<p>Teleconsultation note sent back to practitioner based on the Service Request</p>
 </td>
          </tr>
          <tr>
@@ -702,6 +902,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </td>
             <td>
 <p>Example location for UTN</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Procedure-Example-UTN-VVECMO.html"
+                  title="Procedure/Example-UTN-VVECMO">Venovenous ECMO Procedure</a>
+            </td>
+            <td>
+<p>venovenous extracorporeal membrane oxygenation procedure</p>
 </td>
          </tr>
       </tbody>
@@ -724,7 +933,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://utn/consentresource.com">BIH-CEI</a>.  Package consent.id#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, May 14, 2025 14:22+0200">2025-05-14</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://utn/consentresource.com">BIH-CEI</a>.  Package consent.id#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 12, 2025 14:08+0200">2025-06-12</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

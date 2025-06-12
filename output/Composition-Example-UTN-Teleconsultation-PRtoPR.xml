@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="Example-UTN-Teleconsultation-PRtoPR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Composition Example-UTN-Teleconsultation-PRtoPR</b></p><a name="Example-UTN-Teleconsultation-PRtoPR"> </a><a name="hcExample-UTN-Teleconsultation-PRtoPR"> </a><a name="Example-UTN-Teleconsultation-PRtoPR-en-US"> </a><p><b>status</b>: Final</p><p><b>type</b>: <span title="Codes:{http://loinc.org 85208-7}">Telehealth Consult note</span></p><p><b>category</b>: <span title="Codes:{http://loinc.org 11488-4}">Consult Note</span></p><p><b>encounter</b>: <a href="Encounter-Example-UTN-Encounter-PRtoPR.html">Encounter: status = in-progress; class = inpatient encounter (ActCode#IMP); type = intensivstationaer; serviceType = Intensivmedizin; period = 2025-01-14 08:00:00+1000 --&gt; (ongoing)</a></p><p><b>date</b>: 2012-01-04 09:10:14+0000</p><p><b>author</b>: <a href="Practitioner-Example-UTN-Practitioner-PR1.html">Practitioner Hans Topp-Glücklich(official)</a></p><p><b>title</b>: Consultation Note</p></div>
+  </text>
+  <status value="final"/>
+  <type>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="85208-7"/>
+      <display value="Telehealth Consult note"/>
+    </coding>
+  </type>
+  <category>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="11488-4"/>
+      <display value="Consult Note"/>
+    </coding>
+  </category>
+  <subject>
+    <reference value="Patient/utn-patient-2"/>
+  </subject>
+  <encounter>
+    <reference value="Encounter/Example-UTN-Encounter-PRtoPR"/>
+  </encounter>
+  <date value="2012-01-04T09:10:14Z"/>
+  <author>
+    <reference value="Practitioner/Example-UTN-Practitioner-PR1"/>
+  </author>
+  <title value="Consultation Note"/>
+  <section>
+    <title value="Aufnahme"/>
+    <author>
+      <reference value="Practitioner/Example-UTN-Practitioner-PR1"/>
+    </author>
+    <entry>
+      <reference value="AllergyIntolerance/Example-UTN-AllergyIntolerance"/>
+    </entry>
+    <entry>
+      <reference value="Observation/Example-UTNKoerpergewicht"/>
+    </entry>
+    <entry>
+      <reference value="Observation/Example-UTN-Koerperroesse"/>
+    </entry>
+    <entry>
+      <reference value="Condition/Example-UTN-Sepsis"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Vorerkrankungen / Vor-OPs"/>
+    <author>
+      <reference value="Practitioner/Example-UTN-Practitioner-PR1"/>
+    </author>
+    <entry>
+      <reference value="Condition/Example-UTN-Sepsis"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Vormedikation"/>
+    <author>
+      <reference value="Practitioner/Example-UTN-Practitioner-PR1"/>
+    </author>
+    <entry>
+      <reference value="MedicationStatement/Example-UTN-MEdikationStatement"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Beatmung"/>
+    <author>
+      <reference value="Practitioner/Example-UTN-Practitioner-PR1"/>
+    </author>
+    <entry>
+      <reference value="Procedure/Example-UTN-Invasive-Beatmung"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Adjuvante Therapien"/>
+    <author>
+      <reference value="Practitioner/Example-UTN-Practitioner-PR1"/>
+    </author>
+    <entry>
+      <reference value="Procedure/Example-UTN-VVECMO"/>
+    </entry>
+  </section>
+</Composition>

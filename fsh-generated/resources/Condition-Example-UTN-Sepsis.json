@@ -1,0 +1,30 @@
+{
+  "resourceType": "Condition",
+  "id": "Example-UTN-Sepsis",
+  "code": {
+    "coding": [
+      {
+        "code": "91302008",
+        "system": "http://snomed.info/sct",
+        "display": "Sepsis"
+      }
+    ],
+    "text": "Sepsis"
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "code": "active",
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "display": "Active"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/utn-patient-1"
+  },
+  "encounter": {
+    "reference": "Encounter/Example-UTN-Encounter-PRtoPR"
+  },
+  "onsetDateTime": "2025-01-14"
+}

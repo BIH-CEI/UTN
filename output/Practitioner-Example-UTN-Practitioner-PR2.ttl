@@ -1,0 +1,137 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR2> a fhir:Practitioner ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Example-UTN-Practitioner-PR2"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"^^xsd:anyURI ;
+       fhir:link <http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner>
+     ] [
+       fhir:v "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner"^^xsd:anyURI ;
+       fhir:link <https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner Example-UTN-Practitioner-PR2</b></p><a name=\"Example-UTN-Practitioner-PR2\"> </a><a name=\"hcExample-UTN-Practitioner-PR2\"> </a><a name=\"Example-UTN-Practitioner-PR2-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"StructureDefinition-KBV-PR-Base-Practitioner.html\">UTN Practitioner</a>, <a href=\"https://simplifier.net/resolve?scope=kbv.basis@1.7.0&amp;canonical=https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner\">KBV_PR_Base_Practitioner</a></p></div><p><b>identifier</b>: Lifelong physician number/123456788, Doctor number/123456789123457, Provider number/123456788</p><p><b>name</b>: Gunther Neumann(Official), Gunther Neumann(Name changed for Marriage)</p><p><b>telecom</b>: ph: 06151/555555</p><p><b>address</b>: </p><ul><li>Strassestr. 2 Aachen 52068 D </li><li>101xx Aachen 52068 D </li></ul></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:identifier ( [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LANR" ] ;
+         fhir:display [ fhir:v "Lifelong physician number" ]
+       ] )
+     ] ;
+     fhir:system [ fhir:v "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "123456788" ]
+  ] [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "DN" ] ;
+         fhir:display [ fhir:v "Doctor number" ]
+       ] )
+     ] ;
+     fhir:system [ fhir:v "http://fhir.de/sid/bundesaerztekammer/efn"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "123456789123457" ]
+  ] [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "PRN" ] ;
+         fhir:display [ fhir:v "Provider number" ]
+       ] )
+     ] ;
+     fhir:system [ fhir:v "https://gematik.de/fhir/sid/telematik-id"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "123456788" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:text [ fhir:v "Gunther Neumann" ] ;
+     fhir:family [
+       fhir:v "Neumann" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/humanname-own-name"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Neumann"
+         ]
+       ] )
+     ] ;
+     fhir:given ( [ fhir:v "Gunther" ] ) ;
+     fhir:prefix ( [
+       fhir:v "Dr. med." ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "AC"
+         ]
+       ] )
+     ] )
+  ] [
+     fhir:use [ fhir:v "maiden" ] ;
+     fhir:text [ fhir:v "Gunther Neumann" ] ;
+     fhir:family [
+       fhir:v "Neumann" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/humanname-own-name"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Neumann"
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "06151/555555" ]
+  ] ) ; # 
+  fhir:address ( [
+     fhir:type [ fhir:v "both" ] ;
+     fhir:line ( [
+       fhir:v "Strassestr. 2" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "2"
+         ]
+       ] [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Strassestr."
+         ]
+       ] )
+     ] ) ;
+     fhir:city [ fhir:v "Aachen" ] ;
+     fhir:postalCode [ fhir:v "52068" ] ;
+     fhir:country [ fhir:v "D" ]
+  ] [
+     fhir:type [ fhir:v "postal" ] ;
+     fhir:line ( [
+       fhir:v "101xx" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "52068"
+         ]
+       ] )
+     ] ) ;
+     fhir:city [ fhir:v "Aachen" ] ;
+     fhir:postalCode [ fhir:v "52068" ] ;
+     fhir:country [ fhir:v "D" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

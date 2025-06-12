@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Encounter xmlns="http://hl7.org/fhir">
+  <id value="Example-UTN-Encounter-PTtoPR"/>
+  <meta>
+    <profile value="http://utn/consentresource.com/StructureDefinition/utn-encounter"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Encounter Example-UTN-Encounter-PTtoPR</b></p><a name="Example-UTN-Encounter-PTtoPR"> </a><a name="hcExample-UTN-Encounter-PTtoPR"> </a><a name="Example-UTN-Encounter-PTtoPR-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-utn-encounter.html">UTN Encounter</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href="http://terminology.hl7.org/6.4.0/CodeSystem-v3-ActCode.html#v3-ActCode-VR">ActCode VR</a>: virtual</p><p><b>type</b>: <span title="Codes:{http://fhir.de/ValueSet/kontaktart-de konsil}">konsil</span></p><p><b>serviceType</b>: <span title="Codes:{http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel 0300}">Kardiologie</span></p><p><b>subject</b>: <a href="Patient-utn-patient-1.html">John Doe  Other, DoB: 1970-09-19 ( MR)</a></p><h3>Participants</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Individual</b></td></tr><tr><td style="display: none">*</td><td><a href="Practitioner-Example-UTN-Practitioner-PR1.html">Practitioner Hans Topp-Glücklich(official)</a></td></tr></table><p><b>period</b>: 2024-06-14 16:00:00+1000 --&gt; 2024-06-14 17:00:00+1000</p></div>
+  </text>
+  <status value="finished"/>
+  <class>
+    <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+    <code value="VR"/>
+    <display value="virtual"/>
+  </class>
+  <type>
+    <coding>
+      <system value="http://fhir.de/ValueSet/kontaktart-de"/>
+      <code value="konsil"/>
+    </coding>
+  </type>
+  <serviceType>
+    <coding>
+      <system value="http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel"/>
+      <code value="0300"/>
+    </coding>
+  </serviceType>
+  <subject>
+    <reference value="Patient/utn-patient-1"/>
+  </subject>
+  <participant>
+    <individual>
+      <reference value="Practitioner/Example-UTN-Practitioner-PR1"/>
+    </individual>
+  </participant>
+  <period>
+    <start value="2024-06-14T16:00:00+10:00"/>
+    <end value="2024-06-14T17:00:00+10:00"/>
+  </period>
+</Encounter>

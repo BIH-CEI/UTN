@@ -1,0 +1,23 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "healthcare-service",
+  "url": "http://utn/consentresource.com/StructureDefinition/healthcare-service",
+  "name": "UTNHealthcareService",
+  "title": "UTN Healthcare Service with Devices",
+  "status": "draft",
+  "description": "A profile for HealthcareService to include references to non-medical devices used in teleconsultation.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "HealthcareService",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/HealthcareService",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "HealthcareService",
+        "path": "HealthcareService"
+      }
+    ]
+  }
+}

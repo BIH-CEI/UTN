@@ -12,28 +12,32 @@
 <code>http://exmple.org/fhir/sid/Laborgruppe</code>        </a>
       </li>
       <li>
-        <a href="Practitioner-Example-UTNPractitioner.html">
-<code>http://fhir.de/StructureDefinition/gender-amtlich-de</code>        </a>
+        <a href="StructureDefinition-utn-encounter.html">
+<code>http://fhir.de/CodeSystem/Kontaktebene</code>        </a>
       </li>
       <li>
-        <a href="Practitioner-Example-UTNPractitioner.html">
-<code>http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern</code>        </a>
+        <a href="StructureDefinition-utn-procedure-beatmung.html">
+<code>http://fhir.de/CodeSystem/bfarm/ops</code>        </a>
       </li>
       <li>
-        <a href="Patient-consent-management-patient.html">
+        <a href="StructureDefinition-utn-encounter.html">
+<code>http://fhir.de/CodeSystem/kontaktart-de</code>        </a>
+      </li>
+      <li>
+        <a href="Encounter-Example-UTN-Encounter-PTtoPR.html">
+<code>http://fhir.de/ValueSet/kontaktart-de</code>        </a>
+      </li>
+      <li>
+        <a href="Patient-utn-patient-2.html">
 <code>https://example.com</code>        </a>
       </li>
       <li>
-        <a href="PractitionerRole-Example-UTNPractitionerRole.html">
+        <a href="PractitionerRole-Example-UTN-PractitionerRole-PR2.html">
 <code>https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BAR2_ARZTNRFACHGRUPPE</code>        </a>
       </li>
       <li>
         <a href="StructureDefinition-utn-consent-id.html">
 <code>https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category</code>        </a>
-      </li>
-      <li>
-        <a href="StructureDefinition-utn-observation-arterieller-blutdruck.html">
-<code>urn:iso:std:iso:11073:10101</code>        </a>
       </li>
       <li>
         <a href="Consent-Example-UTN-Consent-Videosprechstunde.html">
@@ -50,10 +54,30 @@
       <ul>
 
         <li>
-Copyright HL7. Licensed under creative commons public domain          <div onClick="if (document.getElementById('ipp2_1').innerHTML != '') {document.getElementById('ipp_1').innerHTML = document.getElementById('ipp2_1').innerHTML; document.getElementById('ipp2_1').innerHTML = ''}" id="ipp_1">
+BfArM - Bundesinstitut für Arzneimittel und Medizinprodukte          <div onClick="if (document.getElementById('ipp2_1').innerHTML != '') {document.getElementById('ipp_1').innerHTML = document.getElementById('ipp2_1').innerHTML; document.getElementById('ipp2_1').innerHTML = ''}" id="ipp_1">
              <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show Usage</span>
           </div>
           <div style="display: none" id="ipp2_1">
+
+            <ul>
+
+              <li>
+                <a href="https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.prozedur@2024.0.0-ballot&amp;canonical=http://fhir.de/CodeSystem/bfarm/atc">Atc</a>
+:                 <a href="MedicationStatement-Example-UTN-MEdikationStatement.html">MedicationStatement/Example-UTN-MEdikationStatement</a>
+              </li>
+
+
+            </ul>
+
+
+          </div>
+        </li>
+
+        <li>
+Copyright HL7. Licensed under creative commons public domain          <div onClick="if (document.getElementById('ipp2_2').innerHTML != '') {document.getElementById('ipp_2').innerHTML = document.getElementById('ipp2_2').innerHTML; document.getElementById('ipp2_2').innerHTML = ''}" id="ipp_2">
+             <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show Usage</span>
+          </div>
+          <div style="display: none" id="ipp2_2">
 
             <ul>
 
@@ -71,17 +95,54 @@ Copyright HL7. Licensed under creative commons public domain          <div onCli
         </li>
 
         <li>
-HL7 Deutschland e.V.          <div onClick="if (document.getElementById('ipp2_2').innerHTML != '') {document.getElementById('ipp_2').innerHTML = document.getElementById('ipp2_2').innerHTML; document.getElementById('ipp2_2').innerHTML = ''}" id="ipp_2">
+HL7 Deutschland e.V.          <div onClick="if (document.getElementById('ipp2_3').innerHTML != '') {document.getElementById('ipp_3').innerHTML = document.getElementById('ipp2_3').innerHTML; document.getElementById('ipp2_3').innerHTML = ''}" id="ipp_3">
              <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show Usage</span>
           </div>
-          <div style="display: none" id="ipp2_2">
+          <div style="display: none" id="ipp2_3">
 
             <ul>
 
               <li>
-                <a href="https://simplifier.net/resolve?scope=kbv.basis@1.7.0&amp;canonical=http://fhir.de/CodeSystem/identifier-type-de-basis">Identifier Type De Basis</a>
-:                 <a href="StructureDefinition-consent-management-patient.html">ConsentManagementPatient</a>
+                <a href="https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&amp;canonical=http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel">Fachabteilungsschluessel</a>
+:                 <a href="Encounter-Example-UTN-Encounter-PRtoPR.html">Encounter/Example-UTN-Encounter-PRtoPR</a>
+,                 <a href="Encounter-Example-UTN-Encounter-PTtoPR.html">Encounter/Example-UTN-Encounter-PTtoPR</a>
+ and                 <a href="StructureDefinition-utn-encounter.html">UTN-Encounter</a>
+              </li>
+
+              <li>
+                <a href="https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&amp;canonical=http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel-erweitert">Fachabteilungsschluessel Erweitert</a>
+:                 <a href="StructureDefinition-utn-encounter.html">UTN-Encounter</a>
+              </li>
+
+              <li>
+                <a href="https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&amp;canonical=http://fhir.de/CodeSystem/identifier-type-de-basis">Identifier Type De Basis</a>
+:                 <a href="StructureDefinition-utn-patient.html">UTNPatient</a>
  and                 <a href="StructureDefinition-KBV-PR-Base-Practitioner.html">UTNPractitioner</a>
+              </li>
+
+
+            </ul>
+
+
+          </div>
+        </li>
+
+        <li>
+IEEE maintains copyright on all content from IEEE 11073 standards. All rights reserved. Implementers should obtain official copies of all applicable standards documents directly from IEEE. The inclusion of IEEE 11073 terminology codes and definitions in HL7 messages and related implementation guides is permitted under existing agreements. For permission regarding any other usage, please contact IEEE at copyrights@ieee.org.          <div onClick="if (document.getElementById('ipp2_4').innerHTML != '') {document.getElementById('ipp_4').innerHTML = document.getElementById('ipp2_4').innerHTML; document.getElementById('ipp2_4').innerHTML = ''}" id="ipp_4">
+             <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show Usage</span>
+          </div>
+          <div style="display: none" id="ipp2_4">
+
+            <ul>
+
+              <li>
+                <a href="http://terminology.hl7.org/6.4.0/CodeSystem-v3-mdc.html">ISO/IEEE 11073 Medical Device Communication Nomenclature</a>
+:                 <a href="Observation-Example-UTN-Arterieller-Blutdruck.html">Observation/Example-UTN-Arterieller-Blutdruck</a>
+,                 <a href="Observation-Example-UTNAtemfrequenz.html">Observation/Example-UTNAtemfrequenz</a>
+                <span onClick="document.getElementById('ips_6').innerHTML = document.getElementById('ips2_6').innerHTML" id="ips_6">
+... <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show 7 more</span>                </span>
+                <span style="display: none" id="ips2_6">
+, <a href="Observation-Example-UTNHerzfrequenz.html">Observation/Example-UTNHerzfrequenz</a>, <a href="Observation-Example-UTNKoerpertemperatur.html">Observation/Example-UTNKoerpertemperatur</a>, <a href="StructureDefinition-utn-isik-atemfrequenz.html">UTNAtemfrequenz</a>, <a href="StructureDefinition-isik-herzfrequenz.html">UTNHerzfrequenz</a>, <a href="StructureDefinition-isik-koerpertemperatur.html">UTNKoerperTemperatur</a>, <a href="StructureDefinition-isik-koerpergewicht.html">UTNKoerpergewicht</a> and <a href="StructureDefinition-utn-observation-arterieller-blutdruck.html">UTN_Observation_Arterieller_Blutdruck</a>                </span>
               </li>
 
 
@@ -96,16 +157,17 @@ Im folgenden Profil können Codes aus den Codesystemen Snomed, Loinc oder Ucum e
 . LOINC is copyright &copy; 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at           <a href="http://loinc.org/license">http://loinc.org/license</a>
 . LOINC&reg; is a registered United States trademark of Regenstrief Institute, Inc. This product includes all or a portion of the UCUM table, UCUM codes, and UCUM definitions or is derived from it, subject to a license from Regenstrief Institute, Inc. and The UCUM Organization. Your use of the UCUM table, UCUM codes, UCUM definitions also is subject to this license, a copy of which is available at ​          <a href="http://unitsofmeasure.org">http://unitsofmeasure.org</a>
 . The current complete UCUM table, UCUM Specification are available for download at           <a href="http://unitsofmeasure.org">http://unitsofmeasure.org</a>
-. The UCUM table and UCUM codes are copyright &copy; 1995-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved. THE UCUM TABLE (IN ALL FORMATS), UCUM DEFINITIONS, AND SPECIFICATION ARE PROVIDED "AS IS." ANY EXPRESS OR IMPLIED WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.          <div onClick="if (document.getElementById('ipp2_3').innerHTML != '') {document.getElementById('ipp_3').innerHTML = document.getElementById('ipp2_3').innerHTML; document.getElementById('ipp2_3').innerHTML = ''}" id="ipp_3">
+. The UCUM table and UCUM codes are copyright &copy; 1995-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved. THE UCUM TABLE (IN ALL FORMATS), UCUM DEFINITIONS, AND SPECIFICATION ARE PROVIDED "AS IS." ANY EXPRESS OR IMPLIED WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.          <div onClick="if (document.getElementById('ipp2_5').innerHTML != '') {document.getElementById('ipp_5').innerHTML = document.getElementById('ipp2_5').innerHTML; document.getElementById('ipp2_5').innerHTML = ''}" id="ipp_5">
              <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show Usage</span>
           </div>
-          <div style="display: none" id="ipp2_3">
+          <div style="display: none" id="ipp2_5">
 
             <ul>
 
               <li>
                 <a href="https://simplifier.net/resolve?scope=kbv.basis@1.7.0&amp;canonical=https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Role_Care">KBV_CS_Base_Role_Care</a>
-:                 <a href="PractitionerRole-Example-UTNPractitionerRole.html">PractitionerRole/Example-UTNPractitionerRole</a>
+:                 <a href="PractitionerRole-Example-UTN-PractitionerRole-PR1.html">PractitionerRole/Example-UTN-PractitionerRole-PR1</a>
+ and                 <a href="PractitionerRole-Example-UTN-PractitionerRole-PR2.html">PractitionerRole/Example-UTN-PractitionerRole-PR2</a>
               </li>
 
 
@@ -117,20 +179,20 @@ Im folgenden Profil können Codes aus den Codesystemen Snomed, Loinc oder Ucum e
 
         <li>
 The UCUM codes, UCUM table (regardless of format), and UCUM Specification are copyright 1999-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved.           <a href="https://ucum.org/trac/wiki/TermsOfUse">https://ucum.org/trac/wiki/TermsOfUse</a>
-          <div onClick="if (document.getElementById('ipp2_4').innerHTML != '') {document.getElementById('ipp_4').innerHTML = document.getElementById('ipp2_4').innerHTML; document.getElementById('ipp2_4').innerHTML = ''}" id="ipp_4">
+          <div onClick="if (document.getElementById('ipp2_6').innerHTML != '') {document.getElementById('ipp_6').innerHTML = document.getElementById('ipp2_6').innerHTML; document.getElementById('ipp2_6').innerHTML = ''}" id="ipp_6">
              <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show Usage</span>
           </div>
-          <div style="display: none" id="ipp2_4">
+          <div style="display: none" id="ipp2_6">
 
             <ul>
 
               <li>
                 <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-ucum.html">Unified Code for Units of Measure (UCUM)</a>
-:                 <a href="Device-camera-1.html">Device/camera-1</a>
-,                 <a href="Observation-Example-UTN-Arterieller-Blutdruck.html">Observation/Example-UTN-Arterieller-Blutdruck</a>
-                <span onClick="document.getElementById('ips_4').innerHTML = document.getElementById('ips2_4').innerHTML" id="ips_4">
+:                 <a href="Observation-Example-UTN-Arterieller-Blutdruck.html">Observation/Example-UTN-Arterieller-Blutdruck</a>
+,                 <a href="Observation-Example-UTN-Koerperroesse.html">Observation/Example-UTN-Koerperroesse</a>
+                <span onClick="document.getElementById('ips_8').innerHTML = document.getElementById('ips2_8').innerHTML" id="ips_8">
 ... <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show 9 more</span>                </span>
-                <span style="display: none" id="ips2_4">
+                <span style="display: none" id="ips2_8">
 , <a href="Observation-Example-UTNAtemfrequenz.html">Observation/Example-UTNAtemfrequenz</a>, <a href="Observation-Example-UTNHerzfrequenz.html">Observation/Example-UTNHerzfrequenz</a>, <a href="Observation-Example-UTNKoerpergewicht.html">Observation/Example-UTNKoerpergewicht</a>, <a href="Observation-Example-UTNKoerpertemperatur.html">Observation/Example-UTNKoerpertemperatur</a>, <a href="Observation-Example-UTNKreatinin.html">Observation/Example-UTNKreatinin</a>, <a href="StructureDefinition-utn-isik-atemfrequenz.html">UTNAtemfrequenz</a>, <a href="StructureDefinition-isik-herzfrequenz.html">UTNHerzfrequenz</a>, <a href="StructureDefinition-isik-koerpertemperatur.html">UTNKoerperTemperatur</a> and <a href="StructureDefinition-utn-observation-arterieller-blutdruck.html">UTN_Observation_Arterieller_Blutdruck</a>                </span>
               </li>
 
@@ -144,21 +206,21 @@ The UCUM codes, UCUM table (regardless of format), and UCUM Specification are co
         <li>
 This material contains content from           <a href="http://loinc.org">LOINC</a>
 . LOINC is copyright &copy; 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the           <a href="http://loinc.org/license">license</a>
-. LOINC&reg; is a registered United States trademark of Regenstrief Institute, Inc.          <div onClick="if (document.getElementById('ipp2_5').innerHTML != '') {document.getElementById('ipp_5').innerHTML = document.getElementById('ipp2_5').innerHTML; document.getElementById('ipp2_5').innerHTML = ''}" id="ipp_5">
+. LOINC&reg; is a registered United States trademark of Regenstrief Institute, Inc.          <div onClick="if (document.getElementById('ipp2_7').innerHTML != '') {document.getElementById('ipp_7').innerHTML = document.getElementById('ipp2_7').innerHTML; document.getElementById('ipp2_7').innerHTML = ''}" id="ipp_7">
              <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show Usage</span>
           </div>
-          <div style="display: none" id="ipp2_5">
+          <div style="display: none" id="ipp2_7">
 
             <ul>
 
               <li>
-                <a href="http://terminology.hl7.org/6.3.0/CodeSystem-v3-loinc.html">LOINC</a>
-:                 <a href="Consent-Example-UTN-Consent-Forschungsvorhaben.html">Consent/Example-UTN-Consent-Forschungsvorhaben</a>
-,                 <a href="Consent-Example-UTN-Consent-Videosprechstunde.html">Consent/Example-UTN-Consent-Videosprechstunde</a>
-                <span onClick="document.getElementById('ips_5').innerHTML = document.getElementById('ips2_5').innerHTML" id="ips_5">
-... <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show 14 more</span>                </span>
-                <span style="display: none" id="ips2_5">
-, <a href="DiagnosticReport-Example-UTN-DiagnosticReport.html">DiagnosticReport/Example-UTN-DiagnosticReport</a>, <a href="Observation-Example-UTN-Arterieller-Blutdruck.html">Observation/Example-UTN-Arterieller-Blutdruck</a>, <a href="Observation-Example-UTNAtemfrequenz.html">Observation/Example-UTNAtemfrequenz</a>, <a href="Observation-Example-UTNHerzfrequenz.html">Observation/Example-UTNHerzfrequenz</a>, <a href="Observation-Example-UTNKoerpergewicht.html">Observation/Example-UTNKoerpergewicht</a>, <a href="Observation-Example-UTNKoerpertemperatur.html">Observation/Example-UTNKoerpertemperatur</a>, <a href="Observation-Example-UTNKreatinin.html">Observation/Example-UTNKreatinin</a>, <a href="StructureDefinition-utn-isik-atemfrequenz.html">UTNAtemfrequenz</a>, <a href="StructureDefinition-utn-consent-id.html">UTNConsent</a>, <a href="StructureDefinition-isik-herzfrequenz.html">UTNHerzfrequenz</a>, <a href="StructureDefinition-isik-koerpertemperatur.html">UTNKoerperTemperatur</a>, <a href="StructureDefinition-isik-koerpergewicht.html">UTNKoerpergewicht</a>, <a href="StructureDefinition-mii-kreatinin.html">UTNKreatinin</a> and <a href="StructureDefinition-utn-observation-arterieller-blutdruck.html">UTN_Observation_Arterieller_Blutdruck</a>                </span>
+                <a href="http://terminology.hl7.org/6.4.0/CodeSystem-v3-loinc.html">LOINC</a>
+:                 <a href="Composition-Example-UTN-Teleconsultation-PRtoPR.html">Composition/Example-UTN-Teleconsultation-PRtoPR</a>
+,                 <a href="Composition-Example-UTN-Teleconsultation-PRtoPR-Return.html">Composition/Example-UTN-Teleconsultation-PRtoPR-Return</a>
+                <span onClick="document.getElementById('ips_9').innerHTML = document.getElementById('ips2_9').innerHTML" id="ips_9">
+... <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show 18 more</span>                </span>
+                <span style="display: none" id="ips2_9">
+, <a href="Composition-Example-UTN-Teleconsultation-PTtoPR.html">Composition/Example-UTN-Teleconsultation-PTtoPR</a>, <a href="Consent-Example-UTN-Consent-Forschungsvorhaben.html">Consent/Example-UTN-Consent-Forschungsvorhaben</a>, <a href="Consent-Example-UTN-Consent-Videosprechstunde.html">Consent/Example-UTN-Consent-Videosprechstunde</a>, <a href="DiagnosticReport-Example-UTN-DiagnosticReport.html">DiagnosticReport/Example-UTN-DiagnosticReport</a>, <a href="Observation-Example-UTN-Arterieller-Blutdruck.html">Observation/Example-UTN-Arterieller-Blutdruck</a>, <a href="Observation-Example-UTN-Koerperroesse.html">Observation/Example-UTN-Koerperroesse</a>, <a href="Observation-Example-UTNAtemfrequenz.html">Observation/Example-UTNAtemfrequenz</a>, <a href="Observation-Example-UTNHerzfrequenz.html">Observation/Example-UTNHerzfrequenz</a>, <a href="Observation-Example-UTNKoerpergewicht.html">Observation/Example-UTNKoerpergewicht</a>, <a href="Observation-Example-UTNKoerpertemperatur.html">Observation/Example-UTNKoerpertemperatur</a>, <a href="Observation-Example-UTNKreatinin.html">Observation/Example-UTNKreatinin</a>, <a href="StructureDefinition-utn-isik-atemfrequenz.html">UTNAtemfrequenz</a>, <a href="StructureDefinition-utn-consent-id.html">UTNConsent</a>, <a href="StructureDefinition-isik-herzfrequenz.html">UTNHerzfrequenz</a>, <a href="StructureDefinition-isik-koerpertemperatur.html">UTNKoerperTemperatur</a>, <a href="StructureDefinition-isik-koerpergewicht.html">UTNKoerpergewicht</a>, <a href="StructureDefinition-mii-kreatinin.html">UTNKreatinin</a> and <a href="StructureDefinition-utn-observation-arterieller-blutdruck.html">UTN_Observation_Arterieller_Blutdruck</a>                </span>
               </li>
 
 
@@ -171,21 +233,21 @@ This material contains content from           <a href="http://loinc.org">LOINC</
         <li>
 This material contains content that is copyright of SNOMED International. Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact           <a href="https://www.snomed.org/get-snomed">https://www.snomed.org/get-snomed</a>
  or           <a href="mailto:info@snomed.org">info@snomed.org</a>
-.          <div onClick="if (document.getElementById('ipp2_6').innerHTML != '') {document.getElementById('ipp_6').innerHTML = document.getElementById('ipp2_6').innerHTML; document.getElementById('ipp2_6').innerHTML = ''}" id="ipp_6">
+.          <div onClick="if (document.getElementById('ipp2_8').innerHTML != '') {document.getElementById('ipp_8').innerHTML = document.getElementById('ipp2_8').innerHTML; document.getElementById('ipp2_8').innerHTML = ''}" id="ipp_8">
              <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show Usage</span>
           </div>
-          <div style="display: none" id="ipp2_6">
+          <div style="display: none" id="ipp2_8">
 
             <ul>
 
               <li>
                 <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">SNOMED Clinical Terms&amp;reg; (SNOMED CT&amp;reg;)</a>
-:                 <a href="Device-camera-1.html">Device/camera-1</a>
-,                 <a href="Device-phone-1.html">Device/phone-1</a>
-                <span onClick="document.getElementById('ips_6').innerHTML = document.getElementById('ips2_6').innerHTML" id="ips_6">
-... <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show 8 more</span>                </span>
-                <span style="display: none" id="ips2_6">
-, <a href="Observation-Example-UTN-Arterieller-Blutdruck.html">Observation/Example-UTN-Arterieller-Blutdruck</a>, <a href="Observation-Example-UTNAtemfrequenz.html">Observation/Example-UTNAtemfrequenz</a>, <a href="Observation-Example-UTNHerzfrequenz.html">Observation/Example-UTNHerzfrequenz</a>, <a href="Observation-Example-UTNKoerpertemperatur.html">Observation/Example-UTNKoerpertemperatur</a>, <a href="Observation-Example-UTNKreatinin.html">Observation/Example-UTNKreatinin</a>, <a href="Practitioner-Example-UTNPractitioner.html">Practitioner/Example-UTNPractitioner</a>, <a href="StructureDefinition-utn-isik-atemfrequenz.html">UTNAtemfrequenz</a> and <a href="StructureDefinition-utn-observation-arterieller-blutdruck.html">UTN_Observation_Arterieller_Blutdruck</a>                </span>
+:                 <a href="AllergyIntolerance-Example-UTN-AllergyIntolerance.html">AllergyIntolerance/Example-UTN-AllergyIntolerance</a>
+,                 <a href="Condition-Example-UTN-Condition.html">Condition/Example-UTN-Condition</a>
+                <span onClick="document.getElementById('ips_10').innerHTML = document.getElementById('ips2_10').innerHTML" id="ips_10">
+... <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show 13 more</span>                </span>
+                <span style="display: none" id="ips2_10">
+, <a href="Condition-Example-UTN-Sepsis.html">Condition/Example-UTN-Sepsis</a>, <a href="Observation-Example-UTN-Arterieller-Blutdruck.html">Observation/Example-UTN-Arterieller-Blutdruck</a>, <a href="Observation-Example-UTN-Koerperroesse.html">Observation/Example-UTN-Koerperroesse</a>, <a href="Observation-Example-UTNAtemfrequenz.html">Observation/Example-UTNAtemfrequenz</a>, <a href="Observation-Example-UTNHerzfrequenz.html">Observation/Example-UTNHerzfrequenz</a>, <a href="Observation-Example-UTNKoerpertemperatur.html">Observation/Example-UTNKoerpertemperatur</a>, <a href="Observation-Example-UTNKreatinin.html">Observation/Example-UTNKreatinin</a>, <a href="Procedure-Example-UTN-Invasive-Beatmung.html">Procedure/Example-UTN-Invasive-Beatmung</a>, <a href="Procedure-Example-UTN-VVECMO.html">Procedure/Example-UTN-VVECMO</a>, <a href="StructureDefinition-utn-isik-atemfrequenz.html">UTNAtemfrequenz</a>, <a href="StructureDefinition-utn-icu-extrakorporales-verfahren.html">UTNEcmo</a>, <a href="StructureDefinition-utn-observation-arterieller-blutdruck.html">UTN_Observation_Arterieller_Blutdruck</a> and <a href="StructureDefinition-utn-procedure-beatmung.html">UTN_Procedure_Beatmung</a>                </span>
               </li>
 
 
@@ -197,51 +259,94 @@ This material contains content that is copyright of SNOMED International. Implem
 
         <li>
 This material derives from the HL7 Terminology (THO). THO is copyright &copy;1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see:           <a href="https://terminology.hl7.org/license.html">https://terminology.hl7.org/license.html</a>
-          <div onClick="if (document.getElementById('ipp2_7').innerHTML != '') {document.getElementById('ipp_7').innerHTML = document.getElementById('ipp2_7').innerHTML; document.getElementById('ipp2_7').innerHTML = ''}" id="ipp_7">
+          <div onClick="if (document.getElementById('ipp2_9').innerHTML != '') {document.getElementById('ipp_9').innerHTML = document.getElementById('ipp2_9').innerHTML; document.getElementById('ipp2_9').innerHTML = ''}" id="ipp_9">
              <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show Usage</span>
           </div>
-          <div style="display: none" id="ipp2_7">
+          <div style="display: none" id="ipp2_9">
 
             <ul>
 
               <li>
-                <a href="http://terminology.hl7.org/6.3.0/CodeSystem-consentscope.html">Consent Scope Codes</a>
+                <a href="http://terminology.hl7.org/6.4.0/CodeSystem-allergyintolerance-clinical.html">AllergyIntolerance Clinical Status Codes</a>
+:                 <a href="AllergyIntolerance-Example-UTN-AllergyIntolerance.html">AllergyIntolerance/Example-UTN-AllergyIntolerance</a>
+              </li>
+
+              <li>
+                <a href="http://terminology.hl7.org/6.4.0/CodeSystem-allergyintolerance-verification.html">AllergyIntolerance Verification Status</a>
+:                 <a href="AllergyIntolerance-Example-UTN-AllergyIntolerance.html">AllergyIntolerance/Example-UTN-AllergyIntolerance</a>
+              </li>
+
+              <li>
+                <a href="http://terminology.hl7.org/6.4.0/CodeSystem-communication-category.html">CommunicationCategory</a>
+:                 <a href="StructureDefinition-teleconsult-communication.html">UTNTeleconsultCommunication</a>
+              </li>
+
+              <li>
+                <a href="http://terminology.hl7.org/6.4.0/CodeSystem-condition-clinical.html">Condition Clinical Status Codes</a>
+:                 <a href="Condition-Example-UTN-Sepsis.html">Condition/Example-UTN-Sepsis</a>
+              </li>
+
+              <li>
+                <a href="http://terminology.hl7.org/6.4.0/CodeSystem-consentscope.html">Consent Scope Codes</a>
 :                 <a href="Consent-Example-UTN-Consent-Forschungsvorhaben.html">Consent/Example-UTN-Consent-Forschungsvorhaben</a>
  and                 <a href="Consent-Example-UTN-Consent-Videosprechstunde.html">Consent/Example-UTN-Consent-Videosprechstunde</a>
               </li>
 
               <li>
-                <a href="http://terminology.hl7.org/6.3.0/CodeSystem-observation-category.html">Observation Category Codes</a>
+                <a href="http://terminology.hl7.org/6.4.0/CodeSystem-diagnosis-role.html">Diagnosis Role</a>
+:                 <a href="Encounter-Example-UTN-Encounter-PRtoPR.html">Encounter/Example-UTN-Encounter-PRtoPR</a>
+              </li>
+
+              <li>
+                <a href="http://terminology.hl7.org/6.4.0/CodeSystem-location-physical-type.html">Location type</a>
+:                 <a href="StructureDefinition-utn-encounter.html">UTN-Encounter</a>
+              </li>
+
+              <li>
+                <a href="http://terminology.hl7.org/6.4.0/CodeSystem-observation-category.html">Observation Category Codes</a>
 :                 <a href="Observation-Example-UTN-Arterieller-Blutdruck.html">Observation/Example-UTN-Arterieller-Blutdruck</a>
-,                 <a href="Observation-Example-UTNAtemfrequenz.html">Observation/Example-UTNAtemfrequenz</a>
-                <span onClick="document.getElementById('ips_8').innerHTML = document.getElementById('ips2_8').innerHTML" id="ips_8">
-... <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show 10 more</span>                </span>
-                <span style="display: none" id="ips2_8">
-, <a href="Observation-Example-UTNHerzfrequenz.html">Observation/Example-UTNHerzfrequenz</a>, <a href="Observation-Example-UTNKoerpergewicht.html">Observation/Example-UTNKoerpergewicht</a>, <a href="Observation-Example-UTNKoerpertemperatur.html">Observation/Example-UTNKoerpertemperatur</a>, <a href="Observation-Example-UTNKreatinin.html">Observation/Example-UTNKreatinin</a>, <a href="StructureDefinition-utn-isik-atemfrequenz.html">UTNAtemfrequenz</a>, <a href="StructureDefinition-isik-herzfrequenz.html">UTNHerzfrequenz</a>, <a href="StructureDefinition-isik-koerpertemperatur.html">UTNKoerperTemperatur</a>, <a href="StructureDefinition-isik-koerpergewicht.html">UTNKoerpergewicht</a>, <a href="StructureDefinition-mii-kreatinin.html">UTNKreatinin</a> and <a href="StructureDefinition-utn-observation-arterieller-blutdruck.html">UTN_Observation_Arterieller_Blutdruck</a>                </span>
+,                 <a href="Observation-Example-UTN-Koerperroesse.html">Observation/Example-UTN-Koerperroesse</a>
+                <span onClick="document.getElementById('ips_18').innerHTML = document.getElementById('ips2_18').innerHTML" id="ips_18">
+... <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show 11 more</span>                </span>
+                <span style="display: none" id="ips2_18">
+, <a href="Observation-Example-UTNAtemfrequenz.html">Observation/Example-UTNAtemfrequenz</a>, <a href="Observation-Example-UTNHerzfrequenz.html">Observation/Example-UTNHerzfrequenz</a>, <a href="Observation-Example-UTNKoerpergewicht.html">Observation/Example-UTNKoerpergewicht</a>, <a href="Observation-Example-UTNKoerpertemperatur.html">Observation/Example-UTNKoerpertemperatur</a>, <a href="Observation-Example-UTNKreatinin.html">Observation/Example-UTNKreatinin</a>, <a href="StructureDefinition-utn-isik-atemfrequenz.html">UTNAtemfrequenz</a>, <a href="StructureDefinition-isik-herzfrequenz.html">UTNHerzfrequenz</a>, <a href="StructureDefinition-isik-koerpertemperatur.html">UTNKoerperTemperatur</a>, <a href="StructureDefinition-isik-koerpergewicht.html">UTNKoerpergewicht</a>, <a href="StructureDefinition-mii-kreatinin.html">UTNKreatinin</a> and <a href="StructureDefinition-utn-observation-arterieller-blutdruck.html">UTN_Observation_Arterieller_Blutdruck</a>                </span>
               </li>
 
               <li>
-                <a href="http://terminology.hl7.org/6.3.0/CodeSystem-referencerange-meaning.html">Observation Reference Range Meaning Codes</a>
+                <a href="http://terminology.hl7.org/6.4.0/CodeSystem-referencerange-meaning.html">Observation Reference Range Meaning Codes</a>
 :                 <a href="Observation-Example-UTNKreatinin.html">Observation/Example-UTNKreatinin</a>
               </li>
 
               <li>
-                <a href="http://terminology.hl7.org/6.3.0/CodeSystem-service-category.html">Service category</a>
-:                 <a href="HealthcareService-teleconsultation-service-1.html">Teleconsultation Service</a>
+                <a href="http://terminology.hl7.org/6.4.0/CodeSystem-service-category.html">Service category</a>
+:                 <a href="HealthcareService-teleconsultation-service-charite.html">Charité Teleconsultation Service</a>
+ and                 <a href="HealthcareService-teleconsultation-service-wuerzburg.html">Uniklinik Würzburg Teleconsultation Service</a>
               </li>
 
               <li>
-                <a href="http://terminology.hl7.org/6.3.0/CodeSystem-v2-0203.html">identifierType</a>
-:                 <a href="StructureDefinition-consent-management-patient.html">ConsentManagementPatient</a>
-,                 <a href="Observation-Example-UTNKreatinin.html">Observation/Example-UTNKreatinin</a>
-,                 <a href="Practitioner-Example-UTNPractitioner.html">Practitioner/Example-UTNPractitioner</a>
-,                 <a href="StructureDefinition-mii-kreatinin.html">UTNKreatinin</a>
- and                 <a href="StructureDefinition-KBV-PR-Base-Practitioner.html">UTNPractitioner</a>
-              </li>
-
-              <li>
-                <a href="http://terminology.hl7.org/6.3.0/CodeSystem-v3-ObservationInterpretation.html">ObservationInterpretation</a>
+                <a href="http://terminology.hl7.org/6.4.0/CodeSystem-v2-0203.html">identifierType</a>
 :                 <a href="Observation-Example-UTNKreatinin.html">Observation/Example-UTNKreatinin</a>
+,                 <a href="Practitioner-Example-UTN-Practitioner-PR1.html">Practitioner/Example-UTN-Practitioner-PR1</a>
+                <span onClick="document.getElementById('ips_21').innerHTML = document.getElementById('ips2_21').innerHTML" id="ips_21">
+... <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show 5 more</span>                </span>
+                <span style="display: none" id="ips2_21">
+, <a href="Practitioner-Example-UTN-Practitioner-PR2.html">Practitioner/Example-UTN-Practitioner-PR2</a>, <a href="StructureDefinition-utn-encounter.html">UTN-Encounter</a>, <a href="StructureDefinition-mii-kreatinin.html">UTNKreatinin</a>, <a href="StructureDefinition-utn-patient.html">UTNPatient</a> and <a href="StructureDefinition-KBV-PR-Base-Practitioner.html">UTNPractitioner</a>                </span>
+              </li>
+
+              <li>
+                <a href="http://terminology.hl7.org/6.4.0/CodeSystem-v3-ActCode.html">ActCode</a>
+:                 <a href="Encounter-Example-UTN-Encounter-PRtoPR.html">Encounter/Example-UTN-Encounter-PRtoPR</a>
+ and                 <a href="Encounter-Example-UTN-Encounter-PTtoPR.html">Encounter/Example-UTN-Encounter-PTtoPR</a>
+              </li>
+
+              <li>
+                <a href="http://terminology.hl7.org/6.4.0/CodeSystem-v3-ObservationInterpretation.html">ObservationInterpretation</a>
+:                 <a href="Observation-Example-UTNKreatinin.html">Observation/Example-UTNKreatinin</a>
+              </li>
+
+              <li>
+                <a href="http://terminology.hl7.org/6.4.0/CodeSystem-v3-ParticipationMode.html">ParticipationMode</a>
+:                 <a href="Communication-Example-UTN-PRtoPR-Consult.html">Communication/Example-UTN-PRtoPR-Consult</a>
               </li>
 
 
@@ -260,7 +365,7 @@ This material derives from the HL7 Terminology (THO). THO is copyright &copy;198
     <ul>
       <li>
 
-          IG &copy; 2024+ BIH-CEI.  Package consent.id#0.1.0 based on FHIR 4.0.1. Generated 2025-05-14 
+          IG &copy; 2024+ BIH-CEI.  Package consent.id#0.1.0 based on FHIR 4.0.1. Generated 2025-06-12 
           
           
                       Links: Table of Contents |
@@ -284,7 +389,7 @@ University Telemedicine Network (UTN) FHIR Implementation Guide - Local Developm
 )
       </li>
       <li>
-Ärztliche(r) DirektorIn (        <a href="PractitionerRole-Example-UTNPractitionerRole.html">src</a>
+Ärztliche(r) DirektorIn (        <a href="PractitionerRole-Example-UTN-PractitionerRole-PR1.html">src</a>
 )
       </li>
     </ul>
@@ -303,6 +408,49 @@ University Telemedicine Network (UTN) FHIR Implementation Guide - Local Developm
       </tr>
       <tr>
         <td>
+          <a href="HealthcareService-teleconsultation-service-charite.html">web</a>
+        </td>
+        <td>
+          <a href="tel:+49-30-450-50">tel:+49-30-450-50</a>
+        </td>
+        <td>
+          <b>telecom</b>
+:           <a href="tel:+49-30-450-50">+49-30-450-50</a>
+,           <a href="mailto:teleconsult@charite.de">teleconsult@charite.de</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="HealthcareService-teleconsultation-service-wuerzburg.html">web</a>
+        </td>
+        <td>
+          <a href="tel:+49-931-201-0">tel:+49-931-201-0</a>
+        </td>
+        <td>
+          <b>telecom</b>
+:           <a href="tel:+49-931-201-0">+49-931-201-0</a>
+,           <a href="mailto:teleconsult@ukw.de">teleconsult@ukw.de</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-teleconsult-communication.html">web</a>
+        </td>
+        <td>
+          <a href="http://snomed.info/sct">snomed.info</a>
+        </td>
+        <td>
+          <span style="opacity: 0.5">Indication for message</span>
+          <br class="binding"/>
+          <span style="font-weight:bold" title="null" class="binding">Binding: </span>
+          <a href="http://snomed.info/sct" class="binding">http://snomed.info/sct</a>
+          <span title="null" class="binding"> (</span>
+          <a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead." class="binding">extensible</a>
+          <span title="null" class="binding">)</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
           <a href="StructureDefinition-utn-consent-id.html">web</a>
         </td>
         <td>
@@ -310,16 +458,17 @@ University Telemedicine Network (UTN) FHIR Implementation Guide - Local Developm
         </td>
         <td>
           <span style="opacity: 0.5">e.g. LOINC or SNOMED CT code, etc. in the content</span>
-          <br/>
-          <span style="font-weight:bold">Binding: </span>
-          <a href="https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category">https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category</a>
- (          <a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>
-)
+          <br class="binding"/>
+          <span style="font-weight:bold" title="null" class="binding">Binding: </span>
+          <a href="https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category" class="binding">https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category</a>
+          <span title="null" class="binding"> (</span>
+          <a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a>
+          <span title="null" class="binding">)</span>
         </td>
       </tr>
       <tr>
         <td>
-          <a href="CodeSystem-gridhamd-answer-options-cs-testing.html">web</a>
+          <a href="AllergyIntolerance-Example-UTN-AllergyIntolerance.change.history.html">web</a>
         </td>
         <td>
           <a href="http://utn/consentresource.com">utn</a>
@@ -328,7 +477,7 @@ University Telemedicine Network (UTN) FHIR Implementation Guide - Local Developm
 
           IG &copy; 2024+           <a style="color:var(--footer-hyperlink-text-color)" href="http://utn/consentresource.com">BIH-CEI</a>
 .  Package consent.id#0.1.0 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>
-. Generated           <span title="Wed, May 14, 2025 14:22+0200">2025-05-14</span>
+. Generated           <span title="Thu, Jun 12, 2025 14:08+0200">2025-06-12</span>
 
                     <br/>
 
@@ -353,12 +502,78 @@ University Telemedicine Network (UTN) FHIR Implementation Guide - Local Developm
         </td>
         <td>
           <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-questionnaire-answers.html">QuestionnaireAnswerCodes</a>
- (a valid code from           <a href="https://browser.ihtsdotools.org/">SNOMED CT</a>
+(a valid code from           <a href="https://browser.ihtsdotools.org/">SNOMED CT</a>
 )          <div>
             <code>http://hl7.org/fhir/ValueSet/questionnaire-answers</code>
             <button data-clipboard-text="http://hl7.org/fhir/ValueSet/questionnaire-answers" title="Click to copy URL" class="btn-copy"></button>
           </div>
-          <div>from the FHIR Standard</div>
+          <div>From the FHIR Standard</div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-teleconsult-communication-definitions.html">web</a>
+        </td>
+        <td>
+          <a href="http://snomed.info/sct">snomed.info</a>
+        </td>
+        <td>
+Unless not suitable, these codes SHALL be taken from           <span style="color:DarkGray;text-decoration:line-through">For example codes, see </span>
+           <a href="http://snomed.info/sct">http://snomed.info/sct</a>
+          <span style="color:DarkGray;text-decoration:line-through">http://hl7.org/fhir/ValueSet/clinical-findings</span>
+          <br/>
+(          <a href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a>
+ to           <span class="copy-text-inline">
+<code>http://snomed.info/sct</code><button data-clipboard-text="http://snomed.info/sct" title="Click to Copy URL" class="btn-copy"></button>          </span>
+)
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-teleconsult-communication-definitions.html">web</a>
+        </td>
+        <td>
+          <a href="http://snomed.info/sct">snomed.info</a>
+        </td>
+        <td>
+Unless not suitable, these codes SHALL be taken from            <a href="http://snomed.info/sct">http://snomed.info/sct</a>
+          <br/>
+(          <a href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a>
+ to           <span class="copy-text-inline">
+<code>http://snomed.info/sct</code><button data-clipboard-text="http://snomed.info/sct" title="Click to Copy URL" class="btn-copy"></button>          </span>
+)
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-teleconsult-communication.html">web</a>
+        </td>
+        <td>
+          <a href="http://snomed.info/sct">snomed.info</a>
+        </td>
+        <td>
+Indication for message          <br class="binding"/>
+          <span style="font-weight:bold" title="null" class="binding">Binding: </span>
+          <a href="http://snomed.info/sct" class="binding">http://snomed.info/sct</a>
+          <span title="null" class="binding"> (</span>
+          <a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead." class="binding">extensible</a>
+          <span title="null" class="binding">)</span>
+          <br/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-teleconsult-communication.html">web</a>
+        </td>
+        <td>
+          <a href="http://snomed.info/sct">snomed.info</a>
+        </td>
+        <td>
+          <a style="opacity: 1.0" href="http://snomed.info/sct">http://snomed.info/sct</a>
+          <div>
+            <code>http://snomed.info/sct</code>
+            <button data-clipboard-text="http://snomed.info/sct" title="Click to copy URL" class="btn-copy"></button>
+          </div>
         </td>
       </tr>
       <tr>
@@ -385,11 +600,13 @@ The codes SHALL be taken from            <a href="https://fhir.kbv.de/ValueSet/K
           <a href="https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_BAR2_ARZTNRFACHGRUPPE">fhir.kbv.de</a>
         </td>
         <td>
-Code defined by a terminology system          <br/>
-          <span style="font-weight:bold">Binding: </span>
-          <a href="https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_BAR2_ARZTNRFACHGRUPPE">https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_BAR2_ARZTNRFACHGRUPPE</a>
- (          <a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>
-)          <br/>
+Code defined by a terminology system          <br class="binding"/>
+          <span style="font-weight:bold" title="null" class="binding">Binding: </span>
+          <a href="https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_BAR2_ARZTNRFACHGRUPPE" class="binding">https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_BAR2_ARZTNRFACHGRUPPE</a>
+          <span title="null" class="binding"> (</span>
+          <a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a>
+          <span title="null" class="binding">)</span>
+          <br/>
         </td>
       </tr>
       <tr>
@@ -449,13 +666,13 @@ The codes SHALL be taken from            <a href="https://www.medizininformatik-
           <a href="https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category">www.medizininformatik-initiative.de</a>
         </td>
         <td>
-e.g. LOINC or SNOMED CT code, etc. in the content          <br/>
-          <span style="font-weight:bold">Binding: </span>
-          <a href="https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category">https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category</a>
- (          <a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>
-)          <br/>
-          <span style="font-weight:bold">ele-1: </span>
-All FHIR elements must have a @value or children          <br/>
+e.g. LOINC or SNOMED CT code, etc. in the content          <br class="binding"/>
+          <span style="font-weight:bold" title="null" class="binding">Binding: </span>
+          <a href="https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category" class="binding">https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category</a>
+          <span title="null" class="binding"> (</span>
+          <a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a>
+          <span title="null" class="binding">)</span>
+          <br/>
         </td>
       </tr>
       <tr>
@@ -475,21 +692,33 @@ All FHIR elements must have a @value or children          <br/>
       </tr>
       <tr>
         <td>
-          <a href="StructureDefinition-utn-consent-id.html">web</a>
+          <a href="StructureDefinition-utn-icu-extrakorporales-verfahren.html">web</a>
         </td>
         <td>
-          <a href="https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category">www.medizininformatik-initiative.de</a>
+          <a href="https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_SEITENLOKALISATION">fhir.kbv.de</a>
         </td>
         <td>
-e.g. LOINC or SNOMED CT code, etc. in the content          <br/>
-          <span style="font-weight:bold">Binding: </span>
-          <a href="https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category">https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category</a>
- (          <a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>
-)          <br/>
+Optional Extensions Element          <br/>
+          <span style="font-weight:bold">URL: </span>
+          <a href="https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&amp;canonical=http://fhir.de/StructureDefinition/seitenlokalisation">http://fhir.de/StructureDefinition/seitenlokalisation</a>
+          <br class="binding"/>
+          <span style="font-weight:bold" title="null" class="binding">Binding: </span>
+          <a href="https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_SEITENLOKALISATION" class="binding">https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_SEITENLOKALISATION</a>
+          <span title="null" class="binding"> (</span>
+          <a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a>
+          <span title="null" class="binding">)</span>
+          <br/>
         </td>
       </tr>
     </table>
     <h2>Internal Images</h2>
-    <table class="grid"></table>
+    <table class="grid">
+      <tr>
+        <td>
+tree-filter.png          <br/>
+          <img src="tree-filter.png" alt="tree-filter.png" width="600px" height="auto"/>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>

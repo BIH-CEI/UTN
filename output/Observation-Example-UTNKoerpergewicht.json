@@ -6,7 +6,7 @@
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation Example-UTNKoerpergewicht</b></p><a name=\"Example-UTNKoerpergewicht\"> </a><a name=\"hcExample-UTNKoerpergewicht\"> </a><a name=\"Example-UTNKoerpergewicht-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-isik-koerpergewicht.html\">UTN Observation Koerpergewicht Profile</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span>, <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 29463-7}\">Körpergewicht</span></p><p><b>subject</b>: <a href=\"Patient-consent-management-patient.html\">John Doe  Other, DoB: 1998-09-19 ( MR)</a></p><p><b>effective</b>: 2020-10-11</p><p><b>performer</b>: <a href=\"https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.consent@1.0.7&amp;canonical=de.medizininformatikinitiative.kerndatensatz.consent/Example-UTN-Practitioner\">Example-UTN-Practitioner</a></p><p><b>value</b>: 79 kilogram<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codekg = 'kg')</span></p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation Example-UTNKoerpergewicht</b></p><a name=\"Example-UTNKoerpergewicht\"> </a><a name=\"hcExample-UTNKoerpergewicht\"> </a><a name=\"Example-UTNKoerpergewicht-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-isik-koerpergewicht.html\">UTN Observation Koerpergewicht Profile</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span>, <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 29463-7}\">Körpergewicht</span></p><p><b>subject</b>: <a href=\"Patient-utn-patient-2.html\">Anna Müller  Female, DoB: 1985-03-12 ( MR)</a></p><p><b>encounter</b>: <a href=\"https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.consent@1.0.7&amp;canonical=de.medizininformatikinitiative.kerndatensatz.consent/xample-UTN-Encounter-PRtoPR\">xample-UTN-Encounter-PRtoPR</a></p><p><b>effective</b>: 2020-10-11</p><p><b>performer</b>: <a href=\"https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.consent@1.0.7&amp;canonical=de.medizininformatikinitiative.kerndatensatz.consent/Example-UTN-Practitioner\">Example-UTN-Practitioner</a></p><p><b>value</b>: 79 kilogram<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codekg = 'kg')</span></p></div>"
   },
   "status" : "final",
   "category" : [{
@@ -30,7 +30,10 @@
     "text" : "Körpergewicht"
   },
   "subject" : {
-    "reference" : "Patient/consent-management-patient"
+    "reference" : "Patient/utn-patient-2"
+  },
+  "encounter" : {
+    "reference" : "xample-UTN-Encounter-PRtoPR"
   },
   "effectiveDateTime" : "2020-10-11",
   "performer" : [{

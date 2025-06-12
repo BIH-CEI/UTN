@@ -9,23 +9,23 @@
       "description" : "CodeSystem defining codes for all answer options used in GRID-HAMD Questionnaire.",
       "uses" : {
       },
-      "ValueSet-gridhamd-answer-options-vs-q10.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q14.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q1.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q5.html" : "GRID-HAMD Answer Options ValueSet",
       "ValueSet-gridhamd-answer-options-vs-q4.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q16.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q13.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q17.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q2.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q3.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q8.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q9.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q12.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q15.html" : "GRID-HAMD Answer Options ValueSet",
       "ValueSet-gridhamd-answer-options-vs-q7.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q14.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q6.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q1.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q15.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q3.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q16.html" : "GRID-HAMD Answer Options ValueSet",
       "ValueSet-gridhamd-answer-options-vs-q11.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q6.html" : "GRID-HAMD Answer Options ValueSet"
+      "ValueSet-gridhamd-answer-options-vs-q12.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q8.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q13.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q10.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q17.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q5.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q9.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q2.html" : "GRID-HAMD Answer Options ValueSet"
     },
     {
       "url" : "http://fhir.de/CodeSystem/identifier-type-de-basis",
@@ -49,6 +49,31 @@
       "uses" : {
       },
       "http://hl7.org/fhir/uv/ips/STU1.1/ValueSet-results-laboratory-observations-uv-ips.html" : "Results Laboratory Observation - IPS"
+    },
+    {
+      "url" : "http://snomed.info/sct",
+      "version" : null,
+      "status" : "active",
+      "name" : "SNOMED_CT",
+      "title" : "SNOMED CT (all versions)",
+      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+      "oids" : ["2.16.840.1.113883.6.96"],
+      "uses" : {
+      },
+      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.2&canonical=https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-code-extrakorporale-verfahren" : "VS MII ICU Code extrakorporale Verfahren",
+      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.2&canonical=https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-code-procedure-beatmung-snomed" : "VS MII ICU Code Procedure Beatmung [SNOMED]"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/communication-category",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "CommunicationCategory",
+      "title" : "CommunicationCategory",
+      "description" : "Codes for general categories of communications such as alerts, instructions, etc.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1076"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-communication-category.html" : "CommunicationCategory"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0074",

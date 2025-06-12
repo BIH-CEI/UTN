@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://utn/consentresource.com/Procedure/Example-UTN-VVECMO> a fhir:Procedure ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Example-UTN-VVECMO"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://utn/consentresource.com/StructureDefinition/utn-icu-extrakorporales-verfahren"^^xsd:anyURI ;
+       fhir:link <http://utn/consentresource.com/StructureDefinition/utn-icu-extrakorporales-verfahren>
+     ] [
+       fhir:v "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/extrakorporales-verfahren"^^xsd:anyURI ;
+       fhir:link <https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/extrakorporales-verfahren>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Procedure Example-UTN-VVECMO</b></p><a name=\"Example-UTN-VVECMO\"> </a><a name=\"hcExample-UTN-VVECMO\"> </a><a name=\"Example-UTN-VVECMO-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"StructureDefinition-utn-icu-extrakorporales-verfahren.html\">MII PR ICU Extrakorporales Verfahren</a>, <a href=\"https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.2&amp;canonical=https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/extrakorporales-verfahren\">SD MII ICU Extrakorporales Verfahren</a></p></div><p><b>status</b>: Completed</p><p><b>category</b>: <span title=\"Codes:\">277132007</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 786453001}\">Venovenous extracorporeal membrane oxygenation (procedure)</span></p><p><b>subject</b>: <a href=\"Patient-utn-patient-2.html\">Anna Müller  Female, DoB: 1985-03-12 ( MR)</a></p><p><b>encounter</b>: <a href=\"Encounter-Example-UTN-Encounter-PRtoPR.html\">Encounter: status = in-progress; class = inpatient encounter (ActCode#IMP); type = intensivstationaer; serviceType = Intensivmedizin; period = 2025-01-14 08:00:00+1000 --&gt; (ongoing)</a></p><p><b>performed</b>: 2025-01-14 16:48:00+1000 --&gt; (ongoing)</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "completed"] ; # 
+  fhir:category [
+     fhir:coding ( [
+       fhir:code [ fhir:v "277132007" ]
+     ] )
+  ] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:786453001 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:version [ fhir:v "http://snomed.info/sct/900000000000207008/version/20241101" ] ;
+       fhir:code [ fhir:v "786453001" ] ;
+       fhir:display [ fhir:v "Venovenous extracorporeal membrane oxygenation (procedure)" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://utn/consentresource.com/Patient/utn-patient-2> ;
+     fhir:reference [ fhir:v "Patient/utn-patient-2" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://utn/consentresource.com/Encounter/Example-UTN-Encounter-PRtoPR> ;
+     fhir:reference [ fhir:v "Encounter/Example-UTN-Encounter-PRtoPR" ]
+  ] ; # 
+  fhir:performed [
+     a fhir:Period ;
+     fhir:start [ fhir:v "2025-01-14T16:48:00+10:00"^^xsd:dateTime ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

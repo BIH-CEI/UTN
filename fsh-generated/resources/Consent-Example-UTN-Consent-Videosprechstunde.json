@@ -72,7 +72,7 @@
   },
   "status": "active",
   "patient": {
-    "reference": "Patient/consent-management-patient"
+    "reference": "Patient/utn-patient-1"
   },
   "dateTime": "2024-07-24"
 }

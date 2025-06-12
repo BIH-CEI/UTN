@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="Example-UTN-Teleconsultation-PTtoPR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Composition Example-UTN-Teleconsultation-PTtoPR</b></p><a name="Example-UTN-Teleconsultation-PTtoPR"> </a><a name="hcExample-UTN-Teleconsultation-PTtoPR"> </a><a name="Example-UTN-Teleconsultation-PTtoPR-en-US"> </a><p><b>status</b>: Final</p><p><b>type</b>: <span title="Codes:{http://loinc.org 85208-7}">Telehealth Consult note</span></p><p><b>category</b>: <span title="Codes:{http://loinc.org 173421-1}">Report</span></p><p><b>encounter</b>: <a href="Encounter-Example-UTN-Encounter-PTtoPR.html">Encounter: status = finished; class = virtual (ActCode#VR); type = konsil; serviceType = Kardiologie; period = 2024-06-14 16:00:00+1000 --&gt; 2024-06-14 17:00:00+1000</a></p><p><b>date</b>: 2012-01-04 09:10:14+0000</p><p><b>author</b>: <a href="Practitioner-Example-UTN-Practitioner-PR1.html">Practitioner Hans Topp-Glücklich(official)</a></p><p><b>title</b>: Consultation Note</p></div>
+  </text>
+  <status value="final"/>
+  <type>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="85208-7"/>
+      <display value="Telehealth Consult note"/>
+    </coding>
+  </type>
+  <category>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="173421-1"/>
+      <display value="Report"/>
+    </coding>
+  </category>
+  <subject>
+    <reference value="Patient/utn-patient-1"/>
+  </subject>
+  <encounter>
+    <reference value="Encounter/Example-UTN-Encounter-PTtoPR"/>
+  </encounter>
+  <date value="2012-01-04T09:10:14Z"/>
+  <author>
+    <reference value="Practitioner/Example-UTN-Practitioner-PR1"/>
+  </author>
+  <title value="Consultation Note"/>
+  <section>
+    <title value="Consultation Note Text"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="29545-1"/>
+        <display value="Physical findings Narrative"/>
+      </coding>
+    </code>
+    <author>
+      <reference value="Practitioner/Example-UTN-Practitioner-PR1"/>
+    </author>
+    <text>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>Patient reports mild chest pain during exercise. No other symptoms reported. ECG normal. Advised lifestyle modification and follow-up in 1 month.</p></div>
+    </text>
+  </section>
+</Composition>

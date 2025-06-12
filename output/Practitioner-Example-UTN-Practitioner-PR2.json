@@ -1,0 +1,109 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "Example-UTN-Practitioner-PR2",
+  "meta" : {
+    "profile" : ["http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner",
+    "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner Example-UTN-Practitioner-PR2</b></p><a name=\"Example-UTN-Practitioner-PR2\"> </a><a name=\"hcExample-UTN-Practitioner-PR2\"> </a><a name=\"Example-UTN-Practitioner-PR2-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"StructureDefinition-KBV-PR-Base-Practitioner.html\">UTN Practitioner</a>, <a href=\"https://simplifier.net/resolve?scope=kbv.basis@1.7.0&amp;canonical=https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner\">KBV_PR_Base_Practitioner</a></p></div><p><b>identifier</b>: Lifelong physician number/123456788, Doctor number/123456789123457, Provider number/123456788</p><p><b>name</b>: Gunther Neumann(Official), Gunther Neumann(Name changed for Marriage)</p><p><b>telecom</b>: ph: 06151/555555</p><p><b>address</b>: </p><ul><li>Strassestr. 2 Aachen 52068 D </li><li>101xx Aachen 52068 D </li></ul></div>"
+  },
+  "identifier" : [{
+    "type" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "code" : "LANR",
+        "display" : "Lifelong physician number"
+      }]
+    },
+    "system" : "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR",
+    "value" : "123456788"
+  },
+  {
+    "type" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "code" : "DN",
+        "display" : "Doctor number"
+      }]
+    },
+    "system" : "http://fhir.de/sid/bundesaerztekammer/efn",
+    "value" : "123456789123457"
+  },
+  {
+    "type" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "code" : "PRN",
+        "display" : "Provider number"
+      }]
+    },
+    "system" : "https://gematik.de/fhir/sid/telematik-id",
+    "value" : "123456788"
+  }],
+  "name" : [{
+    "use" : "official",
+    "text" : "Gunther Neumann",
+    "family" : "Neumann",
+    "_family" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+        "valueString" : "Neumann"
+      }]
+    },
+    "given" : ["Gunther"],
+    "prefix" : ["Dr. med."],
+    "_prefix" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+        "valueCode" : "AC"
+      }]
+    }]
+  },
+  {
+    "use" : "maiden",
+    "text" : "Gunther Neumann",
+    "family" : "Neumann",
+    "_family" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+        "valueString" : "Neumann"
+      }]
+    }
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "06151/555555"
+  }],
+  "address" : [{
+    "type" : "both",
+    "line" : ["Strassestr. 2"],
+    "_line" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+        "valueString" : "2"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+        "valueString" : "Strassestr."
+      }]
+    }],
+    "city" : "Aachen",
+    "postalCode" : "52068",
+    "country" : "D"
+  },
+  {
+    "type" : "postal",
+    "line" : ["101xx"],
+    "_line" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox",
+        "valueString" : "52068"
+      }]
+    }],
+    "city" : "Aachen",
+    "postalCode" : "52068",
+    "country" : "D"
+  }]
+}

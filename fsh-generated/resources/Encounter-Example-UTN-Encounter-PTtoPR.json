@@ -1,0 +1,47 @@
+{
+  "resourceType": "Encounter",
+  "id": "Example-UTN-Encounter-PTtoPR",
+  "meta": {
+    "profile": [
+      "http://utn/consentresource.com/StructureDefinition/utn-encounter"
+    ]
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "konsil",
+          "system": "http://fhir.de/ValueSet/kontaktart-de"
+        }
+      ]
+    }
+  ],
+  "serviceType": {
+    "coding": [
+      {
+        "system": "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel",
+        "code": "0300"
+      }
+    ]
+  },
+  "period": {
+    "start": "2024-06-14T16:00:00+10:00",
+    "end": "2024-06-14T17:00:00+10:00"
+  },
+  "participant": [
+    {
+      "individual": {
+        "reference": "Practitioner/Example-UTN-Practitioner-PR1"
+      }
+    }
+  ],
+  "status": "finished",
+  "class": {
+    "code": "VR",
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "display": "virtual"
+  },
+  "subject": {
+    "reference": "Patient/utn-patient-1"
+  }
+}

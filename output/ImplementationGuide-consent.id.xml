@@ -10,7 +10,7 @@
   <name value="UTNConsentResource"/>
   <title value="University Telemedicine Network (UTN) FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-05-14T14:21:32+02:00"/>
+  <date value="2025-06-12T14:08:24+02:00"/>
   <publisher value="BIH-CEI"/>
   <contact>
     <name value="BIH-CEI"/>
@@ -28,7 +28,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.3.0"/>
+    <version value="6.4.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -73,10 +73,25 @@
     <packageId value="de.gematik.isik-vitalparameter"/>
     <version value="4.0.0"/>
   </dependsOn>
+  <dependsOn id="de_gematik_isik_basismodul">
+    <uri value="de.gematik.isik-basismodul"/>
+    <packageId value="de.gematik.isik-basismodul"/>
+    <version value="4.0.3"/>
+  </dependsOn>
   <dependsOn id="kbv_basis">
     <uri value="kbv.basis"/>
     <packageId value="kbv.basis"/>
     <version value="1.7.0"/>
+  </dependsOn>
+  <dependsOn id="de_medizininformatikinitiative_kerndatensatz_fall">
+    <uri value="de.medizininformatikinitiative.kerndatensatz.fall"/>
+    <packageId value="de.medizininformatikinitiative.kerndatensatz.fall"/>
+    <version value="2025.0.0"/>
+  </dependsOn>
+  <dependsOn id="de_medizininformatikinitiative_kerndatensatz_medikation">
+    <uri value="de.medizininformatikinitiative.kerndatensatz.medikation"/>
+    <packageId value="de.medizininformatikinitiative.kerndatensatz.medikation"/>
+    <version value="2025.0.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -484,13 +499,13 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Device"/>
+        <valueString value="AllergyIntolerance"/>
       </extension>
       <reference>
-        <reference value="Device/camera-1"/>
+        <reference value="AllergyIntolerance/Example-UTN-AllergyIntolerance"/>
       </reference>
-      <name value="Camera Device"/>
-      <description value="An HD camera used for teleconsultation"/>
+      <name value="Allergies of the Patient"/>
+      <description value="Indicates that the patient has no known allergies."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -498,11 +513,55 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/device-reference"/>
+        <reference value="StructureDefinition/composition-basedon-servicerequest"/>
       </reference>
-      <name value="Device Reference"/>
-      <description value="Extension to reference devices in a HealthcareService"/>
+      <name value="Composition BasedOn ServiceRequest"/>
+      <description value="Links a Composition to the ServiceRequest it is based on."/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/Example-UTN-Encounter-PTtoPR"/>
+      </reference>
+      <name value="Encounter 1"/>
+      <description value="Encounter which is between patient to practitioner"/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-encounter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/Example-UTN-Encounter-PRtoPR"/>
+      </reference>
+      <name value="Encounter 2"/>
+      <description value="Encounter which is between practitioner to practitioner"/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-encounter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/Example-UTN-Condition"/>
+      </reference>
+      <name value="Example of Hypertonus Condition"/>
+      <description value="Represents a condition of systemic hypertension"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/Example-UTN-Invasive-Beatmung"/>
+      </reference>
+      <name value="Example of UTN Procedure Beatmung"/>
+      <description value="Example instance of a ventilation procedure conforming to UTN_Procedure_Beatmung profile"/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -594,14 +653,79 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Example-UTN-Koerperroesse"/>
+      </reference>
+      <name value="Example-UTN-Koerperroesse"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Patient"/>
       </extension>
       <reference>
-        <reference value="Patient/consent-management-patient"/>
+        <reference value="Patient/utn-patient-1"/>
       </reference>
       <name value="Example-UTN-Patient"/>
-      <description value="Example UTN Patient"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/consent-management-patient"/>
+      <description value="Example UTN Patient 1"/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-patient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/utn-patient-2"/>
+      </reference>
+      <name value="Example-UTN-Patient-2"/>
+      <description value="Example UTN Patient 2"/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-patient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Example-UTN-Practitioner-PR1"/>
+      </reference>
+      <name value="Example-UTN-Practitioner-PR1"/>
+      <description value="Example UTN Practitioner 1"/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Example-UTN-Practitioner-PR2"/>
+      </reference>
+      <name value="Example-UTN-Practitioner-PR2"/>
+      <description value="Example UTN Practitioner 2"/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/Example-UTN-PractitionerRole-PR1"/>
+      </reference>
+      <name value="Example-UTN-PractitionerRole-PR1"/>
+      <description value="Example UTN PractitionerRole PR1"/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/Example-UTN-PractitionerRole-PR2"/>
+      </reference>
+      <name value="Example-UTN-PractitionerRole-PR2"/>
+      <description value="Example UTN PractitionerRole PR 2"/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -657,28 +781,6 @@
       <name value="Example-UTNKreatinin"/>
       <description value="An example Observation for Creatinin."/>
       <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/mii-kreatinin"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Practitioner"/>
-      </extension>
-      <reference>
-        <reference value="Practitioner/Example-UTNPractitioner"/>
-      </reference>
-      <name value="Example-UTNPractitioner"/>
-      <description value="Example UTN Practitioner"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="PractitionerRole"/>
-      </extension>
-      <reference>
-        <reference value="PractitionerRole/Example-UTNPractitionerRole"/>
-      </reference>
-      <name value="Example-UTNPractitionerRole"/>
-      <description value="Example UTN PractitionerRole"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -891,13 +993,99 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Device"/>
+        <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="Device/phone-1"/>
+        <reference value="StructureDefinition/utn-icu-extrakorporales-verfahren"/>
       </reference>
-      <name value="Phone Device"/>
-      <description value="A smartphone used for teleconsultation"/>
+      <name value="MII PR ICU Extrakorporales Verfahren"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationStatement"/>
+      </extension>
+      <reference>
+        <reference value="MedicationStatement/Example-UTN-MEdikationStatement"/>
+      </reference>
+      <name value="Ramipril"/>
+      <description value="The medication of the patient during the encounter of ICU"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/Example-UTN-Sepsis"/>
+      </reference>
+      <name value="Sepsis Condition"/>
+      <description value="Represents an active sepsis condition observed during an ICU encounter."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/teleconsult-communication"/>
+      </reference>
+      <name value="Teleconsultation Communication"/>
+      <description value="Profile for communications during teleconsultation sessions between healthcare providers."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/Example-UTN-Teleconsultation-PTtoPR"/>
+      </reference>
+      <name value="Teleconsultation note between patient and practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/Example-UTN-Teleconsultation-PRtoPR"/>
+      </reference>
+      <name value="Teleconsultation note between practitioner and practitioner"/>
+      <description value="Teleconsultation note sent to practitioner as part of the Service Request"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/Example-UTN-Teleconsultation-PRtoPR-Return"/>
+      </reference>
+      <name value="Teleconsultation note between practitioner and practitioner"/>
+      <description value="Teleconsultation note sent back to practitioner based on the Service Request"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Communication"/>
+      </extension>
+      <reference>
+        <reference value="Communication/Example-UTN-PRtoPR-Consult"/>
+      </reference>
+      <name value="Teleconsultation Note from Charité to Uniklinik Würzburg"/>
+      <description value="A message sent by a practitioner at Charité to a specialist at Uniklinik Würzburg regarding a patient case."/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/teleconsult-communication"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/UTN-Teleconsultation-PRtoPR-ServiceRequest"/>
+      </reference>
+      <name value="Teleconsultation Request"/>
+      <description value="Request for a teleconsultation from practitioner to practitioner"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -905,11 +1093,22 @@
         <valueString value="HealthcareService"/>
       </extension>
       <reference>
-        <reference value="HealthcareService/teleconsultation-service-1"/>
+        <reference value="HealthcareService/teleconsultation-service-charite"/>
       </reference>
-      <name value="Teleconsultation Service"/>
-      <description value="A teleconsultation service provided by Example Hospital"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/healthcare-service-with-devices"/>
+      <name value="Teleconsultation Service - Charité"/>
+      <description value="Teleconsultation service provided by Charité – Universitätsmedizin Berlin"/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/healthcare-service"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="HealthcareService"/>
+      </extension>
+      <reference>
+        <reference value="HealthcareService/teleconsultation-service-wuerzburg"/>
+      </reference>
+      <name value="Teleconsultation Service - Uniklinik Würzburg"/>
+      <description value="Teleconsultation service provided by Universitätsklinikum Würzburg"/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/healthcare-service"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -960,7 +1159,18 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/healthcare-service-with-devices"/>
+        <reference value="StructureDefinition/utn-encounter"/>
+      </reference>
+      <name value="UTN Encounter"/>
+      <description value="This is the profile of Enocunter within UTN"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/healthcare-service"/>
       </reference>
       <name value="UTN Healthcare Service with Devices"/>
       <description value="A profile for HealthcareService to include references to non-medical devices used in teleconsultation."/>
@@ -1037,7 +1247,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/consent-management-patient"/>
+        <reference value="StructureDefinition/utn-patient"/>
       </reference>
       <name value="UTN Patient"/>
       <description value="The profile of the UTN Patient"/>
@@ -1070,6 +1280,28 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/utn-procedure-beatmung"/>
+      </reference>
+      <name value="UTN Procedure Beatmung"/>
+      <description value="Profil für die Beatmungsprozedur"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/utn-service-request"/>
+      </reference>
+      <name value="UTN Teleconsultation Service Request"/>
+      <description value="This profile shows how to create service request for teleconsultation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/utn-diagnostik-report"/>
       </reference>
       <name value="UTNDiagnostikReport"/>
@@ -1086,6 +1318,27 @@
       <name value="UTNLocation"/>
       <description value="Example location for UTN"/>
       <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/utn-documentreference"/>
+      </reference>
+      <name value="UTNTeleconsultDocumentReference"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/Example-UTN-VVECMO"/>
+      </reference>
+      <name value="Venovenous ECMO Procedure"/>
+      <description value="venovenous extracorporeal membrane oxygenation procedure"/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-icu-extrakorporales-verfahren"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

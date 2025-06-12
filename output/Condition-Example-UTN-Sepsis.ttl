@@ -1,0 +1,47 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://utn/consentresource.com/Condition/Example-UTN-Sepsis> a fhir:Condition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Example-UTN-Sepsis"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition Example-UTN-Sepsis</b></p><a name=\"Example-UTN-Sepsis\"> </a><a name=\"hcExample-UTN-Sepsis\"> </a><a name=\"Example-UTN-Sepsis-en-US\"> </a><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 91302008}\">Sepsis</span></p><p><b>subject</b>: <a href=\"Patient-utn-patient-1.html\">John Doe  Other, DoB: 1970-09-19 ( MR)</a></p><p><b>encounter</b>: <a href=\"Encounter-Example-UTN-Encounter-PRtoPR.html\">Encounter: status = in-progress; class = inpatient encounter (ActCode#IMP); type = intensivstationaer; serviceType = Intensivmedizin; period = 2025-01-14 08:00:00+1000 --&gt; (ongoing)</a></p><p><b>onset</b>: 2025-01-14</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:clinicalStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:91302008 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "91302008" ] ;
+       fhir:display [ fhir:v "Sepsis" ]
+     ] ) ;
+     fhir:text [ fhir:v "Sepsis" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://utn/consentresource.com/Patient/utn-patient-1> ;
+     fhir:reference [ fhir:v "Patient/utn-patient-1" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://utn/consentresource.com/Encounter/Example-UTN-Encounter-PRtoPR> ;
+     fhir:reference [ fhir:v "Encounter/Example-UTN-Encounter-PRtoPR" ]
+  ] ; # 
+  fhir:onset [
+     a fhir:dateTime ;
+     fhir:v "2025-01-14"^^xsd:date
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

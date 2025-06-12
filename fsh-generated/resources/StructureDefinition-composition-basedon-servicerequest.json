@@ -1,0 +1,54 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "composition-basedon-servicerequest",
+  "url": "http://utn/consentresource.com/StructureDefinition/composition-basedon-servicerequest",
+  "name": "CompositionBasedOnServiceRequest",
+  "title": "Composition BasedOn ServiceRequest",
+  "status": "draft",
+  "description": "Links a Composition to the ServiceRequest it is based on.",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Element"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Composition BasedOn ServiceRequest",
+        "definition": "Links a Composition to the ServiceRequest it is based on."
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://utn/consentresource.com/StructureDefinition/composition-basedon-servicerequest"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/ServiceRequest"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

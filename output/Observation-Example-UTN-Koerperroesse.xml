@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="Example-UTN-Koerperroesse"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/koerpergroesse"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation Example-UTN-Koerperroesse</b></p><a name="Example-UTN-Koerperroesse"> </a><a name="hcExample-UTN-Koerperroesse"> </a><a name="Example-UTN-Koerperroesse-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.2&amp;canonical=https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/koerpergroesse">SD MII ICU Koerpergroesse</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}">Vital Signs</span></p><p><b>code</b>: <span title="Codes:{http://loinc.org 8302-2}, {http://snomed.info/sct 1153637007}">Body height</span></p><p><b>subject</b>: <a href="Patient-utn-patient-2.html">Anna Müller  Female, DoB: 1985-03-12 ( MR)</a></p><p><b>value</b>: 180 centimeter<span style="background: LightGoldenRodYellow"> (Details: UCUM  codecm = 'cm')</span></p></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="vital-signs"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="8302-2"/>
+      <display value="Body height"/>
+    </coding>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <version value="http://snomed.info/sct/900000000000207008/version/20241101"/>
+      <code value="1153637007"/>
+      <display value="Body height (observable entity)"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/utn-patient-2"/>
+  </subject>
+  <valueQuantity>
+    <value value="180"/>
+    <unit value="centimeter"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="cm"/>
+  </valueQuantity>
+</Observation>

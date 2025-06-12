@@ -1,0 +1,40 @@
+{
+  "resourceType": "Procedure",
+  "id": "Example-UTN-Invasive-Beatmung",
+  "meta": {
+    "profile": [
+      "http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung",
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/beatmung"
+    ]
+  },
+  "category": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "40617009",
+        "display": "Artificial Ventilation"
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1258985005"
+      }
+    ]
+  },
+  "performedPeriod": {
+    "start": "2025-01-14T16:48:00+01:00"
+  },
+  "status": "in-progress",
+  "subject": {
+    "reference": "Patient/utn-patient-2"
+  },
+  "encounter": {
+    "reference": "Encounter/Example-UTN-Encounter-PRtoPR"
+  },
+  "recorder": {
+    "reference": "Practitioner/Example-UTN-Practitioner-PR1"
+  }
+}

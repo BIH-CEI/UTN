@@ -1,0 +1,46 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "Example-UTN-PractitionerRole-PR1",
+  "meta": {
+    "profile": [
+      "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole",
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_PractitionerRole"
+    ]
+  },
+  "organization": {
+    "identifier": {
+      "system": "http://fhir.de/NamingSystem/asv/teamnummer",
+      "value": "001234566"
+    }
+  },
+  "code": [
+    {
+      "coding": [
+        {
+          "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Role_Care",
+          "code": "AD",
+          "display": "Ärztliche(r) DirektorIn"
+        }
+      ]
+    }
+  ],
+  "specialty": [
+    {
+      "coding": [
+        {
+          "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BAR2_ARZTNRFACHGRUPPE",
+          "code": "01",
+          "display": "Allgemeinmedizin"
+        }
+      ]
+    }
+  ],
+  "healthcareService": [
+    {
+      "reference": "HealthcareService/teleconsultation-service-charite"
+    }
+  ],
+  "practitioner": {
+    "reference": "Practitioner/Example-UTN-Practitioner-PR1"
+  }
+}

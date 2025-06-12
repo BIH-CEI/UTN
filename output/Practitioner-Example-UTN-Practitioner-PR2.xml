@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="Example-UTN-Practitioner-PR2"/>
+  <meta>
+    <profile value="http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"/>
+    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Practitioner Example-UTN-Practitioner-PR2</b></p><a name="Example-UTN-Practitioner-PR2"> </a><a name="hcExample-UTN-Practitioner-PR2"> </a><a name="Example-UTN-Practitioner-PR2-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profiles: <a href="StructureDefinition-KBV-PR-Base-Practitioner.html">UTN Practitioner</a>, <a href="https://simplifier.net/resolve?scope=kbv.basis@1.7.0&amp;canonical=https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner">KBV_PR_Base_Practitioner</a></p></div><p><b>identifier</b>: Lifelong physician number/123456788, Doctor number/123456789123457, Provider number/123456788</p><p><b>name</b>: Gunther Neumann(Official), Gunther Neumann(Name changed for Marriage)</p><p><b>telecom</b>: ph: 06151/555555</p><p><b>address</b>: </p><ul><li>Strassestr. 2 Aachen 52068 D </li><li>101xx Aachen 52068 D </li></ul></div>
+  </text>
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="LANR"/>
+        <display value="Lifelong physician number"/>
+      </coding>
+    </type>
+    <system value="https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR"/>
+    <value value="123456788"/>
+  </identifier>
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="DN"/>
+        <display value="Doctor number"/>
+      </coding>
+    </type>
+    <system value="http://fhir.de/sid/bundesaerztekammer/efn"/>
+    <value value="123456789123457"/>
+  </identifier>
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="PRN"/>
+        <display value="Provider number"/>
+      </coding>
+    </type>
+    <system value="https://gematik.de/fhir/sid/telematik-id"/>
+    <value value="123456788"/>
+  </identifier>
+  <name>
+    <use value="official"/>
+    <text value="Gunther Neumann"/>
+    <family value="Neumann">
+      <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-name">
+        <valueString value="Neumann"/>
+      </extension>
+    </family>
+    <given value="Gunther"/>
+    <prefix value="Dr. med.">
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier">
+        <valueCode value="AC"/>
+      </extension>
+    </prefix>
+  </name>
+  <name>
+    <use value="maiden"/>
+    <text value="Gunther Neumann"/>
+    <family value="Neumann">
+      <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-name">
+        <valueString value="Neumann"/>
+      </extension>
+    </family>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="06151/555555"/>
+  </telecom>
+  <address>
+    <type value="both"/>
+    <line value="Strassestr. 2">
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
+        <valueString value="2"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName">
+        <valueString value="Strassestr."/>
+      </extension>
+    </line>
+    <city value="Aachen"/>
+    <postalCode value="52068"/>
+    <country value="D"/>
+  </address>
+  <address>
+    <type value="postal"/>
+    <line value="101xx">
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox">
+        <valueString value="52068"/>
+      </extension>
+    </line>
+    <city value="Aachen"/>
+    <postalCode value="52068"/>
+    <country value="D"/>
+  </address>
+</Practitioner>

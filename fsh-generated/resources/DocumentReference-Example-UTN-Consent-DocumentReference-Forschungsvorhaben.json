@@ -17,6 +17,6 @@
   ],
   "status": "current",
   "subject": {
-    "reference": "Patient/consent-management-patient"
+    "reference": "Patient/utn-patient-1"
   }
 }

@@ -1,0 +1,36 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "UTN-Teleconsultation-PRtoPR-ServiceRequest",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/servicerequest-category",
+          "code": "409063005",
+          "display": "Counselling"
+        }
+      ]
+    }
+  ],
+  "performer": [
+    {
+      "reference": "Practitioner/Example-UTN-Practitioner-PR2"
+    }
+  ],
+  "supportingInfo": [
+    {
+      "reference": "Composition/Example-UTN-Teleconsultation-PRtoPR"
+    }
+  ],
+  "status": "active",
+  "intent": "order",
+  "subject": {
+    "reference": "Patient/utn-patient-1"
+  },
+  "encounter": {
+    "reference": "Encounter/Example-UTN-Encounter-PRtoPR"
+  },
+  "requester": {
+    "reference": "Practitioner/Example-UTN-Practitioner-PR1"
+  }
+}

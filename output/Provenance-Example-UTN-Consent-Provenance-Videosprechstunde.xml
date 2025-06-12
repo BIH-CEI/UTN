@@ -35,7 +35,7 @@
     </type>
     <when value="2024-07-24T09:00:00Z"/>
     <who>
-      <reference value="Patient/consent-management-patient"/>
+      <reference value="Patient/utn-patient-1"/>
     </who>
   </signature>
 </Provenance>

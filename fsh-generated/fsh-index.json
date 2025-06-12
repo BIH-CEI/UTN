@@ -1,11 +1,67 @@
 [
   {
+    "outputFile": "AllergyIntolerance-Example-UTN-AllergyIntolerance.json",
+    "fshName": "Example-UTN-AllergyIntolerance",
+    "fshType": "Instance",
+    "fshFile": "Instances/Parameters/Example-UTN-AllergyIntolerance.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
     "outputFile": "CodeSystem-gridhamd-answer-options-cs.json",
     "fshName": "GRIDHAMDAnswerOptionsCS",
     "fshType": "CodeSystem",
     "fshFile": "CodeSystems/GRIDHAMD_CodeSystem.fsh",
     "startLine": 3,
     "endLine": 486
+  },
+  {
+    "outputFile": "Communication-Example-UTN-PRtoPR-Consult.json",
+    "fshName": "Example-UTN-PRtoPR-Consult",
+    "fshType": "Instance",
+    "fshFile": "Instances/Meta/Example-UTN-Communication.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "Composition-Example-UTN-Teleconsultation-PRtoPR-Return.json",
+    "fshName": "Example-UTN-Teleconsultation-PRtoPR-Return",
+    "fshType": "Instance",
+    "fshFile": "Instances/Meta/Example-Composition.fsh",
+    "startLine": 81,
+    "endLine": 134
+  },
+  {
+    "outputFile": "Composition-Example-UTN-Teleconsultation-PRtoPR.json",
+    "fshName": "Example-UTN-Teleconsultation-PRtoPR",
+    "fshType": "Instance",
+    "fshFile": "Instances/Meta/Example-Composition.fsh",
+    "startLine": 29,
+    "endLine": 70
+  },
+  {
+    "outputFile": "Composition-Example-UTN-Teleconsultation-PTtoPR.json",
+    "fshName": "Example-UTN-Teleconsultation-PTtoPR",
+    "fshType": "Instance",
+    "fshFile": "Instances/Meta/Example-Composition.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "Condition-Example-UTN-Condition.json",
+    "fshName": "Example-UTN-Condition",
+    "fshType": "Instance",
+    "fshFile": "Instances/Parameters/Example-UTN-Hypertension.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "Condition-Example-UTN-Sepsis.json",
+    "fshName": "Example-UTN-Sepsis",
+    "fshType": "Instance",
+    "fshFile": "Instances/Parameters/Example-UTN-Sepsis.fsh",
+    "startLine": 1,
+    "endLine": 10
   },
   {
     "outputFile": "Consent-Example-UTN-Consent-Forschungsvorhaben.json",
@@ -24,26 +80,10 @@
     "endLine": 21
   },
   {
-    "outputFile": "Device-camera-1.json",
-    "fshName": "CameraDevice",
-    "fshType": "Instance",
-    "fshFile": "Instances/Meta/Example-UTN-HealthcareService.fsh",
-    "startLine": 31,
-    "endLine": 52
-  },
-  {
-    "outputFile": "Device-phone-1.json",
-    "fshName": "PhoneDevice",
-    "fshType": "Instance",
-    "fshFile": "Instances/Meta/Example-UTN-HealthcareService.fsh",
-    "startLine": 54,
-    "endLine": 68
-  },
-  {
     "outputFile": "DiagnosticReport-Example-UTN-DiagnosticReport.json",
     "fshName": "Example-UTN-DiagnosticReport",
     "fshType": "Instance",
-    "fshFile": "Instances/Parameters/Example-UTN_DiagnosticReport.fsh",
+    "fshFile": "Instances/Parameters/Example-UTN-DiagnosticReport.fsh",
     "startLine": 1,
     "endLine": 31
   },
@@ -64,12 +104,36 @@
     "endLine": 31
   },
   {
-    "outputFile": "HealthcareService-teleconsultation-service-1.json",
-    "fshName": "Example-UTN-HealthcareService",
+    "outputFile": "Encounter-Example-UTN-Encounter-PRtoPR.json",
+    "fshName": "Example-UTN-Encounter-PRtoPR",
+    "fshType": "Instance",
+    "fshFile": "Instances/Meta/Example-UTN-Encounter.fsh",
+    "startLine": 18,
+    "endLine": 34
+  },
+  {
+    "outputFile": "Encounter-Example-UTN-Encounter-PTtoPR.json",
+    "fshName": "Example-UTN-Encounter-PTtoPR",
+    "fshType": "Instance",
+    "fshFile": "Instances/Meta/Example-UTN-Encounter.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "HealthcareService-teleconsultation-service-charite.json",
+    "fshName": "Example-UTN-HealthcareService-Charite",
     "fshType": "Instance",
     "fshFile": "Instances/Meta/Example-UTN-HealthcareService.fsh",
     "startLine": 1,
-    "endLine": 29
+    "endLine": 23
+  },
+  {
+    "outputFile": "HealthcareService-teleconsultation-service-wuerzburg.json",
+    "fshName": "Example-UTN-Teleconsultation-Service-Wuerzburg",
+    "fshType": "Instance",
+    "fshFile": "Instances/Meta/Example-UTN-HealthcareService.fsh",
+    "startLine": 26,
+    "endLine": 48
   },
   {
     "outputFile": "Location-UTNLocation.json",
@@ -80,12 +144,28 @@
     "endLine": 55
   },
   {
+    "outputFile": "MedicationStatement-Example-UTN-MEdikationStatement.json",
+    "fshName": "Example-UTN-MEdikationStatement",
+    "fshType": "Instance",
+    "fshFile": "Instances/Parameters/Example-UTN-MedikationStatement.fsh",
+    "startLine": 5,
+    "endLine": 16
+  },
+  {
     "outputFile": "Observation-Example-UTN-Arterieller-Blutdruck.json",
     "fshName": "Example-UTN-Arterieller-Blutdruck",
     "fshType": "Instance",
     "fshFile": "Instances/Parameters/Example-UTN-Systolisch-Diastolisch.fsh",
     "startLine": 1,
     "endLine": 60
+  },
+  {
+    "outputFile": "Observation-Example-UTN-Koerperroesse.json",
+    "fshName": "Example-UTN-Koerperroesse",
+    "fshType": "Instance",
+    "fshFile": "Instances/Parameters/Example-UTN-KoerperGroesse.fsh",
+    "startLine": 1,
+    "endLine": 11
   },
   {
     "outputFile": "Observation-Example-UTNAtemfrequenz.json",
@@ -109,7 +189,7 @@
     "fshType": "Instance",
     "fshFile": "Instances/Parameters/Example-UTN-KoerperGewicht.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 16
   },
   {
     "outputFile": "Observation-Example-UTNKoerpertemperatur.json",
@@ -128,7 +208,7 @@
     "endLine": 33
   },
   {
-    "outputFile": "Patient-consent-management-patient.json",
+    "outputFile": "Patient-utn-patient-1.json",
     "fshName": "Example-UTN-Patient",
     "fshType": "Instance",
     "fshFile": "Instances/Meta/Example-UTN-Patient.fsh",
@@ -136,20 +216,60 @@
     "endLine": 19
   },
   {
-    "outputFile": "Practitioner-Example-UTNPractitioner.json",
-    "fshName": "Example-UTNPractitioner",
+    "outputFile": "Patient-utn-patient-2.json",
+    "fshName": "Example-UTN-Patient-2",
     "fshType": "Instance",
-    "fshFile": "Instances/Meta/Example-UTN-Practitioner.fsh",
-    "startLine": 1,
-    "endLine": 53
+    "fshFile": "Instances/Meta/Example-UTN-Patient.fsh",
+    "startLine": 21,
+    "endLine": 39
   },
   {
-    "outputFile": "PractitionerRole-Example-UTNPractitionerRole.json",
-    "fshName": "Example-UTNPractitionerRole",
+    "outputFile": "Practitioner-Example-UTN-Practitioner-PR1.json",
+    "fshName": "Example-UTN-Practitioner-PR1",
     "fshType": "Instance",
-    "fshFile": "Instances/Meta/Example-UTN-PractitionerRole.fsh",
+    "fshFile": "Instances/Meta/Example-UTN-Practitioner-PR1.fsh",
+    "startLine": 1,
+    "endLine": 48
+  },
+  {
+    "outputFile": "Practitioner-Example-UTN-Practitioner-PR2.json",
+    "fshName": "Example-UTN-Practitioner-PR2",
+    "fshType": "Instance",
+    "fshFile": "Instances/Meta/Example-UTN-Practitioner-PR2.fsh",
+    "startLine": 1,
+    "endLine": 48
+  },
+  {
+    "outputFile": "PractitionerRole-Example-UTN-PractitionerRole-PR1.json",
+    "fshName": "Example-UTN-PractitionerRole-PR1",
+    "fshType": "Instance",
+    "fshFile": "Instances/Meta/Example-UTN-PractitionerRole-PR1.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PractitionerRole-Example-UTN-PractitionerRole-PR2.json",
+    "fshName": "Example-UTN-PractitionerRole-PR2",
+    "fshType": "Instance",
+    "fshFile": "Instances/Meta/Example-UTN-PractitionerRole-PR2.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "Procedure-Example-UTN-Invasive-Beatmung.json",
+    "fshName": "Example-UTN-Invasive-Beatmung",
+    "fshType": "Instance",
+    "fshFile": "Instances/Parameters/Example-UTN-Beatmung.fsh",
     "startLine": 1,
     "endLine": 17
+  },
+  {
+    "outputFile": "Procedure-Example-UTN-VVECMO.json",
+    "fshName": "Example-UTN-VVECMO",
+    "fshType": "Instance",
+    "fshFile": "Instances/Parameters/Example-UTN-ECMO.fsh",
+    "startLine": 1,
+    "endLine": 14
   },
   {
     "outputFile": "Provenance-Example-UTN-Consent-Provenance-Forschungsvorhaben.json",
@@ -176,6 +296,14 @@
     "endLine": 137
   },
   {
+    "outputFile": "ServiceRequest-UTN-Teleconsultation-PRtoPR-ServiceRequest.json",
+    "fshName": "UTN-Teleconsultation-PRtoPR-ServiceRequest",
+    "fshType": "Instance",
+    "fshFile": "Instances/Meta/Example-UTN-ServiceRequest.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
     "outputFile": "StructureDefinition-KBV-PR-Base-Practitioner.json",
     "fshName": "UTNPractitioner",
     "fshType": "Profile",
@@ -184,12 +312,12 @@
     "endLine": 29
   },
   {
-    "outputFile": "StructureDefinition-consent-management-patient.json",
-    "fshName": "ConsentManagementPatient",
-    "fshType": "Profile",
-    "fshFile": "Profiles/Meta/Profile-Patient.fsh",
-    "startLine": 1,
-    "endLine": 17
+    "outputFile": "StructureDefinition-composition-basedon-servicerequest.json",
+    "fshName": "CompositionBasedOnServiceRequest",
+    "fshType": "Extension",
+    "fshFile": "Instances/Meta/Example-Composition.fsh",
+    "startLine": 74,
+    "endLine": 79
   },
   {
     "outputFile": "StructureDefinition-consent-management-provenance.json",
@@ -200,20 +328,12 @@
     "endLine": 24
   },
   {
-    "outputFile": "StructureDefinition-device-reference.json",
-    "fshName": "DeviceReference",
-    "fshType": "Extension",
-    "fshFile": "Profiles/Meta/Profile-HealthcareService.fsh",
-    "startLine": 1,
-    "endLine": 6
-  },
-  {
-    "outputFile": "StructureDefinition-healthcare-service-with-devices.json",
-    "fshName": "HealthcareServiceWithDevices",
+    "outputFile": "StructureDefinition-healthcare-service.json",
+    "fshName": "UTNHealthcareService",
     "fshType": "Profile",
     "fshFile": "Profiles/Meta/Profile-HealthcareService.fsh",
-    "startLine": 8,
-    "endLine": 24
+    "startLine": 1,
+    "endLine": 15
   },
   {
     "outputFile": "StructureDefinition-isik-herzfrequenz.json",
@@ -256,6 +376,14 @@
     "endLine": 22
   },
   {
+    "outputFile": "StructureDefinition-teleconsult-communication.json",
+    "fshName": "UTNTeleconsultCommunication",
+    "fshType": "Profile",
+    "fshFile": "Profiles/Meta/Profile-Communication.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
     "outputFile": "StructureDefinition-utn-PR-Base-PractitionerRole.json",
     "fshName": "UTNPractitionerRole",
     "fshType": "Profile",
@@ -288,6 +416,30 @@
     "endLine": 33
   },
   {
+    "outputFile": "StructureDefinition-utn-documentreference.json",
+    "fshName": "UTNTeleconsultDocumentReference",
+    "fshType": "Profile",
+    "fshFile": "Profiles/Meta/Profile-TeleConsult-DocumentReference.fsh",
+    "startLine": 6,
+    "endLine": 46
+  },
+  {
+    "outputFile": "StructureDefinition-utn-encounter.json",
+    "fshName": "UTN-Encounter",
+    "fshType": "Profile",
+    "fshFile": "Profiles/Meta/Profile-Encounter.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
+    "outputFile": "StructureDefinition-utn-icu-extrakorporales-verfahren.json",
+    "fshName": "UTNEcmo",
+    "fshType": "Profile",
+    "fshFile": "Profiles/Parameters/Profile-ICU-ExtrakorporalesVerfahren.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
     "outputFile": "StructureDefinition-utn-isik-atemfrequenz.json",
     "fshName": "UTNAtemfrequenz",
     "fshType": "Profile",
@@ -302,6 +454,30 @@
     "fshFile": "Profiles/Parameters/Profile-Systolisch-Diastolisch.fsh",
     "startLine": 1,
     "endLine": 7
+  },
+  {
+    "outputFile": "StructureDefinition-utn-patient.json",
+    "fshName": "UTNPatient",
+    "fshType": "Profile",
+    "fshFile": "Profiles/Meta/Profile-Patient.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "StructureDefinition-utn-procedure-beatmung.json",
+    "fshName": "UTN_Procedure_Beatmung",
+    "fshType": "Profile",
+    "fshFile": "Profiles/Parameters/Profile-ICU-Beatmung.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "StructureDefinition-utn-service-request.json",
+    "fshName": "UTNServiceRequest",
+    "fshType": "Profile",
+    "fshFile": "Profiles/Meta/Profile-ServiceRequest.fsh",
+    "startLine": 1,
+    "endLine": 18
   },
   {
     "outputFile": "ValueSet-gridhamd-answer-options-vs-q1.json",

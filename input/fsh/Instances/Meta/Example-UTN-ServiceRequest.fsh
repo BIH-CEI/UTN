@@ -11,9 +11,7 @@ Usage: #example
 * category.coding.code = $sct#409063005
 * category.coding.display = "Counselling"
 
-* code.coding.system = "http://loinc.org"
-* code.coding.code = $loinc#1558-6
-* code.coding.display = "Glucose [Moles/volume] in Blood"
+
 
 * subject = Reference(Example-UTN-Patient)
 * encounter = Reference(Example-UTN-Encounter-PRtoPR)

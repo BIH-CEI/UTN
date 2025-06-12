@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "UTNConsentResource"] ; # 
   fhir:title [ fhir:v "University Telemedicine Network (UTN) FHIR Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-05-14T14:21:32+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-12T14:08:24+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "BIH-CEI"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "BIH-CEI" ] ;
@@ -44,7 +44,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "6.3.0" ]
+     fhir:version [ fhir:v "6.4.0" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -102,10 +102,25 @@
      fhir:packageId [ fhir:v "de.gematik.isik-vitalparameter" ] ;
      fhir:version [ fhir:v "4.0.0" ]
   ] [
+     fhir:id [ fhir:v "de_gematik_isik_basismodul" ] ;
+     fhir:uri [ fhir:v "de.gematik.isik-basismodul"^^xsd:anyURI ] ;
+     fhir:packageId [ fhir:v "de.gematik.isik-basismodul" ] ;
+     fhir:version [ fhir:v "4.0.3" ]
+  ] [
      fhir:id [ fhir:v "kbv_basis" ] ;
      fhir:uri [ fhir:v "kbv.basis"^^xsd:anyURI ] ;
      fhir:packageId [ fhir:v "kbv.basis" ] ;
      fhir:version [ fhir:v "1.7.0" ]
+  ] [
+     fhir:id [ fhir:v "de_medizininformatikinitiative_kerndatensatz_fall" ] ;
+     fhir:uri [ fhir:v "de.medizininformatikinitiative.kerndatensatz.fall"^^xsd:anyURI ] ;
+     fhir:packageId [ fhir:v "de.medizininformatikinitiative.kerndatensatz.fall" ] ;
+     fhir:version [ fhir:v "2025.0.0" ]
+  ] [
+     fhir:id [ fhir:v "de_medizininformatikinitiative_kerndatensatz_medikation" ] ;
+     fhir:uri [ fhir:v "de.medizininformatikinitiative.kerndatensatz.medikation"^^xsd:anyURI ] ;
+     fhir:packageId [ fhir:v "de.medizininformatikinitiative.kerndatensatz.medikation" ] ;
+     fhir:version [ fhir:v "2025.0.0" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [
@@ -870,15 +885,15 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "Device"
+           fhir:v "AllergyIntolerance"
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Device/camera-1> ;
-         fhir:reference [ fhir:v "Device/camera-1" ]
+         fhir:link <http://utn/consentresource.com/AllergyIntolerance/Example-UTN-AllergyIntolerance> ;
+         fhir:reference [ fhir:v "AllergyIntolerance/Example-UTN-AllergyIntolerance" ]
        ] ;
-       fhir:name [ fhir:v "Camera Device" ] ;
-       fhir:description [ fhir:v "An HD camera used for teleconsultation" ] ;
+       fhir:name [ fhir:v "Allergies of the Patient" ] ;
+       fhir:description [ fhir:v "Indicates that the patient has no known allergies." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v true
@@ -892,14 +907,89 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/device-reference> ;
-         fhir:reference [ fhir:v "StructureDefinition/device-reference" ]
+         fhir:link <http://utn/consentresource.com/StructureDefinition/composition-basedon-servicerequest> ;
+         fhir:reference [ fhir:v "StructureDefinition/composition-basedon-servicerequest" ]
        ] ;
-       fhir:name [ fhir:v "Device Reference" ] ;
-       fhir:description [ fhir:v "Extension to reference devices in a HealthcareService" ] ;
+       fhir:name [ fhir:v "Composition BasedOn ServiceRequest" ] ;
+       fhir:description [ fhir:v "Links a Composition to the ServiceRequest it is based on." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Encounter"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/Encounter/Example-UTN-Encounter-PTtoPR> ;
+         fhir:reference [ fhir:v "Encounter/Example-UTN-Encounter-PTtoPR" ]
+       ] ;
+       fhir:name [ fhir:v "Encounter 1" ] ;
+       fhir:description [ fhir:v "Encounter which is between patient to practitioner" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-encounter"^^xsd:anyURI ;
+         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-encounter>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Encounter"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/Encounter/Example-UTN-Encounter-PRtoPR> ;
+         fhir:reference [ fhir:v "Encounter/Example-UTN-Encounter-PRtoPR" ]
+       ] ;
+       fhir:name [ fhir:v "Encounter 2" ] ;
+       fhir:description [ fhir:v "Encounter which is between practitioner to practitioner" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-encounter"^^xsd:anyURI ;
+         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-encounter>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Condition"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/Condition/Example-UTN-Condition> ;
+         fhir:reference [ fhir:v "Condition/Example-UTN-Condition" ]
+       ] ;
+       fhir:name [ fhir:v "Example of Hypertonus Condition" ] ;
+       fhir:description [ fhir:v "Represents a condition of systemic hypertension" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Procedure"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/Procedure/Example-UTN-Invasive-Beatmung> ;
+         fhir:reference [ fhir:v "Procedure/Example-UTN-Invasive-Beatmung" ]
+       ] ;
+       fhir:name [ fhir:v "Example of UTN Procedure Beatmung" ] ;
+       fhir:description [ fhir:v "Example instance of a ventilation procedure conforming to UTN_Procedure_Beatmung profile" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung"^^xsd:anyURI ;
+         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung>
        ]
      ] [
        fhir:extension ( [
@@ -1058,19 +1148,131 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/Observation/Example-UTN-Koerperroesse> ;
+         fhir:reference [ fhir:v "Observation/Example-UTN-Koerperroesse" ]
+       ] ;
+       fhir:name [ fhir:v "Example-UTN-Koerperroesse" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "Patient"
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Patient/consent-management-patient> ;
-         fhir:reference [ fhir:v "Patient/consent-management-patient" ]
+         fhir:link <http://utn/consentresource.com/Patient/utn-patient-1> ;
+         fhir:reference [ fhir:v "Patient/utn-patient-1" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-Patient" ] ;
-       fhir:description [ fhir:v "Example UTN Patient" ] ;
+       fhir:description [ fhir:v "Example UTN Patient 1" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/consent-management-patient"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/consent-management-patient>
+         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-patient"^^xsd:anyURI ;
+         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-patient>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Patient"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/Patient/utn-patient-2> ;
+         fhir:reference [ fhir:v "Patient/utn-patient-2" ]
+       ] ;
+       fhir:name [ fhir:v "Example-UTN-Patient-2" ] ;
+       fhir:description [ fhir:v "Example UTN Patient 2" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-patient"^^xsd:anyURI ;
+         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-patient>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Practitioner"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+         fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
+       ] ;
+       fhir:name [ fhir:v "Example-UTN-Practitioner-PR1" ] ;
+       fhir:description [ fhir:v "Example UTN Practitioner 1" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"^^xsd:anyURI ;
+         fhir:link <http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Practitioner"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR2> ;
+         fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR2" ]
+       ] ;
+       fhir:name [ fhir:v "Example-UTN-Practitioner-PR2" ] ;
+       fhir:description [ fhir:v "Example UTN Practitioner 2" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"^^xsd:anyURI ;
+         fhir:link <http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "PractitionerRole"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/PractitionerRole/Example-UTN-PractitionerRole-PR1> ;
+         fhir:reference [ fhir:v "PractitionerRole/Example-UTN-PractitionerRole-PR1" ]
+       ] ;
+       fhir:name [ fhir:v "Example-UTN-PractitionerRole-PR1" ] ;
+       fhir:description [ fhir:v "Example UTN PractitionerRole PR1" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"^^xsd:anyURI ;
+         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "PractitionerRole"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/PractitionerRole/Example-UTN-PractitionerRole-PR2> ;
+         fhir:reference [ fhir:v "PractitionerRole/Example-UTN-PractitionerRole-PR2" ]
+       ] ;
+       fhir:name [ fhir:v "Example-UTN-PractitionerRole-PR2" ] ;
+       fhir:description [ fhir:v "Example UTN PractitionerRole PR 2" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"^^xsd:anyURI ;
+         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole>
        ]
      ] [
        fhir:extension ( [
@@ -1166,44 +1368,6 @@
          a fhir:canonical ;
          fhir:v "http://utn/consentresource.com/StructureDefinition/mii-kreatinin"^^xsd:anyURI ;
          fhir:link <http://utn/consentresource.com/StructureDefinition/mii-kreatinin>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "Practitioner"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://utn/consentresource.com/Practitioner/Example-UTNPractitioner> ;
-         fhir:reference [ fhir:v "Practitioner/Example-UTNPractitioner" ]
-       ] ;
-       fhir:name [ fhir:v "Example-UTNPractitioner" ] ;
-       fhir:description [ fhir:v "Example UTN Practitioner" ] ;
-       fhir:example [
-         a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "PractitionerRole"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://utn/consentresource.com/PractitionerRole/Example-UTNPractitionerRole> ;
-         fhir:reference [ fhir:v "PractitionerRole/Example-UTNPractitionerRole" ]
-       ] ;
-       fhir:name [ fhir:v "Example-UTNPractitionerRole" ] ;
-       fhir:description [ fhir:v "Example UTN PractitionerRole" ] ;
-       fhir:example [
-         a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole>
        ]
      ] [
        fhir:extension ( [
@@ -1552,15 +1716,158 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "Device"
+           fhir:v "StructureDefinition:resource"
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Device/phone-1> ;
-         fhir:reference [ fhir:v "Device/phone-1" ]
+         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-icu-extrakorporales-verfahren> ;
+         fhir:reference [ fhir:v "StructureDefinition/utn-icu-extrakorporales-verfahren" ]
        ] ;
-       fhir:name [ fhir:v "Phone Device" ] ;
-       fhir:description [ fhir:v "A smartphone used for teleconsultation" ] ;
+       fhir:name [ fhir:v "MII PR ICU Extrakorporales Verfahren" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "MedicationStatement"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/MedicationStatement/Example-UTN-MEdikationStatement> ;
+         fhir:reference [ fhir:v "MedicationStatement/Example-UTN-MEdikationStatement" ]
+       ] ;
+       fhir:name [ fhir:v "Ramipril" ] ;
+       fhir:description [ fhir:v "The medication of the patient during the encounter of ICU" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Condition"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/Condition/Example-UTN-Sepsis> ;
+         fhir:reference [ fhir:v "Condition/Example-UTN-Sepsis" ]
+       ] ;
+       fhir:name [ fhir:v "Sepsis Condition" ] ;
+       fhir:description [ fhir:v "Represents an active sepsis condition observed during an ICU encounter." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource:abstract"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/StructureDefinition/teleconsult-communication> ;
+         fhir:reference [ fhir:v "StructureDefinition/teleconsult-communication" ]
+       ] ;
+       fhir:name [ fhir:v "Teleconsultation Communication" ] ;
+       fhir:description [ fhir:v "Profile for communications during teleconsultation sessions between healthcare providers." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Composition"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/Composition/Example-UTN-Teleconsultation-PTtoPR> ;
+         fhir:reference [ fhir:v "Composition/Example-UTN-Teleconsultation-PTtoPR" ]
+       ] ;
+       fhir:name [ fhir:v "Teleconsultation note between patient and practitioner" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Composition"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/Composition/Example-UTN-Teleconsultation-PRtoPR> ;
+         fhir:reference [ fhir:v "Composition/Example-UTN-Teleconsultation-PRtoPR" ]
+       ] ;
+       fhir:name [ fhir:v "Teleconsultation note between practitioner and practitioner" ] ;
+       fhir:description [ fhir:v "Teleconsultation note sent to practitioner as part of the Service Request" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Composition"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/Composition/Example-UTN-Teleconsultation-PRtoPR-Return> ;
+         fhir:reference [ fhir:v "Composition/Example-UTN-Teleconsultation-PRtoPR-Return" ]
+       ] ;
+       fhir:name [ fhir:v "Teleconsultation note between practitioner and practitioner" ] ;
+       fhir:description [ fhir:v "Teleconsultation note sent back to practitioner based on the Service Request" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Communication"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/Communication/Example-UTN-PRtoPR-Consult> ;
+         fhir:reference [ fhir:v "Communication/Example-UTN-PRtoPR-Consult" ]
+       ] ;
+       fhir:name [ fhir:v "Teleconsultation Note from Charité to Uniklinik Würzburg" ] ;
+       fhir:description [ fhir:v "A message sent by a practitioner at Charité to a specialist at Uniklinik Würzburg regarding a patient case." ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://utn/consentresource.com/StructureDefinition/teleconsult-communication"^^xsd:anyURI ;
+         fhir:link <http://utn/consentresource.com/StructureDefinition/teleconsult-communication>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ServiceRequest"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/ServiceRequest/UTN-Teleconsultation-PRtoPR-ServiceRequest> ;
+         fhir:reference [ fhir:v "ServiceRequest/UTN-Teleconsultation-PRtoPR-ServiceRequest" ]
+       ] ;
+       fhir:name [ fhir:v "Teleconsultation Request" ] ;
+       fhir:description [ fhir:v "Request for a teleconsultation from practitioner to practitioner" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v true
@@ -1574,15 +1881,34 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/HealthcareService/teleconsultation-service-1> ;
-         fhir:reference [ fhir:v "HealthcareService/teleconsultation-service-1" ]
+         fhir:link <http://utn/consentresource.com/HealthcareService/teleconsultation-service-charite> ;
+         fhir:reference [ fhir:v "HealthcareService/teleconsultation-service-charite" ]
        ] ;
-       fhir:name [ fhir:v "Teleconsultation Service" ] ;
-       fhir:description [ fhir:v "A teleconsultation service provided by Example Hospital" ] ;
+       fhir:name [ fhir:v "Teleconsultation Service - Charité" ] ;
+       fhir:description [ fhir:v "Teleconsultation service provided by Charité – Universitätsmedizin Berlin" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/healthcare-service-with-devices"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/healthcare-service-with-devices>
+         fhir:v "http://utn/consentresource.com/StructureDefinition/healthcare-service"^^xsd:anyURI ;
+         fhir:link <http://utn/consentresource.com/StructureDefinition/healthcare-service>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "HealthcareService"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/HealthcareService/teleconsultation-service-wuerzburg> ;
+         fhir:reference [ fhir:v "HealthcareService/teleconsultation-service-wuerzburg" ]
+       ] ;
+       fhir:name [ fhir:v "Teleconsultation Service - Uniklinik Würzburg" ] ;
+       fhir:description [ fhir:v "Teleconsultation service provided by Universitätsklinikum Würzburg" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://utn/consentresource.com/StructureDefinition/healthcare-service"^^xsd:anyURI ;
+         fhir:link <http://utn/consentresource.com/StructureDefinition/healthcare-service>
        ]
      ] [
        fhir:extension ( [
@@ -1665,8 +1991,26 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/healthcare-service-with-devices> ;
-         fhir:reference [ fhir:v "StructureDefinition/healthcare-service-with-devices" ]
+         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-encounter> ;
+         fhir:reference [ fhir:v "StructureDefinition/utn-encounter" ]
+       ] ;
+       fhir:name [ fhir:v "UTN Encounter" ] ;
+       fhir:description [ fhir:v "This is the profile of Enocunter within UTN" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/StructureDefinition/healthcare-service> ;
+         fhir:reference [ fhir:v "StructureDefinition/healthcare-service" ]
        ] ;
        fhir:name [ fhir:v "UTN Healthcare Service with Devices" ] ;
        fhir:description [ fhir:v "A profile for HealthcareService to include references to non-medical devices used in teleconsultation." ] ;
@@ -1791,8 +2135,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/consent-management-patient> ;
-         fhir:reference [ fhir:v "StructureDefinition/consent-management-patient" ]
+         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-patient> ;
+         fhir:reference [ fhir:v "StructureDefinition/utn-patient" ]
        ] ;
        fhir:name [ fhir:v "UTN Patient" ] ;
        fhir:description [ fhir:v "The profile of the UTN Patient" ] ;
@@ -1845,6 +2189,42 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung> ;
+         fhir:reference [ fhir:v "StructureDefinition/utn-procedure-beatmung" ]
+       ] ;
+       fhir:name [ fhir:v "UTN Procedure Beatmung" ] ;
+       fhir:description [ fhir:v "Profil für die Beatmungsprozedur" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-service-request> ;
+         fhir:reference [ fhir:v "StructureDefinition/utn-service-request" ]
+       ] ;
+       fhir:name [ fhir:v "UTN Teleconsultation Service Request" ] ;
+       fhir:description [ fhir:v "This profile shows how to create service request for teleconsultation" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report> ;
          fhir:reference [ fhir:v "StructureDefinition/utn-diagnostik-report" ]
        ] ;
@@ -1871,6 +2251,42 @@
        fhir:example [
          a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-documentreference> ;
+         fhir:reference [ fhir:v "StructureDefinition/utn-documentreference" ]
+       ] ;
+       fhir:name [ fhir:v "UTNTeleconsultDocumentReference" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Procedure"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://utn/consentresource.com/Procedure/Example-UTN-VVECMO> ;
+         fhir:reference [ fhir:v "Procedure/Example-UTN-VVECMO" ]
+       ] ;
+       fhir:name [ fhir:v "Venovenous ECMO Procedure" ] ;
+       fhir:description [ fhir:v "venovenous extracorporeal membrane oxygenation procedure" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-icu-extrakorporales-verfahren"^^xsd:anyURI ;
+         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-icu-extrakorporales-verfahren>
        ]
      ] ) ;
      fhir:page [
