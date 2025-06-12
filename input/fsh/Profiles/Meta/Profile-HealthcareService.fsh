@@ -1,13 +1,6 @@
-Extension: DeviceReference
-Id: device-reference
-Title: "Device Reference"
-Description: "Extension to reference devices in a HealthcareService"
-
-* valueReference.reference = "Device"
-
-Profile: HealthcareServiceWithDevices
+Profile: UTNHealthcareService
 Parent: HealthcareService
-Id: healthcare-service-with-devices
+Id: healthcare-service
 Title: "UTN Healthcare Service with Devices"
 Description: "A profile for HealthcareService to include references to non-medical devices used in teleconsultation."
 
@@ -21,6 +14,5 @@ Description: "A profile for HealthcareService to include references to non-medic
 * telecom 0..
 * location only Reference(Location)
 
-* extension contains DeviceReference named device 0..*
 
 

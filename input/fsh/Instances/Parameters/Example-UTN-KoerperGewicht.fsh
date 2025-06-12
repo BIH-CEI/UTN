@@ -10,6 +10,7 @@ Description: "An example Observation for Body Weight."
 * code.text = "Körpergewicht"
 * valueQuantity = 79 'kg' "kilogram"
 * status = #final
-* subject = Reference(Example-UTN-Patient)
+* subject = Reference(Example-UTN-Patient-2)
+* encounter = Reference(xample-UTN-Encounter-PRtoPR)
 * effectiveDateTime = "2020-10-11"
 * performer = Reference(Example-UTN-Practitioner)

@@ -1,6 +1,6 @@
-Profile: ConsentManagementPatient
+Profile: UTNPatient
 Parent: Patient
-Id: consent-management-patient
+Id: utn-patient
 Title: "UTN Patient"
 Description: "The profile of the UTN Patient"
 

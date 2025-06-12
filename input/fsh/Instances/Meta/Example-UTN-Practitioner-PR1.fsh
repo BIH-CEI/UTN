@@ -1,7 +1,7 @@
-Instance: Example-UTNPractitioner
+Instance: Example-UTN-Practitioner-PR1
 InstanceOf: UTNPractitioner
 Usage: #example
-Description: "Example UTN Practitioner"
+Description: "Example UTN Practitioner 1"
 
 
 * meta.profile = "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner"
@@ -36,18 +36,13 @@ Description: "Example UTN Practitioner"
 * address[=].line.extension[=].valueString = "1"
 * address[=].line.extension[+].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName"
 * address[=].line.extension[=].valueString = "Musterstr."
-* address[=].city = "Darmstadt"
-* address[=].postalCode = "64283"
+* address[=].city = "Berlin"
+* address[=].postalCode = "10115"
 * address[=].country = "D"
 * address[+].type = #postal
-* address[=].line = "124xx"
+* address[=].line = "101xx"
 * address[=].line.extension.url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox"
 * address[=].line.extension.valueString = "124xx"
 * address[=].city = "Berlin"
-* address[=].postalCode = "15457"
+* address[=].postalCode = "10115"
 * address[=].country = "D"
-* gender = #other
-* gender.extension.url = "http://fhir.de/StructureDefinition/gender-amtlich-de"
-* gender.extension.valueCoding = $gender-amtlich-de#D
-* qualification[0].code = $sct#309343006 "Physician (occupation)"
-* qualification[+].code = $FacharzttitelDerAerztekammern#011001 "FA Allgemeinmedizin"
