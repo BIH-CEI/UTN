@@ -127,10 +127,10 @@
   ],
   "status": "final",
   "subject": {
-    "reference": "Patient/utn-patient-1"
+    "reference": "Patient/utn-patient-2"
   },
   "encounter": {
-    "reference": "Encounter/555"
+    "reference": "Encounter/Example-UTN-Encounter-PRtoPR"
   },
   "effectiveDateTime": "2018-11-20T12:05:00+01:00",
   "_effectiveDateTime": {

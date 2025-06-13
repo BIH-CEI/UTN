@@ -28,8 +28,8 @@
     "fshName": "Example-UTN-Teleconsultation-PRtoPR-Return",
     "fshType": "Instance",
     "fshFile": "Instances/Meta/Example-Composition.fsh",
-    "startLine": 81,
-    "endLine": 134
+    "startLine": 86,
+    "endLine": 144
   },
   {
     "outputFile": "Composition-Example-UTN-Teleconsultation-PRtoPR.json",
@@ -37,7 +37,7 @@
     "fshType": "Instance",
     "fshFile": "Instances/Meta/Example-Composition.fsh",
     "startLine": 29,
-    "endLine": 70
+    "endLine": 75
   },
   {
     "outputFile": "Composition-Example-UTN-Teleconsultation-PTtoPR.json",
@@ -316,8 +316,8 @@
     "fshName": "CompositionBasedOnServiceRequest",
     "fshType": "Extension",
     "fshFile": "Instances/Meta/Example-Composition.fsh",
-    "startLine": 74,
-    "endLine": 79
+    "startLine": 79,
+    "endLine": 84
   },
   {
     "outputFile": "StructureDefinition-consent-management-provenance.json",

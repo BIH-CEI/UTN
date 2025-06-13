@@ -84,5 +84,14 @@
     "entry" : [{
       "reference" : "Procedure/Example-UTN-VVECMO"
     }]
+  },
+  {
+    "title" : "Labor",
+    "author" : [{
+      "reference" : "Practitioner/Example-UTN-Practitioner-PR1"
+    }],
+    "entry" : [{
+      "reference" : "Observation/Example-UTNKreatinin"
+    }]
   }]
 }

@@ -12,7 +12,7 @@
   fhir:id [ fhir:v "Example-UTN-Teleconsultation-PTtoPR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Composition Example-UTN-Teleconsultation-PTtoPR</b></p><a name=\"Example-UTN-Teleconsultation-PTtoPR\"> </a><a name=\"hcExample-UTN-Teleconsultation-PTtoPR\"> </a><a name=\"Example-UTN-Teleconsultation-PTtoPR-en-US\"> </a><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 85208-7}\">Telehealth Consult note</span></p><p><b>category</b>: <span title=\"Codes:{http://loinc.org 173421-1}\">Report</span></p><p><b>encounter</b>: <a href=\"Encounter-Example-UTN-Encounter-PTtoPR.html\">Encounter: status = finished; class = virtual (ActCode#VR); type = konsil; serviceType = Kardiologie; period = 2024-06-14 16:00:00+1000 --&gt; 2024-06-14 17:00:00+1000</a></p><p><b>date</b>: 2012-01-04 09:10:14+0000</p><p><b>author</b>: <a href=\"Practitioner-Example-UTN-Practitioner-PR1.html\">Practitioner Hans Topp-Glücklich(official)</a></p><p><b>title</b>: Consultation Note</p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Composition Example-UTN-Teleconsultation-PTtoPR</b></p><a name=\"Example-UTN-Teleconsultation-PTtoPR\"> </a><a name=\"hcExample-UTN-Teleconsultation-PTtoPR\"> </a><a name=\"Example-UTN-Teleconsultation-PTtoPR-en-US\"> </a><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 85208-7}\">Telehealth Consult note</span></p><p><b>category</b>: <span title=\"Codes:{http://loinc.org 11488-4}\">Consult Note</span></p><p><b>encounter</b>: <a href=\"Encounter-Example-UTN-Encounter-PTtoPR.html\">Encounter: status = finished; class = virtual (ActCode#VR); type = konsil; serviceType = Kardiologie; period = 2024-06-14 16:00:00+1000 --&gt; 2024-06-14 17:00:00+1000</a></p><p><b>date</b>: 2012-01-04 09:10:14+0000</p><p><b>author</b>: <a href=\"Practitioner-Example-UTN-Practitioner-PR1.html\">Practitioner Hans Topp-Glücklich(official)</a></p><p><b>title</b>: Consultation Note</p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:type [
@@ -25,10 +25,10 @@
   ] ; # 
   fhir:category ( [
      fhir:coding ( [
-       a loinc:173421-1 ;
+       a loinc:11488-4 ;
        fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "173421-1" ] ;
-       fhir:display [ fhir:v "Report" ]
+       fhir:code [ fhir:v "11488-4" ] ;
+       fhir:display [ fhir:v "Consult Note" ]
      ] )
   ] ) ; # 
   fhir:subject [

@@ -1,16 +1,16 @@
 UTNConsentResource : Validation Results
 =========================================
 
-err = 126, warn = 212, info = 89
+err = 124, warn = 212, info = 89
 IG Publisher Version: 2.0.6
-Generated Thu Jun 12 14:12:07 CEST 2025. FHIR version 4.0.1 for consent.id#0.1.0 (canonical = http://utn/consentresource.com)
- Build Errors : 9 / 518 / 3
+Generated Fri Jun 13 14:51:24 CEST 2025. FHIR version 4.0.1 for consent.id#0.1.0 (canonical = http://utn/consentresource.com)
+ Build Errors : 8 / 518 / 3
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/AllergyIntolerance-Example-UTN-AllergyIntolerance : 0 / 1 / 1
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/CodeSystem-gridhamd-answer-options-cs : 2 / 2 / 3
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Communication-Example-UTN-PRtoPR-Consult : 4 / 1 / 1
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Composition-Example-UTN-Teleconsultation-PRtoPR : 0 / 0 / 1
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Composition-Example-UTN-Teleconsultation-PRtoPR-Return : 0 / 0 / 1
- /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Composition-Example-UTN-Teleconsultation-PTtoPR : 1 / 0 / 1
+ /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Composition-Example-UTN-Teleconsultation-PTtoPR : 0 / 0 / 1
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Condition-Example-UTN-Condition : 1 / 1 / 1
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Condition-Example-UTN-Sepsis : 0 / 0 / 1
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Consent-Example-UTN-Consent-Forschungsvorhaben : 2 / 4 / 4
@@ -31,7 +31,7 @@ Generated Thu Jun 12 14:12:07 CEST 2025. FHIR version 4.0.1 for consent.id#0.1.0
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Observation-Example-UTNHerzfrequenz : 4 / 0 / 2
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Observation-Example-UTNKoerpergewicht : 4 / 0 / 2
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Observation-Example-UTNKoerpertemperatur : 3 / 1 / 2
- /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Observation-Example-UTNKreatinin : 6 / 3 / 6
+ /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Observation-Example-UTNKreatinin : 5 / 3 / 6
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Patient-utn-patient-1 : 0 / 2 / 1
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Patient-utn-patient-2 : 0 / 2 / 1
  /Users/atakanp/Documents/utn_consent_profile/fsh-generated/resources/Practitioner-Example-UTN-Practitioner-PR1 : 0 / 1 / 4
@@ -120,14 +120,14 @@ WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Communication-Examp
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Communication-Example-UTN-PRtoPR-Consult.xml.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PRtoPR-Return.change.history.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PRtoPR-Return.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
-WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PRtoPR-Return.json.html#/html/body/div/div/div/p/a at Line 357, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
-WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PRtoPR-Return.ttl.html#/html/body/div/div/div/p/a at Line 312, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
-WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PRtoPR-Return.xml.html#/html/body/div/div/div/p/a at Line 324, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
+WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PRtoPR-Return.json.html#/html/body/div/div/div/p/a at Line 370, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
+WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PRtoPR-Return.ttl.html#/html/body/div/div/div/p/a at Line 318, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
+WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PRtoPR-Return.xml.html#/html/body/div/div/div/p/a at Line 333, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PRtoPR.change.history.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PRtoPR.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
-WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PRtoPR.json.html#/html/body/div/div/div/p/a at Line 337, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
-WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PRtoPR.ttl.html#/html/body/div/div/div/p/a at Line 299, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
-WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PRtoPR.xml.html#/html/body/div/div/div/p/a at Line 307, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
+WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PRtoPR.json.html#/html/body/div/div/div/p/a at Line 350, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
+WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PRtoPR.ttl.html#/html/body/div/div/div/p/a at Line 305, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
+WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PRtoPR.xml.html#/html/body/div/div/div/p/a at Line 316, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PTtoPR.change.history.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PTtoPR.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/Composition-Example-UTN-Teleconsultation-PTtoPR.json.html#/html/body/div/div/div/p/a at Line 284, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
@@ -607,8 +607,7 @@ ERROR: /Users/atakanp/Documents/utn_consent_profile/output/profiles.html#/html/b
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/profiles.html#/html/body/div/div/div/p/a at Line 289, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/scenario_depressionandanxiety.html#/html/body/div/div/div/p/a at Line 227, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/scenario_icu.html#/html/body/div/div/div/p/a at Line 202, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
-ERROR: /Users/atakanp/Documents/utn_consent_profile/output/scenario_teleconsultation.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 182, column 12: The link 'Composition-Example-UTN-Teleconsultation-Composition-PTtoPR.html' for "Composition" cannot be resolved
-WARNING: /Users/atakanp/Documents/utn_consent_profile/output/scenario_teleconsultation.html#/html/body/div/div/div/p/a at Line 227, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
+WARNING: /Users/atakanp/Documents/utn_consent_profile/output/scenario_teleconsultation.html#/html/body/div/div/div/p/a at Line 244, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/the_specification.html#/html/body/div/div/div/p/a at Line 203, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/atakanp/Documents/utn_consent_profile/output/toc.html#/html/body/div/div/div/p/a at Line 167, column 28: The link 'http://utn/consentresource.com' for "BIH-CEI" is a canonical link and is therefore unsafe with regard to versions
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
@@ -633,7 +632,6 @@ ERROR: Communication/Example-UTN-PRtoPR-Consult: Communication.sender: Unable to
 == fsh-generated/resources/Composition-Example-UTN-Teleconsultation-PRtoPR.json ==
 == fsh-generated/resources/Composition-Example-UTN-Teleconsultation-PRtoPR-Return.json ==
 == fsh-generated/resources/Composition-Example-UTN-Teleconsultation-PTtoPR.json ==
-ERROR: Composition/Example-UTN-Teleconsultation-PTtoPR: Composition.category[0].coding[0].code: Unknown code '173421-1' in the CodeSystem 'http://loinc.org' version '2.80'
 == fsh-generated/resources/Condition-Example-UTN-Condition.json ==
 WARNING: Condition/Example-UTN-Condition: Condition.clinicalStatus.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 ERROR: Condition/Example-UTN-Condition: Condition.clinicalStatus: None of the codings provided are in the value set 'Condition Clinical Status Codes' (http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1), and a coding from this value set is required) (codes = null#active)
@@ -758,7 +756,6 @@ WARNING: Observation/Example-UTNKreatinin: Observation.category[0].coding[2].sys
 INFORMATION: Observation/Example-UTNKreatinin: Observation.category[0].coding[2]: This element does not match any known slice defined in the profile http://utn/consentresource.com/StructureDefinition/mii-kreatinin|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 ERROR: Observation/Example-UTNKreatinin: Observation.category[0]: Observation.category.coding:loinc-observation: max allowed = 1, but found 2 (from http://utn/consentresource.com/StructureDefinition/mii-kreatinin|0.1.0)
 ERROR: Observation/Example-UTNKreatinin: Observation.category[0]: Observation.category.coding:observation-category: max allowed = 1, but found 2 (from http://utn/consentresource.com/StructureDefinition/mii-kreatinin|0.1.0)
-ERROR: Observation/Example-UTNKreatinin: Observation.encounter: Unable to resolve resource with reference 'Encounter/555'
 ERROR: Observation/Example-UTNKreatinin: Observation.performer[0]: Unable to resolve resource with reference 'Organization/7772'
 INFORMATION: Observation/Example-UTNKreatinin: Observation.category[0].coding[2]: This element does not match any known slice defined in the profile https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/ObservationLab|2025.0.2 (this may not be a problem, but you should check that it's not intended to match a slice)
 ERROR: Observation/Example-UTNKreatinin: Observation.category[0]: Observation.category.coding:loinc-observation: max allowed = 1, but found 2 (from https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/ObservationLab|2025.0.2)

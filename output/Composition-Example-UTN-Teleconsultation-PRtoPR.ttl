@@ -104,6 +104,16 @@
        fhir:link <http://utn/consentresource.com/Procedure/Example-UTN-VVECMO> ;
        fhir:reference [ fhir:v "Procedure/Example-UTN-VVECMO" ]
      ] )
+  ] [
+     fhir:title [ fhir:v "Labor" ] ;
+     fhir:author ( [
+       fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+       fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
+     ] ) ;
+     fhir:entry ( [
+       fhir:link <http://utn/consentresource.com/Observation/Example-UTNKreatinin> ;
+       fhir:reference [ fhir:v "Observation/Example-UTNKreatinin" ]
+     ] )
   ] ) . # 
 
 # -------------------------------------------------------------------------------------

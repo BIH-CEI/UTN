@@ -85,4 +85,13 @@
       <reference value="Procedure/Example-UTN-VVECMO"/>
     </entry>
   </section>
+  <section>
+    <title value="Labor"/>
+    <author>
+      <reference value="Practitioner/Example-UTN-Practitioner-PR1"/>
+    </author>
+    <entry>
+      <reference value="Observation/Example-UTNKreatinin"/>
+    </entry>
+  </section>
 </Composition>

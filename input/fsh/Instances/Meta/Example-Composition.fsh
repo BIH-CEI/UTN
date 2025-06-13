@@ -5,7 +5,7 @@ Title: "Teleconsultation note between patient and practitioner"
 
 * status = #final
 * type = $loinc#85208-7 "Telehealth Consult note"
-* category = $loinc#173421-1 "Report"
+* category = $loinc#11488-4 "Consult Note"
 * subject = Reference(Example-UTN-Patient)
 * encounter = Reference(Example-UTN-Encounter-PTtoPR)
 * date = "2012-01-04T09:10:14Z"
@@ -69,6 +69,11 @@ Description: "Teleconsultation note sent to practitioner as part of the Service 
   * author = Reference(Example-UTN-Practitioner-PR1)
   * entry[+] = Reference(Example-UTN-VVECMO)
 
+* section[+]
+  * title = "Labor"
+  * author = Reference(Example-UTN-Practitioner-PR1)
+  * entry[+] = Reference(Example-UTNKreatinin)
+
 
 /////////////////////////////////////////////////////
 Extension: CompositionBasedOnServiceRequest
@@ -90,7 +95,7 @@ Description: "Teleconsultation note sent back to practitioner based on the Servi
 * subject = Reference(Example-UTN-Patient-2)
 * encounter = Reference(Example-UTN-Encounter-PRtoPR)
 * date = "2012-01-04T09:10:14Z"
-* author = Reference(Example-UTN-Practitioner-PR1)
+* author = Reference(Example-UTN-Practitioner-PR2)
 * title = "Consultation Note"
 
 * section[+]
@@ -120,6 +125,11 @@ Description: "Teleconsultation note sent back to practitioner based on the Servi
   * title = "Adjuvante Therapien"
   * author = Reference(Example-UTN-Practitioner-PR1)
   * entry[+] = Reference(Example-UTN-VVECMO)
+
+* section[+]
+  * title = "Labor"
+  * author = Reference(Example-UTN-Practitioner-PR1)
+  * entry[+] = Reference(Example-UTNKreatinin)
 
 * section[+]
   * title = "Teleconsultation Note"

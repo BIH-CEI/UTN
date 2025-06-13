@@ -14,7 +14,7 @@
   ],
   "author": [
     {
-      "reference": "Practitioner/Example-UTN-Practitioner-PR1"
+      "reference": "Practitioner/Example-UTN-Practitioner-PR2"
     }
   ],
   "section": [
@@ -91,6 +91,19 @@
         }
       ],
       "title": "Adjuvante Therapien"
+    },
+    {
+      "author": [
+        {
+          "reference": "Practitioner/Example-UTN-Practitioner-PR1"
+        }
+      ],
+      "entry": [
+        {
+          "reference": "Observation/Example-UTNKreatinin"
+        }
+      ],
+      "title": "Labor"
     },
     {
       "author": [

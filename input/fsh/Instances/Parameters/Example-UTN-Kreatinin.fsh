@@ -14,8 +14,8 @@ Description: "An example Observation for Creatinin."
 * category.coding[+] = $Laborgruppe#Niere/Elektrolyte
 * code = $loinc#59826-8 "Creatinine [Moles/volume] in Blood"
 * code.text = "Kreatinin"
-* subject = Reference(Example-UTN-Patient)
-* encounter = Reference(Encounter/555)
+* subject = Reference(Example-UTN-Patient-2)
+* encounter = Reference(Example-UTN-Encounter-PRtoPR)
 * effectiveDateTime = "2018-11-20T12:05:00+01:00"
 * effectiveDateTime.extension.url = "https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/QuelleKlinischesBezugsdatum"
 * effectiveDateTime.extension.valueCoding.version = "http://snomed.info/sct/900000000000207008/version/20230731"
