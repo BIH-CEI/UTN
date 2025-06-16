@@ -14,8 +14,9 @@ Patient to Practitioner consultation scenario shows that the clinical note can b
 ### Scenario Practitioner to Practitioner Teleconsultation
 
 This scenario shows how the consultation between practitioner to practitioner should look like in a telemedicine setting. 
-    - The practitioner makes the service request to the practitioner in another location. The service request consists of the composition of procedures, conditions, thrrapies of the encounter. 
-    - The practitioner then checks the composition and adds a new section for the consultation note. 
+
+- The practitioner makes the service request to the practitioner in another location. The service request consists of the composition of procedures, conditions, therapies of the encounter. 
+- The practitioner then checks the composition and adds a new section for the consultation note. 
 
 
 |  Field(s) | Example Instance | 
@@ -24,7 +25,7 @@ This scenario shows how the consultation between practitioner to practitioner sh
 | Composition Back with Consultation Note      | [`Consultation Note`](Composition-Example-UTN-Teleconsultation-PRtoPR-Return.html) | 
 
 
-{% include img.html img="PRtoPR_consultaition.png" %}
+{% include img.html img="prtoprlogo.png" %}
 
 
 {: .grid }

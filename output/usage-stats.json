@@ -84,6 +84,10 @@
     ],
     "Procedure": [
       {
+        "url": "http://utn/consentresource.com/StructureDefinition/utn-procedure",
+        "title": "UTN Procedure"
+      },
+      {
         "url": "http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung",
         "title": "UTN Procedure Beatmung"
       }

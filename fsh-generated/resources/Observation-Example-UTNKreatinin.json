@@ -67,7 +67,7 @@
   },
   "performer": [
     {
-      "reference": "Organization/7772",
+      "reference": "Practitioner/Example-UTN-Practitioner-PR1",
       "display": "Zentrallabor des IKCL"
     }
   ],

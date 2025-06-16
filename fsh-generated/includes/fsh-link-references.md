@@ -54,6 +54,7 @@
 [UTN-Teleconsultation-PRtoPR-ServiceRequest]: ServiceRequest-UTN-Teleconsultation-PRtoPR-ServiceRequest.html
 [teleconsultation-service-charite]: HealthcareService-teleconsultation-service-charite.html
 [teleconsultation-service-wuerzburg]: HealthcareService-teleconsultation-service-wuerzburg.html
+[Example-UTN-Procedure]: Procedure-Example-UTN-Procedure.html
 [UTNDocumentReference]: StructureDefinition-utn-consent-documentreference-id.html
 [UTNConsent]: StructureDefinition-utn-consent-id.html
 [ConsentManagementProvenance]: StructureDefinition-consent-management-provenance.html
@@ -69,6 +70,7 @@
 [UTNPatient]: StructureDefinition-utn-patient.html
 [UTNPractitioner]: StructureDefinition-KBV-PR-Base-Practitioner.html
 [UTNPractitionerRole]: StructureDefinition-utn-PR-Base-PractitionerRole.html
+[UTN-Procedure]: StructureDefinition-utn-procedure.html
 [UTN_Procedure_Beatmung]: StructureDefinition-utn-procedure-beatmung.html
 [UTNServiceRequest]: StructureDefinition-utn-service-request.html
 [UTNDiagnostikReport]: StructureDefinition-utn-diagnostik-report.html

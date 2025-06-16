@@ -1,0 +1,35 @@
+{
+  "resourceType": "Procedure",
+  "id": "Example-UTN-Procedure",
+  "meta": {
+    "profile": [
+      "http://utn/consentresource.com/StructureDefinition/utn-procedure"
+    ]
+  },
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "code": "16310003",
+        "system": "http://snomed.info/sct",
+        "display": "Ultrasonography"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/utn-patient-2"
+  },
+  "encounter": {
+    "reference": "Encounter/Example-UTN-Encounter-PRtoPR"
+  },
+  "performedDateTime": "2025-01-14T16:49:00+01:00",
+  "outcome": {
+    "coding": [
+      {
+        "code": "31054009",
+        "system": "http://snomed.info/sct",
+        "display": "Ureteric Stone"
+      }
+    ]
+  }
+}

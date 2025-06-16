@@ -106,3 +106,12 @@ Alias: $vs-mii-icu-code-extrakorporale-verfahren = https://www.medizininformatik
 Alias: $Procedure = https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure
 Alias: $vs-mii-icu-category-procedure-beatmung-snomed = https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-category-procedure-beatmung-snomed
 Alias: $vs-mii-icu-code-procedure-beatmung-snomed = https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-code-procedure-beatmung-snomed
+
+
+Alias: $spdx-license = http://hl7.org/fhir/spdx-license
+Alias: $ProzedurDokumentationsdatum = http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum
+Alias: $Durchfuehrungsabsicht = https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht
+Alias: $CodingOPS = http://fhir.de/StructureDefinition/CodingOPS
+Alias: $procedures-category-sct = https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-category-sct
+Alias: $mii-vs-prozedur-ops = https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/mii-vs-prozedur-ops
+Alias: $procedures-sct = https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct

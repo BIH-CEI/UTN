@@ -1,0 +1,33 @@
+{
+  "resourceType" : "Procedure",
+  "id" : "Example-UTN-Procedure",
+  "meta" : {
+    "profile" : ["http://utn/consentresource.com/StructureDefinition/utn-procedure"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Procedure Example-UTN-Procedure</b></p><a name=\"Example-UTN-Procedure\"> </a><a name=\"hcExample-UTN-Procedure\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-utn-procedure.html\">UTN Procedure</a></p></div><p><b>status</b>: Completed</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 16310003}\">Ultrasonography</span></p><p><b>subject</b>: <a href=\"Patient-utn-patient-2.html\">Anna Müller  Female, DoB: 1985-03-12 ( MR)</a></p><p><b>encounter</b>: <a href=\"Encounter-Example-UTN-Encounter-PRtoPR.html\">Encounter: status = in-progress; class = inpatient encounter (ActCode#IMP); type = intensivstationaer; serviceType = Intensivmedizin; period = 2025-01-14 08:00:00+1000 --&gt; (ongoing)</a></p><p><b>performed</b>: 2025-01-14 16:49:00+0100</p><p><b>outcome</b>: <span title=\"Codes:{http://snomed.info/sct 31054009}\">Ureteric Stone</span></p></div>"
+  },
+  "status" : "completed",
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "16310003",
+      "display" : "Ultrasonography"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/utn-patient-2"
+  },
+  "encounter" : {
+    "reference" : "Encounter/Example-UTN-Encounter-PRtoPR"
+  },
+  "performedDateTime" : "2025-01-14T16:49:00+01:00",
+  "outcome" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "31054009",
+      "display" : "Ureteric Stone"
+    }]
+  }
+}

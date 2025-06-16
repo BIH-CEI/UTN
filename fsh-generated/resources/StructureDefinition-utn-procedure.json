@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "utn-procedure",
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/spdx-license",
+            "code": "CC-BY-4.0",
+            "display": "Creative Commons Attribution 4.0 International"
+          }
+        ]
+      }
+    }
+  ],
+  "url": "http://utn/consentresource.com/StructureDefinition/utn-procedure",
+  "name": "UTN-Procedure",
+  "title": "UTN Procedure",
+  "status": "draft",
+  "description": "This profile explains a Prcedure in UTN",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure",
+        "path": "Procedure"
+      }
+    ]
+  }
+}

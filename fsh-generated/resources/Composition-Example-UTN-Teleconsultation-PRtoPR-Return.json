@@ -100,6 +100,19 @@
       ],
       "entry": [
         {
+          "reference": "Procedure/Example-UTN-Procedure"
+        }
+      ],
+      "title": "Diagnostik"
+    },
+    {
+      "author": [
+        {
+          "reference": "Practitioner/Example-UTN-Practitioner-PR1"
+        }
+      ],
+      "entry": [
+        {
           "reference": "Observation/Example-UTNKreatinin"
         }
       ],

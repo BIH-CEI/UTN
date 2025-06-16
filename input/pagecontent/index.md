@@ -1,5 +1,7 @@
 # UTN Teleconsultation and ICU IG
 
+
+
 ### Aim of UTN
 Our primary goal for 2023-25 is to establish a framework for the UTN to standardize electronic data capture and integration for COVID-19 research. Until now, university hospitals have implemented heterogeneous telemedical data infrastructures and networks; UTN will build upon these existing systems and integrate them. The focus will be on semantic and syntactic interoperability as well as integration into the NUM and MII infrastructure. A central element will be a common, interoperable, standardized, and secure telemedical infrastructure that allows easy implementation at all participating cross-sectoral sites. NUM sites will act as central nodes in this structure, with the UTN functioning as the organizational infrastructure. This will enable structured, cross-site consolidation of high-frequency, telemedically generated research data, making the most of existing or emerging NUM infrastructures. 
 

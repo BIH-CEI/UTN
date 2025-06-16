@@ -70,6 +70,11 @@ Description: "Teleconsultation note sent to practitioner as part of the Service 
   * entry[+] = Reference(Example-UTN-VVECMO)
 
 * section[+]
+  * title = "Diagnostik"
+  * author = Reference(Example-UTN-Practitioner-PR1)
+  * entry[+] = Reference(Example-UTN-Procedure)
+
+* section[+]
   * title = "Labor"
   * author = Reference(Example-UTN-Practitioner-PR1)
   * entry[+] = Reference(Example-UTNKreatinin)
@@ -126,6 +131,11 @@ Description: "Teleconsultation note sent back to practitioner based on the Servi
   * author = Reference(Example-UTN-Practitioner-PR1)
   * entry[+] = Reference(Example-UTN-VVECMO)
 
+* section[+]
+  * title = "Diagnostik"
+  * author = Reference(Example-UTN-Practitioner-PR1)
+  * entry[+] = Reference(Example-UTN-Procedure)
+  
 * section[+]
   * title = "Labor"
   * author = Reference(Example-UTN-Practitioner-PR1)

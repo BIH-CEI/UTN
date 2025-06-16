@@ -3,14 +3,14 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="consent.id"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide consent.id</b></p><a name="consent.id"> </a><a name="hcconsent.id"> </a><a name="consent.id-en-US"> </a><h2>UTNConsentResource</h2><p>The official URL for this implementation guide is: </p><pre>http://utn/consentresource.com/ImplementationGuide/consent.id</pre></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide consent.id</b></p><a name="consent.id"> </a><a name="hcconsent.id"> </a><h2>UTNConsentResource</h2><p>The official URL for this implementation guide is: </p><pre>http://utn/consentresource.com/ImplementationGuide/consent.id</pre></div>
   </text>
   <url value="http://utn/consentresource.com/ImplementationGuide/consent.id"/>
   <version value="0.1.0"/>
   <name value="UTNConsentResource"/>
   <title value="University Telemedicine Network (UTN) FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-06-13T14:46:42+02:00"/>
+  <date value="2025-06-16T14:33:49+02:00"/>
   <publisher value="BIH-CEI"/>
   <contact>
     <name value="BIH-CEI"/>
@@ -91,6 +91,11 @@
   <dependsOn id="de_medizininformatikinitiative_kerndatensatz_medikation">
     <uri value="de.medizininformatikinitiative.kerndatensatz.medikation"/>
     <packageId value="de.medizininformatikinitiative.kerndatensatz.medikation"/>
+    <version value="2025.0.0"/>
+  </dependsOn>
+  <dependsOn id="de_medizininformatikinitiative_kerndatensatz_prozedur">
+    <uri value="de.medizininformatikinitiative.kerndatensatz.prozedur"/>
+    <packageId value="de.medizininformatikinitiative.kerndatensatz.prozedur"/>
     <version value="2025.0.0"/>
   </dependsOn>
   <definition>
@@ -1112,6 +1117,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/Example-UTN-Procedure"/>
+      </reference>
+      <name value="Ultrasound Procedure with Stone Outcome"/>
+      <description value="An example Procedure resource conforming to the MII profile where sonography reveals a stone."/>
+      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-procedure"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
@@ -1273,6 +1289,17 @@
       </reference>
       <name value="UTN Practitioner Role"/>
       <description value="The profile of the UTN Practitoner Role"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/utn-procedure"/>
+      </reference>
+      <name value="UTN Procedure"/>
+      <description value="This profile explains a Prcedure in UTN"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

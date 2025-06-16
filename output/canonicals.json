@@ -280,6 +280,13 @@
     "name" : "UTNPatient"
   },
   {
+    "id" : "utn-procedure",
+    "type" : "StructureDefinition",
+    "url" : "http://utn/consentresource.com/StructureDefinition/utn-procedure",
+    "version" : "0.1.0",
+    "name" : "UTN-Procedure"
+  },
+  {
     "id" : "utn-procedure-beatmung",
     "type" : "StructureDefinition",
     "url" : "http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung",

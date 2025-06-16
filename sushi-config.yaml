@@ -66,6 +66,10 @@ dependencies:
   de.medizininformatikinitiative.kerndatensatz.medikation:
     uri: de.medizininformatikinitiative.kerndatensatz.medikation
     version: 2025.0.0
+
+  de.medizininformatikinitiative.kerndatensatz.prozedur:
+    uri: de.medizininformatikinitiative.kerndatensatz.prozedur
+    version: 2025.0.0
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in

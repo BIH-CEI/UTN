@@ -28,8 +28,8 @@
     "fshName": "Example-UTN-Teleconsultation-PRtoPR-Return",
     "fshType": "Instance",
     "fshFile": "Instances/Meta/Example-Composition.fsh",
-    "startLine": 86,
-    "endLine": 144
+    "startLine": 91,
+    "endLine": 154
   },
   {
     "outputFile": "Composition-Example-UTN-Teleconsultation-PRtoPR.json",
@@ -37,7 +37,7 @@
     "fshType": "Instance",
     "fshFile": "Instances/Meta/Example-Composition.fsh",
     "startLine": 29,
-    "endLine": 75
+    "endLine": 80
   },
   {
     "outputFile": "Composition-Example-UTN-Teleconsultation-PTtoPR.json",
@@ -264,6 +264,14 @@
     "endLine": 17
   },
   {
+    "outputFile": "Procedure-Example-UTN-Procedure.json",
+    "fshName": "Example-UTN-Procedure",
+    "fshType": "Instance",
+    "fshFile": "Instances/Parameters/Example-UTN-Sonographie.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
     "outputFile": "Procedure-Example-UTN-VVECMO.json",
     "fshName": "Example-UTN-VVECMO",
     "fshType": "Instance",
@@ -316,8 +324,8 @@
     "fshName": "CompositionBasedOnServiceRequest",
     "fshType": "Extension",
     "fshFile": "Instances/Meta/Example-Composition.fsh",
-    "startLine": 79,
-    "endLine": 84
+    "startLine": 84,
+    "endLine": 89
   },
   {
     "outputFile": "StructureDefinition-consent-management-provenance.json",
@@ -470,6 +478,14 @@
     "fshFile": "Profiles/Parameters/Profile-ICU-Beatmung.fsh",
     "startLine": 1,
     "endLine": 16
+  },
+  {
+    "outputFile": "StructureDefinition-utn-procedure.json",
+    "fshName": "UTN-Procedure",
+    "fshType": "Profile",
+    "fshFile": "Profiles/Parameters/Profile-ICU-Procedure.fsh",
+    "startLine": 1,
+    "endLine": 29
   },
   {
     "outputFile": "StructureDefinition-utn-service-request.json",
