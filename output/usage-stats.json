@@ -46,12 +46,6 @@
         "title": "UTN Consent Management QuestionnaireResponse"
       }
     ],
-    "Communication": [
-      {
-        "url": "https://www.utn-num.de/fhir/StructureDefinition/teleconsult-communication",
-        "title": "Teleconsultation Communication"
-      }
-    ],
     "PractitionerRole": [
       {
         "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-PR-Base-PractitionerRole",
@@ -60,8 +54,8 @@
     ],
     "DocumentReference": [
       {
-        "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-documentreference",
-        "title": "UTNTeleconsultDocumentReference"
+        "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-consent-documentreference-id",
+        "title": "UTN Consent Document Reference"
       }
     ],
     "Consent": [
@@ -70,16 +64,16 @@
         "title": "UTN Consent Forschungsvorhaben and Videosprechstunde"
       }
     ],
-    "DiagnosticReport": [
-      {
-        "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-diagnostik-report",
-        "title": "UTNDiagnostikReport"
-      }
-    ],
     "Encounter": [
       {
         "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-encounter",
         "title": "UTN Encounter"
+      }
+    ],
+    "AllergyIntolerance": [
+      {
+        "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-icu-allergyintolerance",
+        "title": "UTNAllergyIntolerance"
       }
     ],
     "Procedure": [

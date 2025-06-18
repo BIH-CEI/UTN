@@ -11,6 +11,7 @@ This scenario shows how UTN uses FHIR representation of the Consent forms of the
 {: .grid }
 
 ### GRID HAMD 17 - Questionnaire
+The LOINC Codes are requested and currently in WIP. Until the codes are published, the codesystem for the questionnaire is created. 
 
 |  Field(s) | Example Instance | 
 | --------- | ---------------- | 

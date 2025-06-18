@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "UTN_Procedure_Beatmung"] ; # 
   fhir:title [ fhir:v "UTN Procedure Beatmung"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-18T11:50:53+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-18T14:35:27+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "BIH at Charité - Core Unit Digital Medicine and Interoperability"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "BIH at Charité - Core Unit Digital Medicine and Interoperability" ] ;

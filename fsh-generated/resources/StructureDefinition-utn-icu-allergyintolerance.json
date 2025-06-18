@@ -1,0 +1,22 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "utn-icu-allergyintolerance",
+  "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-icu-allergyintolerance",
+  "name": "UTNAllergyIntolerance",
+  "status": "draft",
+  "description": "This profile enables the documentation of allergies and intolerances",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "AllergyIntolerance",
+  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/ISiKAllergieUnvertraeglichkeit",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "AllergyIntolerance",
+        "path": "AllergyIntolerance"
+      }
+    ]
+  }
+}

@@ -10,7 +10,7 @@
   "name" : "UTNTelemedicineImplementationGuide",
   "title" : "University Telemedicine Network (UTN) FHIR Implementation Guide",
   "status" : "draft",
-  "date" : "2025-06-18T11:50:53+02:00",
+  "date" : "2025-06-18T14:35:27+02:00",
   "publisher" : "BIH at Charité - Core Unit Digital Medicine and Interoperability",
   "contact" : [{
     "name" : "BIH at Charité - Core Unit Digital Medicine and Interoperability",
@@ -828,18 +828,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "DiagnosticReport"
-      }],
-      "reference" : {
-        "reference" : "DiagnosticReport/Example-UTN-DiagnosticReport"
-      },
-      "name" : "Example-UTN-DiagnosticReport",
-      "description" : "Example instance of UTN Diagnostic Report",
-      "exampleCanonical" : "https://www.utn-num.de/fhir/StructureDefinition/utn-diagnostik-report"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
       }],
       "reference" : {
@@ -1246,18 +1234,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/teleconsult-communication"
-      },
-      "name" : "Teleconsultation Communication",
-      "description" : "Profile for communications during teleconsultation sessions between healthcare providers.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Composition"
       }],
       "reference" : {
@@ -1289,18 +1265,6 @@
       "name" : "Teleconsultation note between practitioner and practitioner",
       "description" : "Teleconsultation note sent back to practitioner based on the Service Request",
       "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Communication"
-      }],
-      "reference" : {
-        "reference" : "Communication/Example-UTN-PRtoPR-Consult"
-      },
-      "name" : "Teleconsultation Note from Charité to Uniklinik Würzburg",
-      "description" : "A message sent by a practitioner at Charité to a specialist at Uniklinik Würzburg regarding a patient case.",
-      "exampleCanonical" : "https://www.utn-num.de/fhir/StructureDefinition/teleconsult-communication"
     },
     {
       "extension" : [{
@@ -1572,10 +1536,10 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/utn-diagnostik-report"
+        "reference" : "StructureDefinition/utn-icu-allergyintolerance"
       },
-      "name" : "UTNDiagnostikReport",
-      "description" : "This is the Diagnostic Report of the UTN Patient",
+      "name" : "UTNAllergyIntolerance",
+      "description" : "This profile enables the documentation of allergies and intolerances",
       "exampleBoolean" : false
     },
     {
@@ -1589,17 +1553,6 @@
       "name" : "UTNLocation",
       "description" : "Example location for UTN",
       "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/utn-documentreference"
-      },
-      "name" : "UTNTeleconsultDocumentReference",
-      "exampleBoolean" : false
     },
     {
       "extension" : [{

@@ -314,10 +314,10 @@
       "systems" : ["http://unitsofmeasure.org"],
       "uses" : {
       },
-      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
       "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
       "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
       "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerpertemperatur Profile",
+      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
       "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck"
     },
     {
@@ -501,6 +501,94 @@
       "StructureDefinition-utn-patient.html" : "UTN Patient"
     },
     {
+      "url" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceCategory",
+      "title" : "AllergyIntoleranceCategory",
+      "description" : "Category of an identified substance associated with allergies or intolerances.",
+      "systems" : ["http://hl7.org/fhir/allergy-intolerance-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.133"],
+      "sources" : ["2.16.840.1.113883.4.642.3.133"],
+      "uses" : {
+      },
+      "StructureDefinition-utn-icu-allergyintolerance.html" : "UTNAllergyIntolerance"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-criticality",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceCriticality",
+      "title" : "AllergyIntoleranceCriticality",
+      "description" : "Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance.",
+      "systems" : ["http://hl7.org/fhir/allergy-intolerance-criticality"],
+      "oids" : ["2.16.840.1.113883.4.642.3.129"],
+      "sources" : ["2.16.840.1.113883.4.642.3.129"],
+      "uses" : {
+      },
+      "StructureDefinition-utn-icu-allergyintolerance.html" : "UTNAllergyIntolerance"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceType",
+      "title" : "AllergyIntoleranceType",
+      "description" : "Identification of the underlying physiological mechanism for a Reaction Risk.",
+      "systems" : ["http://hl7.org/fhir/allergy-intolerance-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.131"],
+      "sources" : ["2.16.840.1.113883.4.642.3.131"],
+      "uses" : {
+      },
+      "StructureDefinition-utn-icu-allergyintolerance.html" : "UTNAllergyIntolerance"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergyintolerance-clinical",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceClinicalStatusCodes",
+      "title" : "AllergyIntolerance Clinical Status Codes",
+      "description" : "Preferred value set for AllergyIntolerance Clinical Status.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1372"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1372"],
+      "uses" : {
+      },
+      "StructureDefinition-utn-icu-allergyintolerance.html" : "UTNAllergyIntolerance"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergyintolerance-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceSubstance/Product,ConditionAndNegationCodes",
+      "title" : "AllergyIntolerance Substance/Product, Condition and Negation Codes",
+      "description" : "This value set includes concept codes for specific substances/pharmaceutical products, allergy or intolerance conditions, and negation/exclusion codes to specify the absence of specific types of allergies or intolerances.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.137"],
+      "sources" : ["2.16.840.1.113883.4.642.3.137"],
+      "uses" : {
+      },
+      "StructureDefinition-utn-icu-allergyintolerance.html" : "UTNAllergyIntolerance"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergyintolerance-verification",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceVerificationStatusCodes",
+      "title" : "AllergyIntolerance Verification Status Codes",
+      "description" : "Preferred value set for AllergyIntolerance Verification Status.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1370"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1370"],
+      "uses" : {
+      },
+      "StructureDefinition-utn-icu-allergyintolerance.html" : "UTNAllergyIntolerance"
+    },
+    {
       "url" : "http://hl7.org/fhir/ValueSet/body-site",
       "version" : "4.0.1",
       "status" : "draft",
@@ -512,16 +600,16 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
-      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
-      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
+      "StructureDefinition-utn-service-request.html" : "UTN Teleconsultation Service Request",
       "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-utn-procedure.html" : "UTN Procedure",
-      "StructureDefinition-utn-service-request.html" : "UTN Teleconsultation Service Request",
+      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
       "StructureDefinition-utn-icu-extrakorporales-verfahren.html" : "MII PR ICU Extrakorporales Verfahren",
-      "StructureDefinition-utn-procedure-beatmung.html" : "UTN Procedure Beatmung",
+      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
       "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerpertemperatur Profile",
-      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck"
+      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
+      "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck",
+      "StructureDefinition-utn-procedure-beatmung.html" : "UTN Procedure Beatmung"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/c80-doc-typecodes",
@@ -535,8 +623,7 @@
       "sources" : ["2.16.840.1.113883.3.88.12.80.47"],
       "uses" : {
       },
-      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference",
-      "StructureDefinition-utn-documentreference.html" : "UTNTeleconsultDocumentReference"
+      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/c80-facilitycodes",
@@ -550,8 +637,7 @@
       "sources" : ["2.16.840.1.113883.3.88.12.80.67"],
       "uses" : {
       },
-      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference",
-      "StructureDefinition-utn-documentreference.html" : "UTNTeleconsultDocumentReference"
+      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/c80-practice-codes",
@@ -567,7 +653,6 @@
       },
       "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference",
       "StructureDefinition-utn-PR-Base-PractitionerRole.html" : "UTN Practitioner Role",
-      "StructureDefinition-utn-documentreference.html" : "UTNTeleconsultDocumentReference",
       "StructureDefinition-healthcare-service.html" : "UTN Healthcare Service with Devices"
     },
     {
@@ -582,7 +667,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.232"],
       "uses" : {
       },
-      "StructureDefinition-utn-diagnostik-report.html" : "UTNDiagnostikReport"
+      "StructureDefinition-utn-icu-allergyintolerance.html" : "UTNAllergyIntolerance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/common-tags",
@@ -597,57 +682,11 @@
       "uses" : {
       },
       "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
-      "StructureDefinition-utn-encounter.html" : "UTN Encounter",
       "StructureDefinition-utn-procedure.html" : "UTN Procedure",
       "StructureDefinition-utn-icu-extrakorporales-verfahren.html" : "MII PR ICU Extrakorporales Verfahren",
-      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde",
-      "StructureDefinition-utn-procedure-beatmung.html" : "UTN Procedure Beatmung"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/communication-category",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "CommunicationCategory",
-      "title" : "CommunicationCategory",
-      "description" : "Codes for general categories of communications such as alerts, instructions, etc.",
-      "systems" : [
-        "http://terminology.hl7.org/CodeSystem/communication-category"
-      ],
-      "oids" : ["2.16.840.1.113883.4.642.3.172"],
-      "sources" : ["2.16.840.1.113883.4.642.3.172"],
-      "uses" : {
-      },
-      "StructureDefinition-teleconsult-communication.html" : "Teleconsultation Communication"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/communication-not-done-reason",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "CommunicationNotDoneReason",
-      "title" : "CommunicationNotDoneReason",
-      "description" : "Codes for the reason why a communication did not happen.",
-      "systems" : [
-        "http://terminology.hl7.org/CodeSystem/communication-not-done-reason"
-      ],
-      "oids" : ["2.16.840.1.113883.4.642.3.174"],
-      "sources" : ["2.16.840.1.113883.4.642.3.174"],
-      "uses" : {
-      },
-      "StructureDefinition-teleconsult-communication.html" : "Teleconsultation Communication"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/communication-topic",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "CommunicationTopic",
-      "title" : "CommunicationTopic",
-      "description" : "Codes describing the purpose or content of the communication.",
-      "systems" : ["http://terminology.hl7.org/CodeSystem/communication-topic"],
-      "oids" : ["2.16.840.1.113883.4.642.3.983"],
-      "sources" : ["2.16.840.1.113883.4.642.3.983"],
-      "uses" : {
-      },
-      "StructureDefinition-teleconsult-communication.html" : "Teleconsultation Communication"
+      "StructureDefinition-utn-encounter.html" : "UTN Encounter",
+      "StructureDefinition-utn-procedure-beatmung.html" : "UTN Procedure Beatmung",
+      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/composition-status",
@@ -661,8 +700,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.241"],
       "uses" : {
       },
-      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference",
-      "StructureDefinition-utn-documentreference.html" : "UTNTeleconsultDocumentReference"
+      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-code",
@@ -827,11 +865,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.5"],
       "uses" : {
       },
-      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
+      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
       "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerpertemperatur Profile",
+      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
       "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck"
     },
     {
@@ -882,34 +920,6 @@
       "StructureDefinition-utn-procedure-beatmung.html" : "UTN Procedure Beatmung"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/diagnostic-report-status",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "DiagnosticReportStatus",
-      "title" : "DiagnosticReportStatus",
-      "description" : "The status of the diagnostic report.",
-      "systems" : ["http://hl7.org/fhir/diagnostic-report-status"],
-      "oids" : ["2.16.840.1.113883.4.642.3.235"],
-      "sources" : ["2.16.840.1.113883.4.642.3.235"],
-      "uses" : {
-      },
-      "StructureDefinition-utn-diagnostik-report.html" : "UTNDiagnostikReport"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/diagnostic-service-sections",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "DiagnosticServiceSectionCodes",
-      "title" : "Diagnostic Service Section Codes",
-      "description" : "This value set includes all the codes in HL7 V2 table 0074.",
-      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0074"],
-      "oids" : ["2.16.840.1.113883.4.642.3.234"],
-      "sources" : ["2.16.840.1.113883.4.642.3.234"],
-      "uses" : {
-      },
-      "StructureDefinition-utn-diagnostik-report.html" : "UTNDiagnostikReport"
-    },
-    {
       "url" : "http://hl7.org/fhir/ValueSet/document-classcodes",
       "version" : "4.0.1",
       "status" : "active",
@@ -921,8 +931,7 @@
       "sources" : ["2.16.840.1.113883.3.88.12.80.46"],
       "uses" : {
       },
-      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference",
-      "StructureDefinition-utn-documentreference.html" : "UTNTeleconsultDocumentReference"
+      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/document-reference-status",
@@ -936,8 +945,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.7"],
       "uses" : {
       },
-      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference",
-      "StructureDefinition-utn-documentreference.html" : "UTNTeleconsultDocumentReference"
+      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/document-relationship-type",
@@ -951,8 +959,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.244"],
       "uses" : {
       },
-      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference",
-      "StructureDefinition-utn-documentreference.html" : "UTNTeleconsultDocumentReference"
+      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-diet",
@@ -1103,7 +1110,6 @@
       "uses" : {
       },
       "StructureDefinition-utn-procedure.html" : "UTN Procedure",
-      "StructureDefinition-teleconsult-communication.html" : "Teleconsultation Communication",
       "StructureDefinition-utn-icu-extrakorporales-verfahren.html" : "MII PR ICU Extrakorporales Verfahren",
       "StructureDefinition-utn-procedure-beatmung.html" : "UTN Procedure Beatmung"
     },
@@ -1119,8 +1125,7 @@
       "sources" : ["1.3.6.1.4.1.19376.1.2.7.1"],
       "uses" : {
       },
-      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference",
-      "StructureDefinition-utn-documentreference.html" : "UTNTeleconsultDocumentReference"
+      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
@@ -1150,10 +1155,10 @@
       "uses" : {
       },
       "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
-      "StructureDefinition-utn-encounter.html" : "UTN Encounter",
       "StructureDefinition-KBV-PR-Base-Practitioner.html" : "UTN Practitioner",
-      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde",
-      "StructureDefinition-utn-patient.html" : "UTN Patient"
+      "StructureDefinition-utn-patient.html" : "UTN Patient",
+      "StructureDefinition-utn-encounter.html" : "UTN Encounter",
+      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -1167,27 +1172,25 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference",
-      "StructureDefinition-utn-procedure.html" : "UTN Procedure",
       "StructureDefinition-utn-PR-Base-PractitionerRole.html" : "UTN Practitioner Role",
-      "StructureDefinition-KBV-PR-Base-Practitioner.html" : "UTN Practitioner",
-      "StructureDefinition-teleconsult-communication.html" : "Teleconsultation Communication",
-      "StructureDefinition-utn-patient.html" : "UTN Patient",
-      "StructureDefinition-utn-documentreference.html" : "UTNTeleconsultDocumentReference",
-      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
-      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
-      "StructureDefinition-profile-consent-management-questionnaireresponse.html" : "UTN Consent Management QuestionnaireResponse",
-      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
-      "StructureDefinition-utn-encounter.html" : "UTN Encounter",
-      "StructureDefinition-utn-diagnostik-report.html" : "UTNDiagnostikReport",
       "StructureDefinition-utn-service-request.html" : "UTN Teleconsultation Service Request",
+      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
+      "StructureDefinition-KBV-PR-Base-Practitioner.html" : "UTN Practitioner",
+      "StructureDefinition-utn-procedure.html" : "UTN Procedure",
+      "StructureDefinition-utn-patient.html" : "UTN Patient",
+      "StructureDefinition-profile-consent-management-questionnaireresponse.html" : "UTN Consent Management QuestionnaireResponse",
+      "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
       "StructureDefinition-utn-icu-extrakorporales-verfahren.html" : "MII PR ICU Extrakorporales Verfahren",
-      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde",
       "StructureDefinition-utn-procedure-beatmung.html" : "UTN Procedure Beatmung",
+      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde",
+      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference",
+      "StructureDefinition-utn-icu-allergyintolerance.html" : "UTNAllergyIntolerance",
       "StructureDefinition-consent-management-provenance.html" : "UTN Consent Management Provenance",
+      "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
       "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerpertemperatur Profile",
       "StructureDefinition-healthcare-service.html" : "UTN Healthcare Service with Devices",
+      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
+      "StructureDefinition-utn-encounter.html" : "UTN Encounter",
       "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck"
     },
     {
@@ -1309,11 +1312,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.403"],
       "uses" : {
       },
-      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
+      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
       "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerpertemperatur Profile",
+      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
       "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck"
     },
     {
@@ -1328,11 +1331,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.396"],
       "uses" : {
       },
-      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
+      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
       "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerpertemperatur Profile",
+      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
       "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck"
     },
     {
@@ -1349,11 +1352,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.399"],
       "uses" : {
       },
-      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
+      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
       "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerpertemperatur Profile",
+      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
       "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck"
     },
     {
@@ -1368,11 +1371,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.395"],
       "uses" : {
       },
-      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
+      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
       "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerpertemperatur Profile",
+      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
       "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck"
     },
     {
@@ -1387,11 +1390,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.400"],
       "uses" : {
       },
-      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
+      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
       "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerpertemperatur Profile",
+      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
       "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck"
     },
     {
@@ -1483,8 +1486,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.427"],
       "uses" : {
       },
-      "StructureDefinition-utn-procedure.html" : "UTN Procedure",
       "StructureDefinition-utn-service-request.html" : "UTN Teleconsultation Service Request",
+      "StructureDefinition-utn-procedure.html" : "UTN Procedure",
       "StructureDefinition-utn-icu-extrakorporales-verfahren.html" : "MII PR ICU Extrakorporales Verfahren",
       "StructureDefinition-utn-procedure-beatmung.html" : "UTN Procedure Beatmung"
     },
@@ -1548,8 +1551,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.432"],
       "uses" : {
       },
-      "StructureDefinition-utn-procedure.html" : "UTN Procedure",
       "StructureDefinition-utn-service-request.html" : "UTN Teleconsultation Service Request",
+      "StructureDefinition-utn-procedure.html" : "UTN Procedure",
       "StructureDefinition-utn-icu-extrakorporales-verfahren.html" : "MII PR ICU Extrakorporales Verfahren",
       "StructureDefinition-utn-procedure-beatmung.html" : "UTN Procedure Beatmung"
     },
@@ -1642,11 +1645,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.59"],
       "uses" : {
       },
-      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
+      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
       "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerpertemperatur Profile",
+      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
       "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck"
     },
     {
@@ -1678,6 +1681,20 @@
       "StructureDefinition-profile-consent-management-questionnaireresponse.html" : "UTN Consent Management QuestionnaireResponse"
     },
     {
+      "url" : "http://hl7.org/fhir/ValueSet/reaction-event-severity",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceSeverity",
+      "title" : "AllergyIntoleranceSeverity",
+      "description" : "Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations.",
+      "systems" : ["http://hl7.org/fhir/reaction-event-severity"],
+      "oids" : ["2.16.840.1.113883.4.642.3.135"],
+      "sources" : ["2.16.840.1.113883.4.642.3.135"],
+      "uses" : {
+      },
+      "StructureDefinition-utn-icu-allergyintolerance.html" : "UTNAllergyIntolerance"
+    },
+    {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
       "version" : "4.0.1",
       "status" : "draft",
@@ -1692,11 +1709,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.407"],
       "uses" : {
       },
-      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
+      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
       "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerpertemperatur Profile",
+      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
       "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck"
     },
     {
@@ -1713,26 +1730,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.397"],
       "uses" : {
       },
-      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
+      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-utn-isik-atemfrequenz.html" : "UTN Observation Atemfrequenz Profile",
       "StructureDefinition-isik-koerpergewicht.html" : "UTN Observation Koerpergewicht Profile",
-      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-isik-koerpertemperatur.html" : "UTN Observation Koerpertemperatur Profile",
+      "StructureDefinition-isik-herzfrequenz.html" : "UTN Observation Heart rate Profile",
       "StructureDefinition-utn-observation-arterieller-blutdruck.html" : "UTN Observation Arterieller Blutdruck"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/report-codes",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "LOINCDiagnosticReportCodes",
-      "title" : "LOINC Diagnostic Report Codes",
-      "description" : "This value set includes LOINC codes that relate to Diagnostic Observations.",
-      "systems" : ["http://loinc.org"],
-      "oids" : ["2.16.840.1.113883.4.642.3.233"],
-      "sources" : ["2.16.840.1.113883.4.642.3.233"],
-      "uses" : {
-      },
-      "StructureDefinition-utn-diagnostik-report.html" : "UTNDiagnostikReport"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/request-intent",
@@ -1760,8 +1763,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.115"],
       "uses" : {
       },
-      "StructureDefinition-utn-service-request.html" : "UTN Teleconsultation Service Request",
-      "StructureDefinition-teleconsult-communication.html" : "Teleconsultation Communication"
+      "StructureDefinition-utn-service-request.html" : "UTN Teleconsultation Service Request"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/request-status",
@@ -1789,12 +1791,27 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
-      "StructureDefinition-profile-consent-management-questionnaireresponse.html" : "UTN Consent Management QuestionnaireResponse",
-      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference",
+      "StructureDefinition-utn-icu-allergyintolerance.html" : "UTNAllergyIntolerance",
+      "StructureDefinition-consent-management-provenance.html" : "UTN Consent Management Provenance",
+      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-KBV-PR-Base-Practitioner.html" : "UTN Practitioner",
-      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde",
-      "StructureDefinition-consent-management-provenance.html" : "UTN Consent Management Provenance"
+      "StructureDefinition-profile-consent-management-questionnaireresponse.html" : "UTN Consent Management QuestionnaireResponse",
+      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/route-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTRouteCodes",
+      "title" : "SNOMED CT Route Codes",
+      "description" : "This value set includes all Route codes from SNOMED CT - provided as an exemplar.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.98"],
+      "sources" : ["2.16.840.1.113883.4.642.3.98"],
+      "uses" : {
+      },
+      "StructureDefinition-utn-icu-allergyintolerance.html" : "UTNAllergyIntolerance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/security-labels",
@@ -1814,14 +1831,13 @@
       "sources" : ["2.16.840.1.113883.4.642.3.47"],
       "uses" : {
       },
-      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference",
-      "StructureDefinition-utn-encounter.html" : "UTN Encounter",
+      "StructureDefinition-mii-kreatinin.html" : "UTN Laboruntersuchung-Kreatinin",
       "StructureDefinition-utn-procedure.html" : "UTN Procedure",
       "StructureDefinition-utn-icu-extrakorporales-verfahren.html" : "MII PR ICU Extrakorporales Verfahren",
-      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde",
+      "StructureDefinition-utn-encounter.html" : "UTN Encounter",
       "StructureDefinition-utn-procedure-beatmung.html" : "UTN Procedure Beatmung",
-      "StructureDefinition-utn-documentreference.html" : "UTNTeleconsultDocumentReference"
+      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/security-role-type",
@@ -1843,8 +1859,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.978"],
       "uses" : {
       },
-      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde",
-      "StructureDefinition-consent-management-provenance.html" : "UTN Consent Management Provenance"
+      "StructureDefinition-consent-management-provenance.html" : "UTN Consent Management Provenance",
+      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/service-category",
@@ -1904,8 +1920,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.518"],
       "uses" : {
       },
-      "StructureDefinition-utn-encounter.html" : "UTN Encounter",
-      "StructureDefinition-healthcare-service.html" : "UTN Healthcare Service with Devices"
+      "StructureDefinition-healthcare-service.html" : "UTN Healthcare Service with Devices",
+      "StructureDefinition-utn-encounter.html" : "UTN Encounter"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/servicerequest-category",
@@ -1934,6 +1950,20 @@
       "uses" : {
       },
       "StructureDefinition-utn-service-request.html" : "UTN Teleconsultation Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/substance-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SubstanceCode",
+      "title" : "Substance Code",
+      "description" : "This value set contains concept codes for specific substances. It includes codes from [SNOMED](http://snomed.info/sct) where concept is-a 105590001 (Substance (substance)) and where concept is-a 373873005 (Pharmaceutical / biologic product (product))",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.473"],
+      "sources" : ["2.16.840.1.113883.4.642.3.473"],
+      "uses" : {
+      },
+      "StructureDefinition-utn-icu-allergyintolerance.html" : "UTNAllergyIntolerance"
     },
     {
       "url" : "http://hl7.org/fhir/uv/ips/ValueSet/results-laboratory-observations-uv-ips",
@@ -1971,8 +2001,7 @@
       "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
       "uses" : {
       },
-      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference",
-      "StructureDefinition-utn-documentreference.html" : "UTNTeleconsultDocumentReference"
+      "StructureDefinition-utn-consent-documentreference-id.html" : "UTN Consent Document Reference"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ActEncounterCode",
@@ -2003,20 +2032,6 @@
       "StructureDefinition-utn-encounter.html" : "UTN Encounter"
     },
     {
-      "url" : "http://terminology.hl7.org/ValueSet/v3-ParticipationMode",
-      "version" : "3.0.0",
-      "status" : "active",
-      "name" : "ParticipationMode",
-      "title" : "ParticipationMode",
-      "description" : "Identifies the primary means by which an Entity participates in an Act.",
-      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ParticipationMode"],
-      "oids" : ["2.16.840.1.113883.1.11.16543"],
-      "sources" : ["2.16.840.1.113883.1.11.16543"],
-      "uses" : {
-      },
-      "StructureDefinition-teleconsult-communication.html" : "Teleconsultation Communication"
-    },
-    {
       "url" : "http://terminology.hl7.org/ValueSet/v3-PurposeOfUse",
       "version" : "3.1.0",
       "status" : "active",
@@ -2028,8 +2043,8 @@
       "sources" : ["2.16.840.1.113883.1.11.20448"],
       "uses" : {
       },
-      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde",
-      "StructureDefinition-consent-management-provenance.html" : "UTN Consent Management Provenance"
+      "StructureDefinition-consent-management-provenance.html" : "UTN Consent Management Provenance",
+      "StructureDefinition-utn-consent-id.html" : "UTN Consent Forschungsvorhaben and Videosprechstunde"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",

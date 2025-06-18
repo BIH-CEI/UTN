@@ -203,13 +203,6 @@
     "name" : "ConsentManagementQuestionnaireResponseUKW"
   },
   {
-    "id" : "teleconsult-communication",
-    "type" : "StructureDefinition",
-    "url" : "https://www.utn-num.de/fhir/StructureDefinition/teleconsult-communication",
-    "version" : "0.1.0",
-    "name" : "UTNTeleconsultCommunication"
-  },
-  {
     "id" : "utn-PR-Base-PractitionerRole",
     "type" : "StructureDefinition",
     "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-PR-Base-PractitionerRole",
@@ -231,25 +224,18 @@
     "name" : "UTNConsent"
   },
   {
-    "id" : "utn-diagnostik-report",
-    "type" : "StructureDefinition",
-    "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-diagnostik-report",
-    "version" : "0.1.0",
-    "name" : "UTNDiagnostikReport"
-  },
-  {
-    "id" : "utn-documentreference",
-    "type" : "StructureDefinition",
-    "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-documentreference",
-    "version" : "0.1.0",
-    "name" : "UTNTeleconsultDocumentReference"
-  },
-  {
     "id" : "utn-encounter",
     "type" : "StructureDefinition",
     "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-encounter",
     "version" : "0.1.0",
     "name" : "UTN-Encounter"
+  },
+  {
+    "id" : "utn-icu-allergyintolerance",
+    "type" : "StructureDefinition",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-icu-allergyintolerance",
+    "version" : "0.1.0",
+    "name" : "UTNAllergyIntolerance"
   },
   {
     "id" : "utn-icu-extrakorporales-verfahren",

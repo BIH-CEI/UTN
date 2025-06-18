@@ -16,14 +16,6 @@
     "endLine": 486
   },
   {
-    "outputFile": "Communication-Example-UTN-PRtoPR-Consult.json",
-    "fshName": "Example-UTN-PRtoPR-Consult",
-    "fshType": "Instance",
-    "fshFile": "Instances/Meta/Example-UTN-Communication.fsh",
-    "startLine": 1,
-    "endLine": 21
-  },
-  {
     "outputFile": "Composition-Example-UTN-Teleconsultation-PRtoPR-Return.json",
     "fshName": "Example-UTN-Teleconsultation-PRtoPR-Return",
     "fshType": "Instance",
@@ -78,14 +70,6 @@
     "fshFile": "Instances/Consent/Example-UTN-Consent-Videosprechstunde.fsh",
     "startLine": 1,
     "endLine": 21
-  },
-  {
-    "outputFile": "DiagnosticReport-Example-UTN-DiagnosticReport.json",
-    "fshName": "Example-UTN-DiagnosticReport",
-    "fshType": "Instance",
-    "fshFile": "Instances/Parameters/Example-UTN-DiagnosticReport.fsh",
-    "startLine": 1,
-    "endLine": 31
   },
   {
     "outputFile": "DocumentReference-Example-UTN-Consent-DocumentReference-Forschungsvorhaben.json",
@@ -384,14 +368,6 @@
     "endLine": 22
   },
   {
-    "outputFile": "StructureDefinition-teleconsult-communication.json",
-    "fshName": "UTNTeleconsultCommunication",
-    "fshType": "Profile",
-    "fshFile": "Profiles/Meta/Profile-Communication.fsh",
-    "startLine": 1,
-    "endLine": 30
-  },
-  {
     "outputFile": "StructureDefinition-utn-PR-Base-PractitionerRole.json",
     "fshName": "UTNPractitionerRole",
     "fshType": "Profile",
@@ -416,28 +392,20 @@
     "endLine": 63
   },
   {
-    "outputFile": "StructureDefinition-utn-diagnostik-report.json",
-    "fshName": "UTNDiagnostikReport",
-    "fshType": "Profile",
-    "fshFile": "Profiles/Meta/Profile-DiagnostikReport.fsh",
-    "startLine": 1,
-    "endLine": 33
-  },
-  {
-    "outputFile": "StructureDefinition-utn-documentreference.json",
-    "fshName": "UTNTeleconsultDocumentReference",
-    "fshType": "Profile",
-    "fshFile": "Profiles/Meta/Profile-TeleConsult-DocumentReference.fsh",
-    "startLine": 6,
-    "endLine": 46
-  },
-  {
     "outputFile": "StructureDefinition-utn-encounter.json",
     "fshName": "UTN-Encounter",
     "fshType": "Profile",
     "fshFile": "Profiles/Meta/Profile-Encounter.fsh",
     "startLine": 1,
     "endLine": 26
+  },
+  {
+    "outputFile": "StructureDefinition-utn-icu-allergyintolerance.json",
+    "fshName": "UTNAllergyIntolerance",
+    "fshType": "Profile",
+    "fshFile": "Profiles/Parameters/Profile-ICU-ISIK-AllergyIntolerance.fsh",
+    "startLine": 5,
+    "endLine": 8
   },
   {
     "outputFile": "StructureDefinition-utn-icu-extrakorporales-verfahren.json",

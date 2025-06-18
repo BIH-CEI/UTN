@@ -11,7 +11,6 @@
 [Example-UTN-Consent-Provenance-Forschungsvorhaben]: Provenance-Example-UTN-Consent-Provenance-Forschungsvorhaben.html
 [Example-UTN-Consent-Provenance-Videosprechstunde]: Provenance-Example-UTN-Consent-Provenance-Videosprechstunde.html
 [Example-UTN-Consent-Videosprechstunde]: Consent-Example-UTN-Consent-Videosprechstunde.html
-[Example-UTN-DiagnosticReport]: DiagnosticReport-Example-UTN-DiagnosticReport.html
 [Example-UTN-Koerpergroesse]: Observation-Example-UTN-Koerpergroesse.html
 [utn-patient-1]: Patient-utn-patient-1.html
 [utn-patient-2]: Patient-utn-patient-2.html
@@ -46,11 +45,9 @@
 [UTNEcmo]: StructureDefinition-utn-icu-extrakorporales-verfahren.html
 [Example-UTN-MedikationStatement]: MedicationStatement-Example-UTN-MedikationStatement.html
 [Example-UTN-Sepsis]: Condition-Example-UTN-Sepsis.html
-[UTNTeleconsultCommunication]: StructureDefinition-teleconsult-communication.html
 [Example-UTN-Teleconsultation-PTtoPR]: Composition-Example-UTN-Teleconsultation-PTtoPR.html
 [Example-UTN-Teleconsultation-PRtoPR]: Composition-Example-UTN-Teleconsultation-PRtoPR.html
 [Example-UTN-Teleconsultation-PRtoPR-Return]: Composition-Example-UTN-Teleconsultation-PRtoPR-Return.html
-[Example-UTN-PRtoPR-Consult]: Communication-Example-UTN-PRtoPR-Consult.html
 [UTN-Teleconsultation-PRtoPR-ServiceRequest]: ServiceRequest-UTN-Teleconsultation-PRtoPR-ServiceRequest.html
 [teleconsultation-service-charite]: HealthcareService-teleconsultation-service-charite.html
 [teleconsultation-service-wuerzburg]: HealthcareService-teleconsultation-service-wuerzburg.html
@@ -73,7 +70,6 @@
 [UTN-Procedure]: StructureDefinition-utn-procedure.html
 [UTN_Procedure_Beatmung]: StructureDefinition-utn-procedure-beatmung.html
 [UTNServiceRequest]: StructureDefinition-utn-service-request.html
-[UTNDiagnostikReport]: StructureDefinition-utn-diagnostik-report.html
+[UTNAllergyIntolerance]: StructureDefinition-utn-icu-allergyintolerance.html
 [UTNLocation]: Location-UTNLocation.html
-[UTNTeleconsultDocumentReference]: StructureDefinition-utn-documentreference.html
 [Example-UTN-VVECMO]: Procedure-Example-UTN-VVECMO.html

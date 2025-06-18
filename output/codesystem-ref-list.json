@@ -9,22 +9,22 @@
       "description" : "CodeSystem defining codes for all answer options used in GRID-HAMD Questionnaire.",
       "uses" : {
       },
-      "ValueSet-gridhamd-answer-options-vs-q10.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q2.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q17.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q1.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q5.html" : "GRID-HAMD Answer Options ValueSet",
       "ValueSet-gridhamd-answer-options-vs-q12.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q13.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q7.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q11.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q3.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q14.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q9.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q10.html" : "GRID-HAMD Answer Options ValueSet",
       "ValueSet-gridhamd-answer-options-vs-q4.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q5.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q11.html" : "GRID-HAMD Answer Options ValueSet",
       "ValueSet-gridhamd-answer-options-vs-q6.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q3.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q9.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q17.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q14.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q1.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q2.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q7.html" : "GRID-HAMD Answer Options ValueSet",
       "ValueSet-gridhamd-answer-options-vs-q15.html" : "GRID-HAMD Answer Options ValueSet",
       "ValueSet-gridhamd-answer-options-vs-q8.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q13.html" : "GRID-HAMD Answer Options ValueSet",
       "ValueSet-gridhamd-answer-options-vs-q16.html" : "GRID-HAMD Answer Options ValueSet"
     },
     {
@@ -61,30 +61,6 @@
       "uses" : {
       },
       "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.4&canonical=https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-code-extrakorporale-verfahren" : "VS MII ICU Code extrakorporale Verfahren"
-    },
-    {
-      "url" : "http://terminology.hl7.org/CodeSystem/communication-category",
-      "version" : "1.0.1",
-      "status" : "active",
-      "name" : "CommunicationCategory",
-      "title" : "CommunicationCategory",
-      "description" : "Codes for general categories of communications such as alerts, instructions, etc.",
-      "oids" : ["2.16.840.1.113883.4.642.1.1076"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-communication-category.html" : "CommunicationCategory"
-    },
-    {
-      "url" : "http://terminology.hl7.org/CodeSystem/v2-0074",
-      "version" : "2.5.0",
-      "status" : "active",
-      "name" : "DiagnosticServiceSectionId",
-      "title" : "diagnosticServiceSectionId",
-      "description" : "HL7-defined code system of concepts which specify a section of a diagnostic service where the observation may be performed.  Used in HL7 Version 2.x messaging in the OBR and OM4 segments.",
-      "oids" : ["2.16.840.1.113883.18.29"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-diagnostic-service-sections.html" : "Diagnostic Service Section Codes"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",

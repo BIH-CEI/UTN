@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "UTNTelemedicineImplementationGuide"] ; # 
   fhir:title [ fhir:v "University Telemedicine Network (UTN) FHIR Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-18T11:50:53+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-18T14:35:27+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "BIH at Charité - Core Unit Digital Medicine and Interoperability"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "BIH at Charité - Core Unit Digital Medicine and Interoperability" ] ;
@@ -1134,25 +1134,6 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "DiagnosticReport"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://www.utn-num.de/fhir/DiagnosticReport/Example-UTN-DiagnosticReport> ;
-         fhir:reference [ fhir:v "DiagnosticReport/Example-UTN-DiagnosticReport" ]
-       ] ;
-       fhir:name [ fhir:v "Example-UTN-DiagnosticReport" ] ;
-       fhir:description [ fhir:v "Example instance of UTN Diagnostic Report" ] ;
-       fhir:example [
-         a fhir:canonical ;
-         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-diagnostik-report"^^xsd:anyURI ;
-         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-diagnostik-report>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
            fhir:v "Observation"
          ]
        ] ) ;
@@ -1774,24 +1755,6 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "StructureDefinition:resource:abstract"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/teleconsult-communication> ;
-         fhir:reference [ fhir:v "StructureDefinition/teleconsult-communication" ]
-       ] ;
-       fhir:name [ fhir:v "Teleconsultation Communication" ] ;
-       fhir:description [ fhir:v "Profile for communications during teleconsultation sessions between healthcare providers." ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
            fhir:v "Composition"
          ]
        ] ) ;
@@ -1839,25 +1802,6 @@
        fhir:example [
          a fhir:boolean ;
          fhir:v true
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "Communication"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://www.utn-num.de/fhir/Communication/Example-UTN-PRtoPR-Consult> ;
-         fhir:reference [ fhir:v "Communication/Example-UTN-PRtoPR-Consult" ]
-       ] ;
-       fhir:name [ fhir:v "Teleconsultation Note from Charité to Uniklinik Würzburg" ] ;
-       fhir:description [ fhir:v "A message sent by a practitioner at Charité to a specialist at Uniklinik Würzburg regarding a patient case." ] ;
-       fhir:example [
-         a fhir:canonical ;
-         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/teleconsult-communication"^^xsd:anyURI ;
-         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/teleconsult-communication>
        ]
      ] [
        fhir:extension ( [
@@ -2267,11 +2211,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-diagnostik-report> ;
-         fhir:reference [ fhir:v "StructureDefinition/utn-diagnostik-report" ]
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-icu-allergyintolerance> ;
+         fhir:reference [ fhir:v "StructureDefinition/utn-icu-allergyintolerance" ]
        ] ;
-       fhir:name [ fhir:v "UTNDiagnostikReport" ] ;
-       fhir:description [ fhir:v "This is the Diagnostic Report of the UTN Patient" ] ;
+       fhir:name [ fhir:v "UTNAllergyIntolerance" ] ;
+       fhir:description [ fhir:v "This profile enables the documentation of allergies and intolerances" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -2293,23 +2237,6 @@
        fhir:example [
          a fhir:boolean ;
          fhir:v true
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "StructureDefinition:resource"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-documentreference> ;
-         fhir:reference [ fhir:v "StructureDefinition/utn-documentreference" ]
-       ] ;
-       fhir:name [ fhir:v "UTNTeleconsultDocumentReference" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
        ]
      ] [
        fhir:extension ( [

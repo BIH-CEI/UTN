@@ -10,7 +10,7 @@
   <name value="UTNTelemedicineImplementationGuide"/>
   <title value="University Telemedicine Network (UTN) FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-06-18T11:50:53+02:00"/>
+  <date value="2025-06-18T14:35:27+02:00"/>
   <publisher value="BIH at Charité - Core Unit Digital Medicine and Interoperability"/>
   <contact>
     <name value="BIH at Charité - Core Unit Digital Medicine and Interoperability"/>
@@ -647,17 +647,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="DiagnosticReport"/>
-      </extension>
-      <reference>
-        <reference value="DiagnosticReport/Example-UTN-DiagnosticReport"/>
-      </reference>
-      <name value="Example-UTN-DiagnosticReport"/>
-      <description value="Example instance of UTN Diagnostic Report"/>
-      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/utn-diagnostik-report"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Observation"/>
       </extension>
       <reference>
@@ -1030,17 +1019,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/teleconsult-communication"/>
-      </reference>
-      <name value="Teleconsultation Communication"/>
-      <description value="Profile for communications during teleconsultation sessions between healthcare providers."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Composition"/>
       </extension>
       <reference>
@@ -1070,17 +1048,6 @@
       <name value="Teleconsultation note between practitioner and practitioner"/>
       <description value="Teleconsultation note sent back to practitioner based on the Service Request"/>
       <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Communication"/>
-      </extension>
-      <reference>
-        <reference value="Communication/Example-UTN-PRtoPR-Consult"/>
-      </reference>
-      <name value="Teleconsultation Note from Charité to Uniklinik Würzburg"/>
-      <description value="A message sent by a practitioner at Charité to a specialist at Uniklinik Würzburg regarding a patient case."/>
-      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/teleconsult-communication"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1329,10 +1296,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/utn-diagnostik-report"/>
+        <reference value="StructureDefinition/utn-icu-allergyintolerance"/>
       </reference>
-      <name value="UTNDiagnostikReport"/>
-      <description value="This is the Diagnostic Report of the UTN Patient"/>
+      <name value="UTNAllergyIntolerance"/>
+      <description value="This profile enables the documentation of allergies and intolerances"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1345,16 +1312,6 @@
       <name value="UTNLocation"/>
       <description value="Example location for UTN"/>
       <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/utn-documentreference"/>
-      </reference>
-      <name value="UTNTeleconsultDocumentReference"/>
-      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

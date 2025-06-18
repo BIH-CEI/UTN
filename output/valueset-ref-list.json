@@ -254,36 +254,6 @@
       "StructureDefinition-utn-patient.html" : "UTN Patient"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/communication-category",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "CommunicationCategory",
-      "title" : "CommunicationCategory",
-      "description" : "Codes for general categories of communications such as alerts, instructions, etc.",
-      "systems" : [
-        "http://terminology.hl7.org/CodeSystem/communication-category"
-      ],
-      "oids" : ["2.16.840.1.113883.4.642.3.172"],
-      "sources" : ["2.16.840.1.113883.4.642.3.172"],
-      "uses" : {
-      },
-      "StructureDefinition-teleconsult-communication.html" : "Teleconsultation Communication"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/diagnostic-service-sections",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "DiagnosticServiceSectionCodes",
-      "title" : "Diagnostic Service Section Codes",
-      "description" : "This value set includes all the codes in HL7 V2 table 0074.",
-      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0074"],
-      "oids" : ["2.16.840.1.113883.4.642.3.234"],
-      "sources" : ["2.16.840.1.113883.4.642.3.234"],
-      "uses" : {
-      },
-      "StructureDefinition-utn-diagnostik-report.html" : "UTNDiagnostikReport"
-    },
-    {
       "url" : "http://hl7.org/fhir/uv/ips/ValueSet/results-laboratory-observations-uv-ips",
       "version" : "1.1.0",
       "status" : "active",
