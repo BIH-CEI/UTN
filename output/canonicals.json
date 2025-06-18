@@ -126,177 +126,177 @@
     "name" : "GRIDHAMDAnswerOptionsVSQ9"
   },
   {
-    "id" : "consent.id",
+    "id" : "num.utn",
     "type" : "ImplementationGuide",
-    "url" : "http://utn/consentresource.com/ImplementationGuide/consent.id",
+    "url" : "https://www.utn-num.de/fhir/ImplementationGuide/num.utn",
     "version" : "0.1.0",
-    "name" : "UTNConsentResource"
+    "name" : "UTNTelemedicineImplementationGuide"
   },
   {
     "id" : "GRIDHAMDQuestionnaire",
     "type" : "Questionnaire",
-    "url" : "http://utn/consentresource.com/Questionnaire/GRIDHAMDQuestionnaire",
+    "url" : "https://www.utn-num.de/fhir/Questionnaire/GRIDHAMDQuestionnaire",
     "version" : "0.1.0",
     "name" : "GRIDHAMD"
   },
   {
     "id" : "KBV-PR-Base-Practitioner",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/KBV-PR-Base-Practitioner",
     "version" : "0.1.0",
     "name" : "UTNPractitioner"
   },
   {
     "id" : "composition-basedon-servicerequest",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/composition-basedon-servicerequest",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/composition-basedon-servicerequest",
     "version" : "0.1.0",
     "name" : "CompositionBasedOnServiceRequest"
   },
   {
     "id" : "consent-management-provenance",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/consent-management-provenance",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/consent-management-provenance",
     "version" : "0.1.0",
     "name" : "ConsentManagementProvenance"
   },
   {
     "id" : "healthcare-service",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/healthcare-service",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/healthcare-service",
     "version" : "0.1.0",
     "name" : "UTNHealthcareService"
   },
   {
     "id" : "isik-herzfrequenz",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/isik-herzfrequenz",
     "version" : "0.1.0",
     "name" : "UTNHerzfrequenz"
   },
   {
     "id" : "isik-koerpergewicht",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/isik-koerpergewicht",
     "version" : "0.1.0",
     "name" : "UTNKoerpergewicht"
   },
   {
     "id" : "isik-koerpertemperatur",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/isik-koerpertemperatur",
     "version" : "0.1.0",
     "name" : "UTNKoerperTemperatur"
   },
   {
     "id" : "mii-kreatinin",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/mii-kreatinin",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/mii-kreatinin",
     "version" : "0.1.0",
     "name" : "UTNKreatinin"
   },
   {
     "id" : "profile-consent-management-questionnaireresponse",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/profile-consent-management-questionnaireresponse",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/profile-consent-management-questionnaireresponse",
     "version" : "0.1.0",
     "name" : "ConsentManagementQuestionnaireResponseUKW"
   },
   {
     "id" : "teleconsult-communication",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/teleconsult-communication",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/teleconsult-communication",
     "version" : "0.1.0",
     "name" : "UTNTeleconsultCommunication"
   },
   {
     "id" : "utn-PR-Base-PractitionerRole",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-PR-Base-PractitionerRole",
     "version" : "0.1.0",
     "name" : "UTNPractitionerRole"
   },
   {
     "id" : "utn-consent-documentreference-id",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-consent-documentreference-id",
     "version" : "0.1.0",
     "name" : "UTNDocumentReference"
   },
   {
     "id" : "utn-consent-id",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/utn-consent-id",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-consent-id",
     "version" : "0.1.0",
     "name" : "UTNConsent"
   },
   {
     "id" : "utn-diagnostik-report",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-diagnostik-report",
     "version" : "0.1.0",
     "name" : "UTNDiagnostikReport"
   },
   {
     "id" : "utn-documentreference",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/utn-documentreference",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-documentreference",
     "version" : "0.1.0",
     "name" : "UTNTeleconsultDocumentReference"
   },
   {
     "id" : "utn-encounter",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/utn-encounter",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-encounter",
     "version" : "0.1.0",
     "name" : "UTN-Encounter"
   },
   {
     "id" : "utn-icu-extrakorporales-verfahren",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/utn-icu-extrakorporales-verfahren",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-icu-extrakorporales-verfahren",
     "version" : "0.1.0",
     "name" : "UTNEcmo"
   },
   {
     "id" : "utn-isik-atemfrequenz",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-isik-atemfrequenz",
     "version" : "0.1.0",
     "name" : "UTNAtemfrequenz"
   },
   {
     "id" : "utn-observation-arterieller-blutdruck",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-observation-arterieller-blutdruck",
     "version" : "0.1.0",
     "name" : "UTN_Observation_Arterieller_Blutdruck"
   },
   {
     "id" : "utn-patient",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/utn-patient",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-patient",
     "version" : "0.1.0",
     "name" : "UTNPatient"
   },
   {
     "id" : "utn-procedure",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/utn-procedure",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-procedure",
     "version" : "0.1.0",
     "name" : "UTN-Procedure"
   },
   {
     "id" : "utn-procedure-beatmung",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-procedure-beatmung",
     "version" : "0.1.0",
     "name" : "UTN_Procedure_Beatmung"
   },
   {
     "id" : "utn-service-request",
     "type" : "StructureDefinition",
-    "url" : "http://utn/consentresource.com/StructureDefinition/utn-service-request",
+    "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-service-request",
     "version" : "0.1.0",
     "name" : "UTNServiceRequest"
   }

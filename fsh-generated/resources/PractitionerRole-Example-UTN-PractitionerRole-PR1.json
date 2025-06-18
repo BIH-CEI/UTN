@@ -3,7 +3,7 @@
   "id": "Example-UTN-PractitionerRole-PR1",
   "meta": {
     "profile": [
-      "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole",
+      "https://www.utn-num.de/fhir/StructureDefinition/utn-PR-Base-PractitionerRole",
       "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_PractitionerRole"
     ]
   },

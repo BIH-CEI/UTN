@@ -3,7 +3,7 @@
   "id": "utn-patient-2",
   "meta": {
     "profile": [
-      "http://utn/consentresource.com/StructureDefinition/utn-patient"
+      "https://www.utn-num.de/fhir/StructureDefinition/utn-patient"
     ]
   },
   "identifier": [

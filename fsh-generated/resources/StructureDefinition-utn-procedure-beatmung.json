@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "utn-procedure-beatmung",
-  "url": "http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung",
+  "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-procedure-beatmung",
   "name": "UTN_Procedure_Beatmung",
   "title": "UTN Procedure Beatmung",
   "status": "draft",
@@ -15,13 +15,8 @@
   "differential": {
     "element": [
       {
-        "id": "Procedure.code.coding:sct",
-        "path": "Procedure.code.coding",
-        "sliceName": "sct",
-        "binding": {
-          "strength": "required",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-code-procedure-beatmung-snomed"
-        }
+        "id": "Procedure",
+        "path": "Procedure"
       }
     ]
   }

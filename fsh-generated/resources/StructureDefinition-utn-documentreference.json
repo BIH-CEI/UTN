@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "utn-documentreference",
-  "url": "http://utn/consentresource.com/StructureDefinition/utn-documentreference",
+  "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-documentreference",
   "name": "UTNTeleconsultDocumentReference",
   "status": "draft",
   "fhirVersion": "4.0.1",

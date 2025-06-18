@@ -1,19 +1,19 @@
 {
-  "url" : "http://utn/consentresource.com/ImplementationGuide/consent.id",
-  "name" : "UTNConsentResource",
+  "url" : "https://www.utn-num.de/fhir/ImplementationGuide/num.utn",
+  "name" : "UTNTelemedicineImplementationGuide",
   "title" : "University Telemedicine Network (UTN) FHIR Implementation Guide",
   "description" : null,
   "status" : "draft",
-  "package-id" : "consent.id",
+  "package-id" : "num.utn",
   "ig-ver" : "0.1.0",
-  "date" : "Mon, 16 Jun, 2025 14:34:35 +0200",
-  "dateISO8601" : "2025-06-16T14:34:35+02:00",
-  "errs" : 126,
-  "warnings" : 235,
-  "hints" : 93,
+  "date" : "Wed, 18 Jun, 2025 11:51:22 +0200",
+  "dateISO8601" : "2025-06-18T11:51:22+02:00",
+  "errs" : 128,
+  "warnings" : 237,
+  "hints" : 100,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 2594375472
+  "maxMemory" : 1716192792
 }

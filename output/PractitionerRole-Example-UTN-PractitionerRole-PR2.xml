@@ -3,7 +3,7 @@
 <PractitionerRole xmlns="http://hl7.org/fhir">
   <id value="Example-UTN-PractitionerRole-PR2"/>
   <meta>
-    <profile value="http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"/>
+    <profile value="https://www.utn-num.de/fhir/StructureDefinition/utn-PR-Base-PractitionerRole"/>
     <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_PractitionerRole"/>
   </meta>
   <text>

@@ -100,9 +100,6 @@
         <a href="scenario_depressionandanxiety.html">Scenario Remote Assessment of Depression and Anxiety Severity&nbsp;</a>
       </li>
       <li>
-        <a href="scenario_icu.html">Scenario ICU</a>
-      </li>
-      <li>
         <a href="scenario_teleconsultation.html">Scenario Teleconsultation</a>
       </li>
     </ul>
@@ -142,7 +139,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">University Telemedicine Network (UTN) FHIR Implementation Guide - Local Development build (v0.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://utn/consentresource.com/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">University Telemedicine Network (UTN) FHIR Implementation Guide - Local Development build (v0.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://www.utn-num.de/fhir/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>UTN Profiles</h2>
   
 
@@ -162,7 +159,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <ul id="markdown-toc">
   <li><a href="#consent-profiles" id="markdown-toc-consent-profiles">Consent Profiles</a></li>
   <li><a href="#meta-profiles" id="markdown-toc-meta-profiles">Meta Profiles</a></li>
-  <li><a href="#observation-profiles" id="markdown-toc-observation-profiles">Observation Profiles</a></li>
+  <li><a href="#composition-profiles" id="markdown-toc-composition-profiles">Composition Profiles</a></li>
 </ul>
 
 </div>
@@ -184,11 +181,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td>UTN DocumentReference</td>
-      <td><a name="l330">​</a><a href="StructureDefinition-utn-documentreference-id.html"><code class="language-plaintext highlighter-rouge">DocumentReference</code></a></td>
+      <td><a name="l324">​</a><a href="StructureDefinition-utn-documentreference-id.html"><code class="language-plaintext highlighter-rouge">DocumentReference</code></a></td>
     </tr>
     <tr>
       <td>UTN Provenance</td>
-      <td><a name="l341">​</a><a href="StructureDefinition-profile-consent-management-provenance.html"><code class="language-plaintext highlighter-rouge">Provenance</code></a></td>
+      <td><a name="l335">​</a><a href="StructureDefinition-profile-consent-management-provenance.html"><code class="language-plaintext highlighter-rouge">Provenance</code></a></td>
     </tr>
     <tr>
       <td>UTN QuestioneRespone</td>
@@ -209,7 +206,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <tbody>
     <tr>
       <td>UTN Patient</td>
-      <td><a name="l384">​</a><a href="StructureDefinition-consent-management-patient.html"><code class="language-plaintext highlighter-rouge">Patient</code></a></td>
+      <td><a name="l378">​</a><a href="StructureDefinition-consent-management-patient.html"><code class="language-plaintext highlighter-rouge">Patient</code></a></td>
     </tr>
     <tr>
       <td>UTN Practitioner</td>
@@ -220,17 +217,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <td><a href="StructureDefinition-utn-PR-Base-PRactitionerRole.html"><code class="language-plaintext highlighter-rouge">PractitionerRole</code></a></td>
     </tr>
     <tr>
-      <td>UTN DiagnosticReport</td>
-      <td><a href="StructureDefinition-utn-diagnostik-report.html"><code class="language-plaintext highlighter-rouge">DiagnosticReport</code></a></td>
-    </tr>
-    <tr>
       <td>UTN HealthcareService</td>
-      <td><a name="l428">​</a><a href="StructureDefinition-healthcare-service-with-devices.html"><code class="language-plaintext highlighter-rouge">HealthcareService</code></a></td>
+      <td><a name="l411">​</a><a href="StructureDefinition-healthcare-service-with-devices.html"><code class="language-plaintext highlighter-rouge">HealthcareService</code></a></td>
     </tr>
   </tbody>
 </table>
 
-<h3 id="observation-profiles" class="grid">Observation Profiles</h3>
+<h3 id="composition-profiles" class="grid">Composition Profiles</h3>
 
 <table>
   <thead>
@@ -286,7 +279,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://utn/consentresource.com">BIH-CEI</a>.  Package consent.id#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 16, 2025 14:34+0200">2025-06-16</span>
+          IG &copy; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.bihealth.org/de/forschung/arbeitsgruppen/interoperabilitaet/home">BIH at Charité - Core Unit Digital Medicine and Interoperability</a>.  Package num.utn#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 18, 2025 11:51+0200">2025-06-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

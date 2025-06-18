@@ -17,18 +17,18 @@
       </coding>
     </valueCodeableConcept>
   </extension>
-  <url value="http://utn/consentresource.com/StructureDefinition/utn-encounter"/>
+  <url value="https://www.utn-num.de/fhir/StructureDefinition/utn-encounter"/>
   <version value="0.1.0"/>
   <name value="UTN-Encounter"/>
   <title value="UTN Encounter"/>
   <status value="draft"/>
-  <date value="2025-06-16T14:33:49+02:00"/>
-  <publisher value="BIH-CEI"/>
+  <date value="2025-06-18T11:50:53+02:00"/>
+  <publisher value="BIH at Charité - Core Unit Digital Medicine and Interoperability"/>
   <contact>
-    <name value="BIH-CEI"/>
+    <name value="BIH at Charité - Core Unit Digital Medicine and Interoperability"/>
     <telecom>
       <system value="url"/>
-      <value value="http://utn/consentresource.com"/>
+      <value value="https://www.bihealth.org/de/forschung/arbeitsgruppen/interoperabilitaet/home"/>
     </telecom>
   </contact>
   <description value="This is the profile of Enocunter within UTN"/>

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "isik-herzfrequenz",
-  "url": "http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz",
+  "url": "https://www.utn-num.de/fhir/StructureDefinition/isik-herzfrequenz",
   "name": "UTNHerzfrequenz",
   "title": "UTN Observation Heart rate Profile",
   "status": "draft",

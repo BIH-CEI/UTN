@@ -1,10 +1,10 @@
 {
-  "package": "consent.id",
+  "package": "num.utn",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "http://utn/consentresource.com/StructureDefinition/composition-basedon-servicerequest",
+      "url": "https://www.utn-num.de/fhir/StructureDefinition/composition-basedon-servicerequest",
       "title": "Composition BasedOn ServiceRequest",
       "types": [
         "Reference"
@@ -14,93 +14,93 @@
   "profiles": {
     "Practitioner": [
       {
-        "url": "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner",
+        "url": "https://www.utn-num.de/fhir/StructureDefinition/KBV-PR-Base-Practitioner",
         "title": "UTN Practitioner"
       }
     ],
     "Provenance": [
       {
-        "url": "http://utn/consentresource.com/StructureDefinition/consent-management-provenance",
+        "url": "https://www.utn-num.de/fhir/StructureDefinition/consent-management-provenance",
         "title": "UTN Consent Management Provenance"
       }
     ],
     "HealthcareService": [
       {
-        "url": "http://utn/consentresource.com/StructureDefinition/healthcare-service",
+        "url": "https://www.utn-num.de/fhir/StructureDefinition/healthcare-service",
         "title": "UTN Healthcare Service with Devices"
       }
     ],
     "Observation": [
       {
-        "url": "http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz",
+        "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-isik-atemfrequenz",
         "title": "UTN Observation Atemfrequenz Profile"
       },
       {
-        "url": "http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck",
+        "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-observation-arterieller-blutdruck",
         "title": "UTN Observation Arterieller Blutdruck"
       }
     ],
     "QuestionnaireResponse": [
       {
-        "url": "http://utn/consentresource.com/StructureDefinition/profile-consent-management-questionnaireresponse",
+        "url": "https://www.utn-num.de/fhir/StructureDefinition/profile-consent-management-questionnaireresponse",
         "title": "UTN Consent Management QuestionnaireResponse"
       }
     ],
     "Communication": [
       {
-        "url": "http://utn/consentresource.com/StructureDefinition/teleconsult-communication",
+        "url": "https://www.utn-num.de/fhir/StructureDefinition/teleconsult-communication",
         "title": "Teleconsultation Communication"
       }
     ],
     "PractitionerRole": [
       {
-        "url": "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole",
+        "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-PR-Base-PractitionerRole",
         "title": "UTN Practitioner Role"
       }
     ],
     "DocumentReference": [
       {
-        "url": "http://utn/consentresource.com/StructureDefinition/utn-documentreference",
+        "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-documentreference",
         "title": "UTNTeleconsultDocumentReference"
       }
     ],
     "Consent": [
       {
-        "url": "http://utn/consentresource.com/StructureDefinition/utn-consent-id",
+        "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-consent-id",
         "title": "UTN Consent Forschungsvorhaben and Videosprechstunde"
       }
     ],
     "DiagnosticReport": [
       {
-        "url": "http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report",
+        "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-diagnostik-report",
         "title": "UTNDiagnostikReport"
       }
     ],
     "Encounter": [
       {
-        "url": "http://utn/consentresource.com/StructureDefinition/utn-encounter",
+        "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-encounter",
         "title": "UTN Encounter"
       }
     ],
     "Procedure": [
       {
-        "url": "http://utn/consentresource.com/StructureDefinition/utn-procedure",
+        "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-procedure",
         "title": "UTN Procedure"
       },
       {
-        "url": "http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung",
+        "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-procedure-beatmung",
         "title": "UTN Procedure Beatmung"
       }
     ],
     "Patient": [
       {
-        "url": "http://utn/consentresource.com/StructureDefinition/utn-patient",
+        "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-patient",
         "title": "UTN Patient"
       }
     ],
     "ServiceRequest": [
       {
-        "url": "http://utn/consentresource.com/StructureDefinition/utn-service-request",
+        "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-service-request",
         "title": "UTN Teleconsultation Service Request"
       }
     ]
@@ -111,6 +111,9 @@
     ],
     "http://fhir.de/ConsentManagement/StructureDefinition/DomainReference": [
       "Consent"
+    ],
+    "http://fhir.de/ConsentManagement/StructureDefinition/SignatureLocation": [
+      "Provenance.signature"
     ],
     "http://fhir.de/ConsentManagement/StructureDefinition/Xacml": [
       "Consent.policyRule"

@@ -3,7 +3,7 @@
   "id": "Example-UTN-DiagnosticReport",
   "meta": {
     "profile": [
-      "http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report"
+      "https://www.utn-num.de/fhir/StructureDefinition/utn-diagnostik-report"
     ]
   },
   "category": [

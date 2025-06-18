@@ -10,13 +10,13 @@
   <name value="GRIDHAMDAnswerOptionsVSQ1"/>
   <title value="GRID-HAMD Answer Options ValueSet"/>
   <status value="draft"/>
-  <date value="2025-06-16T14:33:49+02:00"/>
-  <publisher value="BIH-CEI"/>
+  <date value="2025-06-18T11:50:53+02:00"/>
+  <publisher value="BIH at Charité - Core Unit Digital Medicine and Interoperability"/>
   <contact>
-    <name value="BIH-CEI"/>
+    <name value="BIH at Charité - Core Unit Digital Medicine and Interoperability"/>
     <telecom>
       <system value="url"/>
-      <value value="http://utn/consentresource.com"/>
+      <value value="https://www.bihealth.org/de/forschung/arbeitsgruppen/interoperabilitaet/home"/>
     </telecom>
   </contact>
   <description value="ValueSet including Q1 of the GRID-HAMD Questionnaire answer options."/>

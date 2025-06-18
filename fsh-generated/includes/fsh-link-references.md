@@ -12,7 +12,7 @@
 [Example-UTN-Consent-Provenance-Videosprechstunde]: Provenance-Example-UTN-Consent-Provenance-Videosprechstunde.html
 [Example-UTN-Consent-Videosprechstunde]: Consent-Example-UTN-Consent-Videosprechstunde.html
 [Example-UTN-DiagnosticReport]: DiagnosticReport-Example-UTN-DiagnosticReport.html
-[Example-UTN-Koerperroesse]: Observation-Example-UTN-Koerperroesse.html
+[Example-UTN-Koerpergroesse]: Observation-Example-UTN-Koerpergroesse.html
 [utn-patient-1]: Patient-utn-patient-1.html
 [utn-patient-2]: Patient-utn-patient-2.html
 [Example-UTN-Practitioner-PR1]: Practitioner-Example-UTN-Practitioner-PR1.html
@@ -44,7 +44,7 @@
 [GRIDHAMDAnswerOptionsVSQ16]: ValueSet-gridhamd-answer-options-vs-q16.html
 [GRIDHAMDAnswerOptionsVSQ17]: ValueSet-gridhamd-answer-options-vs-q17.html
 [UTNEcmo]: StructureDefinition-utn-icu-extrakorporales-verfahren.html
-[Example-UTN-MEdikationStatement]: MedicationStatement-Example-UTN-MEdikationStatement.html
+[Example-UTN-MedikationStatement]: MedicationStatement-Example-UTN-MedikationStatement.html
 [Example-UTN-Sepsis]: Condition-Example-UTN-Sepsis.html
 [UTNTeleconsultCommunication]: StructureDefinition-teleconsult-communication.html
 [Example-UTN-Teleconsultation-PTtoPR]: Composition-Example-UTN-Teleconsultation-PTtoPR.html

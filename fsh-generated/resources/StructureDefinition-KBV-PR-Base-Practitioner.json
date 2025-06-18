@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "KBV-PR-Base-Practitioner",
-  "url": "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner",
+  "url": "https://www.utn-num.de/fhir/StructureDefinition/KBV-PR-Base-Practitioner",
   "name": "UTNPractitioner",
   "title": "UTN Practitioner",
   "status": "draft",

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "consent-management-provenance",
-  "url": "http://utn/consentresource.com/StructureDefinition/consent-management-provenance",
+  "url": "https://www.utn-num.de/fhir/StructureDefinition/consent-management-provenance",
   "name": "ConsentManagementProvenance",
   "title": "UTN Consent Management Provenance",
   "status": "draft",

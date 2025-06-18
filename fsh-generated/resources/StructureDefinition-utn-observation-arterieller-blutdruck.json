@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "utn-observation-arterieller-blutdruck",
-  "url": "http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck",
+  "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-observation-arterieller-blutdruck",
   "name": "UTN_Observation_Arterieller_Blutdruck",
   "title": "UTN Observation Arterieller Blutdruck",
   "status": "draft",

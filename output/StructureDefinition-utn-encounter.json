@@ -15,18 +15,18 @@
       }]
     }
   }],
-  "url" : "http://utn/consentresource.com/StructureDefinition/utn-encounter",
+  "url" : "https://www.utn-num.de/fhir/StructureDefinition/utn-encounter",
   "version" : "0.1.0",
   "name" : "UTN-Encounter",
   "title" : "UTN Encounter",
   "status" : "draft",
-  "date" : "2025-06-16T14:33:49+02:00",
-  "publisher" : "BIH-CEI",
+  "date" : "2025-06-18T11:50:53+02:00",
+  "publisher" : "BIH at Charité - Core Unit Digital Medicine and Interoperability",
   "contact" : [{
-    "name" : "BIH-CEI",
+    "name" : "BIH at Charité - Core Unit Digital Medicine and Interoperability",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://utn/consentresource.com"
+      "value" : "https://www.bihealth.org/de/forschung/arbeitsgruppen/interoperabilitaet/home"
     }]
   }],
   "description" : "This is the profile of Enocunter within UTN",

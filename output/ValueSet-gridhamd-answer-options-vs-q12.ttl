@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q12> a fhir:ValueSet ;
+<https://www.utn-num.de/fhir/ValueSet/gridhamd-answer-options-vs-q12> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "gridhamd-answer-options-vs-q12"] ; # 
   fhir:text [
@@ -18,13 +18,13 @@
   fhir:name [ fhir:v "GRIDHAMDAnswerOptionsVSQ12"] ; # 
   fhir:title [ fhir:v "GRID-HAMD Answer Options ValueSet"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-16T14:33:49+02:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "BIH-CEI"] ; # 
+  fhir:date [ fhir:v "2025-06-18T11:50:53+02:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "BIH at Charité - Core Unit Digital Medicine and Interoperability"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "BIH-CEI" ] ;
+     fhir:name [ fhir:v "BIH at Charité - Core Unit Digital Medicine and Interoperability" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://utn/consentresource.com" ]
+       fhir:value [ fhir:v "https://www.bihealth.org/de/forschung/arbeitsgruppen/interoperabilitaet/home" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "ValueSet including Q12 of the GRID-HAMD Questionnaire answer options."] ; # 

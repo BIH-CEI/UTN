@@ -1,24 +1,24 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "consent.id",
-  "url": "http://utn/consentresource.com/ImplementationGuide/consent.id",
+  "id": "num.utn",
+  "url": "https://www.utn-num.de/fhir/ImplementationGuide/num.utn",
   "version": "0.1.0",
-  "name": "UTNConsentResource",
+  "name": "UTNTelemedicineImplementationGuide",
   "title": "University Telemedicine Network (UTN) FHIR Implementation Guide",
   "status": "draft",
-  "publisher": "BIH-CEI",
+  "publisher": "BIH at Charité - Core Unit Digital Medicine and Interoperability",
   "contact": [
     {
-      "name": "BIH-CEI",
+      "name": "BIH at Charité - Core Unit Digital Medicine and Interoperability",
       "telecom": [
         {
           "system": "url",
-          "value": "http://utn/consentresource.com"
+          "value": "https://www.bihealth.org/de/forschung/arbeitsgruppen/interoperabilitaet/home"
         }
       ]
     }
   ],
-  "packageId": "consent.id",
+  "packageId": "num.utn",
   "fhirVersion": [
     "4.0.1"
   ],
@@ -38,7 +38,7 @@
     {
       "packageId": "de.medizininformatikinitiative.kerndatensatz.consent",
       "uri": "de.medizininformatikinitiative.kerndatensatz.consent",
-      "version": "1.0.7",
+      "version": "2025.0.4",
       "id": "de_medizininformatikinitiative_kerndatensatz_consent"
     },
     {
@@ -50,7 +50,7 @@
     {
       "packageId": "de.medizininformatikinitiative.kerndatensatz.icu",
       "uri": "de.medizininformatikinitiative.kerndatensatz.icu",
-      "version": "2025.0.2",
+      "version": "2025.0.4",
       "id": "de_medizininformatikinitiative_kerndatensatz_icu"
     },
     {
@@ -120,7 +120,7 @@
         },
         "name": "Encounter 1",
         "description": "Encounter which is between patient to practitioner",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-encounter"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/utn-encounter"
       },
       {
         "reference": {
@@ -128,7 +128,7 @@
         },
         "name": "Encounter 2",
         "description": "Encounter which is between practitioner to practitioner",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-encounter"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/utn-encounter"
       },
       {
         "reference": {
@@ -144,7 +144,7 @@
         },
         "name": "Example of UTN Procedure Beatmung",
         "description": "Example instance of a ventilation procedure conforming to UTN_Procedure_Beatmung profile",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/utn-procedure-beatmung"
       },
       {
         "reference": {
@@ -152,7 +152,7 @@
         },
         "name": "Example UTN Arterieller Blutdruck Observation",
         "description": "Example instance for documenting arterial blood pressure observations within UTN.",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/utn-observation-arterieller-blutdruck"
       },
       {
         "reference": {
@@ -160,7 +160,7 @@
         },
         "name": "Example-UTN-Consent-DocumentReference-Forschungsvorhaben",
         "description": "Example of Documentreference for Forschungsvorhaben",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/utn-consent-documentreference-id"
       },
       {
         "reference": {
@@ -168,7 +168,7 @@
         },
         "name": "Example-UTN-Consent-DocumentReference-Videosprechstunde",
         "description": "Example of Documentreference for Videosprechstunde",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/utn-consent-documentreference-id"
       },
       {
         "reference": {
@@ -176,7 +176,7 @@
         },
         "name": "Example-UTN-Consent-Forschungsvorhaben",
         "description": "This example shows how the 'Forschungsvorhaben Consent form' should be strucutured",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-consent-id"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/utn-consent-id"
       },
       {
         "reference": {
@@ -184,7 +184,7 @@
         },
         "name": "Example-UTN-Consent-Provenance-Forschungsvorhaben",
         "description": "Example of Provenance for Forschungsvorhaben",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/consent-management-provenance"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/consent-management-provenance"
       },
       {
         "reference": {
@@ -192,7 +192,7 @@
         },
         "name": "Example-UTN-Consent-Provenance-Videosprechstunde",
         "description": "Example of Provenance for Videosprechstunde",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/consent-management-provenance"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/consent-management-provenance"
       },
       {
         "reference": {
@@ -200,7 +200,7 @@
         },
         "name": "Example-UTN-Consent-Videosprechstunde",
         "description": "This example shows how the 'Videosprechstunde Consent form' should be strucutured",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-consent-id"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/utn-consent-id"
       },
       {
         "reference": {
@@ -208,13 +208,13 @@
         },
         "name": "Example-UTN-DiagnosticReport",
         "description": "Example instance of UTN Diagnostic Report",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/utn-diagnostik-report"
       },
       {
         "reference": {
-          "reference": "Observation/Example-UTN-Koerperroesse"
+          "reference": "Observation/Example-UTN-Koerpergroesse"
         },
-        "name": "Example-UTN-Koerperroesse",
+        "name": "Example-UTN-Koerpergroesse",
         "exampleBoolean": true
       },
       {
@@ -223,7 +223,7 @@
         },
         "name": "Example-UTN-Patient",
         "description": "Example UTN Patient 1",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-patient"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/utn-patient"
       },
       {
         "reference": {
@@ -231,7 +231,7 @@
         },
         "name": "Example-UTN-Patient-2",
         "description": "Example UTN Patient 2",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-patient"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/utn-patient"
       },
       {
         "reference": {
@@ -239,7 +239,7 @@
         },
         "name": "Example-UTN-Practitioner-PR1",
         "description": "Example UTN Practitioner 1",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/KBV-PR-Base-Practitioner"
       },
       {
         "reference": {
@@ -247,7 +247,7 @@
         },
         "name": "Example-UTN-Practitioner-PR2",
         "description": "Example UTN Practitioner 2",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/KBV-PR-Base-Practitioner"
       },
       {
         "reference": {
@@ -255,7 +255,7 @@
         },
         "name": "Example-UTN-PractitionerRole-PR1",
         "description": "Example UTN PractitionerRole PR1",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/utn-PR-Base-PractitionerRole"
       },
       {
         "reference": {
@@ -263,7 +263,7 @@
         },
         "name": "Example-UTN-PractitionerRole-PR2",
         "description": "Example UTN PractitionerRole PR 2",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/utn-PR-Base-PractitionerRole"
       },
       {
         "reference": {
@@ -271,7 +271,7 @@
         },
         "name": "Example-UTNAtemfrequenz",
         "description": "An example Observation for respiratory rate using Atemfrequenz profile.",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/utn-isik-atemfrequenz"
       },
       {
         "reference": {
@@ -279,7 +279,7 @@
         },
         "name": "Example-UTNHerzfrequenz",
         "description": "An example Observation for heart rate.",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/isik-herzfrequenz"
       },
       {
         "reference": {
@@ -287,7 +287,7 @@
         },
         "name": "Example-UTNKoerpergewicht",
         "description": "An example Observation for Body Weight.",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/isik-koerpergewicht"
       },
       {
         "reference": {
@@ -295,7 +295,7 @@
         },
         "name": "Example-UTNKoerpertemperatur",
         "description": "An example Observation for Body Temperature. ",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/isik-koerpertemperatur"
       },
       {
         "reference": {
@@ -303,7 +303,7 @@
         },
         "name": "Example-UTNKreatinin",
         "description": "An example Observation for Creatinin.",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/mii-kreatinin"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/mii-kreatinin"
       },
       {
         "reference": {
@@ -466,7 +466,7 @@
       },
       {
         "reference": {
-          "reference": "MedicationStatement/Example-UTN-MEdikationStatement"
+          "reference": "MedicationStatement/Example-UTN-MedikationStatement"
         },
         "name": "Ramipril",
         "description": "The medication of the patient during the encounter of ICU",
@@ -517,7 +517,7 @@
         },
         "name": "Teleconsultation Note from Charité to Uniklinik Würzburg",
         "description": "A message sent by a practitioner at Charité to a specialist at Uniklinik Würzburg regarding a patient case.",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/teleconsult-communication"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/teleconsult-communication"
       },
       {
         "reference": {
@@ -533,7 +533,7 @@
         },
         "name": "Teleconsultation Service - Charité",
         "description": "Teleconsultation service provided by Charité – Universitätsmedizin Berlin",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/healthcare-service"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/healthcare-service"
       },
       {
         "reference": {
@@ -541,7 +541,7 @@
         },
         "name": "Teleconsultation Service - Uniklinik Würzburg",
         "description": "Teleconsultation service provided by Universitätsklinikum Würzburg",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/healthcare-service"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/healthcare-service"
       },
       {
         "reference": {
@@ -549,7 +549,7 @@
         },
         "name": "Ultrasound Procedure with Stone Outcome",
         "description": "An example Procedure resource conforming to the MII profile where sonography reveals a stone.",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-procedure"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/utn-procedure"
       },
       {
         "reference": {
@@ -724,7 +724,7 @@
         },
         "name": "Venovenous ECMO Procedure",
         "description": "venovenous extracorporeal membrane oxygenation procedure ",
-        "exampleCanonical": "http://utn/consentresource.com/StructureDefinition/utn-icu-extrakorporales-verfahren"
+        "exampleCanonical": "https://www.utn-num.de/fhir/StructureDefinition/utn-icu-extrakorporales-verfahren"
       }
     ],
     "page": {
@@ -755,11 +755,6 @@
         {
           "nameUrl": "scenario_depressionandanxiety.html",
           "title": "Scenario Remote Assessment of Depression and Anxiety Severity",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "scenario_icu.html",
-          "title": "Scenario ICU",
           "generation": "markdown"
         },
         {

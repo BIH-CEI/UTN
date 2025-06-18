@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="consent.id"/>
+  <id value="num.utn"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide consent.id</b></p><a name="consent.id"> </a><a name="hcconsent.id"> </a><h2>UTNConsentResource</h2><p>The official URL for this implementation guide is: </p><pre>http://utn/consentresource.com/ImplementationGuide/consent.id</pre></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide num.utn</b></p><a name="num.utn"> </a><a name="hcnum.utn"> </a><h2>UTNTelemedicineImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://www.utn-num.de/fhir/ImplementationGuide/num.utn</pre></div>
   </text>
-  <url value="http://utn/consentresource.com/ImplementationGuide/consent.id"/>
+  <url value="https://www.utn-num.de/fhir/ImplementationGuide/num.utn"/>
   <version value="0.1.0"/>
-  <name value="UTNConsentResource"/>
+  <name value="UTNTelemedicineImplementationGuide"/>
   <title value="University Telemedicine Network (UTN) FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-06-16T14:33:49+02:00"/>
-  <publisher value="BIH-CEI"/>
+  <date value="2025-06-18T11:50:53+02:00"/>
+  <publisher value="BIH at Charité - Core Unit Digital Medicine and Interoperability"/>
   <contact>
-    <name value="BIH-CEI"/>
+    <name value="BIH at Charité - Core Unit Digital Medicine and Interoperability"/>
     <telecom>
       <system value="url"/>
-      <value value="http://utn/consentresource.com"/>
+      <value value="https://www.bihealth.org/de/forschung/arbeitsgruppen/interoperabilitaet/home"/>
     </telecom>
   </contact>
-  <packageId value="consent.id"/>
+  <packageId value="num.utn"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7tx">
@@ -51,7 +51,7 @@
   <dependsOn id="de_medizininformatikinitiative_kerndatensatz_consent">
     <uri value="de.medizininformatikinitiative.kerndatensatz.consent"/>
     <packageId value="de.medizininformatikinitiative.kerndatensatz.consent"/>
-    <version value="1.0.7"/>
+    <version value="2025.0.4"/>
   </dependsOn>
   <dependsOn id="de_einwilligungsmanagement">
     <uri value="de.einwilligungsmanagement"/>
@@ -61,7 +61,7 @@
   <dependsOn id="de_medizininformatikinitiative_kerndatensatz_icu">
     <uri value="de.medizininformatikinitiative.kerndatensatz.icu"/>
     <packageId value="de.medizininformatikinitiative.kerndatensatz.icu"/>
-    <version value="2025.0.2"/>
+    <version value="2025.0.4"/>
   </dependsOn>
   <dependsOn id="de_medizininformatikinitiative_kerndatensatz_laborbefund">
     <uri value="de.medizininformatikinitiative.kerndatensatz.laborbefund"/>
@@ -176,7 +176,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://utn/consentresource.com/history.html"/>
+        <valueString value="https://www.utn-num.de/fhir/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -379,7 +379,7 @@
         <valueCode value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://utn/consentresource.com/history.html"/>
+        <valueString value="https://www.utn-num.de/fhir/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -533,7 +533,7 @@
       </reference>
       <name value="Encounter 1"/>
       <description value="Encounter which is between patient to practitioner"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-encounter"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/utn-encounter"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -544,7 +544,7 @@
       </reference>
       <name value="Encounter 2"/>
       <description value="Encounter which is between practitioner to practitioner"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-encounter"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/utn-encounter"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -566,7 +566,7 @@
       </reference>
       <name value="Example of UTN Procedure Beatmung"/>
       <description value="Example instance of a ventilation procedure conforming to UTN_Procedure_Beatmung profile"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/utn-procedure-beatmung"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -577,7 +577,7 @@
       </reference>
       <name value="Example UTN Arterieller Blutdruck Observation"/>
       <description value="Example instance for documenting arterial blood pressure observations within UTN."/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/utn-observation-arterieller-blutdruck"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -588,7 +588,7 @@
       </reference>
       <name value="Example-UTN-Consent-DocumentReference-Forschungsvorhaben"/>
       <description value="Example of Documentreference for Forschungsvorhaben"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/utn-consent-documentreference-id"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -599,7 +599,7 @@
       </reference>
       <name value="Example-UTN-Consent-DocumentReference-Videosprechstunde"/>
       <description value="Example of Documentreference for Videosprechstunde"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/utn-consent-documentreference-id"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -610,7 +610,7 @@
       </reference>
       <name value="Example-UTN-Consent-Forschungsvorhaben"/>
       <description value="This example shows how the 'Forschungsvorhaben Consent form' should be strucutured"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-consent-id"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/utn-consent-id"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -621,7 +621,7 @@
       </reference>
       <name value="Example-UTN-Consent-Provenance-Forschungsvorhaben"/>
       <description value="Example of Provenance for Forschungsvorhaben"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/consent-management-provenance"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/consent-management-provenance"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -632,7 +632,7 @@
       </reference>
       <name value="Example-UTN-Consent-Provenance-Videosprechstunde"/>
       <description value="Example of Provenance for Videosprechstunde"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/consent-management-provenance"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/consent-management-provenance"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -643,7 +643,7 @@
       </reference>
       <name value="Example-UTN-Consent-Videosprechstunde"/>
       <description value="This example shows how the 'Videosprechstunde Consent form' should be strucutured"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-consent-id"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/utn-consent-id"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -654,16 +654,16 @@
       </reference>
       <name value="Example-UTN-DiagnosticReport"/>
       <description value="Example instance of UTN Diagnostic Report"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/utn-diagnostik-report"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/Example-UTN-Koerperroesse"/>
+        <reference value="Observation/Example-UTN-Koerpergroesse"/>
       </reference>
-      <name value="Example-UTN-Koerperroesse"/>
+      <name value="Example-UTN-Koerpergroesse"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -675,7 +675,7 @@
       </reference>
       <name value="Example-UTN-Patient"/>
       <description value="Example UTN Patient 1"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-patient"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/utn-patient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -686,7 +686,7 @@
       </reference>
       <name value="Example-UTN-Patient-2"/>
       <description value="Example UTN Patient 2"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-patient"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/utn-patient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -697,7 +697,7 @@
       </reference>
       <name value="Example-UTN-Practitioner-PR1"/>
       <description value="Example UTN Practitioner 1"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/KBV-PR-Base-Practitioner"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -708,7 +708,7 @@
       </reference>
       <name value="Example-UTN-Practitioner-PR2"/>
       <description value="Example UTN Practitioner 2"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/KBV-PR-Base-Practitioner"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -719,7 +719,7 @@
       </reference>
       <name value="Example-UTN-PractitionerRole-PR1"/>
       <description value="Example UTN PractitionerRole PR1"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/utn-PR-Base-PractitionerRole"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -730,7 +730,7 @@
       </reference>
       <name value="Example-UTN-PractitionerRole-PR2"/>
       <description value="Example UTN PractitionerRole PR 2"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/utn-PR-Base-PractitionerRole"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -741,7 +741,7 @@
       </reference>
       <name value="Example-UTNAtemfrequenz"/>
       <description value="An example Observation for respiratory rate using Atemfrequenz profile."/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/utn-isik-atemfrequenz"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -752,7 +752,7 @@
       </reference>
       <name value="Example-UTNHerzfrequenz"/>
       <description value="An example Observation for heart rate."/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/isik-herzfrequenz"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -763,7 +763,7 @@
       </reference>
       <name value="Example-UTNKoerpergewicht"/>
       <description value="An example Observation for Body Weight."/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/isik-koerpergewicht"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -774,7 +774,7 @@
       </reference>
       <name value="Example-UTNKoerpertemperatur"/>
       <description value="An example Observation for Body Temperature."/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/isik-koerpertemperatur"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -785,7 +785,7 @@
       </reference>
       <name value="Example-UTNKreatinin"/>
       <description value="An example Observation for Creatinin."/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/mii-kreatinin"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/mii-kreatinin"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1011,7 +1011,7 @@
         <valueString value="MedicationStatement"/>
       </extension>
       <reference>
-        <reference value="MedicationStatement/Example-UTN-MEdikationStatement"/>
+        <reference value="MedicationStatement/Example-UTN-MedikationStatement"/>
       </reference>
       <name value="Ramipril"/>
       <description value="The medication of the patient during the encounter of ICU"/>
@@ -1080,7 +1080,7 @@
       </reference>
       <name value="Teleconsultation Note from Charité to Uniklinik Würzburg"/>
       <description value="A message sent by a practitioner at Charité to a specialist at Uniklinik Würzburg regarding a patient case."/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/teleconsult-communication"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/teleconsult-communication"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1102,7 +1102,7 @@
       </reference>
       <name value="Teleconsultation Service - Charité"/>
       <description value="Teleconsultation service provided by Charité – Universitätsmedizin Berlin"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/healthcare-service"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/healthcare-service"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1113,7 +1113,7 @@
       </reference>
       <name value="Teleconsultation Service - Uniklinik Würzburg"/>
       <description value="Teleconsultation service provided by Universitätsklinikum Würzburg"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/healthcare-service"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/healthcare-service"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1124,7 +1124,7 @@
       </reference>
       <name value="Ultrasound Procedure with Stone Outcome"/>
       <description value="An example Procedure resource conforming to the MII profile where sonography reveals a stone."/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-procedure"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/utn-procedure"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1365,7 +1365,7 @@
       </reference>
       <name value="Venovenous ECMO Procedure"/>
       <description value="venovenous extracorporeal membrane oxygenation procedure"/>
-      <exampleCanonical value="http://utn/consentresource.com/StructureDefinition/utn-icu-extrakorporales-verfahren"/>
+      <exampleCanonical value="https://www.utn-num.de/fhir/StructureDefinition/utn-icu-extrakorporales-verfahren"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
@@ -1412,14 +1412,6 @@
         </extension>
         <nameUrl value="scenario_depressionandanxiety.html"/>
         <title value="Scenario Remote Assessment of Depression and Anxiety Severity"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="scenario_icu.html"/>
-        </extension>
-        <nameUrl value="scenario_icu.html"/>
-        <title value="Scenario ICU"/>
         <generation value="markdown"/>
       </page>
       <page>

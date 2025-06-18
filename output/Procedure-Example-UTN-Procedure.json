@@ -2,7 +2,7 @@
   "resourceType" : "Procedure",
   "id" : "Example-UTN-Procedure",
   "meta" : {
-    "profile" : ["http://utn/consentresource.com/StructureDefinition/utn-procedure"]
+    "profile" : ["https://www.utn-num.de/fhir/StructureDefinition/utn-procedure"]
   },
   "text" : {
     "status" : "generated",

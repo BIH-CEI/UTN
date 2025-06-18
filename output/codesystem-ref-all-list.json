@@ -21,147 +21,146 @@
       "description" : "CodeSystem defining codes for all answer options used in GRID-HAMD Questionnaire.",
       "uses" : {
       },
-      "ValueSet-gridhamd-answer-options-vs-q11.html" : "GRID-HAMD Answer Options ValueSet",
       "ValueSet-gridhamd-answer-options-vs-q10.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q12.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q2.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q17.html" : "GRID-HAMD Answer Options ValueSet",
       "ValueSet-gridhamd-answer-options-vs-q1.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q5.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q12.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q13.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q7.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q11.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q3.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q14.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q9.html" : "GRID-HAMD Answer Options ValueSet",
       "ValueSet-gridhamd-answer-options-vs-q4.html" : "GRID-HAMD Answer Options ValueSet",
       "ValueSet-gridhamd-answer-options-vs-q6.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q7.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q9.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q16.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q2.html" : "GRID-HAMD Answer Options ValueSet",
       "ValueSet-gridhamd-answer-options-vs-q15.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q14.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q5.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q13.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q17.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q3.html" : "GRID-HAMD Answer Options ValueSet",
-      "ValueSet-gridhamd-answer-options-vs-q8.html" : "GRID-HAMD Answer Options ValueSet"
+      "ValueSet-gridhamd-answer-options-vs-q8.html" : "GRID-HAMD Answer Options ValueSet",
+      "ValueSet-gridhamd-answer-options-vs-q16.html" : "GRID-HAMD Answer Options ValueSet"
     },
     {
       "url" : "http://fhir.de/CodeSystem/KontaktDiagnoseProzedur",
-      "version" : "1.5.2",
+      "version" : "1.5.0",
       "status" : "active",
       "name" : "KontaktDiagnoseProzedur",
       "title" : "KontaktDiagnoseProzedur",
       "description" : "Rolle/Relevanz von Diagnosen und Prozeduren im Encounter-Kontext",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/DiagnoseTyp" : "DiagnoseTyp ValueSet",
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/Diagnosesubtyp" : "Diagnosesubtyp ValueSet"
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/DiagnoseTyp" : "DiagnoseTyp ValueSet",
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/Diagnosesubtyp" : "Diagnosesubtyp ValueSet"
     },
     {
       "url" : "http://fhir.de/CodeSystem/Kontaktebene",
-      "version" : "1.5.2",
+      "version" : "1.5.0",
       "status" : "active",
       "name" : "Kontaktebene",
       "title" : "Kontaktebene",
       "description" : "CodeSystem für die Ebene eines Kontaktes mit einer Gesundheitseinrichtung",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/kontaktebene-de" : "KontaktebeneDe ValueSet"
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/kontaktebene-de" : "KontaktebeneDe ValueSet"
     },
     {
       "url" : "http://fhir.de/CodeSystem/bfarm/ops",
-      "version" : "2024",
+      "version" : null,
       "status" : "active",
-      "name" : "OPS_2024",
-      "title" : "OPS 2024",
-      "description" : "Operationen- und Prozedurenschlüssel (OPS) 2024",
-      "oids" : ["1.2.276.0.76.5.536"],
+      "name" : "OPS",
+      "title" : "OPS",
+      "description" : "OPS Platzhalter-CodeSystem",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/bfarm/ops" : "OPS ValueSet"
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/bfarm/ops" : "OPS ValueSet"
     },
     {
       "url" : "http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass",
-      "version" : "1.5.2",
+      "version" : "1.5.0",
       "status" : "active",
       "name" : "CodeSystemAufnahmeanlass",
       "title" : "CodeSystemAufnahmeanlass",
       "description" : "Aufnahmeanlass, Datenübermittlung nach § 301 Abs. 3 SGB V",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/dgkev/Aufnahmeanlass" : "Aufnahmeanlass ValueSet"
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/dgkev/Aufnahmeanlass" : "Aufnahmeanlass ValueSet"
     },
     {
       "url" : "http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle",
-      "version" : "1.5.2",
+      "version" : "1.5.0",
       "status" : "active",
       "name" : "AufnahmegrundDritteStelle",
       "title" : "AufnahmegrundDritteStelle",
       "description" : "Aufnahmegrund (3. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/dkgev/AufnahmegrundDritteStelle" : "AufnahmegrundDritteStelle ValueSet"
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/dkgev/AufnahmegrundDritteStelle" : "AufnahmegrundDritteStelle ValueSet"
     },
     {
       "url" : "http://fhir.de/CodeSystem/dkgev/AufnahmegrundErsteUndZweiteStelle",
-      "version" : "1.5.2",
+      "version" : "1.5.0",
       "status" : "active",
       "name" : "CodeSystemAufnahmegrundErsteUndZweiteStelle",
       "title" : "CodeSystemAufnahmegrundErsteUndZweiteStelle",
       "description" : "Aufnahmegrund (1. und 2. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/dkgev/AufnahmegrundErsteUndZweiteStelle" : "Aufnahmegrund Erste und Zweite Stelle ValueSet"
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/dkgev/AufnahmegrundErsteUndZweiteStelle" : "Aufnahmegrund Erste und Zweite Stelle ValueSet"
     },
     {
       "url" : "http://fhir.de/CodeSystem/dkgev/AufnahmegrundVierteStelle",
-      "version" : "1.5.2",
+      "version" : "1.5.0",
       "status" : "active",
       "name" : "AufnahmegrundVierteStelle",
       "title" : "AufnahmegrundVierteStelle",
       "description" : "Aufnahmegrund (4. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/dkgev/AufnahmegrundVierteStelle" : "Aufnahmegrund Vierte Stelle ValueSet"
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/dkgev/AufnahmegrundVierteStelle" : "Aufnahmegrund Vierte Stelle ValueSet"
     },
     {
       "url" : "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel",
-      "version" : "1.5.2",
+      "version" : "1.5.0",
       "status" : "active",
       "name" : "CodeSystemFachabteilungsschluessel",
       "title" : "Fachabteilungsschluessel",
       "description" : "Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel" : "Fachabteilungsschlüssel ValueSet"
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel" : "Fachabteilungsschlüssel ValueSet"
     },
     {
       "url" : "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel-erweitert",
-      "version" : "1.5.2",
+      "version" : "1.5.0",
       "status" : "active",
       "name" : "CodeSystemFachabteilungsschluesselErweitert",
       "title" : "Fachabteilungsschluessel Erweitert",
       "description" : "Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung inkl. Spezialisierungen",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert" : "FachabteilungsschluesselErweitert ValueSet"
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert" : "FachabteilungsschluesselErweitert ValueSet"
     },
     {
       "url" : "http://fhir.de/CodeSystem/identifier-type-de-basis",
-      "version" : "1.5.2",
+      "version" : "1.5.0",
       "status" : "active",
       "name" : "IdentifierTypeDeBasis",
       "title" : "Identifier Type De Basis",
       "description" : "Liste der Identfikatorentypen des deutschen Basisprofils welche die Standardtypen ergänzen.",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.consent@1.0.7&canonical=http://fhir.de/ConsentManagement/ValueSet/ContextIdentifierType" : "ConsentManagementContextIdentifierType",
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/identifier-type-de-basis" : "Identifier Type DeBasis ValueSet"
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/identifier-type-de-basis" : "Identifier Type DeBasis ValueSet",
+      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.consent@2025.0.4&canonical=http://fhir.de/ConsentManagement/ValueSet/ContextIdentifierType" : "ConsentManagementContextIdentifierType"
     },
     {
       "url" : "http://fhir.de/CodeSystem/kontaktart-de",
-      "version" : "1.5.2",
+      "version" : "1.5.0",
       "status" : "active",
       "name" : "KontaktArtDe",
       "title" : "KontaktArtDe",
       "description" : "Klassifizierung eines Kontaktes mit einer Gesundheitseinrichtung",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/kontaktart-de" : "KontaktartDe ValueSet"
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/kontaktart-de" : "KontaktartDe ValueSet"
     },
     {
       "url" : "http://hl7.org/fhir/administrative-gender",
@@ -293,8 +292,8 @@
       "oids" : ["2.16.840.1.113883.4.642.4.247"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-encounter-status.html" : "EncounterStatus",
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/EncounterStatusDe" : "Encounter Status ValueSet"
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/EncounterStatusDe" : "Encounter Status ValueSet",
+      "http://hl7.org/fhir/R4/valueset-encounter-status.html" : "EncounterStatus"
     },
     {
       "url" : "http://hl7.org/fhir/event-status",
@@ -449,8 +448,8 @@
       "description" : "One of the resource types defined as part of this version of FHIR.",
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-consent-content-class.html" : "Consent Content Class",
-      "http://hl7.org/fhir/R4/valueset-resource-types.html" : "ResourceType"
+      "http://hl7.org/fhir/R4/valueset-resource-types.html" : "ResourceType",
+      "http://hl7.org/fhir/R4/valueset-consent-content-class.html" : "Consent Content Class"
     },
     {
       "url" : "http://loinc.org",
@@ -463,13 +462,13 @@
       "uses" : {
       },
       "http://hl7.org/fhir/uv/ips/STU1.1/ValueSet-results-laboratory-observations-uv-ips.html" : "Results Laboratory Observation - IPS",
+      "http://hl7.org/fhir/R4/valueset-observation-codes.html" : "LOINC Codes",
+      "http://hl7.org/fhir/R4/valueset-document-classcodes.html" : "Document Class Value Set",
+      "http://hl7.org/fhir/R4/valueset-consent-content-code.html" : "Consent Content Codes",
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/VitalSignDE_Body_Weight_Loinc" : "VitalSignDE_Body_Weight_Loinc",
       "http://hl7.org/fhir/R4/valueset-c80-doc-typecodes.html" : "Document Type Value Set",
       "http://hl7.org/fhir/R4/valueset-consent-category.html" : "Consent Category Codes",
-      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/VitalSignDE_Body_Weight_Loinc" : "VitalSignDE_Body_Weight_Loinc",
-      "http://hl7.org/fhir/R4/valueset-consent-content-code.html" : "Consent Content Codes",
-      "http://hl7.org/fhir/R4/valueset-document-classcodes.html" : "Document Class Value Set",
-      "http://hl7.org/fhir/R4/valueset-report-codes.html" : "LOINC Diagnostic Report Codes",
-      "http://hl7.org/fhir/R4/valueset-observation-codes.html" : "LOINC Codes"
+      "http://hl7.org/fhir/R4/valueset-report-codes.html" : "LOINC Diagnostic Report Codes"
     },
     {
       "url" : "http://snomed.info/sct",
@@ -482,37 +481,37 @@
       "uses" : {
       },
       "http://hl7.org/fhir/R4/valueset-c80-facilitycodes.html" : "Facility Type Code Value Set",
-      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.2&canonical=https://gematik.de/fhir/isik/ValueSet/ISiKKoerpergewichtSCTVS" : "ISiKKoerpergewichtSCTVS",
-      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.prozedur@2025.0.0&canonical=https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-category-sct" : "MII VS Prozedur OPS Kategorien [SNOMED CT]",
-      "http://hl7.org/fhir/R4/valueset-questionnaire-answers.html" : "Questionnaire Answer Codes",
-      "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
-      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.prozedur@2025.0.0&canonical=https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct" : "MII VS Prozedur Prozeduren [SNOMED CT]",
-      "http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes",
-      "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
+      "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
+      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.4&canonical=https://gematik.de/fhir/isik/ValueSet/ISiKHerzfrequenzSCTVS" : "ISiKHerzfrequenzSCTVS",
+      "http://hl7.org/fhir/R4/valueset-procedure-not-performed-reason.html" : "Procedure Not Performed Reason (SNOMED-CT)",
+      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.4&canonical=https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-category-sct" : "MII VS Prozedur OPS Kategorien [SNOMED CT]",
+      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.4&canonical=https://gematik.de/fhir/isik/ValueSet/ISiKKoerpergewichtSCTVS" : "ISiKKoerpergewichtSCTVS",
+      "http://hl7.org/fhir/R4/valueset-device-action.html" : "Procedure Device Action Codes",
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/VitalSignDE-Atemfrequenz-SNOMED-CT" : "VitalSignDE_Atemfrequenz_SNOMED_CT",
+      "http://hl7.org/fhir/R4/valueset-device-kind.html" : "FHIR Device Types",
+      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.4&canonical=https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-code-procedure-beatmung-snomed" : "VS MII ICU Code Procedure Beatmung [SNOMED]",
+      "http://hl7.org/fhir/R4/valueset-participant-role.html" : "Participant Roles",
+      "http://hl7.org/fhir/R4/valueset-practitioner-role.html" : "Practitioner role",
+      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.4&canonical=https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-category-procedure-beatmung-snomed" : "VS MII ICU Category Procedure Beatmung [SNOMED]",
+      "http://hl7.org/fhir/R4/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings",
       "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
       "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
-      "http://hl7.org/fhir/R4/valueset-participant-role.html" : "Participant Roles",
-      "http://hl7.org/fhir/R4/valueset-encounter-reason.html" : "Encounter Reason Codes",
-      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.2&canonical=https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-code-extrakorporale-verfahren" : "VS MII ICU Code extrakorporale Verfahren",
-      "http://hl7.org/fhir/R4/valueset-servicerequest-category.html" : "Service Request Category Codes",
-      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.2&canonical=https://gematik.de/fhir/isik/ValueSet/ISiKKoerpertemperaturSCTVS" : "ISiKKoerpertemperaturSCTVS",
-      "http://hl7.org/fhir/R4/valueset-device-action.html" : "Procedure Device Action Codes",
-      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
-      "http://hl7.org/fhir/R4/valueset-procedure-outcome.html" : "Procedure Outcome Codes (SNOMED CT)",
-      "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
-      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.2&canonical=https://gematik.de/fhir/isik/ValueSet/ISiKHerzfrequenzSCTVS" : "ISiKHerzfrequenzSCTVS",
-      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.2&canonical=https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-category-procedure-beatmung-snomed" : "VS MII ICU Category Procedure Beatmung [SNOMED]",
-      "http://hl7.org/fhir/R4/valueset-procedure-followup.html" : "Procedure Follow up Codes (SNOMED CT)",
-      "http://hl7.org/fhir/R4/valueset-device-kind.html" : "FHIR Device Types",
-      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.2&canonical=https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-code-procedure-beatmung-snomed" : "VS MII ICU Code Procedure Beatmung [SNOMED]",
-      "http://hl7.org/fhir/R4/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings",
-      "http://hl7.org/fhir/R4/valueset-practitioner-role.html" : "Practitioner role",
-      "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
-      "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
-      "http://hl7.org/fhir/R4/valueset-procedure-category.html" : "Procedure Category Codes (SNOMED CT)",
+      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.4&canonical=https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/vs-mii-icu-code-extrakorporale-verfahren" : "VS MII ICU Code extrakorporale Verfahren",
       "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/VitalSignDE-Atemfrequenz-SNOMED-CT" : "VitalSignDE_Atemfrequenz_SNOMED_CT",
-      "http://hl7.org/fhir/R4/valueset-procedure-not-performed-reason.html" : "Procedure Not Performed Reason (SNOMED-CT)"
+      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.4&canonical=https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct" : "MII VS Prozedur Prozeduren [SNOMED CT]",
+      "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
+      "http://hl7.org/fhir/R4/valueset-procedure-outcome.html" : "Procedure Outcome Codes (SNOMED CT)",
+      "http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes",
+      "http://hl7.org/fhir/R4/valueset-questionnaire-answers.html" : "Questionnaire Answer Codes",
+      "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
+      "http://hl7.org/fhir/R4/valueset-servicerequest-category.html" : "Service Request Category Codes",
+      "http://hl7.org/fhir/R4/valueset-procedure-followup.html" : "Procedure Follow up Codes (SNOMED CT)",
+      "http://hl7.org/fhir/R4/valueset-procedure-category.html" : "Procedure Category Codes (SNOMED CT)",
+      "http://hl7.org/fhir/R4/valueset-encounter-reason.html" : "Encounter Reason Codes",
+      "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
+      "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
+      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.icu@2025.0.4&canonical=https://gematik.de/fhir/isik/ValueSet/ISiKKoerpertemperaturSCTVS" : "ISiKKoerpertemperaturSCTVS"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/common-tags",
@@ -644,7 +643,7 @@
       "oids" : ["2.16.840.1.113883.4.642.1.1054"],
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/Diagnosesubtyp" : "Diagnosesubtyp ValueSet"
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/Diagnosesubtyp" : "Diagnosesubtyp ValueSet"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/diet",
@@ -886,9 +885,9 @@
       },
       "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.fall@2025.0.0&canonical=https://www.medizininformatik-initiative.de/fhir/core/modul-fall/ValueSet/identifier-type-codes" : "MII VS Fall Identifier Type Codes",
       "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.laborbefund@2025.0.2&canonical=https://www.medizininformatik-initiative.de/fhir/core/modul-labor/ValueSet/mii-vs-labor-identifier-type-codes" : "MII VS Labor Identifier Type Codes",
-      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.consent@1.0.7&canonical=http://fhir.de/ConsentManagement/ValueSet/ContextIdentifierType" : "ConsentManagementContextIdentifierType",
       "http://hl7.org/fhir/R4/valueset-identifier-type.html" : "IdentifierType",
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/identifier-type-de-basis" : "Identifier Type DeBasis ValueSet"
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/identifier-type-de-basis" : "Identifier Type DeBasis ValueSet",
+      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.consent@2025.0.4&canonical=http://fhir.de/ConsentManagement/ValueSet/ContextIdentifierType" : "ConsentManagementContextIdentifierType"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -900,10 +899,10 @@
       "oids" : ["2.16.840.1.113883.5.4"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.4.0/ValueSet-v3-ActEncounterCode.html" : "ActEncounterCode",
+      "http://terminology.hl7.org/6.4.0/ValueSet-v3-ActCode.html" : "v3 Code System ActCode",
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/EncounterClassDE" : "EncounterClassDE",
       "http://hl7.org/fhir/R4/valueset-provenance-activity-type.html" : "Provenance activity type",
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/EncounterClassDE" : "EncounterClassDE",
-      "http://terminology.hl7.org/6.4.0/ValueSet-v3-ActCode.html" : "v3 Code System ActCode"
+      "http://terminology.hl7.org/6.4.0/ValueSet-v3-ActEncounterCode.html" : "ActEncounterCode"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
@@ -1011,8 +1010,8 @@
       "oids" : ["2.16.840.1.113883.5.1008"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-encounter-special-courtesy.html" : "Special courtesy",
-      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
+      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus",
+      "http://hl7.org/fhir/R4/valueset-encounter-special-courtesy.html" : "Special courtesy"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
@@ -1061,8 +1060,8 @@
       "uses" : {
       },
       "http://hl7.org/fhir/R4/valueset-provenance-activity-type.html" : "Provenance activity type",
-      "http://hl7.org/fhir/R4/valueset-encounter-participant-type.html" : "Participant type",
-      "http://hl7.org/fhir/R4/valueset-security-role-type.html" : "SecurityRoleType"
+      "http://hl7.org/fhir/R4/valueset-security-role-type.html" : "SecurityRoleType",
+      "http://hl7.org/fhir/R4/valueset-encounter-participant-type.html" : "Participant type"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
@@ -1086,8 +1085,8 @@
       "oids" : ["2.16.840.1.113883.5.111"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.4.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType",
-      "http://hl7.org/fhir/R4/valueset-security-role-type.html" : "SecurityRoleType"
+      "http://hl7.org/fhir/R4/valueset-security-role-type.html" : "SecurityRoleType",
+      "http://terminology.hl7.org/6.4.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
     },
     {
       "url" : "http://unitsofmeasure.org",
@@ -1099,8 +1098,8 @@
       "oids" : ["2.16.840.1.113883.6.8"],
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/UcumVitalsCommonDE" : "UCUM Vitals Common DE",
-      "https://simplifier.net/resolve?scope=de.gematik.isik-basismodul@4.0.3&canonical=http://fhir.de/ValueSet/VitalSignDE_Body_Weigth_UCUM" : "VitalSignDE_Body_Weigth_UCUM"
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/UcumVitalsCommonDE" : "UCUM Vitals Common DE",
+      "https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&canonical=http://fhir.de/ValueSet/VitalSignDE_Body_Weigth_UCUM" : "VitalSignDE_Body_Weigth_UCUM"
     },
     {
       "url" : "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Role_Care",
@@ -1135,7 +1134,7 @@
       "oids" : ["2.16.840.1.113883.4.642.4.64"],
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.consent@1.0.7&canonical=https://www.medizininformatik-initiative.de/fhir/modul-consent/ValueSet/mii-vs-consent-signaturetypes" : "MII Consent: Signature Types"
+      "https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.consent@2025.0.4&canonical=https://www.medizininformatik-initiative.de/fhir/modul-consent/ValueSet/mii-vs-consent-signaturetypes" : "MII Consent: Signature Types"
     }
   ]
 }

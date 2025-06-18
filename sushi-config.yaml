@@ -3,9 +3,9 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: consent.id
-canonical: "http://utn/consentresource.com"
-name: UTN Consent Resource
+id: num.utn
+canonical: "https://www.utn-num.de/fhir"
+name: UTN Telemedicine Implementation Guide
 title: University Telemedicine Network (UTN) FHIR Implementation Guide
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
@@ -16,8 +16,8 @@ releaseLabel: ci-build
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: BIH-CEI
-  url: http://utn/consentresource.com
+  name: BIH at Charité - Core Unit Digital Medicine and Interoperability
+  url: https://www.bihealth.org/de/forschung/arbeitsgruppen/interoperabilitaet/home
   # email: test@example.org
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
@@ -33,7 +33,7 @@ dependencies:
 
   de.medizininformatikinitiative.kerndatensatz.consent:
     uri: de.medizininformatikinitiative.kerndatensatz.consent
-    version: 1.0.7
+    version: 2025.0.4
 
   de.einwilligungsmanagement:
     uri: de.einwilligungsmanagement
@@ -41,7 +41,7 @@ dependencies:
 
   de.medizininformatikinitiative.kerndatensatz.icu:
     uri: de.medizininformatikinitiative.kerndatensatz.icu
-    version: 2025.0.2
+    version: 2025.0.4
 
   de.medizininformatikinitiative.kerndatensatz.laborbefund:
     uri: de.medizininformatikinitiative.kerndatensatz.laborbefund
@@ -93,8 +93,6 @@ pages:
     title: UTN Instances
   scenario_depressionandanxiety.md:
     title: Scenario Remote Assessment of Depression and Anxiety Severity
-  scenario_icu.md:
-    title: Scenario ICU
   scenario_teleconsultation.md: 
     title: Scenario Teleconsultation
 
@@ -129,7 +127,6 @@ menu:
   UTN Instances: instances.html
   Scenarios:
     Scenario Remote Assessment of Depression and Anxiety Severity : scenario_depressionandanxiety.html
-    Scenario ICU: scenario_icu.html
     Scenario Teleconsultation: scenario_teleconsultation.html
   FHIR Artifacts: artifacts.html
     

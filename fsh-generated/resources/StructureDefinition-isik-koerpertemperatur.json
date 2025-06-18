@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "isik-koerpertemperatur",
-  "url": "http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur",
+  "url": "https://www.utn-num.de/fhir/StructureDefinition/isik-koerpertemperatur",
   "name": "UTNKoerperTemperatur",
   "title": "UTN Observation Koerpertemperatur Profile",
   "status": "draft",

@@ -11,12 +11,13 @@ Patient to Practitioner consultation scenario shows that the clinical note can b
 
 {: .grid }
 
-### Scenario Practitioner to Practitioner Teleconsultation
+### Scenario ICU - Practitioner to Practitioner Teleconsultation
 
-This scenario shows how the consultation between practitioner to practitioner should look like in a telemedicine setting. 
+This scenario for the inpatient encounter in an ICU setting illustrates how a consultation between two practitioners can be conducted in a telemedicine context  using FHIR resources.
 
-- The practitioner makes the service request to the practitioner in another location. The service request consists of the composition of procedures, conditions, therapies of the encounter. 
-- The practitioner then checks the composition and adds a new section for the consultation note. 
+- A practitioner at Charité initiates a ServiceRequest to a practitioner at Uniklinik Würzburg. This ServiceRequest references a Composition containing relevant clinical information such as procedures, conditions, and therapies from the encounter (via ServiceRequest.supportingInfo).
+
+- The receiving practitioner reviews the Composition and adds a new section to include their consultation note. This updated Composition references the original ServiceRequest using the basedOn extension, thereby linking the consultation response to the original request.
 
 
 |  Field(s) | Example Instance | 

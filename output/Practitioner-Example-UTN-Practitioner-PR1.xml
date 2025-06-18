@@ -3,7 +3,7 @@
 <Practitioner xmlns="http://hl7.org/fhir">
   <id value="Example-UTN-Practitioner-PR1"/>
   <meta>
-    <profile value="http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"/>
+    <profile value="https://www.utn-num.de/fhir/StructureDefinition/KBV-PR-Base-Practitioner"/>
     <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner"/>
   </meta>
   <text>

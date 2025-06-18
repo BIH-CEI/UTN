@@ -3,7 +3,7 @@
   "id": "Example-UTN-Consent-Forschungsvorhaben",
   "meta": {
     "profile": [
-      "http://utn/consentresource.com/StructureDefinition/utn-consent-id",
+      "https://www.utn-num.de/fhir/StructureDefinition/utn-consent-id",
       "https://www.medizininformatik-initiative.de/fhir/modul-consent/StructureDefinition/mii-pr-consent-einwilligung"
     ]
   },

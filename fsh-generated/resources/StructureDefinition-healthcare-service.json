@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "healthcare-service",
-  "url": "http://utn/consentresource.com/StructureDefinition/healthcare-service",
+  "url": "https://www.utn-num.de/fhir/StructureDefinition/healthcare-service",
   "name": "UTNHealthcareService",
   "title": "UTN Healthcare Service with Devices",
   "status": "draft",

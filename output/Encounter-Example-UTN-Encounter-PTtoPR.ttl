@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://utn/consentresource.com/Encounter/Example-UTN-Encounter-PTtoPR> a fhir:Encounter ;
+<https://www.utn-num.de/fhir/Encounter/Example-UTN-Encounter-PTtoPR> a fhir:Encounter ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "Example-UTN-Encounter-PTtoPR"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://utn/consentresource.com/StructureDefinition/utn-encounter"^^xsd:anyURI ;
-       fhir:link <http://utn/consentresource.com/StructureDefinition/utn-encounter>
+       fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-encounter"^^xsd:anyURI ;
+       fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-encounter>
      ] )
   ] ; # 
   fhir:text [
@@ -38,12 +38,12 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://utn/consentresource.com/Patient/utn-patient-1> ;
+     fhir:link <https://www.utn-num.de/fhir/Patient/utn-patient-1> ;
      fhir:reference [ fhir:v "Patient/utn-patient-1" ]
   ] ; # 
   fhir:participant ( [
      fhir:individual [
-       fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+       fhir:link <https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR1> ;
        fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
      ]
   ] ) ; # 

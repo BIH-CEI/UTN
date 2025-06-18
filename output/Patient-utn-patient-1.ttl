@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://utn/consentresource.com/Patient/utn-patient-1> a fhir:Patient ;
+<https://www.utn-num.de/fhir/Patient/utn-patient-1> a fhir:Patient ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "utn-patient-1"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://utn/consentresource.com/StructureDefinition/utn-patient"^^xsd:anyURI ;
-       fhir:link <http://utn/consentresource.com/StructureDefinition/utn-patient>
+       fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-patient"^^xsd:anyURI ;
+       fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-patient>
      ] )
   ] ; # 
   fhir:text [

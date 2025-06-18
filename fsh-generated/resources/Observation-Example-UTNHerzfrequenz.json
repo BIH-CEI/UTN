@@ -3,7 +3,7 @@
   "id": "Example-UTNHerzfrequenz",
   "meta": {
     "profile": [
-      "http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz"
+      "https://www.utn-num.de/fhir/StructureDefinition/isik-herzfrequenz"
     ]
   },
   "category": [

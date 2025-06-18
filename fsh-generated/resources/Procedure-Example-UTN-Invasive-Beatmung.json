@@ -3,7 +3,7 @@
   "id": "Example-UTN-Invasive-Beatmung",
   "meta": {
     "profile": [
-      "http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung",
+      "https://www.utn-num.de/fhir/StructureDefinition/utn-procedure-beatmung",
       "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/beatmung"
     ]
   },

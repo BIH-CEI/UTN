@@ -3,7 +3,7 @@
   "id": "Example-UTNKoerpertemperatur",
   "meta": {
     "profile": [
-      "http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur"
+      "https://www.utn-num.de/fhir/StructureDefinition/isik-koerpertemperatur"
     ]
   },
   "category": [

@@ -2,7 +2,7 @@ Alias: $v3-ActReason = http://terminology.hl7.org/CodeSystem/v3-ActReason
 Alias: $standardterms = http://standardterms.edqm.eu
 Alias: $atc = http://fhir.de/CodeSystem/bfarm/atc
 
-Instance: Example-UTN-MEdikationStatement
+Instance: Example-UTN-MedikationStatement
 InstanceOf: MII_PR_Medikation_MedicationStatement
 Usage: #example
 Title: "Ramipril"

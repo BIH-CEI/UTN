@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://utn/consentresource.com/Condition/Example-UTN-Sepsis> a fhir:Condition ;
+<https://www.utn-num.de/fhir/Condition/Example-UTN-Sepsis> a fhir:Condition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "Example-UTN-Sepsis"] ; # 
   fhir:text [
@@ -31,11 +31,11 @@
      fhir:text [ fhir:v "Sepsis" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://utn/consentresource.com/Patient/utn-patient-1> ;
+     fhir:link <https://www.utn-num.de/fhir/Patient/utn-patient-1> ;
      fhir:reference [ fhir:v "Patient/utn-patient-1" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://utn/consentresource.com/Encounter/Example-UTN-Encounter-PRtoPR> ;
+     fhir:link <https://www.utn-num.de/fhir/Encounter/Example-UTN-Encounter-PRtoPR> ;
      fhir:reference [ fhir:v "Encounter/Example-UTN-Encounter-PRtoPR" ]
   ] ; # 
   fhir:onset [

@@ -3,7 +3,7 @@
   "id": "Example-UTN-Consent-Provenance-Videosprechstunde",
   "meta": {
     "profile": [
-      "http://utn/consentresource.com/StructureDefinition/consent-management-provenance",
+      "https://www.utn-num.de/fhir/StructureDefinition/consent-management-provenance",
       "http://fhir.de/ConsentManagement/StructureDefinition/Provenance"
     ]
   },

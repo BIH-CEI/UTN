@@ -8,7 +8,6 @@ This page shows the all profiles which are used in UTN Project
 | UTN Consent     | [`Consent`](StructureDefinition-utn-consent-id.html) | 
 | UTN DocumentReference    | [`DocumentReference`](StructureDefinition-utn-documentreference-id.html) | 
 | UTN Provenance    | [`Provenance`](StructureDefinition-profile-consent-management-provenance.html) | 
-| UTN QuestioneRespone    | [`QuestioneRespone`](Observation-Example-UTNKoerpertemperatur.html) | 
 
 {: .grid }
 
@@ -19,12 +18,11 @@ This page shows the all profiles which are used in UTN Project
 | UTN Patient     | [`Patient`](StructureDefinition-consent-management-patient.html) | 
 | UTN Practitioner    | [`Practitioner`](StructureDefinition-KBV-PR-Base-PRactitioner.html) | 
 | UTN PractitionerRole    | [`PractitionerRole`](StructureDefinition-utn-PR-Base-PRactitionerRole.html) | 
-| UTN DiagnosticReport    | [`DiagnosticReport`](StructureDefinition-utn-diagnostik-report.html) | 
 | UTN HealthcareService    | [`HealthcareService`](StructureDefinition-healthcare-service-with-devices.html) | 
 
 {: .grid }
 
-### Observation Profiles
+### Composition Profiles
 
 |  Profile | Link | 
 | --------- | ---------------- | 

@@ -3,7 +3,7 @@
   "id": "Example-UTN-PRtoPR-Consult",
   "meta": {
     "profile": [
-      "http://utn/consentresource.com/StructureDefinition/teleconsult-communication"
+      "https://www.utn-num.de/fhir/StructureDefinition/teleconsult-communication"
     ]
   },
   "subject": {

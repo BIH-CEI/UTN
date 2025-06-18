@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://utn/consentresource.com/Composition/Example-UTN-Teleconsultation-PRtoPR-Return> a fhir:Composition ;
+<https://www.utn-num.de/fhir/Composition/Example-UTN-Teleconsultation-PRtoPR-Return> a fhir:Composition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "Example-UTN-Teleconsultation-PRtoPR-Return"] ; # 
   fhir:text [
@@ -18,7 +18,7 @@
      fhir:url [ fhir:v "http://example.org/fhir/StructureDefinition/composition-basedon-servicerequest"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:Reference ;
-       fhir:link <http://utn/consentresource.com/ServiceRequest/UTN-Teleconsultation-PRtoPR-ServiceRequest> ;
+       fhir:link <https://www.utn-num.de/fhir/ServiceRequest/UTN-Teleconsultation-PRtoPR-ServiceRequest> ;
        fhir:reference [ fhir:v "ServiceRequest/UTN-Teleconsultation-PRtoPR-ServiceRequest" ]
      ]
   ] ) ; # 
@@ -40,102 +40,121 @@
      ] )
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://utn/consentresource.com/Patient/utn-patient-2> ;
+     fhir:link <https://www.utn-num.de/fhir/Patient/utn-patient-2> ;
      fhir:reference [ fhir:v "Patient/utn-patient-2" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://utn/consentresource.com/Encounter/Example-UTN-Encounter-PRtoPR> ;
+     fhir:link <https://www.utn-num.de/fhir/Encounter/Example-UTN-Encounter-PRtoPR> ;
      fhir:reference [ fhir:v "Encounter/Example-UTN-Encounter-PRtoPR" ]
   ] ; # 
   fhir:date [ fhir:v "2012-01-04T09:10:14Z"^^xsd:dateTime] ; # 
   fhir:author ( [
-     fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR2> ;
+     fhir:link <https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR2> ;
      fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR2" ]
   ] ) ; # 
   fhir:title [ fhir:v "Consultation Note"] ; # 
   fhir:section ( [
      fhir:title [ fhir:v "Aufnahme" ] ;
      fhir:author ( [
-       fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+       fhir:link <https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR1> ;
        fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
      ] ) ;
      fhir:entry ( [
-       fhir:link <http://utn/consentresource.com/AllergyIntolerance/Example-UTN-AllergyIntolerance> ;
+       fhir:link <https://www.utn-num.de/fhir/AllergyIntolerance/Example-UTN-AllergyIntolerance> ;
        fhir:reference [ fhir:v "AllergyIntolerance/Example-UTN-AllergyIntolerance" ]
      ] [
-       fhir:link <http://utn/consentresource.com/Observation/Example-UTNKoerpergewicht> ;
+       fhir:link <https://www.utn-num.de/fhir/Observation/Example-UTNKoerpergewicht> ;
        fhir:reference [ fhir:v "Observation/Example-UTNKoerpergewicht" ]
      ] [
-       fhir:link <http://utn/consentresource.com/Observation/Example-UTN-Koerperroesse> ;
-       fhir:reference [ fhir:v "Observation/Example-UTN-Koerperroesse" ]
+       fhir:link <https://www.utn-num.de/fhir/Observation/Example-UTN-Koerpergroesse> ;
+       fhir:reference [ fhir:v "Observation/Example-UTN-Koerpergroesse" ]
      ] [
-       fhir:link <http://utn/consentresource.com/Condition/Example-UTN-Sepsis> ;
+       fhir:link <https://www.utn-num.de/fhir/Condition/Example-UTN-Sepsis> ;
        fhir:reference [ fhir:v "Condition/Example-UTN-Sepsis" ]
      ] )
   ] [
      fhir:title [ fhir:v "Vorerkrankungen / Vor-OPs" ] ;
      fhir:author ( [
-       fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+       fhir:link <https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR1> ;
        fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
      ] ) ;
      fhir:entry ( [
-       fhir:link <http://utn/consentresource.com/Condition/Example-UTN-Sepsis> ;
-       fhir:reference [ fhir:v "Condition/Example-UTN-Sepsis" ]
+       fhir:link <https://www.utn-num.de/fhir/Condition/Example-UTN-Condition> ;
+       fhir:reference [ fhir:v "Condition/Example-UTN-Condition" ]
      ] )
   ] [
      fhir:title [ fhir:v "Vormedikation" ] ;
      fhir:author ( [
-       fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+       fhir:link <https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR1> ;
        fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
      ] ) ;
      fhir:entry ( [
-       fhir:link <http://utn/consentresource.com/MedicationStatement/Example-UTN-MEdikationStatement> ;
-       fhir:reference [ fhir:v "MedicationStatement/Example-UTN-MEdikationStatement" ]
+       fhir:link <https://www.utn-num.de/fhir/MedicationStatement/Example-UTN-MedikationStatement> ;
+       fhir:reference [ fhir:v "MedicationStatement/Example-UTN-MedikationStatement" ]
      ] )
   ] [
      fhir:title [ fhir:v "Beatmung" ] ;
      fhir:author ( [
-       fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+       fhir:link <https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR1> ;
        fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
      ] ) ;
      fhir:entry ( [
-       fhir:link <http://utn/consentresource.com/Procedure/Example-UTN-Invasive-Beatmung> ;
+       fhir:link <https://www.utn-num.de/fhir/Procedure/Example-UTN-Invasive-Beatmung> ;
        fhir:reference [ fhir:v "Procedure/Example-UTN-Invasive-Beatmung" ]
      ] )
   ] [
      fhir:title [ fhir:v "Adjuvante Therapien" ] ;
      fhir:author ( [
-       fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+       fhir:link <https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR1> ;
        fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
      ] ) ;
      fhir:entry ( [
-       fhir:link <http://utn/consentresource.com/Procedure/Example-UTN-VVECMO> ;
+       fhir:link <https://www.utn-num.de/fhir/Procedure/Example-UTN-VVECMO> ;
        fhir:reference [ fhir:v "Procedure/Example-UTN-VVECMO" ]
      ] )
   ] [
      fhir:title [ fhir:v "Diagnostik" ] ;
      fhir:author ( [
-       fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+       fhir:link <https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR1> ;
        fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
      ] ) ;
      fhir:entry ( [
-       fhir:link <http://utn/consentresource.com/Procedure/Example-UTN-Procedure> ;
+       fhir:link <https://www.utn-num.de/fhir/Procedure/Example-UTN-Procedure> ;
        fhir:reference [ fhir:v "Procedure/Example-UTN-Procedure" ]
      ] )
   ] [
      fhir:title [ fhir:v "Labor" ] ;
      fhir:author ( [
-       fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+       fhir:link <https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR1> ;
        fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
      ] ) ;
      fhir:entry ( [
-       fhir:link <http://utn/consentresource.com/Observation/Example-UTNKreatinin> ;
+       fhir:link <https://www.utn-num.de/fhir/Observation/Example-UTNKreatinin> ;
        fhir:reference [ fhir:v "Observation/Example-UTNKreatinin" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Vital Parameter" ] ;
+     fhir:author ( [
+       fhir:link <https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR1> ;
+       fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
+     ] ) ;
+     fhir:entry ( [
+       fhir:link <https://www.utn-num.de/fhir/Observation/Example-UTNAtemfrequenz> ;
+       fhir:reference [ fhir:v "Observation/Example-UTNAtemfrequenz" ]
+     ] [
+       fhir:link <https://www.utn-num.de/fhir/Observation/Example-UTNHerzfrequenz> ;
+       fhir:reference [ fhir:v "Observation/Example-UTNHerzfrequenz" ]
+     ] [
+       fhir:link <https://www.utn-num.de/fhir/Observation/Example-UTNKoerpertemperatur> ;
+       fhir:reference [ fhir:v "Observation/Example-UTNKoerpertemperatur" ]
+     ] [
+       fhir:link <https://www.utn-num.de/fhir/Observation/Example-UTN-Arterieller-Blutdruck> ;
+       fhir:reference [ fhir:v "Observation/Example-UTN-Arterieller-Blutdruck" ]
      ] )
   ] [
      fhir:title [ fhir:v "Teleconsultation Note" ] ;
      fhir:author ( [
-       fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR2> ;
+       fhir:link <https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR2> ;
        fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR2" ]
      ] ) ;
      fhir:text [

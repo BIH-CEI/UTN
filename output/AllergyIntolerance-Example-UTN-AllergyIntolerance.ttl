@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://utn/consentresource.com/AllergyIntolerance/Example-UTN-AllergyIntolerance> a fhir:AllergyIntolerance ;
+<https://www.utn-num.de/fhir/AllergyIntolerance/Example-UTN-AllergyIntolerance> a fhir:AllergyIntolerance ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "Example-UTN-AllergyIntolerance"] ; # 
   fhir:meta [
@@ -43,11 +43,11 @@
      ] )
   ] ; # 
   fhir:patient [
-     fhir:link <http://utn/consentresource.com/Patient/utn-patient-2> ;
+     fhir:link <https://www.utn-num.de/fhir/Patient/utn-patient-2> ;
      fhir:reference [ fhir:v "Patient/utn-patient-2" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://utn/consentresource.com/Encounter/Example-UTN-Encounter-PRtoPR> ;
+     fhir:link <https://www.utn-num.de/fhir/Encounter/Example-UTN-Encounter-PRtoPR> ;
      fhir:reference [ fhir:v "Encounter/Example-UTN-Encounter-PRtoPR" ]
   ] ; # 
   fhir:note ( [

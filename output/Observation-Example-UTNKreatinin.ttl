@@ -8,13 +8,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://utn/consentresource.com/Observation/Example-UTNKreatinin> a fhir:Observation ;
+<https://www.utn-num.de/fhir/Observation/Example-UTNKreatinin> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "Example-UTNKreatinin"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://utn/consentresource.com/StructureDefinition/mii-kreatinin"^^xsd:anyURI ;
-       fhir:link <http://utn/consentresource.com/StructureDefinition/mii-kreatinin>
+       fhir:v "https://www.utn-num.de/fhir/StructureDefinition/mii-kreatinin"^^xsd:anyURI ;
+       fhir:link <https://www.utn-num.de/fhir/StructureDefinition/mii-kreatinin>
      ] [
        fhir:v "https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/ObservationLab"^^xsd:anyURI ;
        fhir:link <https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/ObservationLab>
@@ -73,11 +73,11 @@
      fhir:text [ fhir:v "Kreatinin" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://utn/consentresource.com/Patient/utn-patient-2> ;
+     fhir:link <https://www.utn-num.de/fhir/Patient/utn-patient-2> ;
      fhir:reference [ fhir:v "Patient/utn-patient-2" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://utn/consentresource.com/Encounter/Example-UTN-Encounter-PRtoPR> ;
+     fhir:link <https://www.utn-num.de/fhir/Encounter/Example-UTN-Encounter-PRtoPR> ;
      fhir:reference [ fhir:v "Encounter/Example-UTN-Encounter-PRtoPR" ]
   ] ; # 
   fhir:effective [
@@ -96,7 +96,7 @@
   ] ; # 
   fhir:issued [ fhir:v "2018-03-11T10:28:00+01:00"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+     fhir:link <https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR1> ;
      fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ] ;
      fhir:display [ fhir:v "Zentrallabor des IKCL" ]
   ] ) ; # 

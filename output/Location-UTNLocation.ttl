@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://utn/consentresource.com/Location/UTNLocation> a fhir:Location ;
+<https://www.utn-num.de/fhir/Location/UTNLocation> a fhir:Location ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "UTNLocation"] ; # 
   fhir:text [

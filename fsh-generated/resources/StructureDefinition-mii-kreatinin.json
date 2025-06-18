@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "mii-kreatinin",
-  "url": "http://utn/consentresource.com/StructureDefinition/mii-kreatinin",
+  "url": "https://www.utn-num.de/fhir/StructureDefinition/mii-kreatinin",
   "name": "UTNKreatinin",
   "title": "UTN Laboruntersuchung-Kreatinin",
   "status": "draft",

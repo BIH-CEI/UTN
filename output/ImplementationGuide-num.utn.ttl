@@ -6,28 +6,28 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://utn/consentresource.com/ImplementationGuide/consent.id> a fhir:ImplementationGuide ;
+<https://www.utn-num.de/fhir/ImplementationGuide/num.utn> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "consent.id"] ; # 
+  fhir:id [ fhir:v "num.utn"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide consent.id</b></p><a name=\"consent.id\"> </a><a name=\"hcconsent.id\"> </a><h2>UTNConsentResource</h2><p>The official URL for this implementation guide is: </p><pre>http://utn/consentresource.com/ImplementationGuide/consent.id</pre></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide num.utn</b></p><a name=\"num.utn\"> </a><a name=\"hcnum.utn\"> </a><h2>UTNTelemedicineImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://www.utn-num.de/fhir/ImplementationGuide/num.utn</pre></div>"^^rdf:XMLLiteral
   ] ; # 
-  fhir:url [ fhir:v "http://utn/consentresource.com/ImplementationGuide/consent.id"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://www.utn-num.de/fhir/ImplementationGuide/num.utn"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "UTNConsentResource"] ; # 
+  fhir:name [ fhir:v "UTNTelemedicineImplementationGuide"] ; # 
   fhir:title [ fhir:v "University Telemedicine Network (UTN) FHIR Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-16T14:33:49+02:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "BIH-CEI"] ; # 
+  fhir:date [ fhir:v "2025-06-18T11:50:53+02:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "BIH at Charité - Core Unit Digital Medicine and Interoperability"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "BIH-CEI" ] ;
+     fhir:name [ fhir:v "BIH at Charité - Core Unit Digital Medicine and Interoperability" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://utn/consentresource.com" ]
+       fhir:value [ fhir:v "https://www.bihealth.org/de/forschung/arbeitsgruppen/interoperabilitaet/home" ]
      ] )
   ] ) ; # 
-  fhir:packageId [ fhir:v "consent.id"] ; # 
+  fhir:packageId [ fhir:v "num.utn"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
   fhir:dependsOn ( [
@@ -80,7 +80,7 @@
      fhir:id [ fhir:v "de_medizininformatikinitiative_kerndatensatz_consent" ] ;
      fhir:uri [ fhir:v "de.medizininformatikinitiative.kerndatensatz.consent"^^xsd:anyURI ] ;
      fhir:packageId [ fhir:v "de.medizininformatikinitiative.kerndatensatz.consent" ] ;
-     fhir:version [ fhir:v "1.0.7" ]
+     fhir:version [ fhir:v "2025.0.4" ]
   ] [
      fhir:id [ fhir:v "de_einwilligungsmanagement" ] ;
      fhir:uri [ fhir:v "de.einwilligungsmanagement"^^xsd:anyURI ] ;
@@ -90,7 +90,7 @@
      fhir:id [ fhir:v "de_medizininformatikinitiative_kerndatensatz_icu" ] ;
      fhir:uri [ fhir:v "de.medizininformatikinitiative.kerndatensatz.icu"^^xsd:anyURI ] ;
      fhir:packageId [ fhir:v "de.medizininformatikinitiative.kerndatensatz.icu" ] ;
-     fhir:version [ fhir:v "2025.0.2" ]
+     fhir:version [ fhir:v "2025.0.4" ]
   ] [
      fhir:id [ fhir:v "de_medizininformatikinitiative_kerndatensatz_laborbefund" ] ;
      fhir:uri [ fhir:v "de.medizininformatikinitiative.kerndatensatz.laborbefund"^^xsd:anyURI ] ;
@@ -274,7 +274,7 @@
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "http://utn/consentresource.com/history.html"
+           fhir:v "https://www.utn-num.de/fhir/history.html"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -655,7 +655,7 @@
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "http://utn/consentresource.com/history.html"
+           fhir:v "https://www.utn-num.de/fhir/history.html"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -894,7 +894,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/AllergyIntolerance/Example-UTN-AllergyIntolerance> ;
+         fhir:link <https://www.utn-num.de/fhir/AllergyIntolerance/Example-UTN-AllergyIntolerance> ;
          fhir:reference [ fhir:v "AllergyIntolerance/Example-UTN-AllergyIntolerance" ]
        ] ;
        fhir:name [ fhir:v "Allergies of the Patient" ] ;
@@ -912,7 +912,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/composition-basedon-servicerequest> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/composition-basedon-servicerequest> ;
          fhir:reference [ fhir:v "StructureDefinition/composition-basedon-servicerequest" ]
        ] ;
        fhir:name [ fhir:v "Composition BasedOn ServiceRequest" ] ;
@@ -930,15 +930,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Encounter/Example-UTN-Encounter-PTtoPR> ;
+         fhir:link <https://www.utn-num.de/fhir/Encounter/Example-UTN-Encounter-PTtoPR> ;
          fhir:reference [ fhir:v "Encounter/Example-UTN-Encounter-PTtoPR" ]
        ] ;
        fhir:name [ fhir:v "Encounter 1" ] ;
        fhir:description [ fhir:v "Encounter which is between patient to practitioner" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-encounter"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-encounter>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-encounter"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-encounter>
        ]
      ] [
        fhir:extension ( [
@@ -949,15 +949,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Encounter/Example-UTN-Encounter-PRtoPR> ;
+         fhir:link <https://www.utn-num.de/fhir/Encounter/Example-UTN-Encounter-PRtoPR> ;
          fhir:reference [ fhir:v "Encounter/Example-UTN-Encounter-PRtoPR" ]
        ] ;
        fhir:name [ fhir:v "Encounter 2" ] ;
        fhir:description [ fhir:v "Encounter which is between practitioner to practitioner" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-encounter"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-encounter>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-encounter"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-encounter>
        ]
      ] [
        fhir:extension ( [
@@ -968,7 +968,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Condition/Example-UTN-Condition> ;
+         fhir:link <https://www.utn-num.de/fhir/Condition/Example-UTN-Condition> ;
          fhir:reference [ fhir:v "Condition/Example-UTN-Condition" ]
        ] ;
        fhir:name [ fhir:v "Example of Hypertonus Condition" ] ;
@@ -986,15 +986,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Procedure/Example-UTN-Invasive-Beatmung> ;
+         fhir:link <https://www.utn-num.de/fhir/Procedure/Example-UTN-Invasive-Beatmung> ;
          fhir:reference [ fhir:v "Procedure/Example-UTN-Invasive-Beatmung" ]
        ] ;
        fhir:name [ fhir:v "Example of UTN Procedure Beatmung" ] ;
        fhir:description [ fhir:v "Example instance of a ventilation procedure conforming to UTN_Procedure_Beatmung profile" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-procedure-beatmung"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-procedure-beatmung>
        ]
      ] [
        fhir:extension ( [
@@ -1005,15 +1005,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Observation/Example-UTN-Arterieller-Blutdruck> ;
+         fhir:link <https://www.utn-num.de/fhir/Observation/Example-UTN-Arterieller-Blutdruck> ;
          fhir:reference [ fhir:v "Observation/Example-UTN-Arterieller-Blutdruck" ]
        ] ;
        fhir:name [ fhir:v "Example UTN Arterieller Blutdruck Observation" ] ;
        fhir:description [ fhir:v "Example instance for documenting arterial blood pressure observations within UTN." ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-observation-arterieller-blutdruck"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-observation-arterieller-blutdruck>
        ]
      ] [
        fhir:extension ( [
@@ -1024,15 +1024,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/DocumentReference/Example-UTN-Consent-DocumentReference-Forschungsvorhaben> ;
+         fhir:link <https://www.utn-num.de/fhir/DocumentReference/Example-UTN-Consent-DocumentReference-Forschungsvorhaben> ;
          fhir:reference [ fhir:v "DocumentReference/Example-UTN-Consent-DocumentReference-Forschungsvorhaben" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-Consent-DocumentReference-Forschungsvorhaben" ] ;
        fhir:description [ fhir:v "Example of Documentreference for Forschungsvorhaben" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-consent-documentreference-id"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-consent-documentreference-id>
        ]
      ] [
        fhir:extension ( [
@@ -1043,15 +1043,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/DocumentReference/Example-UTN-Consent-DocumentReference-Videosprechstunde> ;
+         fhir:link <https://www.utn-num.de/fhir/DocumentReference/Example-UTN-Consent-DocumentReference-Videosprechstunde> ;
          fhir:reference [ fhir:v "DocumentReference/Example-UTN-Consent-DocumentReference-Videosprechstunde" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-Consent-DocumentReference-Videosprechstunde" ] ;
        fhir:description [ fhir:v "Example of Documentreference for Videosprechstunde" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-consent-documentreference-id"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-consent-documentreference-id>
        ]
      ] [
        fhir:extension ( [
@@ -1062,15 +1062,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Consent/Example-UTN-Consent-Forschungsvorhaben> ;
+         fhir:link <https://www.utn-num.de/fhir/Consent/Example-UTN-Consent-Forschungsvorhaben> ;
          fhir:reference [ fhir:v "Consent/Example-UTN-Consent-Forschungsvorhaben" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-Consent-Forschungsvorhaben" ] ;
        fhir:description [ fhir:v "This example shows how the 'Forschungsvorhaben Consent form' should be strucutured" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-consent-id"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-consent-id>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-consent-id"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-consent-id>
        ]
      ] [
        fhir:extension ( [
@@ -1081,15 +1081,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Provenance/Example-UTN-Consent-Provenance-Forschungsvorhaben> ;
+         fhir:link <https://www.utn-num.de/fhir/Provenance/Example-UTN-Consent-Provenance-Forschungsvorhaben> ;
          fhir:reference [ fhir:v "Provenance/Example-UTN-Consent-Provenance-Forschungsvorhaben" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-Consent-Provenance-Forschungsvorhaben" ] ;
        fhir:description [ fhir:v "Example of Provenance for Forschungsvorhaben" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/consent-management-provenance"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/consent-management-provenance>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/consent-management-provenance"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/consent-management-provenance>
        ]
      ] [
        fhir:extension ( [
@@ -1100,15 +1100,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Provenance/Example-UTN-Consent-Provenance-Videosprechstunde> ;
+         fhir:link <https://www.utn-num.de/fhir/Provenance/Example-UTN-Consent-Provenance-Videosprechstunde> ;
          fhir:reference [ fhir:v "Provenance/Example-UTN-Consent-Provenance-Videosprechstunde" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-Consent-Provenance-Videosprechstunde" ] ;
        fhir:description [ fhir:v "Example of Provenance for Videosprechstunde" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/consent-management-provenance"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/consent-management-provenance>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/consent-management-provenance"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/consent-management-provenance>
        ]
      ] [
        fhir:extension ( [
@@ -1119,15 +1119,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Consent/Example-UTN-Consent-Videosprechstunde> ;
+         fhir:link <https://www.utn-num.de/fhir/Consent/Example-UTN-Consent-Videosprechstunde> ;
          fhir:reference [ fhir:v "Consent/Example-UTN-Consent-Videosprechstunde" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-Consent-Videosprechstunde" ] ;
        fhir:description [ fhir:v "This example shows how the 'Videosprechstunde Consent form' should be strucutured" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-consent-id"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-consent-id>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-consent-id"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-consent-id>
        ]
      ] [
        fhir:extension ( [
@@ -1138,15 +1138,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/DiagnosticReport/Example-UTN-DiagnosticReport> ;
+         fhir:link <https://www.utn-num.de/fhir/DiagnosticReport/Example-UTN-DiagnosticReport> ;
          fhir:reference [ fhir:v "DiagnosticReport/Example-UTN-DiagnosticReport" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-DiagnosticReport" ] ;
        fhir:description [ fhir:v "Example instance of UTN Diagnostic Report" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-diagnostik-report"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-diagnostik-report>
        ]
      ] [
        fhir:extension ( [
@@ -1157,10 +1157,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Observation/Example-UTN-Koerperroesse> ;
-         fhir:reference [ fhir:v "Observation/Example-UTN-Koerperroesse" ]
+         fhir:link <https://www.utn-num.de/fhir/Observation/Example-UTN-Koerpergroesse> ;
+         fhir:reference [ fhir:v "Observation/Example-UTN-Koerpergroesse" ]
        ] ;
-       fhir:name [ fhir:v "Example-UTN-Koerperroesse" ] ;
+       fhir:name [ fhir:v "Example-UTN-Koerpergroesse" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v true
@@ -1174,15 +1174,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Patient/utn-patient-1> ;
+         fhir:link <https://www.utn-num.de/fhir/Patient/utn-patient-1> ;
          fhir:reference [ fhir:v "Patient/utn-patient-1" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-Patient" ] ;
        fhir:description [ fhir:v "Example UTN Patient 1" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-patient"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-patient>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-patient"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-patient>
        ]
      ] [
        fhir:extension ( [
@@ -1193,15 +1193,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Patient/utn-patient-2> ;
+         fhir:link <https://www.utn-num.de/fhir/Patient/utn-patient-2> ;
          fhir:reference [ fhir:v "Patient/utn-patient-2" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-Patient-2" ] ;
        fhir:description [ fhir:v "Example UTN Patient 2" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-patient"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-patient>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-patient"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-patient>
        ]
      ] [
        fhir:extension ( [
@@ -1212,15 +1212,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+         fhir:link <https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR1> ;
          fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-Practitioner-PR1" ] ;
        fhir:description [ fhir:v "Example UTN Practitioner 1" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/KBV-PR-Base-Practitioner"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/KBV-PR-Base-Practitioner>
        ]
      ] [
        fhir:extension ( [
@@ -1231,15 +1231,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR2> ;
+         fhir:link <https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR2> ;
          fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR2" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-Practitioner-PR2" ] ;
        fhir:description [ fhir:v "Example UTN Practitioner 2" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/KBV-PR-Base-Practitioner"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/KBV-PR-Base-Practitioner>
        ]
      ] [
        fhir:extension ( [
@@ -1250,15 +1250,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/PractitionerRole/Example-UTN-PractitionerRole-PR1> ;
+         fhir:link <https://www.utn-num.de/fhir/PractitionerRole/Example-UTN-PractitionerRole-PR1> ;
          fhir:reference [ fhir:v "PractitionerRole/Example-UTN-PractitionerRole-PR1" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-PractitionerRole-PR1" ] ;
        fhir:description [ fhir:v "Example UTN PractitionerRole PR1" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-PR-Base-PractitionerRole"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-PR-Base-PractitionerRole>
        ]
      ] [
        fhir:extension ( [
@@ -1269,15 +1269,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/PractitionerRole/Example-UTN-PractitionerRole-PR2> ;
+         fhir:link <https://www.utn-num.de/fhir/PractitionerRole/Example-UTN-PractitionerRole-PR2> ;
          fhir:reference [ fhir:v "PractitionerRole/Example-UTN-PractitionerRole-PR2" ]
        ] ;
        fhir:name [ fhir:v "Example-UTN-PractitionerRole-PR2" ] ;
        fhir:description [ fhir:v "Example UTN PractitionerRole PR 2" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-PR-Base-PractitionerRole"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-PR-Base-PractitionerRole>
        ]
      ] [
        fhir:extension ( [
@@ -1288,15 +1288,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Observation/Example-UTNAtemfrequenz> ;
+         fhir:link <https://www.utn-num.de/fhir/Observation/Example-UTNAtemfrequenz> ;
          fhir:reference [ fhir:v "Observation/Example-UTNAtemfrequenz" ]
        ] ;
        fhir:name [ fhir:v "Example-UTNAtemfrequenz" ] ;
        fhir:description [ fhir:v "An example Observation for respiratory rate using Atemfrequenz profile." ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-isik-atemfrequenz"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-isik-atemfrequenz>
        ]
      ] [
        fhir:extension ( [
@@ -1307,15 +1307,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Observation/Example-UTNHerzfrequenz> ;
+         fhir:link <https://www.utn-num.de/fhir/Observation/Example-UTNHerzfrequenz> ;
          fhir:reference [ fhir:v "Observation/Example-UTNHerzfrequenz" ]
        ] ;
        fhir:name [ fhir:v "Example-UTNHerzfrequenz" ] ;
        fhir:description [ fhir:v "An example Observation for heart rate." ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/isik-herzfrequenz"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/isik-herzfrequenz>
        ]
      ] [
        fhir:extension ( [
@@ -1326,15 +1326,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Observation/Example-UTNKoerpergewicht> ;
+         fhir:link <https://www.utn-num.de/fhir/Observation/Example-UTNKoerpergewicht> ;
          fhir:reference [ fhir:v "Observation/Example-UTNKoerpergewicht" ]
        ] ;
        fhir:name [ fhir:v "Example-UTNKoerpergewicht" ] ;
        fhir:description [ fhir:v "An example Observation for Body Weight." ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/isik-koerpergewicht"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/isik-koerpergewicht>
        ]
      ] [
        fhir:extension ( [
@@ -1345,15 +1345,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Observation/Example-UTNKoerpertemperatur> ;
+         fhir:link <https://www.utn-num.de/fhir/Observation/Example-UTNKoerpertemperatur> ;
          fhir:reference [ fhir:v "Observation/Example-UTNKoerpertemperatur" ]
        ] ;
        fhir:name [ fhir:v "Example-UTNKoerpertemperatur" ] ;
        fhir:description [ fhir:v "An example Observation for Body Temperature." ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/isik-koerpertemperatur"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/isik-koerpertemperatur>
        ]
      ] [
        fhir:extension ( [
@@ -1364,15 +1364,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Observation/Example-UTNKreatinin> ;
+         fhir:link <https://www.utn-num.de/fhir/Observation/Example-UTNKreatinin> ;
          fhir:reference [ fhir:v "Observation/Example-UTNKreatinin" ]
        ] ;
        fhir:name [ fhir:v "Example-UTNKreatinin" ] ;
        fhir:description [ fhir:v "An example Observation for Creatinin." ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/mii-kreatinin"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/mii-kreatinin>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/mii-kreatinin"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/mii-kreatinin>
        ]
      ] [
        fhir:extension ( [
@@ -1383,7 +1383,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Questionnaire/GRIDHAMDQuestionnaire> ;
+         fhir:link <https://www.utn-num.de/fhir/Questionnaire/GRIDHAMDQuestionnaire> ;
          fhir:reference [ fhir:v "Questionnaire/GRIDHAMDQuestionnaire" ]
        ] ;
        fhir:name [ fhir:v "GRID Hamilton Depression Rating Scale" ] ;
@@ -1401,7 +1401,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/CodeSystem/gridhamd-answer-options-cs> ;
+         fhir:link <https://www.utn-num.de/fhir/CodeSystem/gridhamd-answer-options-cs> ;
          fhir:reference [ fhir:v "CodeSystem/gridhamd-answer-options-cs" ]
        ] ;
        fhir:name [ fhir:v "GRID-HAMD Answer Options CodeSystem" ] ;
@@ -1419,7 +1419,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q1> ;
+         fhir:link <https://www.utn-num.de/fhir/ValueSet/gridhamd-answer-options-vs-q1> ;
          fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q1" ]
        ] ;
        fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
@@ -1437,7 +1437,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q2> ;
+         fhir:link <https://www.utn-num.de/fhir/ValueSet/gridhamd-answer-options-vs-q2> ;
          fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q2" ]
        ] ;
        fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
@@ -1455,7 +1455,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q3> ;
+         fhir:link <https://www.utn-num.de/fhir/ValueSet/gridhamd-answer-options-vs-q3> ;
          fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q3" ]
        ] ;
        fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
@@ -1473,7 +1473,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q4> ;
+         fhir:link <https://www.utn-num.de/fhir/ValueSet/gridhamd-answer-options-vs-q4> ;
          fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q4" ]
        ] ;
        fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
@@ -1491,7 +1491,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q5> ;
+         fhir:link <https://www.utn-num.de/fhir/ValueSet/gridhamd-answer-options-vs-q5> ;
          fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q5" ]
        ] ;
        fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
@@ -1509,7 +1509,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q6> ;
+         fhir:link <https://www.utn-num.de/fhir/ValueSet/gridhamd-answer-options-vs-q6> ;
          fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q6" ]
        ] ;
        fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
@@ -1527,7 +1527,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q7> ;
+         fhir:link <https://www.utn-num.de/fhir/ValueSet/gridhamd-answer-options-vs-q7> ;
          fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q7" ]
        ] ;
        fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
@@ -1545,7 +1545,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q8> ;
+         fhir:link <https://www.utn-num.de/fhir/ValueSet/gridhamd-answer-options-vs-q8> ;
          fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q8" ]
        ] ;
        fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
@@ -1563,7 +1563,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q9> ;
+         fhir:link <https://www.utn-num.de/fhir/ValueSet/gridhamd-answer-options-vs-q9> ;
          fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q9" ]
        ] ;
        fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
@@ -1581,7 +1581,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q10> ;
+         fhir:link <https://www.utn-num.de/fhir/ValueSet/gridhamd-answer-options-vs-q10> ;
          fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q10" ]
        ] ;
        fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
@@ -1599,7 +1599,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q11> ;
+         fhir:link <https://www.utn-num.de/fhir/ValueSet/gridhamd-answer-options-vs-q11> ;
          fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q11" ]
        ] ;
        fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
@@ -1617,7 +1617,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q12> ;
+         fhir:link <https://www.utn-num.de/fhir/ValueSet/gridhamd-answer-options-vs-q12> ;
          fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q12" ]
        ] ;
        fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
@@ -1635,7 +1635,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q13> ;
+         fhir:link <https://www.utn-num.de/fhir/ValueSet/gridhamd-answer-options-vs-q13> ;
          fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q13" ]
        ] ;
        fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
@@ -1653,7 +1653,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q14> ;
+         fhir:link <https://www.utn-num.de/fhir/ValueSet/gridhamd-answer-options-vs-q14> ;
          fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q14" ]
        ] ;
        fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
@@ -1671,7 +1671,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q15> ;
+         fhir:link <https://www.utn-num.de/fhir/ValueSet/gridhamd-answer-options-vs-q15> ;
          fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q15" ]
        ] ;
        fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
@@ -1689,7 +1689,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q16> ;
+         fhir:link <https://www.utn-num.de/fhir/ValueSet/gridhamd-answer-options-vs-q16> ;
          fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q16" ]
        ] ;
        fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
@@ -1707,7 +1707,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/ValueSet/gridhamd-answer-options-vs-q17> ;
+         fhir:link <https://www.utn-num.de/fhir/ValueSet/gridhamd-answer-options-vs-q17> ;
          fhir:reference [ fhir:v "ValueSet/gridhamd-answer-options-vs-q17" ]
        ] ;
        fhir:name [ fhir:v "GRID-HAMD Answer Options ValueSet" ] ;
@@ -1725,7 +1725,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-icu-extrakorporales-verfahren> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-icu-extrakorporales-verfahren> ;
          fhir:reference [ fhir:v "StructureDefinition/utn-icu-extrakorporales-verfahren" ]
        ] ;
        fhir:name [ fhir:v "MII PR ICU Extrakorporales Verfahren" ] ;
@@ -1742,8 +1742,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/MedicationStatement/Example-UTN-MEdikationStatement> ;
-         fhir:reference [ fhir:v "MedicationStatement/Example-UTN-MEdikationStatement" ]
+         fhir:link <https://www.utn-num.de/fhir/MedicationStatement/Example-UTN-MedikationStatement> ;
+         fhir:reference [ fhir:v "MedicationStatement/Example-UTN-MedikationStatement" ]
        ] ;
        fhir:name [ fhir:v "Ramipril" ] ;
        fhir:description [ fhir:v "The medication of the patient during the encounter of ICU" ] ;
@@ -1760,7 +1760,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Condition/Example-UTN-Sepsis> ;
+         fhir:link <https://www.utn-num.de/fhir/Condition/Example-UTN-Sepsis> ;
          fhir:reference [ fhir:v "Condition/Example-UTN-Sepsis" ]
        ] ;
        fhir:name [ fhir:v "Sepsis Condition" ] ;
@@ -1778,7 +1778,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/teleconsult-communication> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/teleconsult-communication> ;
          fhir:reference [ fhir:v "StructureDefinition/teleconsult-communication" ]
        ] ;
        fhir:name [ fhir:v "Teleconsultation Communication" ] ;
@@ -1796,7 +1796,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Composition/Example-UTN-Teleconsultation-PTtoPR> ;
+         fhir:link <https://www.utn-num.de/fhir/Composition/Example-UTN-Teleconsultation-PTtoPR> ;
          fhir:reference [ fhir:v "Composition/Example-UTN-Teleconsultation-PTtoPR" ]
        ] ;
        fhir:name [ fhir:v "Teleconsultation note between patient and practitioner" ] ;
@@ -1813,7 +1813,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Composition/Example-UTN-Teleconsultation-PRtoPR> ;
+         fhir:link <https://www.utn-num.de/fhir/Composition/Example-UTN-Teleconsultation-PRtoPR> ;
          fhir:reference [ fhir:v "Composition/Example-UTN-Teleconsultation-PRtoPR" ]
        ] ;
        fhir:name [ fhir:v "Teleconsultation note between practitioner and practitioner" ] ;
@@ -1831,7 +1831,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Composition/Example-UTN-Teleconsultation-PRtoPR-Return> ;
+         fhir:link <https://www.utn-num.de/fhir/Composition/Example-UTN-Teleconsultation-PRtoPR-Return> ;
          fhir:reference [ fhir:v "Composition/Example-UTN-Teleconsultation-PRtoPR-Return" ]
        ] ;
        fhir:name [ fhir:v "Teleconsultation note between practitioner and practitioner" ] ;
@@ -1849,15 +1849,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Communication/Example-UTN-PRtoPR-Consult> ;
+         fhir:link <https://www.utn-num.de/fhir/Communication/Example-UTN-PRtoPR-Consult> ;
          fhir:reference [ fhir:v "Communication/Example-UTN-PRtoPR-Consult" ]
        ] ;
        fhir:name [ fhir:v "Teleconsultation Note from Charité to Uniklinik Würzburg" ] ;
        fhir:description [ fhir:v "A message sent by a practitioner at Charité to a specialist at Uniklinik Würzburg regarding a patient case." ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/teleconsult-communication"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/teleconsult-communication>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/teleconsult-communication"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/teleconsult-communication>
        ]
      ] [
        fhir:extension ( [
@@ -1868,7 +1868,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/ServiceRequest/UTN-Teleconsultation-PRtoPR-ServiceRequest> ;
+         fhir:link <https://www.utn-num.de/fhir/ServiceRequest/UTN-Teleconsultation-PRtoPR-ServiceRequest> ;
          fhir:reference [ fhir:v "ServiceRequest/UTN-Teleconsultation-PRtoPR-ServiceRequest" ]
        ] ;
        fhir:name [ fhir:v "Teleconsultation Request" ] ;
@@ -1886,15 +1886,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/HealthcareService/teleconsultation-service-charite> ;
+         fhir:link <https://www.utn-num.de/fhir/HealthcareService/teleconsultation-service-charite> ;
          fhir:reference [ fhir:v "HealthcareService/teleconsultation-service-charite" ]
        ] ;
        fhir:name [ fhir:v "Teleconsultation Service - Charité" ] ;
        fhir:description [ fhir:v "Teleconsultation service provided by Charité – Universitätsmedizin Berlin" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/healthcare-service"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/healthcare-service>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/healthcare-service"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/healthcare-service>
        ]
      ] [
        fhir:extension ( [
@@ -1905,15 +1905,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/HealthcareService/teleconsultation-service-wuerzburg> ;
+         fhir:link <https://www.utn-num.de/fhir/HealthcareService/teleconsultation-service-wuerzburg> ;
          fhir:reference [ fhir:v "HealthcareService/teleconsultation-service-wuerzburg" ]
        ] ;
        fhir:name [ fhir:v "Teleconsultation Service - Uniklinik Würzburg" ] ;
        fhir:description [ fhir:v "Teleconsultation service provided by Universitätsklinikum Würzburg" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/healthcare-service"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/healthcare-service>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/healthcare-service"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/healthcare-service>
        ]
      ] [
        fhir:extension ( [
@@ -1924,15 +1924,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Procedure/Example-UTN-Procedure> ;
+         fhir:link <https://www.utn-num.de/fhir/Procedure/Example-UTN-Procedure> ;
          fhir:reference [ fhir:v "Procedure/Example-UTN-Procedure" ]
        ] ;
        fhir:name [ fhir:v "Ultrasound Procedure with Stone Outcome" ] ;
        fhir:description [ fhir:v "An example Procedure resource conforming to the MII profile where sonography reveals a stone." ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-procedure"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-procedure>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-procedure"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-procedure>
        ]
      ] [
        fhir:extension ( [
@@ -1943,7 +1943,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-consent-documentreference-id> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-consent-documentreference-id> ;
          fhir:reference [ fhir:v "StructureDefinition/utn-consent-documentreference-id" ]
        ] ;
        fhir:name [ fhir:v "UTN Consent Document Reference" ] ;
@@ -1961,7 +1961,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-consent-id> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-consent-id> ;
          fhir:reference [ fhir:v "StructureDefinition/utn-consent-id" ]
        ] ;
        fhir:name [ fhir:v "UTN Consent Forschungsvorhaben and Videosprechstunde" ] ;
@@ -1979,7 +1979,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/consent-management-provenance> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/consent-management-provenance> ;
          fhir:reference [ fhir:v "StructureDefinition/consent-management-provenance" ]
        ] ;
        fhir:name [ fhir:v "UTN Consent Management Provenance" ] ;
@@ -1997,7 +1997,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/profile-consent-management-questionnaireresponse> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/profile-consent-management-questionnaireresponse> ;
          fhir:reference [ fhir:v "StructureDefinition/profile-consent-management-questionnaireresponse" ]
        ] ;
        fhir:name [ fhir:v "UTN Consent Management QuestionnaireResponse" ] ;
@@ -2015,7 +2015,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-encounter> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-encounter> ;
          fhir:reference [ fhir:v "StructureDefinition/utn-encounter" ]
        ] ;
        fhir:name [ fhir:v "UTN Encounter" ] ;
@@ -2033,7 +2033,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/healthcare-service> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/healthcare-service> ;
          fhir:reference [ fhir:v "StructureDefinition/healthcare-service" ]
        ] ;
        fhir:name [ fhir:v "UTN Healthcare Service with Devices" ] ;
@@ -2051,7 +2051,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/mii-kreatinin> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/mii-kreatinin> ;
          fhir:reference [ fhir:v "StructureDefinition/mii-kreatinin" ]
        ] ;
        fhir:name [ fhir:v "UTN Laboruntersuchung-Kreatinin" ] ;
@@ -2069,7 +2069,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-observation-arterieller-blutdruck> ;
          fhir:reference [ fhir:v "StructureDefinition/utn-observation-arterieller-blutdruck" ]
        ] ;
        fhir:name [ fhir:v "UTN Observation Arterieller Blutdruck" ] ;
@@ -2087,7 +2087,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-isik-atemfrequenz> ;
          fhir:reference [ fhir:v "StructureDefinition/utn-isik-atemfrequenz" ]
        ] ;
        fhir:name [ fhir:v "UTN Observation Atemfrequenz Profile" ] ;
@@ -2105,7 +2105,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/isik-herzfrequenz> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/isik-herzfrequenz> ;
          fhir:reference [ fhir:v "StructureDefinition/isik-herzfrequenz" ]
        ] ;
        fhir:name [ fhir:v "UTN Observation Heart rate Profile" ] ;
@@ -2123,7 +2123,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/isik-koerpergewicht> ;
          fhir:reference [ fhir:v "StructureDefinition/isik-koerpergewicht" ]
        ] ;
        fhir:name [ fhir:v "UTN Observation Koerpergewicht Profile" ] ;
@@ -2141,7 +2141,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/isik-koerpertemperatur> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/isik-koerpertemperatur> ;
          fhir:reference [ fhir:v "StructureDefinition/isik-koerpertemperatur" ]
        ] ;
        fhir:name [ fhir:v "UTN Observation Koerpertemperatur Profile" ] ;
@@ -2159,7 +2159,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-patient> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-patient> ;
          fhir:reference [ fhir:v "StructureDefinition/utn-patient" ]
        ] ;
        fhir:name [ fhir:v "UTN Patient" ] ;
@@ -2177,7 +2177,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/KBV-PR-Base-Practitioner> ;
          fhir:reference [ fhir:v "StructureDefinition/KBV-PR-Base-Practitioner" ]
        ] ;
        fhir:name [ fhir:v "UTN Practitioner" ] ;
@@ -2195,7 +2195,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-PR-Base-PractitionerRole> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-PR-Base-PractitionerRole> ;
          fhir:reference [ fhir:v "StructureDefinition/utn-PR-Base-PractitionerRole" ]
        ] ;
        fhir:name [ fhir:v "UTN Practitioner Role" ] ;
@@ -2213,7 +2213,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-procedure> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-procedure> ;
          fhir:reference [ fhir:v "StructureDefinition/utn-procedure" ]
        ] ;
        fhir:name [ fhir:v "UTN Procedure" ] ;
@@ -2231,7 +2231,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-procedure-beatmung> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-procedure-beatmung> ;
          fhir:reference [ fhir:v "StructureDefinition/utn-procedure-beatmung" ]
        ] ;
        fhir:name [ fhir:v "UTN Procedure Beatmung" ] ;
@@ -2249,7 +2249,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-service-request> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-service-request> ;
          fhir:reference [ fhir:v "StructureDefinition/utn-service-request" ]
        ] ;
        fhir:name [ fhir:v "UTN Teleconsultation Service Request" ] ;
@@ -2267,7 +2267,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-diagnostik-report> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-diagnostik-report> ;
          fhir:reference [ fhir:v "StructureDefinition/utn-diagnostik-report" ]
        ] ;
        fhir:name [ fhir:v "UTNDiagnostikReport" ] ;
@@ -2285,7 +2285,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Location/UTNLocation> ;
+         fhir:link <https://www.utn-num.de/fhir/Location/UTNLocation> ;
          fhir:reference [ fhir:v "Location/UTNLocation" ]
        ] ;
        fhir:name [ fhir:v "UTNLocation" ] ;
@@ -2303,7 +2303,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-documentreference> ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-documentreference> ;
          fhir:reference [ fhir:v "StructureDefinition/utn-documentreference" ]
        ] ;
        fhir:name [ fhir:v "UTNTeleconsultDocumentReference" ] ;
@@ -2320,15 +2320,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://utn/consentresource.com/Procedure/Example-UTN-VVECMO> ;
+         fhir:link <https://www.utn-num.de/fhir/Procedure/Example-UTN-VVECMO> ;
          fhir:reference [ fhir:v "Procedure/Example-UTN-VVECMO" ]
        ] ;
        fhir:name [ fhir:v "Venovenous ECMO Procedure" ] ;
        fhir:description [ fhir:v "venovenous extracorporeal membrane oxygenation procedure" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://utn/consentresource.com/StructureDefinition/utn-icu-extrakorporales-verfahren"^^xsd:anyURI ;
-         fhir:link <http://utn/consentresource.com/StructureDefinition/utn-icu-extrakorporales-verfahren>
+         fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-icu-extrakorporales-verfahren"^^xsd:anyURI ;
+         fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-icu-extrakorporales-verfahren>
        ]
      ] ) ;
      fhir:page [
@@ -2414,20 +2414,6 @@
            fhir:v "scenario_depressionandanxiety.html"^^xsd:anyURI
          ] ;
          fhir:title [ fhir:v "Scenario Remote Assessment of Depression and Anxiety Severity" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [
-             a fhir:url ;
-             fhir:v "scenario_icu.html"^^xsd:anyURI
-           ]
-         ] ) ;
-         fhir:name [
-           a fhir:url ;
-           fhir:v "scenario_icu.html"^^xsd:anyURI
-         ] ;
-         fhir:title [ fhir:v "Scenario ICU" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [

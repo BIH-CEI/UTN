@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://utn/consentresource.com/ServiceRequest/UTN-Teleconsultation-PRtoPR-ServiceRequest> a fhir:ServiceRequest ;
+<https://www.utn-num.de/fhir/ServiceRequest/UTN-Teleconsultation-PRtoPR-ServiceRequest> a fhir:ServiceRequest ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "UTN-Teleconsultation-PRtoPR-ServiceRequest"] ; # 
   fhir:text [
@@ -23,23 +23,23 @@
      ] )
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://utn/consentresource.com/Patient/utn-patient-1> ;
+     fhir:link <https://www.utn-num.de/fhir/Patient/utn-patient-1> ;
      fhir:reference [ fhir:v "Patient/utn-patient-1" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://utn/consentresource.com/Encounter/Example-UTN-Encounter-PRtoPR> ;
+     fhir:link <https://www.utn-num.de/fhir/Encounter/Example-UTN-Encounter-PRtoPR> ;
      fhir:reference [ fhir:v "Encounter/Example-UTN-Encounter-PRtoPR" ]
   ] ; # 
   fhir:requester [
-     fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+     fhir:link <https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR1> ;
      fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR2> ;
+     fhir:link <https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR2> ;
      fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR2" ]
   ] ) ; # 
   fhir:supportingInfo ( [
-     fhir:link <http://utn/consentresource.com/Composition/Example-UTN-Teleconsultation-PRtoPR> ;
+     fhir:link <https://www.utn-num.de/fhir/Composition/Example-UTN-Teleconsultation-PRtoPR> ;
      fhir:reference [ fhir:v "Composition/Example-UTN-Teleconsultation-PRtoPR" ]
   ] ) . # 
 

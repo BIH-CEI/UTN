@@ -3,7 +3,7 @@
   "id": "Example-UTN-VVECMO",
   "meta": {
     "profile": [
-      "http://utn/consentresource.com/StructureDefinition/utn-icu-extrakorporales-verfahren",
+      "https://www.utn-num.de/fhir/StructureDefinition/utn-icu-extrakorporales-verfahren",
       "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/extrakorporales-verfahren"
     ]
   },

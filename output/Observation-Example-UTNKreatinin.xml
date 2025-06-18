@@ -3,7 +3,7 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="Example-UTNKreatinin"/>
   <meta>
-    <profile value="http://utn/consentresource.com/StructureDefinition/mii-kreatinin"/>
+    <profile value="https://www.utn-num.de/fhir/StructureDefinition/mii-kreatinin"/>
     <profile value="https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/ObservationLab"/>
   </meta>
   <text>

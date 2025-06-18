@@ -9,4 +9,10 @@
     you may need to use this schematron fragment to build a, 
     single schematron that validates contained resources (if you have any) 
   -->
+  <sch:pattern>
+    <sch:title>f:DocumentReference/f:content/f:attachment</sch:title>
+    <sch:rule context="f:DocumentReference/f:content/f:attachment">
+      <sch:assert test="count(f:data) &gt;= 1">data: minimum cardinality of 'data' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
 </sch:schema>

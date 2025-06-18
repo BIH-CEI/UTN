@@ -52,12 +52,12 @@ Description: "Teleconsultation note sent to practitioner as part of the Service 
 * section[+]
   * title = "Vorerkrankungen / Vor-OPs"
   * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTN-Sepsis)
+  * entry[+] = Reference(Example-UTN-Condition)
 
 * section[+]
   * title = "Vormedikation"
   * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTN-MEdikationStatement)
+  * entry[+] = Reference(Example-UTN-MedikationStatement)
 
 * section[+]
   * title = "Beatmung"
@@ -78,6 +78,16 @@ Description: "Teleconsultation note sent to practitioner as part of the Service 
   * title = "Labor"
   * author = Reference(Example-UTN-Practitioner-PR1)
   * entry[+] = Reference(Example-UTNKreatinin)
+
+* section[+]
+  * title = "Vital Parameter"
+  * author = Reference(Example-UTN-Practitioner-PR1)
+  * entry[+] = Reference(Example-UTNAtemfrequenz) 
+  * entry[+] = Reference(Example-UTNHerzfrequenz) 
+  * entry[+] = Reference(Example-UTNKoerpertemperatur) 
+  * entry[+] = Reference(Example-UTN-Arterieller-Blutdruck) 
+  
+
 
 
 /////////////////////////////////////////////////////
@@ -108,18 +118,18 @@ Description: "Teleconsultation note sent back to practitioner based on the Servi
   * author = Reference(Example-UTN-Practitioner-PR1)
   * entry[+] = Reference(Example-UTN-AllergyIntolerance)
   * entry[+] = Reference(Example-UTNKoerpergewicht)
-  * entry[+] = Reference(Example-UTN-Koerperroesse)
+  * entry[+] = Reference(Example-UTN-Koerpergroesse)
   * entry[+] = Reference(Example-UTN-Sepsis)
 
 * section[+]
   * title = "Vorerkrankungen / Vor-OPs"
   * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTN-Sepsis)
+  * entry[+] = Reference(Example-UTN-Condition)
 
 * section[+]
   * title = "Vormedikation"
   * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTN-MEdikationStatement)
+  * entry[+] = Reference(Example-UTN-MedikationStatement)
 
 * section[+]
   * title = "Beatmung"
@@ -135,11 +145,19 @@ Description: "Teleconsultation note sent back to practitioner based on the Servi
   * title = "Diagnostik"
   * author = Reference(Example-UTN-Practitioner-PR1)
   * entry[+] = Reference(Example-UTN-Procedure)
-  
+
 * section[+]
   * title = "Labor"
   * author = Reference(Example-UTN-Practitioner-PR1)
   * entry[+] = Reference(Example-UTNKreatinin)
+
+* section[+]
+  * title = "Vital Parameter"
+  * author = Reference(Example-UTN-Practitioner-PR1)
+  * entry[+] = Reference(Example-UTNAtemfrequenz) 
+  * entry[+] = Reference(Example-UTNHerzfrequenz) 
+  * entry[+] = Reference(Example-UTNKoerpertemperatur) 
+  * entry[+] = Reference(Example-UTN-Arterieller-Blutdruck) 
 
 * section[+]
   * title = "Teleconsultation Note"

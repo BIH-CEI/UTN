@@ -8,18 +8,18 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://utn/consentresource.com/Observation/Example-UTN-Arterieller-Blutdruck> a fhir:Observation ;
+<https://www.utn-num.de/fhir/Observation/Example-UTN-Arterieller-Blutdruck> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "Example-UTN-Arterieller-Blutdruck"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck"^^xsd:anyURI ;
-       fhir:link <http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck>
+       fhir:v "https://www.utn-num.de/fhir/StructureDefinition/utn-observation-arterieller-blutdruck"^^xsd:anyURI ;
+       fhir:link <https://www.utn-num.de/fhir/StructureDefinition/utn-observation-arterieller-blutdruck>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation Example-UTN-Arterieller-Blutdruck</b></p><a name=\"Example-UTN-Arterieller-Blutdruck\"> </a><a name=\"hcExample-UTN-Arterieller-Blutdruck\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-utn-observation-arterieller-blutdruck.html\">UTN Observation Arterieller Blutdruck</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span>, <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 85354-9}, {http://snomed.info/sct 364090009}\">Blood pressure panel</span></p><p><b>subject</b>: <a href=\"http://hl7.org/fhir/us/core/STU3.1/Patient-example.html\">Amy V. Shaw  Female, DoB: 2007-02-20 ( Medical Record Number: 1032702 (use: usual, ))</a></p><p><b>encounter</b>: <a href=\"https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.consent@1.0.7&amp;canonical=de.medizininformatikinitiative.kerndatensatz.consent/Encounter/example\">Encounter/example</a></p><p><b>effective</b>: 2025-02-17 10:30:00+0000</p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8480-6}, {http://snomed.info/sct 271649006}, {urn:iso:std:iso:11073:10101 150017}\">Systolic blood pressure</span></p><p><b>value</b>: 120 mmHg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8462-4}, {http://snomed.info/sct 271650006}, {urn:iso:std:iso:11073:10101 150018}\">Diastolic blood pressure</span></p><p><b>value</b>: 80 mmHg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8478-0}, {http://snomed.info/sct 6797001}, {urn:iso:std:iso:11073:10101 150019}\">Mean blood pressure</span></p><p><b>value</b>: 93 mmHg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemm[Hg] = 'mm[Hg]')</span></p></blockquote></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation Example-UTN-Arterieller-Blutdruck</b></p><a name=\"Example-UTN-Arterieller-Blutdruck\"> </a><a name=\"hcExample-UTN-Arterieller-Blutdruck\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-utn-observation-arterieller-blutdruck.html\">UTN Observation Arterieller Blutdruck</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span>, <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 85354-9}, {http://snomed.info/sct 364090009}\">Blood pressure panel</span></p><p><b>subject</b>: <a href=\"http://hl7.org/fhir/us/core/STU3.1/Patient-example.html\">Amy V. Shaw  Female, DoB: 2007-02-20 ( Medical Record Number: 1032702 (use: usual, ))</a></p><p><b>encounter</b>: <a href=\"https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.consent@2025.0.4&amp;canonical=de.medizininformatikinitiative.kerndatensatz.consent/Encounter/example\">Encounter/example</a></p><p><b>effective</b>: 2025-02-17 10:30:00+0000</p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8480-6}, {http://snomed.info/sct 271649006}, {urn:iso:std:iso:11073:10101 150017}\">Systolic blood pressure</span></p><p><b>value</b>: 120 mmHg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8462-4}, {http://snomed.info/sct 271650006}, {urn:iso:std:iso:11073:10101 150018}\">Diastolic blood pressure</span></p><p><b>value</b>: 80 mmHg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8478-0}, {http://snomed.info/sct 6797001}, {urn:iso:std:iso:11073:10101 150019}\">Mean blood pressure</span></p><p><b>value</b>: 93 mmHg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemm[Hg] = 'mm[Hg]')</span></p></blockquote></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:category ( [
@@ -48,11 +48,11 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://utn/consentresource.com/Patient/example> ;
+     fhir:link <https://www.utn-num.de/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://utn/consentresource.com/Encounter/example> ;
+     fhir:link <https://www.utn-num.de/fhir/Encounter/example> ;
      fhir:reference [ fhir:v "Encounter/example" ]
   ] ; # 
   fhir:effective [

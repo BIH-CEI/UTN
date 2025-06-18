@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://utn/consentresource.com/Composition/Example-UTN-Teleconsultation-PTtoPR> a fhir:Composition ;
+<https://www.utn-num.de/fhir/Composition/Example-UTN-Teleconsultation-PTtoPR> a fhir:Composition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "Example-UTN-Teleconsultation-PTtoPR"] ; # 
   fhir:text [
@@ -32,16 +32,16 @@
      ] )
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://utn/consentresource.com/Patient/utn-patient-1> ;
+     fhir:link <https://www.utn-num.de/fhir/Patient/utn-patient-1> ;
      fhir:reference [ fhir:v "Patient/utn-patient-1" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://utn/consentresource.com/Encounter/Example-UTN-Encounter-PTtoPR> ;
+     fhir:link <https://www.utn-num.de/fhir/Encounter/Example-UTN-Encounter-PTtoPR> ;
      fhir:reference [ fhir:v "Encounter/Example-UTN-Encounter-PTtoPR" ]
   ] ; # 
   fhir:date [ fhir:v "2012-01-04T09:10:14Z"^^xsd:dateTime] ; # 
   fhir:author ( [
-     fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+     fhir:link <https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR1> ;
      fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
   ] ) ; # 
   fhir:title [ fhir:v "Consultation Note"] ; # 
@@ -56,7 +56,7 @@
        ] )
      ] ;
      fhir:author ( [
-       fhir:link <http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR1> ;
+       fhir:link <https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR1> ;
        fhir:reference [ fhir:v "Practitioner/Example-UTN-Practitioner-PR1" ]
      ] ) ;
      fhir:text [

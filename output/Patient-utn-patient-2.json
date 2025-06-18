@@ -2,7 +2,7 @@
   "resourceType" : "Patient",
   "id" : "utn-patient-2",
   "meta" : {
-    "profile" : ["http://utn/consentresource.com/StructureDefinition/utn-patient"]
+    "profile" : ["https://www.utn-num.de/fhir/StructureDefinition/utn-patient"]
   },
   "text" : {
     "status" : "generated",

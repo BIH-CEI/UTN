@@ -3,7 +3,7 @@
   "id": "Example-UTNAtemfrequenz",
   "meta": {
     "profile": [
-      "http://utn/consentresource.com/StructureDefinition/utn-isik-atemfrequenz"
+      "https://www.utn-num.de/fhir/StructureDefinition/utn-isik-atemfrequenz"
     ]
   },
   "category": [

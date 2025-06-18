@@ -49,7 +49,7 @@
       "reference" : "Observation/Example-UTNKoerpergewicht"
     },
     {
-      "reference" : "Observation/Example-UTN-Koerperroesse"
+      "reference" : "Observation/Example-UTN-Koerpergroesse"
     },
     {
       "reference" : "Condition/Example-UTN-Sepsis"
@@ -61,7 +61,7 @@
       "reference" : "Practitioner/Example-UTN-Practitioner-PR1"
     }],
     "entry" : [{
-      "reference" : "Condition/Example-UTN-Sepsis"
+      "reference" : "Condition/Example-UTN-Condition"
     }]
   },
   {
@@ -70,7 +70,7 @@
       "reference" : "Practitioner/Example-UTN-Practitioner-PR1"
     }],
     "entry" : [{
-      "reference" : "MedicationStatement/Example-UTN-MEdikationStatement"
+      "reference" : "MedicationStatement/Example-UTN-MedikationStatement"
     }]
   },
   {
@@ -107,6 +107,24 @@
     }],
     "entry" : [{
       "reference" : "Observation/Example-UTNKreatinin"
+    }]
+  },
+  {
+    "title" : "Vital Parameter",
+    "author" : [{
+      "reference" : "Practitioner/Example-UTN-Practitioner-PR1"
+    }],
+    "entry" : [{
+      "reference" : "Observation/Example-UTNAtemfrequenz"
+    },
+    {
+      "reference" : "Observation/Example-UTNHerzfrequenz"
+    },
+    {
+      "reference" : "Observation/Example-UTNKoerpertemperatur"
+    },
+    {
+      "reference" : "Observation/Example-UTN-Arterieller-Blutdruck"
     }]
   },
   {

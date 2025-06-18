@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "isik-koerpergewicht",
-  "url": "http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht",
+  "url": "https://www.utn-num.de/fhir/StructureDefinition/isik-koerpergewicht",
   "name": "UTNKoerpergewicht",
   "title": "UTN Observation Koerpergewicht Profile",
   "status": "draft",

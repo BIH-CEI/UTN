@@ -15,4 +15,10 @@
       <sch:assert test="count(f:location) &gt;= 1">location: minimum cardinality of 'location' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:Provenance/f:signature</sch:title>
+    <sch:rule context="f:Provenance/f:signature">
+      <sch:assert test="count(f:extension[@url = 'http://fhir.de/ConsentManagement/StructureDefinition/SignatureLocation']) &lt;= 1">extension with URL = 'http://fhir.de/ConsentManagement/StructureDefinition/SignatureLocation': maximum cardinality of 'extension' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
 </sch:schema>

@@ -15,7 +15,7 @@
       }
     }
   ],
-  "url": "http://utn/consentresource.com/StructureDefinition/utn-encounter",
+  "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-encounter",
   "name": "UTN-Encounter",
   "title": "UTN Encounter",
   "status": "draft",

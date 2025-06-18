@@ -2,7 +2,7 @@
   "resourceType" : "Encounter",
   "id" : "Example-UTN-Encounter-PTtoPR",
   "meta" : {
-    "profile" : ["http://utn/consentresource.com/StructureDefinition/utn-encounter"]
+    "profile" : ["https://www.utn-num.de/fhir/StructureDefinition/utn-encounter"]
   },
   "text" : {
     "status" : "generated",

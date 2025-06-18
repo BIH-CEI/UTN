@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://utn/consentresource.com/Practitioner/Example-UTN-Practitioner-PR2> a fhir:Practitioner ;
+<https://www.utn-num.de/fhir/Practitioner/Example-UTN-Practitioner-PR2> a fhir:Practitioner ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "Example-UTN-Practitioner-PR2"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner"^^xsd:anyURI ;
-       fhir:link <http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner>
+       fhir:v "https://www.utn-num.de/fhir/StructureDefinition/KBV-PR-Base-Practitioner"^^xsd:anyURI ;
+       fhir:link <https://www.utn-num.de/fhir/StructureDefinition/KBV-PR-Base-Practitioner>
      ] [
        fhir:v "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner"^^xsd:anyURI ;
        fhir:link <https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner>

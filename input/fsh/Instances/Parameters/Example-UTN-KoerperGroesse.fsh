@@ -1,4 +1,4 @@
-Instance: Example-UTN-Koerperroesse
+Instance: Example-UTN-Koerpergroesse
 InstanceOf: Observation
 Usage: #example
 * meta.profile = "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/koerpergroesse"

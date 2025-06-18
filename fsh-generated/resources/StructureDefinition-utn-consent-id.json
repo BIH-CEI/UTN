@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "utn-consent-id",
-  "url": "http://utn/consentresource.com/StructureDefinition/utn-consent-id",
+  "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-consent-id",
   "name": "UTNConsent",
   "title": "UTN Consent Forschungsvorhaben and Videosprechstunde",
   "status": "draft",
@@ -14,6 +14,11 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "Consent.category",
+        "path": "Consent.category",
+        "max": "2"
+      },
       {
         "id": "Consent.category:loinc",
         "path": "Consent.category",
@@ -43,6 +48,16 @@
         "id": "Consent.category:mii.coding.code",
         "path": "Consent.category.coding.code",
         "patternCode": "2.16.840.1.113883.3.1937.777.24.2.184"
+      },
+      {
+        "id": "Consent.provision.type",
+        "path": "Consent.provision.type",
+        "fixedCode": "deny"
+      },
+      {
+        "id": "Consent.provision.provision.type",
+        "path": "Consent.provision.provision.type",
+        "fixedCode": "permit"
       },
       {
         "id": "Consent.provision.provision.code",

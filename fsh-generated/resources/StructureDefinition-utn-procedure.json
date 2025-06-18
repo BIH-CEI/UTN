@@ -15,7 +15,7 @@
       }
     }
   ],
-  "url": "http://utn/consentresource.com/StructureDefinition/utn-procedure",
+  "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-procedure",
   "name": "UTN-Procedure",
   "title": "UTN Procedure",
   "status": "draft",

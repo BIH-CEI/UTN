@@ -10,13 +10,13 @@
   "name" : "GRIDHAMDAnswerOptionsVSQ12",
   "title" : "GRID-HAMD Answer Options ValueSet",
   "status" : "draft",
-  "date" : "2025-06-16T14:33:49+02:00",
-  "publisher" : "BIH-CEI",
+  "date" : "2025-06-18T11:50:53+02:00",
+  "publisher" : "BIH at Charité - Core Unit Digital Medicine and Interoperability",
   "contact" : [{
-    "name" : "BIH-CEI",
+    "name" : "BIH at Charité - Core Unit Digital Medicine and Interoperability",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://utn/consentresource.com"
+      "value" : "https://www.bihealth.org/de/forschung/arbeitsgruppen/interoperabilitaet/home"
     }]
   }],
   "description" : "ValueSet including Q12 of the GRID-HAMD Questionnaire answer options.",

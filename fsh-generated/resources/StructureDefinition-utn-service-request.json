@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "utn-service-request",
-  "url": "http://utn/consentresource.com/StructureDefinition/utn-service-request",
+  "url": "https://www.utn-num.de/fhir/StructureDefinition/utn-service-request",
   "name": "UTNServiceRequest",
   "title": "UTN Teleconsultation Service Request",
   "status": "draft",

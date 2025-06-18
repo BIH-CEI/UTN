@@ -3,7 +3,7 @@
   "id": "teleconsultation-service-wuerzburg",
   "meta": {
     "profile": [
-      "http://utn/consentresource.com/StructureDefinition/healthcare-service"
+      "https://www.utn-num.de/fhir/StructureDefinition/healthcare-service"
     ]
   },
   "identifier": [

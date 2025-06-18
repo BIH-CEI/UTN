@@ -3,7 +3,7 @@
   "id": "Example-UTN-Arterieller-Blutdruck",
   "meta": {
     "profile": [
-      "http://utn/consentresource.com/StructureDefinition/utn-observation-arterieller-blutdruck"
+      "https://www.utn-num.de/fhir/StructureDefinition/utn-observation-arterieller-blutdruck"
     ]
   },
   "category": [

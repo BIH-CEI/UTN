@@ -2,7 +2,7 @@
   "resourceType" : "Practitioner",
   "id" : "Example-UTN-Practitioner-PR2",
   "meta" : {
-    "profile" : ["http://utn/consentresource.com/StructureDefinition/KBV-PR-Base-Practitioner",
+    "profile" : ["https://www.utn-num.de/fhir/StructureDefinition/KBV-PR-Base-Practitioner",
     "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner"]
   },
   "text" : {

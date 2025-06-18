@@ -3,7 +3,7 @@
   "id": "Example-UTN-Consent-Provenance-Forschungsvorhaben",
   "meta": {
     "profile": [
-      "http://utn/consentresource.com/StructureDefinition/consent-management-provenance",
+      "https://www.utn-num.de/fhir/StructureDefinition/consent-management-provenance",
       "http://fhir.de/ConsentManagement/StructureDefinition/Provenance"
     ]
   },

@@ -3,7 +3,7 @@
   "id": "Example-UTNKoerpergewicht",
   "meta": {
     "profile": [
-      "http://utn/consentresource.com/StructureDefinition/isik-koerpergewicht"
+      "https://www.utn-num.de/fhir/StructureDefinition/isik-koerpergewicht"
     ]
   },
   "category": [

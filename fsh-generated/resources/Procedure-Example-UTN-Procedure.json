@@ -3,7 +3,7 @@
   "id": "Example-UTN-Procedure",
   "meta": {
     "profile": [
-      "http://utn/consentresource.com/StructureDefinition/utn-procedure"
+      "https://www.utn-num.de/fhir/StructureDefinition/utn-procedure"
     ]
   },
   "status": "completed",

@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-  <title>UTNConsentResource : Terminology Server Report</title>
+  <title>UTNTelemedicineImplementationGuide : Terminology Server Report</title>
   <link href="fhir.css" rel="stylesheet"/>
   <meta charset="utf-8"/>
   <style>
@@ -11,8 +11,8 @@
   </style>
 </head>
 <body style="margin: 20px; background-color: #ffffff">
- <h1>Terminology Server Report for UTNConsentResource</h1>
- <p>Generated Mon Jun 16 14:37:59 CEST 2025, FHIR version 4.0.1 for consent.id#0.1.0 (canonical = <a href="http://utn/consentresource.com">http://utn/consentresource.com</a> (<a href="http://utn/consentresource.com/history.html">history</a>))</p>
+ <h1>Terminology Server Report for UTNTelemedicineImplementationGuide</h1>
+ <p>Generated Wed Jun 18 11:54:21 CEST 2025, FHIR version 4.0.1 for num.utn#0.1.0 (canonical = <a href="https://www.utn-num.de/fhir">https://www.utn-num.de/fhir</a> (<a href="https://www.utn-num.de/fhir/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -582,7 +582,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>http://fhir.de/ValueSet/bfarm/atc|1.5.2</td>
+    <td>http://fhir.de/ValueSet/bfarm/atc|1.5.0</td>
     <td>http://fhir.de/CodeSystem/bfarm/atc</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -627,27 +627,6 @@
     <td>null</td>
     <td>https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BAR2_ARZTNRFACHGRUPPE</td>
     <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
-    <td>http://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
-  </tr>
-  <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
-    <td>http://tx.fhir.org/r4</td>
-    <td>https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct|2025.0.0</td>
-    <td>[http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701, http://snomed.info/sct]</td>
-    <td>[auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4, auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4]</td>
-  </tr>
-  <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
-    <td>http://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
@@ -693,7 +672,7 @@
     <td>0</td>
     <td>2</td>
     <td>
-      <a href="https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.prozedur@2024.0.0-ballot&amp;canonical=http://fhir.de/CodeSystem/bfarm/atc">Atc</a>
+      <a href="https://simplifier.net/resolve?scope=de.gematik.isik-vitalparameter@4.0.0&amp;canonical=http://fhir.de/CodeSystem/bfarm/atc">ATC</a>
     </td>
   </tr>
   <tr>
@@ -724,39 +703,6 @@
     <td>https://www.medizininformatik-initiative.de/fhir/modul-consent/CodeSystem/mii-cs-consent-consent_category</td>
     <td>0</td>
     <td>3</td>
-    <td></td>
-  </tr>
-</table>
-<h2>Server: https://tx.fhir.org/r4</h2>
-<a href="https://tx.fhir.org/r4"></a>
-<p>Use Count: 5. Code Systems used: </p>
-<table class="grid">
-  <tr>
-    <th>
-      <b>System</b>
-    </th>
-    <th>
-      <b>#Exp.</b>
-    </th>
-    <th>
-      <b>#Val.</b>
-    </th>
-    <th>
-      <b>Details</b>
-    </th>
-  </tr>
-  <tr>
-    <td>http://snomed.info/sct</td>
-    <td>0</td>
-    <td>3</td>
-    <td>
-      <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">SNOMED CT (all versions)</a>
-    </td>
-  </tr>
-  <tr>
-    <td>http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701</td>
-    <td>0</td>
-    <td>1</td>
     <td></td>
   </tr>
 </table>
